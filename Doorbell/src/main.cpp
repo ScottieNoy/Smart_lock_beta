@@ -1,7 +1,7 @@
-
 #include <Arduino.h>
 #include <lvgl.h>
 #include <TFT_eSPI.h>
+#include <ui.h>
 
 #include <demos/lv_demos.h>
 //********************************************************************************************//
@@ -779,15 +779,15 @@ void setup()
   
       tft.begin();          /*初始化*/
       tft.setRotation(0);    /* 旋转 */
-      // tft.fillScreen(TFT_RED);
-      // delay(500);
-      // tft.fillScreen(TFT_GREEN);
-      // delay(500);
-      // tft.fillScreen(TFT_BLUE);
-      // delay(500);
-      // tft.fillScreen(TFT_BLACK);
-      // tft.drawRect(0, 0, 320, 480, TFT_RED);
-      // delay(500);
+      tft.fillScreen(TFT_RED);
+      delay(500);
+      tft.fillScreen(TFT_GREEN);
+      delay(500);
+      tft.fillScreen(TFT_BLUE);
+      delay(500);
+      tft.fillScreen(TFT_BLACK);
+      tft.drawRect(0, 0, 320, 480, TFT_RED);
+      delay(500);
       //校准模式。一是四角定位、二是直接输入模拟数值直接定位
       //touch_calibrate();//屏幕校准
       //uint16_t calData[5] = { 145, 3788, 271, 3535, 1 };
@@ -826,12 +826,13 @@ void setup()
      */
   
       // uncomment one of these demos
-      lv_demo_widgets();            // OK
-      // lv_demo_benchmark();          // OK
+      //lv_demo_widgets();            // OK
+      //lv_demo_benchmark();          // OK
       // lv_demo_keypad_encoder();     // works, but I haven't an encoder
-      // lv_demo_music();              // NOK
-      // lv_demo_printer();
-      // lv_demo_stress();             // seems to be OK
+      //lv_demo_music();              // NOK
+      //lv_demo_printer();
+      //lv_demo_stress();             // seems to be OK
+      ui_init();
   #endif
       Serial.println( "Setup done" );
 }
