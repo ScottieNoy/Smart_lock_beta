@@ -94,7 +94,8 @@ void setup() {
     Serial.print(".");
   }
 
-  Serial.println("Socket Connected!");  
+  Serial.println("Socket Connected!");
+  delay(2000);  
 }
 
 void loop() {
