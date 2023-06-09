@@ -27,8 +27,6 @@ extern "C" {
 // SCREEN: ui_landing_page
 void ui_landing_page_screen_init(void);
 extern lv_obj_t *ui_landing_page;
-extern lv_obj_t *ui_cam_panel;
-extern lv_obj_t *ui_Image2;
 extern lv_obj_t *ui_Buttonpanel;
 extern lv_obj_t *ui_top_panel;
 extern lv_obj_t *ui_date_placeholder;
@@ -37,6 +35,12 @@ extern lv_obj_t *ui_passcode_button;
 extern lv_obj_t *ui_passcode_button_label;
 extern lv_obj_t *ui_delivery_button;
 extern lv_obj_t *ui_delivery_button_label;
+extern lv_obj_t *ui_cam_panel;
+extern lv_obj_t *img_obj;
+extern void update_img();
+// SCREEN: ui_Screen1
+void ui_Screen1_screen_init(void);
+extern lv_obj_t *ui_Screen1;
 extern lv_obj_t *ui____initial_actions0;
 
 LV_IMG_DECLARE( ui_img_hej_png);   // assets/hej.png

@@ -3,16 +3,25 @@
 // LVGL version: 8.3.6
 // Project name: klokke
 
+#include <Arduino.h>
 #include "ui.h"
 #include "ui_helpers.h"
+// #include <ArduinoWebsockets.h>
+// #include <WiFi.h>
 
 ///////////////////// VARIABLES ////////////////////
+
+// const char* ssid = "ESP32-THAT-PROJECT";
+// const char* password = "California";
+
+// using namespace websockets;
+// WebsocketsServer server;
+// WebsocketsClient client;
+
 
 // SCREEN: ui_landing_page
 void ui_landing_page_screen_init(void);
 lv_obj_t *ui_landing_page;
-lv_obj_t *ui_cam_panel;
-lv_obj_t *ui_Image2;
 lv_obj_t *ui_Buttonpanel;
 lv_obj_t *ui_top_panel;
 lv_obj_t *ui_date_placeholder;
@@ -21,6 +30,26 @@ lv_obj_t *ui_passcode_button;
 lv_obj_t *ui_passcode_button_label;
 lv_obj_t *ui_delivery_button;
 lv_obj_t *ui_delivery_button_label;
+lv_obj_t *ui_cam_panel;
+lv_obj_t *img_obj;
+// void update_img() {
+//     static lv_img_dsc_t jpeg_dsc;
+//         jpeg_dsc.header.always_zero = 0;
+//         jpeg_dsc.header.w = 320;
+//         jpeg_dsc.header.h = 240;
+//         jpeg_dsc.header.cf = LV_IMG_CF_RAW;
+//     /* Set the buffer location and size each time in case it changes */
+//     WebsocketsMessage msg = client.readBlocking();
+//     jpeg_dsc.data = (const uint8_t*)msg.c_str();
+//     jpeg_dsc.data_size = msg.length();
+//     lv_img_cache_invalidate_src(&jpeg_dsc); /* invalidate JPEG so it gets decoded again */
+//     lv_img_set_src(img_obj, &jpeg_dsc);
+// }
+
+
+// SCREEN: ui_Screen1
+void ui_Screen1_screen_init(void);
+lv_obj_t *ui_Screen1;
 lv_obj_t *ui____initial_actions0;
 
 ///////////////////// TEST LVGL SETTINGS ////////////////////
@@ -39,10 +68,14 @@ lv_obj_t *ui____initial_actions0;
 
 void ui_init( void )
 {
+// WiFi.softAP(ssid, password,1,true);
+// IPAddress IP = WiFi.softAPIP();
+// server.listen(8888);
 lv_disp_t *dispp = lv_disp_get_default();
 lv_theme_t *theme = lv_theme_default_init(dispp, lv_palette_main(LV_PALETTE_BLUE), lv_palette_main(LV_PALETTE_RED), false, LV_FONT_DEFAULT);
 lv_disp_set_theme(dispp, theme);
 ui_landing_page_screen_init();
+ui_Screen1_screen_init();
 ui____initial_actions0 = lv_obj_create(NULL);
 lv_disp_load_scr( ui_landing_page);
 }
