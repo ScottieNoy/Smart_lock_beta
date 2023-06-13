@@ -1,7 +1,0 @@
-SET(SOURCES screens/ui_landing_page.c
-    screens/ui_Screen1.c
-    ui.c
-    ui_helpers.c
-    images/ui_img_hej_png.c)
-
-add_library(ui ${SOURCES})
