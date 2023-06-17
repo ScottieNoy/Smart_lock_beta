@@ -24,19 +24,22 @@ extern "C" {
 
 #include "ui_helpers.h"
 #include "ui_events.h"
+
 // SCREEN: ui_landing_page
 void ui_landing_page_screen_init(void);
+void ui_event_landing_page( lv_event_t * e);
 extern lv_obj_t *ui_landing_page;
-extern lv_obj_t *ui_cam_panel;
-extern lv_obj_t *ui_Image2;
 extern lv_obj_t *ui_Buttonpanel;
 extern lv_obj_t *ui_top_panel;
 extern lv_obj_t *ui_date_placeholder;
 extern lv_obj_t *ui_battery_placeholder;
 extern lv_obj_t *ui_passcode_button;
 extern lv_obj_t *ui_passcode_button_label;
+void ui_event_delivery_button( lv_event_t * e);
 extern lv_obj_t *ui_delivery_button;
 extern lv_obj_t *ui_delivery_button_label;
+extern lv_obj_t *ui_cam_panel;
+extern lv_obj_t *ui_Image1;
 extern lv_obj_t *ui____initial_actions0;
 
 LV_IMG_DECLARE( ui_img_hej_png);   // assets/hej.png

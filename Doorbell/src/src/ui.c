@@ -10,17 +10,19 @@
 
 // SCREEN: ui_landing_page
 void ui_landing_page_screen_init(void);
+void ui_event_landing_page( lv_event_t * e);
 lv_obj_t *ui_landing_page;
-lv_obj_t *ui_cam_panel;
-lv_obj_t *ui_Image2;
 lv_obj_t *ui_Buttonpanel;
 lv_obj_t *ui_top_panel;
 lv_obj_t *ui_date_placeholder;
 lv_obj_t *ui_battery_placeholder;
 lv_obj_t *ui_passcode_button;
 lv_obj_t *ui_passcode_button_label;
+void ui_event_delivery_button( lv_event_t * e);
 lv_obj_t *ui_delivery_button;
 lv_obj_t *ui_delivery_button_label;
+lv_obj_t *ui_cam_panel;
+lv_obj_t *ui_Image1;
 lv_obj_t *ui____initial_actions0;
 
 ///////////////////// TEST LVGL SETTINGS ////////////////////
@@ -34,6 +36,22 @@ lv_obj_t *ui____initial_actions0;
 ///////////////////// ANIMATIONS ////////////////////
 
 ///////////////////// FUNCTIONS ////////////////////
+void ui_event_landing_page( lv_event_t * e) {
+    lv_event_code_t event_code = lv_event_get_code(e);lv_obj_t * target = lv_event_get_target(e);
+if ( event_code == LV_EVENT_SCREEN_LOADED) {
+      beginServer( e );
+      updateImg( e );
+}
+if ( event_code == LV_EVENT_SCREEN_UNLOADED) {
+      stopServer( e );
+}
+}
+void ui_event_delivery_button( lv_event_t * e) {
+    lv_event_code_t event_code = lv_event_get_code(e);lv_obj_t * target = lv_event_get_target(e);
+if ( event_code == LV_EVENT_CLICKED) {
+      updateImg( e );
+}
+}
 
 ///////////////////// SCREENS ////////////////////
 
