@@ -30,33 +30,33 @@ int yPos = 120;
 
 void beginServer(lv_event_t * e)
 {
-	TJpgDec.setJpgScale(1);
-	TJpgDec.setCallback(tft_output);
+	// TJpgDec.setJpgScale(1);
+	// TJpgDec.setCallback(tft_output);
 
-	WiFi.softAP(ssid, password,1,true);
+	// WiFi.softAP(ssid, password,1,true);
 
-  	IPAddress IP = WiFi.softAPIP();
-  	server.listen(8888);
+  	// IPAddress IP = WiFi.softAPIP();
+  	// server.listen(8888);
 
 }
 
 void updateImg(lv_event_t * e)
 {
-	if(server.poll()){
-		client = server.accept();
-		}
+	// if(server.poll()){
+	// 	client = server.accept();
+	// 	}
 
-	if(client.available()){
-		client.poll();
+	// if(client.available()){
+	// 	client.poll();
 		
-		WebsocketsMessage msg = client.readBlocking();
-		uint32_t t = millis();
+	// 	WebsocketsMessage msg = client.readBlocking();
+	// 	uint32_t t = millis();
 		
-		TJpgDec.drawJpg(xPos, yPos, (const uint8_t*)msg.c_str(), msg.length());
+	// 	TJpgDec.drawJpg(xPos, yPos, (const uint8_t*)msg.c_str(), msg.length());
 		
-		t = millis() - t;
-		Serial.print(t); Serial.println(" ms");
-	}
+	// 	t = millis() - t;
+	// 	Serial.print(t); Serial.println(" ms");
+	// }
 
 }
 
