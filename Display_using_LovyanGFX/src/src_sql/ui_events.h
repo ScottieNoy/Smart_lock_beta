@@ -11,9 +11,8 @@ extern "C" {
 #endif
 
 void beginServer(lv_event_t * e);
-void updateImg(lv_event_t * e);
 void stopServer(lv_event_t * e);
-void updateImg(lv_event_t * e);
+void unlock(lv_event_t * e);
 
 #ifdef __cplusplus
 } /*extern "C"*/

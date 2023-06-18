@@ -1,0 +1,32 @@
+[  7180][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[  7181][D][HTTPClient.cpp:1163] connect(): failed connect to 192.168.1.80:80
+[  7184][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[  7312][V][HTTPClient.cpp:252] beginInternal(): url: http://192.168.1.80/snapshot
+[  7313][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 192.168.1.80 port: 80 url: /snapshot
+[  7318][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 12332][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 12333][D][HTTPClient.cpp:1163] connect(): failed connect to 192.168.1.80:80
+[ 12336][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[ 12412][V][HTTPClient.cpp:252] beginInternal(): url: http://192.168.1.80/snapshot
+[ 12413][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 192.168.1.80 port: 80 url: /snapshot
+[ 12418][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 17432][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 17433][D][HTTPClient.cpp:1163] connect(): failed connect to 192.168.1.80:80
+[ 17436][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[ 17509][V][HTTPClient.cpp:252] beginInternal(): url: http://192.168.1.80/snapshot
+[ 17510][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 192.168.1.80 port: 80 url: /snapshot
+[ 17515][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 22529][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 22530][D][HTTPClient.cpp:1163] connect(): failed connect to 192.168.1.80:80
+[ 22533][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[ 22607][V][HTTPClient.cpp:252] beginInternal(): url: http://192.168.1.80/snapshot
+[ 22608][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 192.168.1.80 port: 80 url: /snapshot
+[ 22613][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+

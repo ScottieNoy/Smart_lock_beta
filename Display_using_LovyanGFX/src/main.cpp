@@ -23,6 +23,9 @@ static lv_disp_draw_buf_t draw_buf;
 static lv_color_t buf[2][ screenWidth * 10 ];
 
 LGFX gfx;
+bool showImage = false;
+bool sendPassword = false;
+char * password;
 
 
 /* Display flushing */
@@ -56,10 +59,10 @@ uint8_t *jpegData = NULL;
 size_t jpegDataLen = 0;
 
 HTTPClient http;
-const char* streamUrl = "http://192.168.1.80/snapshot";
+const char* streamUrl = "http://172.20.10.13/snapshot";
 
 int xPos = 0;
-int yPos = 120;
+int yPos = 60;
 
 void showingImage() {
   http.begin(streamUrl);
@@ -79,6 +82,7 @@ void showingImage() {
           return;
       }
       WiFiClient * stream = http.getStreamPtr();
+      stream->setTimeout(500);
       stream->readBytes(jpegData, jpegDataLen);
       uint32_t t = millis();
       
@@ -115,7 +119,7 @@ void setup()
     Serial.begin(115200);
     gfx.begin();
 
-    WiFi.begin("TheilvigNet-2.4G", "plantagen");
+    WiFi.begin("Oscar", "oscar12345");
     while (WiFi.status() != WL_CONNECTED) {
         delay(500);
         Serial.print(".");
@@ -155,7 +159,16 @@ void setup()
 
 void loop()
 {
-    showingImage();
+    if(showImage) {
+        showingImage();
+    }
+    if(sendPassword) {
+        Serial.println("Sending password");
+        // http.begin("http://")
+        Serial.print("Password: ");
+        Serial.println(password);
+        sendPassword = false;
+    }
     lv_timer_handler(); /* let the GUI do its work */
     delay(10);
 }

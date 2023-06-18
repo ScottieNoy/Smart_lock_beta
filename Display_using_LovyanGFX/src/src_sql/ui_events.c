@@ -5,17 +5,28 @@
 
 #include "ui.h"
 
+extern bool showImage;
+extern bool sendPassword;
+extern char * password;
+
+
 void beginServer(lv_event_t * e)
 {
-	// Your code here
-}
-
-void updateImg(lv_event_t * e)
-{
-	// Your code here
+	showImage = true;
 }
 
 void stopServer(lv_event_t * e)
 {
-	// Your code here
+	showImage = false;
+}
+
+void unlock(lv_event_t * e)
+{
+	password = lv_textarea_get_text(ui_passwordArea);
+	if(password != NULL && strlen(password) > 3){
+		sendPassword = true;
+		_ui_screen_change( ui_Unlocking, LV_SCR_LOAD_ANIM_NONE, 500, 0);
+
+	}
+
 }
