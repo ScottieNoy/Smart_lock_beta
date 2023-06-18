@@ -14,11 +14,11 @@ ESPServer::ESPServer(int port)                                                  
   : _server(new AsyncWebServer(port)) {                                             // Initializer list
 }
 
-void ESPServer::begin(char* streamServer, char* snapshotServer) {                    // This is the begin function.
+void ESPServer::begin(char* streamServer, char* snapshotServer, char* adminServer) {                    // This is the begin function.
   
         String streamServerString = streamServer;
         String snapshotServerString = snapshotServer;
-        String adminServerString = "http://192.168.1.80";
+        String adminServerString = adminServer;
         String snapshotPath = "/snapshot";
 
         String html = "<!DOCTYPE html>";

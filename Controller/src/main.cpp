@@ -20,8 +20,9 @@ char* password = "oscar12345";                                       // WiFi Pas
 
 // =================== JPEG-Steam Definitions ====================== //
 
-char* streamServer = "http://192.168.1.80/stream";
-char* snapshotServer = "http://192.168.1.80/snapshot";
+char* adminServer = "http://172.20.10.13";
+char* streamServer = "http://172.20.10.13/stream";
+char* snapshotServer = "http://172.20.10.13/snapshot";
 
 // const char* intensityOfFlashServer = "http://192.168.1.80/flash?v=0"; // 0-255
 
@@ -65,7 +66,7 @@ ESPServer server(80);                  // Web Server Object
 void setup() {                                                       // Setup
   Serial.begin(115200);                                              // Start Serial Monitor
   wifi.connect(ssid, password);                                      // Connect to WiFi
-  server.begin(streamServer, snapshotServer);                        // Start Web Server
+  server.begin(streamServer, snapshotServer, adminServer);                        // Start Web Server
 
   // mqttClient.setServer(mqttServer, mqttPort);                        // Set MQTT Server
   // mqttClient.setCallback(mqttCallback);                              // Set MQTT Callback
