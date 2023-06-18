@@ -15,8 +15,8 @@ bool isLocked = false;                                               // Is the d
 
 // ===================== WiFi Definitions ========================== //
 
-char* ssid = "TheilvigNet-2.4G";                                     // WiFi Name
-char* password = "plantagen";                                        // WiFi Password
+char* ssid = "Oscar";                                                // WiFi Name
+char* password = "oscar12345";                                       // WiFi Password
 
 // =================== JPEG-Steam Definitions ====================== //
 
