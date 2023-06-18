@@ -14,11 +14,11 @@ ESPServer::ESPServer(int port)                                                  
   : _server(new AsyncWebServer(port)) {                                             // Initializer list
 }
 
-void ESPServer::begin(char* streamServer, char* snapshotServer) {                    // This is the begin function.
+void ESPServer::begin(char* streamServer, char* snapshotServer, char* adminServer) {                    // This is the begin function.
   
         String streamServerString = streamServer;
         String snapshotServerString = snapshotServer;
-        String adminServerString = "http://192.168.1.80";
+        String adminServerString = adminServer;
         String snapshotPath = "/snapshot";
 
         String html = "<!DOCTYPE html>";
@@ -43,11 +43,11 @@ void ESPServer::begin(char* streamServer, char* snapshotServer) {               
         html += "<p>Click the above button to navigate to the admin page.</p>";
         html += "<script>";
         html += "document.getElementById('snapshot').onclick = function () {";
-        html += "window.location.href = '" + snapshotPath + "';";
-        html += "}";
+        html += "window.location.assign('" + snapshotPath + "');";
+        html += "};";
         html += "document.getElementById('admin').onclick = function () {"; // New event for 'Admin Page' button
-        html += "window.location.href = '" + adminServerString + "';";
-        html += "}";
+        html += "window.location.assign('" + adminServerString + "');";
+        html += "};";
         html += "</script>";
         html += "</body>";
         html += "</html>";
@@ -72,28 +72,19 @@ void ESPServer::begin(char* streamServer, char* snapshotServer) {               
         snapshotPage += "<p>Click the above button to go back to the stream.</p>";
         snapshotPage += "<script>";
         snapshotPage += "document.getElementById('goBack').onclick = function () {";
-        snapshotPage += "window.location.href = '/';"; // This goes back to the root URL
-        snapshotPage += "}";
+        snapshotPage += "window.location.assign('/');"; // This goes back to the root URL
+        snapshotPage += "};";
         snapshotPage += "</script>";
         snapshotPage += "</body>";
         snapshotPage += "</html>";
 
+        _server->on("/", HTTP_GET, [html](AsyncWebServerRequest *request) {     // This is the route for the root path.
+            request->send(200, "text/html", html.c_str());                              // It sends the HTML to the client.
+        });
 
-
-
-
-
-
-
-
-    _server->on("/", HTTP_GET, [html](AsyncWebServerRequest *request) {     // This is the route for the root path.
-        request->send(200, "text/html", html);                              // It sends the HTML to the client.
-        // Serial.println("Someone visited the main");                      // And it prints a message to the serial monitor. (used for debugging)
-    });
-
-     _server->on("/snapshot", HTTP_GET, [snapshotPage](AsyncWebServerRequest *request) {
-      request->send(200, "text/html", snapshotPage);
-    });
+        _server->on("/snapshot", HTTP_GET, [snapshotPage](AsyncWebServerRequest *request) {
+          request->send(200, "text/html", snapshotPage.c_str());
+        });
 
   _server->begin();                                                         // This starts the web server.
 }
