@@ -15,7 +15,7 @@
 class ESPServer {                       // This is the ESPServer class.
 public:                                 // It has two public functions:
   ESPServer(int port);                  // The constructor
-  void begin(const char* streamServer, const char* snapshotServer, const char* adminServer); // The begin function
+  void begin(const char* streamServer, const char* snapshotServer, const char* adminServer, int* unlockPin); // The begin function
   void addPasscode(String passcode);    // The addPasscode function
   void removePasscode(String passcode); // The removePasscode function
   bool isPasscodeCorrect(String passcode);    // The isPasscodeCorrect function
@@ -27,6 +27,7 @@ private:                                // It has three private fields:
   const char* adminServer;                    // A pointer to a char array
   // adding passcodes char array
   String _passcodes[MAX_PASSCODES];   // A pointer to a char array
+  int* unlockPin;                      // A pointer to an int
 };
 
 #endif // ESPSERVER_H                   // This is to make sure we don't declare the function more than once by including the header multiple times

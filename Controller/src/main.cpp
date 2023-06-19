@@ -6,7 +6,6 @@
 
 // ===================== Pin Definitions =========================== //
 
-int lockPin = 2;                                                     // Lock Pin
 int unlockPin = 3;                                                   // Unlock Pin
 
 // ===================== Variable Definitions ====================== //
@@ -41,7 +40,7 @@ ESPServer server(80);                                                // Web Serv
 void setup() {                                                       // Setup
   Serial.begin(115200);                                              // Start Serial Monitor
   wifi.connect(ssid, password);                                      // Connect to WiFi
-  server.begin(streamServer, snapshotServer, adminServer);           // Start Web Server
+  server.begin(streamServer, snapshotServer, adminServer, &unlockPin);           // Start Web Server
 
   }
 
