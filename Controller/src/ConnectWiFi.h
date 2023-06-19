@@ -8,15 +8,15 @@
 class ConnectWiFi {
 
 public:
-  void connect(char* ssid, char* password);
+  void connect(const char* ssid, const char* password);
   bool isConnected();
   String getIP();
   String IpAddress2String(const IPAddress& ipAddress);
 
 
 private:
-  char* ssid;
-  char* password;
+  const char* ssid;
+  const char* password;
 
 };
 #endif // CONNECTWIFI_H

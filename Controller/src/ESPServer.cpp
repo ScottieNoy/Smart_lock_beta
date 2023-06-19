@@ -1,7 +1,6 @@
 // Liberies included:
 #include "ESPServer.h"
 
-
 // This is the constructor for the ESPServer class.
 // It takes a port number.
 // It creates a new AsyncWebServer object and stores it in the _server field.
@@ -11,10 +10,10 @@
 // This constructor is called in src/main.cpp
 
 ESPServer::ESPServer(int port)                                                      // Constructor
-  : _server(new AsyncWebServer(port)) {                                             // Initializer list
+  : _server(new AsyncWebServer(port)), _passcodes({}) {                              // Initializer list
 }
 
-void ESPServer::begin(char* streamServer, char* snapshotServer, char* adminServer) {                    // This is the begin function.
+void ESPServer::begin(const char* streamServer, const char* snapshotServer, const char* adminServer) {                    // This is the begin function.
   
         String streamServerString = streamServer;
         String snapshotServerString = snapshotServer;
@@ -86,5 +85,74 @@ void ESPServer::begin(char* streamServer, char* snapshotServer, char* adminServe
           request->send(200, "text/html", snapshotPage.c_str());
         });
 
-  _server->begin();                                                         // This starts the web server.
+      _server->on("/new-passcode", HTTP_POST, [this](AsyncWebServerRequest *request) {
+        if (request->hasParam("passcode", true)) {
+          String newPasscode = request->getParam("passcode", true)->value();
+          this->addPasscode(newPasscode);
+          request->send(200, "text/plain", "New passcode added");
+        } else {
+          request->send(400, "text/plain", "No passcode found in the request");
+        }
+      });
+
+      _server->on("/remove_passcode", HTTP_POST, [this](AsyncWebServerRequest *request) {
+        if (request->hasParam("passcode", true)) {
+          String passcodeToRemove = request->getParam("passcode", true)->value();
+          this->removePasscode(passcodeToRemove);
+          request->send(200, "text/plain", "Passcode removed");
+        } else {
+          request->send(400, "text/plain", "No passcode found in the request");
+        }
+      });
+
+      _server->on("/try_passcode", HTTP_POST, [this](AsyncWebServerRequest *request) {
+        if (request->hasParam("passcode", true)) {
+          String incomingPasscode = request->getParam("passcode", true)->value();
+          if (this->isPasscodeCorrect(incomingPasscode)) {
+            // unlockPin(); // Your function to unlock
+            request->send(200, "text/plain", "Passcode is correct");
+          } else {
+            request->send(403, "text/plain", "Passcode is incorrect");
+          }
+        } else {
+          request->send(400, "text/plain", "No passcode found in the request");
+        }
+      });
+
+
+      _server->begin();
+    }
+
+// This function adds a passcode to the passcodes vector.
+void ESPServer::addPasscode(String passcode) {
+  for (int i = 0; i < MAX_PASSCODES; i++) {
+    if (_passcodes[i] == NULL) {
+      _passcodes[i] = passcode;
+      Serial.println("New passcode added: " + passcode);
+      break;
+    }
+  }
 }
+
+// This function removes a passcode from the passcodes vector.
+void ESPServer::removePasscode(String passcode) {
+  for (int i = 0; i < MAX_PASSCODES; i++) {
+    if (_passcodes[i] == passcode) {
+      _passcodes[i] = "";
+      break;
+    }
+  }
+}
+
+// This function checks if a passcode is in the passcodes vector.
+bool ESPServer::isPasscodeCorrect(String passcode) {
+  for (int i = 0; i < MAX_PASSCODES; i++) {
+    if (_passcodes[i] == passcode) {
+      return true;
+    }
+  }
+  return false;
+}
+
+
+

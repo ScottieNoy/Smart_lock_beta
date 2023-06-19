@@ -3,7 +3,7 @@
 
 // Connects to the WiFi network with the provided SSID and password, and then prints the IP address.
 // This function is defined in src/connectWiFi.cpp, declared in src/connectWiFi.h, and called in src/main.cpp
-void ConnectWiFi::connect(char* ssid, char* password)
+void ConnectWiFi::connect(const char* ssid, const char* password)
 {
     // Start WiFi connection with provided SSID and password
     WiFi.begin(ssid, password);
