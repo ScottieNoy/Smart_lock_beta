@@ -10,7 +10,7 @@ int unlockPin = 3;                                                   // Unlock P
 
 // ===================== Variable Definitions ====================== //
 
-bool isLocked = false;                                               // Is the door locked?
+int unlockTimer;                                                 // Unlock Timer
 
 // ===================== WiFi Definitions ========================== //
 
@@ -48,6 +48,9 @@ void loop() {                                                        // Loop
   if(!wifi.isConnected()) {                                          // If not connected to WiFi
     wifi.connect(ssid, password);                                    // Connect to WiFi
   } 
+  if(millis() - unlockTimer > BUTTONTIMEOUT) {                               // If the unlock timer has expired
+    digitalWrite(unlockPin, LOW);                                    // Lock the door
+  }
 
 }
 // ===================== End of File =============================== //
