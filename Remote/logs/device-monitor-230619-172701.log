@@ -840,3 +840,71 @@ HTTP GET returned negative or zero response code, error: read Timeout
 [ 65797][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
 
 [ 65799][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+[ 65848][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 65850][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 65853][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 65863][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 3811'
+[ 65863][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[ 65870][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 65878][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[ 65886][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 65896][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 65902][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 65915][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 3811
+[ 65921][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+[ 65932][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+54 ms
+[ 66010][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 66011][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 66510][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 66645][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 66646][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 66649][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 66659][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 3811'
+[ 66666][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 66673][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 66679][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 66686][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 3811
+[ 66691][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+51 ms
+[ 66989][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 66990][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 68768][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 69276][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 69276][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 69278][D][HTTPClient.cpp:1485] returnError(): tcp stop
+[ 69278][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 69289][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[ 69301][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+[ 69309][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 69362][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[ 69363][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[ 69370][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 69407][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 72257][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 72761][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 72761][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[ 72763][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+[ 72766][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 72775][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 72782][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 72812][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 72824][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[ 72825][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[ 72832][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 72867][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
