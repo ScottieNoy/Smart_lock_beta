@@ -44,7 +44,7 @@ ui_date_placeholder = lv_label_create(ui_DateBatteryPanelMain);
 lv_obj_set_width( ui_date_placeholder, LV_SIZE_CONTENT);  /// 1
 lv_obj_set_height( ui_date_placeholder, LV_SIZE_CONTENT);   /// 1
 lv_obj_set_align( ui_date_placeholder, LV_ALIGN_LEFT_MID );
-lv_label_set_text(ui_date_placeholder,"Mon 5 Jun");
+lv_label_set_text(ui_date_placeholder,"Mon 19 Jun");
 lv_obj_set_style_text_color(ui_date_placeholder, lv_color_hex(0xFFFFFF), LV_PART_MAIN | LV_STATE_DEFAULT );
 lv_obj_set_style_text_opa(ui_date_placeholder, 255, LV_PART_MAIN| LV_STATE_DEFAULT);
 
@@ -116,7 +116,6 @@ lv_obj_add_flag( ui_Image1, LV_OBJ_FLAG_ADV_HITTEST );   /// Flags
 lv_obj_clear_flag( ui_Image1, LV_OBJ_FLAG_SCROLLABLE );    /// Flags
 
 lv_obj_add_event_cb(ui_button1, ui_event_button1, LV_EVENT_ALL, NULL);
-lv_obj_add_event_cb(ui_delivery_button, ui_event_delivery_button, LV_EVENT_ALL, NULL);
 lv_obj_add_event_cb(ui_landing_page, ui_event_landing_page, LV_EVENT_ALL, NULL);
 
 }

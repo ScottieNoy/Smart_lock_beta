@@ -64,7 +64,7 @@ ui_date_placeholder1 = lv_label_create(ui_DateBatteryPanelPassword);
 lv_obj_set_width( ui_date_placeholder1, LV_SIZE_CONTENT);  /// 1
 lv_obj_set_height( ui_date_placeholder1, LV_SIZE_CONTENT);   /// 1
 lv_obj_set_align( ui_date_placeholder1, LV_ALIGN_LEFT_MID );
-lv_label_set_text(ui_date_placeholder1,"Mon 5 Jun");
+lv_label_set_text(ui_date_placeholder1,"Mon 19 Jun");
 lv_obj_set_style_text_color(ui_date_placeholder1, lv_color_hex(0xFFFFFF), LV_PART_MAIN | LV_STATE_DEFAULT );
 lv_obj_set_style_text_opa(ui_date_placeholder1, 255, LV_PART_MAIN| LV_STATE_DEFAULT);
 
@@ -84,22 +84,24 @@ lv_obj_set_x( ui_PasswordKeyboard, 0 );
 lv_obj_set_y( ui_PasswordKeyboard, -90 );
 lv_obj_set_align( ui_PasswordKeyboard, LV_ALIGN_BOTTOM_MID );
 
-ui_TextArea1 = lv_textarea_create(ui_PasswordScreen);
-lv_obj_set_width( ui_TextArea1, 283);
-lv_obj_set_height( ui_TextArea1, LV_SIZE_CONTENT);   /// 131
-lv_obj_set_x( ui_TextArea1, 0 );
-lv_obj_set_y( ui_TextArea1, -126 );
-lv_obj_set_align( ui_TextArea1, LV_ALIGN_CENTER );
-lv_textarea_set_max_length(ui_TextArea1,4);
-lv_textarea_set_placeholder_text(ui_TextArea1,"Enter Password...");
-lv_textarea_set_one_line(ui_TextArea1,true);
-lv_textarea_set_password_mode(ui_TextArea1, true);
-lv_obj_set_style_text_font(ui_TextArea1, &lv_font_montserrat_48, LV_PART_MAIN| LV_STATE_DEFAULT);
+ui_passwordArea = lv_textarea_create(ui_PasswordScreen);
+lv_obj_set_width( ui_passwordArea, 283);
+lv_obj_set_height( ui_passwordArea, LV_SIZE_CONTENT);   /// 131
+lv_obj_set_x( ui_passwordArea, 0 );
+lv_obj_set_y( ui_passwordArea, -126 );
+lv_obj_set_align( ui_passwordArea, LV_ALIGN_CENTER );
+lv_textarea_set_max_length(ui_passwordArea,4);
+lv_textarea_set_placeholder_text(ui_passwordArea,"Enter Password...");
+lv_textarea_set_one_line(ui_passwordArea,true);
+lv_textarea_set_password_mode(ui_passwordArea, true);
+lv_obj_set_style_text_font(ui_passwordArea, &lv_font_montserrat_48, LV_PART_MAIN| LV_STATE_DEFAULT);
 
-lv_obj_set_style_text_align(ui_TextArea1, LV_TEXT_ALIGN_LEFT, LV_PART_TEXTAREA_PLACEHOLDER| LV_STATE_DEFAULT);
-lv_obj_set_style_text_font(ui_TextArea1, &lv_font_montserrat_30, LV_PART_TEXTAREA_PLACEHOLDER| LV_STATE_DEFAULT);
+lv_obj_set_style_text_align(ui_passwordArea, LV_TEXT_ALIGN_LEFT, LV_PART_TEXTAREA_PLACEHOLDER| LV_STATE_DEFAULT);
+lv_obj_set_style_text_font(ui_passwordArea, &lv_font_montserrat_30, LV_PART_TEXTAREA_PLACEHOLDER| LV_STATE_DEFAULT);
 
 lv_obj_add_event_cb(ui_delivery_button1, ui_event_delivery_button1, LV_EVENT_ALL, NULL);
-lv_keyboard_set_textarea(ui_PasswordKeyboard,ui_TextArea1);
+lv_keyboard_set_textarea(ui_PasswordKeyboard,ui_passwordArea);
+lv_obj_add_event_cb(ui_PasswordKeyboard, ui_event_PasswordKeyboard, LV_EVENT_ALL, NULL);
+lv_obj_add_event_cb(ui_passwordArea, ui_event_passwordArea, LV_EVENT_ALL, NULL);
 
 }

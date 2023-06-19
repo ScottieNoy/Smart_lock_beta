@@ -1,0 +1,256 @@
+[   478][I][esp32-hal-i2c.c:75] i2cInit(): Initialising I2C Master: sda=33 scl=32 freq=100000
+[   482][I][esp32-hal-i2c.c:75] i2cInit(): Initialising I2C Master: sda=33 scl=32 freq=100000
+[   505][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 0 - WIFI_READY
+[   604][V][WiFiGeneric.cpp:97] set_esp_interface_ip(): Configuring Station static IP: 0.0.0.0, MASK: 0.0.0.0, GW: 0.0.0.0
+[   602][V][WiFiGeneric.cpp:340] _arduino_event_cb(): STA Started
+[   610][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 2 - STA_START
+E (1824) wifi:Association refused temporarily, comeback time 1024 mSec
+..[  1817][V][WiFiGeneric.cpp:355] _arduino_event_cb(): STA Connected: SSID: TheilvigNet-2.4G, BSSID: 00:1f:01:6a:36:08, Channel: 6, Auth: WPA2_PSK
+[  1819][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 4 - STA_CONNECTED
+.[  2265][V][WiFiGeneric.cpp:369] _arduino_event_cb(): STA Got New IP:192.168.1.66
+[  2266][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 7 - STA_GOT_IP
+[  2269][D][WiFiGeneric.cpp:1098] _eventCallback(): STA IP: 192.168.1.66, MASK: 255.255.255.0, GW: 192.168.1.1
+.[  2650][V][HTTPClient.cpp:252] beginInternal(): url: http://192.168.1.80/stream
+[  2651][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 192.168.1.80 port: 80 url: /stream
+[  2656][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  7671][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[  7672][D][HTTPClient.cpp:1163] connect(): failed connect to 192.168.1.80:80
+[  7675][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[  7785][V][HTTPClient.cpp:252] beginInternal(): url: http://192.168.1.80/stream
+[  7786][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 192.168.1.80 port: 80 url: /stream
+[  7791][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 12805][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 12806][D][HTTPClient.cpp:1163] connect(): failed connect to 192.168.1.80:80
+[ 12809][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[ 12875][V][HTTPClient.cpp:252] beginInternal(): url: http://192.168.1.80/stream
+[ 12876][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 192.168.1.80 port: 80 url: /stream
+[ 12881][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 17895][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 17896][D][HTTPClient.cpp:1163] connect(): failed connect to 192.168.1.80:80
+[ 17899][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[ 17962][V][HTTPClient.cpp:252] beginInternal(): url: http://192.168.1.80/stream
+[ 17963][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 192.168.1.80 port: 80 url: /stream
+[ 17968][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 22982][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 22983][D][HTTPClient.cpp:1163] connect(): failed connect to 192.168.1.80:80
+[ 22986][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[ 23050][V][HTTPClient.cpp:252] beginInternal(): url: http://192.168.1.80/stream
+[ 23051][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 192.168.1.80 port: 80 url: /stream
+[ 23056][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 28067][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 28068][D][HTTPClient.cpp:1163] connect(): failed connect to 192.168.1.80:80
+[ 28071][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[ 28098][V][HTTPClient.cpp:252] beginInternal(): url: http://192.168.1.80/stream
+[ 28099][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 192.168.1.80 port: 80 url: /stream
+[ 28104][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 33115][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 33116][D][HTTPClient.cpp:1163] connect(): failed connect to 192.168.1.80:80
+[ 33119][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[ 33155][V][HTTPClient.cpp:252] beginInternal(): url: http://192.168.1.80/stream
+[ 33156][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 192.168.1.80 port: 80 url: /stream
+[ 33161][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 38175][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 38176][D][HTTPClient.cpp:1163] connect(): failed connect to 192.168.1.80:80
+[ 38179][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[ 38215][V][HTTPClient.cpp:252] beginInternal(): url: http://192.168.1.80/stream
+[ 38216][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 192.168.1.80 port: 80 url: /stream
+[ 38221][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 43235][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 43236][D][HTTPClient.cpp:1163] connect(): failed connect to 192.168.1.80:80
+[ 43239][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[ 45220][V][HTTPClient.cpp:252] beginInternal(): url: http://192.168.1.80/stream
+[ 45221][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 192.168.1.80 port: 80 url: /stream
+[ 45226][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 50240][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 50241][D][HTTPClient.cpp:1163] connect(): failed connect to 192.168.1.80:80
+[ 50244][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[ 50347][V][HTTPClient.cpp:252] beginInternal(): url: http://192.168.1.80/stream
+[ 50348][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 192.168.1.80 port: 80 url: /stream
+[ 50353][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 55367][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 55368][D][HTTPClient.cpp:1163] connect(): failed connect to 192.168.1.80:80
+[ 55371][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[ 55434][V][HTTPClient.cpp:252] beginInternal(): url: http://192.168.1.80/stream
+[ 55434][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 192.168.1.80 port: 80 url: /stream
+[ 55439][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 60453][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 60454][D][HTTPClient.cpp:1163] connect(): failed connect to 192.168.1.80:80
+[ 60457][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[ 60521][V][HTTPClient.cpp:252] beginInternal(): url: http://192.168.1.80/stream
+[ 60522][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 192.168.1.80 port: 80 url: /stream
+[ 60527][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 65540][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 65541][D][HTTPClient.cpp:1163] connect(): failed connect to 192.168.1.80:80
+[ 65544][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[ 65606][V][HTTPClient.cpp:252] beginInternal(): url: http://192.168.1.80/stream
+[ 65607][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 192.168.1.80 port: 80 url: /stream
+[ 65612][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 70626][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 70627][D][HTTPClient.cpp:1163] connect(): failed connect to 192.168.1.80:80
+[ 70630][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[ 70692][V][HTTPClient.cpp:252] beginInternal(): url: http://192.168.1.80/stream
+[ 70693][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 192.168.1.80 port: 80 url: /stream
+[ 70698][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 75712][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 75713][D][HTTPClient.cpp:1163] connect(): failed connect to 192.168.1.80:80
+[ 75716][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[ 75779][V][HTTPClient.cpp:252] beginInternal(): url: http://192.168.1.80/stream
+[ 75780][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 192.168.1.80 port: 80 url: /stream
+[ 75785][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 80799][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 80800][D][HTTPClient.cpp:1163] connect(): failed connect to 192.168.1.80:80
+[ 80803][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[ 80865][V][HTTPClient.cpp:252] beginInternal(): url: http://192.168.1.80/stream
+[ 80866][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 192.168.1.80 port: 80 url: /stream
+[ 80871][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 85885][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 85886][D][HTTPClient.cpp:1163] connect(): failed connect to 192.168.1.80:80
+[ 85889][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[ 85951][V][HTTPClient.cpp:252] beginInternal(): url: http://192.168.1.80/stream
+[ 85952][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 192.168.1.80 port: 80 url: /stream
+[ 85957][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 90971][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 90972][D][HTTPClient.cpp:1163] connect(): failed connect to 192.168.1.80:80
+[ 90975][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[ 91038][V][HTTPClient.cpp:252] beginInternal(): url: http://192.168.1.80/stream
+[ 91039][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 192.168.1.80 port: 80 url: /stream
+[ 91044][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 96057][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 96058][D][HTTPClient.cpp:1163] connect(): failed connect to 192.168.1.80:80
+[ 96061][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[ 96123][V][HTTPClient.cpp:252] beginInternal(): url: http://192.168.1.80/stream
+[ 96124][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 192.168.1.80 port: 80 url: /stream
+[ 96129][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[101143][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[101144][D][HTTPClient.cpp:1163] connect(): failed connect to 192.168.1.80:80
+[101147][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[101209][V][HTTPClient.cpp:252] beginInternal(): url: http://192.168.1.80/stream
+[101210][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 192.168.1.80 port: 80 url: /stream
+[101215][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[106229][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[106230][D][HTTPClient.cpp:1163] connect(): failed connect to 192.168.1.80:80
+[106233][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[106296][V][HTTPClient.cpp:252] beginInternal(): url: http://192.168.1.80/stream
+[106297][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 192.168.1.80 port: 80 url: /stream
+[106302][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[111315][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[111316][D][HTTPClient.cpp:1163] connect(): failed connect to 192.168.1.80:80
+[111319][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[111381][V][HTTPClient.cpp:252] beginInternal(): url: http://192.168.1.80/stream
+[111382][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 192.168.1.80 port: 80 url: /stream
+[111387][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[116401][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[116402][D][HTTPClient.cpp:1163] connect(): failed connect to 192.168.1.80:80
+[116405][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[116467][V][HTTPClient.cpp:252] beginInternal(): url: http://192.168.1.80/stream
+[116468][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 192.168.1.80 port: 80 url: /stream
+[116473][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[121487][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[121488][D][HTTPClient.cpp:1163] connect(): failed connect to 192.168.1.80:80
+[121491][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[121554][V][HTTPClient.cpp:252] beginInternal(): url: http://192.168.1.80/stream
+[121555][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 192.168.1.80 port: 80 url: /stream
+[121560][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[126573][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[126574][D][HTTPClient.cpp:1163] connect(): failed connect to 192.168.1.80:80
+[126577][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[126639][V][HTTPClient.cpp:252] beginInternal(): url: http://192.168.1.80/stream
+[126640][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 192.168.1.80 port: 80 url: /stream
+[126645][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[131659][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[131660][D][HTTPClient.cpp:1163] connect(): failed connect to 192.168.1.80:80
+[131663][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[131725][V][HTTPClient.cpp:252] beginInternal(): url: http://192.168.1.80/stream
+[131726][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 192.168.1.80 port: 80 url: /stream
+[131731][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[136745][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[136746][D][HTTPClient.cpp:1163] connect(): failed connect to 192.168.1.80:80
+[136749][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[136812][V][HTTPClient.cpp:252] beginInternal(): url: http://192.168.1.80/stream
+[136813][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 192.168.1.80 port: 80 url: /stream
+[136818][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[141832][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[141833][D][HTTPClient.cpp:1163] connect(): failed connect to 192.168.1.80:80
+[141836][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[141898][V][HTTPClient.cpp:252] beginInternal(): url: http://192.168.1.80/stream
+[141899][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 192.168.1.80 port: 80 url: /stream
+[141904][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[146917][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[146918][D][HTTPClient.cpp:1163] connect(): failed connect to 192.168.1.80:80
+[146921][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[146983][V][HTTPClient.cpp:252] beginInternal(): url: http://192.168.1.80/stream
+[146984][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 192.168.1.80 port: 80 url: /stream
+[146989][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[152003][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[152004][D][HTTPClient.cpp:1163] connect(): failed connect to 192.168.1.80:80
+[152007][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[152070][V][HTTPClient.cpp:252] beginInternal(): url: http://192.168.1.80/stream
+[152071][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 192.168.1.80 port: 80 url: /stream
+[152076][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[157089][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[157090][D][HTTPClient.cpp:1163] connect(): failed connect to 192.168.1.80:80
+[157093][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[157155][V][HTTPClient.cpp:252] beginInternal(): url: http://192.168.1.80/stream
+[157156][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 192.168.1.80 port: 80 url: /stream
+[157161][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+

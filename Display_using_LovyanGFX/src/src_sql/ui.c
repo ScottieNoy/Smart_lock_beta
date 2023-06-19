@@ -19,7 +19,6 @@ lv_obj_t *ui_battery_placeholder;
 void ui_event_button1( lv_event_t * e);
 lv_obj_t *ui_button1;
 lv_obj_t *ui_passcode_button_label1;
-void ui_event_delivery_button( lv_event_t * e);
 lv_obj_t *ui_delivery_button;
 lv_obj_t *ui_delivery_button_label;
 lv_obj_t *ui_cam_panel;
@@ -35,8 +34,10 @@ lv_obj_t *ui_Go_Back;
 lv_obj_t *ui_DateBatteryPanelPassword;
 lv_obj_t *ui_date_placeholder1;
 lv_obj_t *ui_battery_placeholder1;
+void ui_event_PasswordKeyboard( lv_event_t * e);
 lv_obj_t *ui_PasswordKeyboard;
-lv_obj_t *ui_TextArea1;
+void ui_event_passwordArea( lv_event_t * e);
+lv_obj_t *ui_passwordArea;
 
 // SCREEN: ui_Unlocking
 void ui_Unlocking_screen_init(void);
@@ -51,7 +52,7 @@ lv_obj_t *ui____initial_actions0;
     #error "LV_COLOR_DEPTH should be 16bit to match SquareLine Studio's settings"
 #endif
 #if LV_COLOR_16_SWAP !=1
-    #error "LV_COLOR_16_SWAP should be 0 to match SquareLine Studio's settings"
+    #error "LV_COLOR_16_SWAP should be 1 to match SquareLine Studio's settings"
 #endif
 
 ///////////////////// ANIMATIONS ////////////////////
@@ -61,7 +62,6 @@ void ui_event_landing_page( lv_event_t * e) {
     lv_event_code_t event_code = lv_event_get_code(e);lv_obj_t * target = lv_event_get_target(e);
 if ( event_code == LV_EVENT_SCREEN_LOADED) {
       beginServer( e );
-      updateImg( e );
 }
 if ( event_code == LV_EVENT_SCREEN_UNLOADED) {
       stopServer( e );
@@ -70,13 +70,7 @@ if ( event_code == LV_EVENT_SCREEN_UNLOADED) {
 void ui_event_button1( lv_event_t * e) {
     lv_event_code_t event_code = lv_event_get_code(e);lv_obj_t * target = lv_event_get_target(e);
 if ( event_code == LV_EVENT_RELEASED) {
-      _ui_screen_change( ui_PasswordScreen, LV_SCR_LOAD_ANIM_OVER_BOTTOM, 500, 0);
-}
-}
-void ui_event_delivery_button( lv_event_t * e) {
-    lv_event_code_t event_code = lv_event_get_code(e);lv_obj_t * target = lv_event_get_target(e);
-if ( event_code == LV_EVENT_CLICKED) {
-      updateImg( e );
+      _ui_screen_change( ui_PasswordScreen, LV_SCR_LOAD_ANIM_NONE, 500, 0);
 }
 }
 void ui_event_delivery_button1( lv_event_t * e) {
@@ -85,10 +79,23 @@ if ( event_code == LV_EVENT_RELEASED) {
       _ui_screen_change( ui_landing_page, LV_SCR_LOAD_ANIM_MOVE_TOP, 500, 0);
 }
 }
+void ui_event_PasswordKeyboard( lv_event_t * e) {
+    lv_event_code_t event_code = lv_event_get_code(e);lv_obj_t * target = lv_event_get_target(e);
+if ( event_code == LV_EVENT_GESTURE &&  lv_indev_get_gesture_dir(lv_indev_get_act()) == LV_DIR_RIGHT  ) {
+lv_indev_wait_release(lv_indev_get_act());
+      _ui_screen_change( ui_Unlocking, LV_SCR_LOAD_ANIM_NONE, 500, 0);
+}
+}
+void ui_event_passwordArea( lv_event_t * e) {
+    lv_event_code_t event_code = lv_event_get_code(e);lv_obj_t * target = lv_event_get_target(e);
+if ( event_code == LV_EVENT_VALUE_CHANGED) {
+      unlock( e );
+}
+}
 void ui_event_Unlocking( lv_event_t * e) {
     lv_event_code_t event_code = lv_event_get_code(e);lv_obj_t * target = lv_event_get_target(e);
-if ( event_code == LV_EVENT_SCREEN_LOAD_START) {
-      _ui_screen_change( ui_landing_page, LV_SCR_LOAD_ANIM_FADE_ON, 500, 5000);
+if ( event_code == LV_EVENT_SCREEN_LOADED) {
+      _ui_screen_change( ui_landing_page, LV_SCR_LOAD_ANIM_NONE, 500, 5000);
 }
 }
 

@@ -1,0 +1,81 @@
+AP IP address: 192.168.4.1
+[  1656][V][WiFiGeneric.cpp:395] _arduino_event_cb(): AP Stopped
+[  1657][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 11 - AP_STOP
+[  1657][V][WiFiGeneric.cpp:392] _arduino_event_cb(): AP Started
+[  1664][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 10 - AP_START
+AP timeout (ms): 1000
+State changed from: 0 to 2
+State changing from: 2 to 3
+[  2687][V][WiFiGeneric.cpp:395] _arduino_event_cb(): AP Stopped
+[  2687][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 11 - AP_STOP
+[  2691][V][WiFiGeneric.cpp:392] _arduino_event_cb(): AP Started
+E (5632) wifi_init_default: esp_wifi_get_mac failed with 12289
+Connecting to [Oscar[  2700][V][WiFiGeneric.cpp:395] _arduino_event_cb(): AP Stopped
+[  2695][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 10 - AP_START
+[  2715][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 11 - AP_STOP
+] (password is hidden)
+WiFi timeout (ms): 30000
+[  2749][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 0 - WIFI_READY
+[  2755][V][WiFiGeneric.cpp:340] _arduino_event_cb(): STA Started
+[  2762][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 2 - STA_START
+[  2778][V][WiFiGeneric.cpp:97] set_esp_interface_ip(): Configuring Station static IP: 0.0.0.0, MASK: 0.0.0.0, GW: 0.0.0.0
+State changed from: 2 to 3
+[  4167][V][WiFiGeneric.cpp:355] _arduino_event_cb(): STA Connected: SSID: Oscar, BSSID: 0e:08:8d:0f:f6:fa, Channel: 6, Auth: WPA2_PSK
+[  4168][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 4 - STA_CONNECTED
+[  4302][V][WiFiGeneric.cpp:369] _arduino_event_cb(): STA Got New IP:172.20.10.13
+[  4303][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 7 - STA_GOT_IP
+[  4306][D][WiFiGeneric.cpp:1098] _eventCallback(): STA IP: 172.20.10.13, MASK: 255.255.255.240, GW: 172.20.10.1
+WiFi connected
+IP address: 172.20.10.13
+State changing from: 3 to 4
+[  7428][W][ESPmDNS.cpp:222] queryService(): No results found!
+Active mDNS services: 0 
+Accepting connection
+[  7430][V][main.cpp:365] on_connected(): on_connected
+[  7444][I][ArduinoOTA.cpp:141] begin(): OTA server at: esp32-a842e34a12bc.local:3232
+[  7444][V][main.cpp:356] start_rtsp_server(): start_rtsp_server
+[  7446][V][WiFiServer.h:42] WiFiServer(): WiFiServer::WiFiServer(port=554, ...)
+[  7453][I][rtsp_server.cpp:9] rtsp_server(): Starting RTSP server
+State changed from: 3 to 4
+[ 18387][V][WebServer.cpp:296] handleClient(): New client: client.localIP()=172.20.10.13
+[ 23392][V][WebServer.cpp:296] handleClient(): New client: client.localIP()=172.20.10.13
+[ 23392][V][Parsing.cpp:122] _parseRequest(): method: GET url: / search: 
+[ 23395][V][Parsing.cpp:226] _parseRequest(): headerName: Host
+[ 23401][V][Parsing.cpp:227] _parseRequest(): headerValue: 172.20.10.13
+[ 23407][V][Parsing.cpp:226] _parseRequest(): headerName: Upgrade-Insecure-Requests
+[ 23414][V][Parsing.cpp:227] _parseRequest(): headerValue: 1
+[ 23420][V][Parsing.cpp:226] _parseRequest(): headerName: Accept
+[ 23425][V][Parsing.cpp:227] _parseRequest(): headerValue: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+[ 23437][V][Parsing.cpp:226] _parseRequest(): headerName: User-Agent
+[ 23442][V][Parsing.cpp:227] _parseRequest(): headerValue: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15
+[ 23458][V][Parsing.cpp:226] _parseRequest(): headerName: Accept-Language
+[ 23464][V][Parsing.cpp:227] _parseRequest(): headerValue: en-GB,en;q=0.9
+[ 23471][V][Parsing.cpp:226] _parseRequest(): headerName: Accept-Encoding
+[ 23477][V][Parsing.cpp:227] _parseRequest(): headerValue: gzip, deflate
+[ 23484][V][Parsing.cpp:226] _parseRequest(): headerName: Connection
+[ 23490][V][Parsing.cpp:227] _parseRequest(): headerValue: keep-alive
+[ 23496][V][Parsing.cpp:254] _parseArguments(): args: 
+[ 23501][V][Parsing.cpp:237] _parseRequest(): Request: /
+[ 23506][V][Parsing.cpp:238] _parseRequest():  Arguments: 
+[ 23511][V][main.cpp:90] handle_root(): Handle root
+[ 26386][V][WebServer.cpp:296] handleClient(): New client: client.localIP()=172.20.10.13
+[ 26387][V][Parsing.cpp:122] _parseRequest(): method: GET url: /favicon.ico search: 
+[ 26391][V][Parsing.cpp:226] _parseRequest(): headerName: Host
+[ 26396][V][Parsing.cpp:227] _parseRequest(): headerValue: 172.20.10.13
+[ 26402][V][Parsing.cpp:226] _parseRequest(): headerName: Connection
+[ 26408][V][Parsing.cpp:227] _parseRequest(): headerValue: keep-alive
+[ 26415][V][Parsing.cpp:226] _parseRequest(): headerName: Accept
+[ 26420][V][Parsing.cpp:227] _parseRequest(): headerValue: */*
+[ 26426][V][Parsing.cpp:226] _parseRequest(): headerName: User-Agent
+[ 26432][V][Parsing.cpp:227] _parseRequest(): headerValue: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15
+[ 26448][V][Parsing.cpp:226] _parseRequest(): headerName: Accept-Language
+[ 26454][V][Parsing.cpp:227] _parseRequest(): headerValue: en-GB,en;q=0.9
+[ 26461][V][Parsing.cpp:226] _parseRequest(): headerName: Referer
+[ 26466][V][Parsing.cpp:227] _parseRequest(): headerValue: http://172.20.10.13/
+[ 26473][V][Parsing.cpp:226] _parseRequest(): headerName: Accept-Encoding
+[ 26480][V][Parsing.cpp:227] _parseRequest(): headerValue: gzip, deflate
+[ 26486][V][Parsing.cpp:254] _parseArguments(): args: 
+[ 26491][V][Parsing.cpp:237] _parseRequest(): Request: /favicon.ico
+[ 26497][V][Parsing.cpp:238] _parseRequest():  Arguments: 
+[ 26502][E][WebServer.cpp:649] _handleRequest(): request handler not found
+Requested a non-existing page '/favicon.ico'

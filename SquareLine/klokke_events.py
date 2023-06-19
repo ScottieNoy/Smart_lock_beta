@@ -10,3 +10,7 @@ def updateImg(event_struct):
 def stopServer(event_struct):
     return
 
+
+def unlock(event_struct):
+    return
+
