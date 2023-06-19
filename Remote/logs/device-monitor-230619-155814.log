@@ -1,0 +1,101 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+[     4][V][WiFiServer.h:42] WiFiServer(): WiFiServer::WiFiServer(port=80, ...)
+[     4][V][WebServer.cpp:87] WebServer(): WebServer::Webserver(port=80)
+[    42][D][esp32-hal-cpu.c:244] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+[   490][I][esp32-hal-psram.c:96] psramInit(): PSRAM enabled
+[   520][V][[   521][I][main.cpp:403] setup(): CPU Freq: 240 Mhz, 2 core(s)
+[   521][I][main.cpp:404] setup(): Free heap: 248380 bytes
+[   521][I][main.cpp:405] setup(): SDK version: v4.4.4
+[   526][I][main.cpp:406] setup(): Starting ESP32CAM-RTSP...
+[   531][V][main.cpp:411] setup(): PSRAM found and initialized
+Config version: 1.5
+Config size: 455
+Loading configurations
+[iwcAll]
+|-- [iwcSys]
+|   |-- 'iwcThingName' with value: 'ESP32'
+|   |-- 'iwcApPassword' with value: <hidden>
+|   |-- [iwcWifi0]
+|   |   |-- 'iwcWifiSsid' with value: 'Oscar'
+|   |   \-- 'iwcWifiPassword' with value: <hidden>
+|   \-- 'iwcApTimeout' with value: '1'
+|-- [iwcCustom]
+|   |-- [board]
+|   |   \-- 'bt' with value: 'AI THINKER'
+|   |-- [camera]
+|   |   |-- 'fd' with value: '40'
+|   |   |-- 'fs' with value: 'QVGA (320x240)'
+|   |   |-- 'q' with value: '25'
+|   |   |-- 'eps' with value: '1'
+|   |   |-- 'fb' with value: '2'
+|   |   |-- 'b' with value: '0'
+|   |   |-- 'c' with value: '0'
+|   |   |-- 's' with value: '0'
+|   |   |-- 'e' with value: 'Normal'
+|   |   |-- 'wb' with value: '1'
+|   |   |-- 'awbg' with value: '1'
+|   |   |-- 'wbm' with value: 'Auto'
+|   |   |-- 'ec' with value: '1'
+|   |   |-- 'aec2' with value: '1'
+|   |   |-- 'ael' with value: '0'
+|   |   |-- 'aecv' with value: '300'
+|   |   |-- 'gc' with value: '1'
+|   |   |-- 'agcg' with value: '0'
+|   |   |-- 'gcl' with value: '2X'
+|   |   |-- 'bpc' with value: '0'
+|   |   |-- 'wpc' with value: '1'
+|   |   |-- 'rg' with value: '1'
+|   |   |-- 'lenc' with value: '1'
+|   |   |-- 'hm' with value: '0'
+|   |   |-- 'vm' with value: '0'
+|   |   |-- 'dcw' with value: '1'
+|   |   \-- 'cb' with value: '0'
+|   \-- [io]
+|       \-- 'li' with value: '0'
+\-- [hidden]
+[   669][V][main.cpp:289] initialize_camera(): initialize_camera
+[   670][I][main.cpp:290] initialize_camera(): Camera config: AI THINKER
+[   675][I][main.cpp:296] initialize_camera(): Frame size: QVGA (320x240)
+[   681][I][main.cpp:298] initialize_camera(): JPEG quality: 25
+[   687][I][main.cpp:299] initialize_camera(): Frame duration: 40 ms
+[   693][I][main.cpp:303] initialize_camera(): Enable PSRAM: 1
+[   698][I][main.cpp:304] initialize_camera(): Frame buffers: 2
+[   704][I][main.cpp:310] initialize_camera(): PSRAM enabled!
+[   937][V][esp32-hal-ledc.c:231] analogWrite(): GPIO 4 - Using Channel 15, Value = 0
+State changing from: 0 to 2
+[   957][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 0 - WIFI_READY
+Setting up AP: ESP32
+Use password: <hidden>
+[  1048][V][WiFiGeneric.cpp:392] _arduino_event_cb(): AP Started
+[  1050][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 10 - AP_START
+AP IP address: 192.168.4.1
+[  1634][V][WiFiGeneric.cpp:395] _arduino_event_cb(): AP Stopped
+[  1635][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 11 - AP_STOP
+[  1635][V][WiFiGeneric.cpp:392] _arduino_event_cb(): AP Started
+[  1642][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 10 - AP_START
+AP timeout (ms): 1000
+State changed from: 0 to 2
+State changing from: 2 to 3
+[  2664][V][WiFiGeneric.cpp:395] _arduino_event_cb(): AP Stopped
+[  2664][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 11 - AP_STOP
+[  2668][V][WiFiGeneric.cpp:392] _arduino_event_cb(): AP Started
+E (5586) wifi_init_default: esp_wifi_get_mac failed with 12289
+Connecting to [Oscar[  2677][V][WiFiGeneric.cpp:395] _arduino_event_cb(): AP Stopped
+[  2672][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 10 - AP_START
+[  2692][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 11 - AP_STOP
+] (password is hidden)
+WiFi timeout (ms): 30000
+[  2726][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 0 - WIFI_READY
+[  2733][V][WiFiGeneric.cpp:97] set_esp_interface_ip(): Configuring Station static IP: 0.0.0.0, MASK: 0.0.0.0, GW: 0.0.0.0
+[  2731][V][WiFiGeneric.cpp:340] _arduino_event_cb(): STA Started
+[  2739][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 2 - STA_START
+State changed from: 2 to 3

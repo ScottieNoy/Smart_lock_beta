@@ -1,0 +1,68 @@
+[  6192][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[  6193][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.6:80
+[  6196][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+[  6203][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  6210][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  6220][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  6300][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[  6301][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[  6308][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 11233][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 11235][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[ 11238][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET returned negative or zero response code, error: connection refused
+[ 11265][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 11319][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 49
+[ 11320][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.6:80
+[ 11320][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 11323][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+[ 11396][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[ 11397][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[ 11404][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 11477][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 11478][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 11484][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 11491][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4054'
+[ 11499][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 11506][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 11511][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 11517][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4054
+[ 11523][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+53 ms
+[ 12969][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 12970][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 13419][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 13420][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[ 13422][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+HTTP GET returned negative or zero response code, error: connection lost
+[ 13448][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 14038][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 14348][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 14350][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 14352][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 14362][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4054'
+[ 14369][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 14377][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 14382][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 14388][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4054
+[ 14394][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+51 ms
+[ 14715][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 14716][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 15164][D][WiFiClient.cpp:546] connected(): Disconnected: RES: -1, ERR: 104
+[ 15165][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[ 15167][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+HTTP GET returned negative or zero response code, error: connection lost
+[ 15193][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+

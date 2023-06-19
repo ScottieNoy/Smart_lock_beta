@@ -1,0 +1,1716 @@
+[    28][D][esp32-hal-cpu.c:244] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+[   481][I][esp32-hal-i2c.c:75] i2cInit(): Initialising I2C Master: sda=33 scl=32 freq=100000
+[   501][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 0 - WIFI_READY
+[   600][V][WiFiGeneric.cpp:97] set_esp_interface_ip(): Configuring Station static IP: 0.0.0.0, MASK: 0.0.0.0, GW: 0.0.0.0
+[   598][V][WiFiGeneric.cpp:340] _arduino_event_cb(): STA Started
+[   606][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 2 - STA_START
+[   690][V][WiFiGeneric.cpp:355] _arduino_event_cb(): STA Connected: SSID: Oscar, BSSID: fe:a7:3a:8c:40:08, Channel: 6, Auth: WPA2_PSK
+[   691][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 4 - STA_CONNECTED
+[   739][V][WiFiGeneric.cpp:369] _arduino_event_cb(): STA Got New IP:172.20.10.2
+[   740][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 7 - STA_GOT_IP
+[   743][D][WiFiGeneric.cpp:1098] _eventCallback(): STA IP: 172.20.10.2, MASK: 255.255.255.240, GW: 172.20.10.1
+.[  1190][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1191][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1196][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  2286][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  2904][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[  2905][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[  2908][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[  2918][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4796'
+[  2925][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[  2933][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[  2938][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[  2944][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4796
+[  2951][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+E (16146) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+E (16146) task_wdt:  - IDLE (CPU 0)
+E (16146) task_wdt: Tasks currently running:
+E (16146) task_wdt: CPU 0: showingImage
+E (16146) task_wdt: CPU 1: IDLE
+E (16146) task_wdt: Aborting.
+
+abort() was called at PC 0x401166a0 on core 0
+
+
+Backtrace: 0x40083d91:0x3ffbee1c |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 3b0be56f04246bae
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+[    28][D][esp32-hal-cpu.c:244] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+[   481][I][esp32-hal-i2c.c:75] i2cInit(): Initialising I2C Master: sda=33 scl=32 freq=100000
+[   500][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 0 - WIFI_READY
+[   600][V][WiFiGeneric.cpp:97] set_esp_interface_ip(): Configuring Station static IP: 0.0.0.0, MASK: 0.0.0.0, GW: 0.0.0.0
+[   597][V][WiFiGeneric.cpp:340] _arduino_event_cb(): STA Started
+[   605][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 2 - STA_START
+[   696][V][WiFiGeneric.cpp:355] _arduino_event_cb(): STA Connected: SSID: Oscar, BSSID: fe:a7:3a:8c:40:08, Channel: 6, Auth: WPA2_PSK
+[   697][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 4 - STA_CONNECTED
+[   725][V][WiFiGeneric.cpp:369] _arduino_event_cb(): STA Got New IP:172.20.10.2
+[   726][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 7 - STA_GOT_IP
+[   729][D][WiFiGeneric.cpp:1098] _eventCallback(): STA IP: 172.20.10.2, MASK: 255.255.255.240, GW: 172.20.10.1
+.[  1190][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1191][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1196][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  6211][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[  6212][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[  6215][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET returned negative or zero response code, error: connection refused
+[  6243][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  7409][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  7825][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[  7826][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[  7830][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[  7840][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4796'
+[  7847][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[  7854][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[  7860][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[  7866][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4796
+[  7872][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+[    28][D][esp32-hal-cpu.c:244] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+[   481][I][esp32-hal-i2c.c:75] i2cInit(): Initialising I2C Master: sda=33 scl=32 freq=100000
+[   500][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 0 - WIFI_READY
+[   598][V][WiFiGeneric.cpp:97] set_esp_interface_ip(): Configuring Station static IP: 0.0.0.0, MASK: 0.0.0.0, GW: 0.0.0.0
+[   596][V][WiFiGeneric.cpp:340] _arduino_event_cb(): STA Started
+[   604][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 2 - STA_START
+...............ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+[    28][D][esp32-hal-cpu.c:244] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+[   481][I][esp32-hal-i2c.c:75] i2cInit(): Initialising I2C Master: sda=33 scl=32 freq=100000
+[   500][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 0 - WIFI_READY
+[   602][V][WiFiGeneric.cpp:97] set_esp_interface_ip(): Configuring Station static IP: 0.0.0.0, MASK: 0.0.0.0, GW: 0.0.0.0
+[   600][V][WiFiGeneric.cpp:340] _arduino_event_cb(): STA Started
+[   608][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 2 - STA_START
+[   805][V][WiFiGeneric.cpp:355] _arduino_event_cb(): STA Connected: SSID: Oscar, BSSID: fe:a7:3a:8c:40:08, Channel: 6, Auth: WPA2_PSK
+[   806][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 4 - STA_CONNECTED
+[   837][V][WiFiGeneric.cpp:369] _arduino_event_cb(): STA Got New IP:172.20.10.2
+[   838][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 7 - STA_GOT_IP
+[   841][D][WiFiGeneric.cpp:1098] _eventCallback(): STA IP: 172.20.10.2, MASK: 255.255.255.240, GW: 172.20.10.1
+.[  1191][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1192][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1198][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  3461][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  3671][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[  3672][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[  3676][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[  3686][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 5099'
+[  3693][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[  3700][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[  3705][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[  3711][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 5099
+[  3717][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+55 ms
+[  4757][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  4758][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[  6053][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  9838][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[  9839][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[  9843][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[  9853][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 5099'
+[  9860][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[  9867][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[  9873][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[  9879][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 5099
+[  9885][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+54 ms
+[ 10360][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 10361][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 10531][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 11043][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 11043][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 11047][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 11057][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 5099'
+[ 11064][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 11071][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 11077][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 11083][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 5099
+[ 11089][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+58 ms
+[ 11181][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 11182][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 11452][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 11660][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 11661][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 11665][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 11675][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 3408'
+[ 11682][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 11689][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 11694][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 11700][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 3408
+[ 11706][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+56 ms
+[ 11791][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 11792][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 11898][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 12177][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 12178][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 12181][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 12191][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 3724'
+[ 12198][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 12205][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 12211][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 12217][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 3724
+[ 12223][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+55 ms
+[ 12304][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 12305][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 12336][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 12586][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 12587][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 12591][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 12601][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 3837'
+[ 12608][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 12615][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 12620][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 12626][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 3837
+[ 12632][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+52 ms
+[ 12710][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 12711][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 12990][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 13297][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 13298][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 13301][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 13311][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 3911'
+[ 13318][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 13326][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 13331][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 13341][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 3911
+[ 13343][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+53 ms
+[ 13423][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 13424][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 13603][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 13929][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 13930][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 13934][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 13944][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 3914'
+[ 13951][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 13958][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 13964][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 13970][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 3914
+[ 13976][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+52 ms
+[ 14188][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 14189][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 14523][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 14734][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 14735][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 14739][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 14748][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 3906'
+[ 14755][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 14762][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 14768][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 14774][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 3906
+[ 14780][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+56 ms
+[ 14862][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 14863][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 15138][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 15755][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 15756][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 15760][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 15770][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 3907'
+[ 15777][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 15784][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 15789][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 15795][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 3907
+[ 15801][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+55 ms
+[ 15882][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 15883][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 16059][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 16370][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 16371][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 16374][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 16384][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 3915'
+[ 16391][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 16398][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 16404][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 16410][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 3915
+[ 16416][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+54 ms
+[ 16497][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 16498][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 16778][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 17907][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 17908][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 17913][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 17921][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 3906'
+[ 17928][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 17935][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 17941][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 17947][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 3906
+[ 17953][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+52 ms
+[ 21457][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 21458][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 21594][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 23228][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 23229][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 23233][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 23242][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 3918'
+[ 23249][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 23257][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 23262][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 23268][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 3918
+[ 23274][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+51 ms
+[ 26879][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 26880][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 27733][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 28173][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 28174][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 28177][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 28188][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 3918'
+[ 28194][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 28201][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 28207][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 28213][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 3918
+[ 28219][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+51 ms
+[ 28297][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 28298][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 28656][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 30701][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 30702][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 30705][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 30715][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 3939'
+[ 30722][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 30729][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 30735][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 30741][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 3939
+[ 30747][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+51 ms
+[ 31082][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 31084][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 31144][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 31319][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 31320][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 31324][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 31334][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 3939'
+[ 31341][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 31348][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 31354][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 31360][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 3939
+[ 31366][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+55 ms
+[ 31452][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 31453][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 31492][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 31493][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[ 31494][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+HTTP GET returned negative or zero response code, error: connection lost
+[ 31522][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 35208][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 36754][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 36755][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 36759][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 36769][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 3939'
+[ 36776][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 36783][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 36789][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 36795][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 3939
+[ 36801][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+51 ms
+[ 38138][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 38140][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 39103][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 40429][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 40430][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 40433][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 40443][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 3939'
+[ 40450][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 40457][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 40463][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 40469][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 3939
+[ 40478][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+E (55406) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+E (55406) task_wdt:  - IDLE (CPU 0)
+E (55406) task_wdt: Tasks currently running:
+E (55406) task_wdt: CPU 0: showingImage
+E (55406) task_wdt: CPU 1: IDLE
+E (55406) task_wdt: Aborting.
+
+abort() was called at PC 0x401166a0 on core 0
+
+
+Backtrace: 0x40083d91:0x3ffbee1c |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 3b0be56f04246bae
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+[    28][D][esp32-hal-cpu.c:244] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+[   481][I][esp32-hal-i2c.c:75] i2cInit(): Initialising I2C Master: sda=33 scl=32 freq=100000
+[   500][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 0 - WIFI_READY
+[   602][V][WiFiGeneric.cpp:97] set_esp_interface_ip(): Configuring Station static IP: 0.0.0.0, MASK: 0.0.0.0, GW: 0.0.0.0
+[   600][V][WiFiGeneric.cpp:340] _arduino_event_cb(): STA Started
+[   608][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 2 - STA_START
+[   731][V][WiFiGeneric.cpp:355] _arduino_event_cb(): STA Connected: SSID: Oscar, BSSID: fe:a7:3a:8c:40:08, Channel: 6, Auth: WPA2_PSK
+[   732][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 4 - STA_CONNECTED
+[   855][V][WiFiGeneric.cpp:369] _arduino_event_cb(): STA Got New IP:172.20.10.2
+[   856][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 7 - STA_GOT_IP
+[   859][D][WiFiGeneric.cpp:1098] _eventCallback(): STA IP: 172.20.10.2, MASK: 255.255.255.240, GW: 172.20.10.1
+.[  1192][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1194][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1199][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  5884][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  6800][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[  6801][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[  6804][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[  6814][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 3995'
+[  6822][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[  6829][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[  6834][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[  6840][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 3995
+[  6846][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+E (23937) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+E (23937) task_wdt:  - IDLE (CPU 0)
+E (23937) task_wdt: Tasks currently running:
+E (23937) task_wdt: CPU 0: showingImage
+E (23937) task_wdt: CPU 1: IDLE
+E (23937) task_wdt: Aborting.
+
+abort() was called at PC 0x401166a0 on core 0
+
+
+Backtrace: 0x40083d91:0x3ffbee1c |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 3b0be56f04246bae
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+[    28][D][esp32-hal-cpu.c:244] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+[   481][I][esp32-hal-i2c.c:75] i2cInit(): Initialising I2C Master: sda=33 scl=32 freq=100000
+[   500][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 0 - WIFI_READY
+[   602][V][WiFiGeneric.cpp:97] set_esp_interface_ip(): Configuring Station static IP: 0.0.0.0, MASK: 0.0.0.0, GW: 0.0.0.0
+[   600][V][WiFiGeneric.cpp:340] _arduino_event_cb(): STA Started
+[   608][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 2 - STA_START
+[   725][V][WiFiGeneric.cpp:355] _arduino_event_cb(): STA Connected: SSID: Oscar, BSSID: fe:a7:3a:8c:40:08, Channel: 6, Auth: WPA2_PSK
+[   726][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 4 - STA_CONNECTED
+[   756][V][WiFiGeneric.cpp:369] _arduino_event_cb(): STA Got New IP:172.20.10.2
+[   757][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 7 - STA_GOT_IP
+[   760][D][WiFiGeneric.cpp:1098] _eventCallback(): STA IP: 172.20.10.2, MASK: 255.255.255.240, GW: 172.20.10.1
+.[  1192][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1194][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1199][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1813][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  2193][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[  2194][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[  2198][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[  2207][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 3995'
+[  2215][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[  2222][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[  2227][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[  2233][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 3995
+[  2239][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+E (14715) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+E (14715) task_wdt:  - IDLE (CPU 0)
+E (14715) task_wdt: Tasks currently running:
+E (14715) task_wdt: CPU 0: showingImage
+E (14715) task_wdt: CPU 1: IDLE
+E (14715) task_wdt: Aborting.
+
+abort() was called at PC 0x401166a0 on core 0
+
+
+Backtrace: 0x40083d91:0x3ffbee1c |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 3b0be56f04246bae
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+[    28][D][esp32-hal-cpu.c:244] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+[   481][I][esp32-hal-i2c.c:75] i2cInit(): Initialising I2C Master: sda=33 scl=32 freq=100000
+[   500][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 0 - WIFI_READY
+[   599][V][WiFiGeneric.cpp:97] set_esp_interface_ip(): Configuring Station static IP: 0.0.0.0, MASK: 0.0.0.0, GW: 0.0.0.0
+[   597][V][WiFiGeneric.cpp:340] _arduino_event_cb(): STA Started
+[   605][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 2 - STA_START
+[   695][V][WiFiGeneric.cpp:355] _arduino_event_cb(): STA Connected: SSID: Oscar, BSSID: fe:a7:3a:8c:40:08, Channel: 6, Auth: WPA2_PSK
+[   697][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 4 - STA_CONNECTED
+[   753][V][WiFiGeneric.cpp:369] _arduino_event_cb(): STA Got New IP:172.20.10.2
+[   753][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 7 - STA_GOT_IP
+[   756][D][WiFiGeneric.cpp:1098] _eventCallback(): STA IP: 172.20.10.2, MASK: 255.255.255.240, GW: 172.20.10.1
+.[  1189][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1190][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1195][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  3970][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  5983][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[  5984][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[  5988][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[  5997][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 3995'
+[  6005][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[  6012][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[  6017][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[  6023][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 3995
+[  6029][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+53 ms
+[  6866][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  6867][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[  7317][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[  7318][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[  7319][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+HTTP GET returned negative or zero response code, error: connection lost
+[  7347][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  8537][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  9464][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[  9465][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[  9468][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[  9478][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 3995'
+[  9485][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[  9492][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[  9498][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[  9504][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 3995
+[  9510][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+52 ms
+[ 13121][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 13122][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 13660][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 15813][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 15814][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 15818][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 15828][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 3995'
+[ 15835][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 15842][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 15847][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 15853][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 3995
+[ 15859][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+50 ms
+[ 16288][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 16289][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 16426][D][WiFiClient.cpp:546] connected(): Disconnected: RES: -1, ERR: 104
+[ 16427][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[ 16428][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+HTTP GET returned negative or zero response code, error: connection lost
+[ 16456][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 16730][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 21739][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 21740][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 21741][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 21772][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 22981][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 24007][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 24008][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 24011][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 24021][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 3995'
+[ 24028][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 24035][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 24041][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 24047][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 3995
+[ 24053][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+53 ms
+[ 24134][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 24135][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 25128][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 30136][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 30136][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 30138][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 30168][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 35173][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 35174][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[ 35177][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET returned negative or zero response code, error: connection refused
+[ 35205][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 40211][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 40213][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[ 40215][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET returned negative or zero response code, error: connection refused
+[ 40243][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 43457][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 44381][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 44382][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 44385][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 44395][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 3995'
+[ 44403][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 44410][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 44415][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 44421][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 3995
+[ 44427][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+52 ms
+[ 44648][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 44649][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 44792][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 46321][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 46322][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 46325][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 46335][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 3995'
+[ 46342][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 46349][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 46355][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 46361][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 3995
+[ 46367][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+52 ms
+[ 47415][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 47416][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 48066][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 49494][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 49495][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 49498][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 49509][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 3995'
+[ 49516][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 49523][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 49528][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 49534][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 3995
+[ 49540][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+E (55636) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+E (55636) task_wdt:  - IDLE (CPU 0)
+E (55636) task_wdt: Tasks currently running:
+E (55636) task_wdt: CPU 0: showingImage
+E (55636) task_wdt: CPU 1: IDLE
+E (55636) task_wdt: Aborting.
+
+abort() was called at PC 0x401166a0 on core 0
+
+
+Backtrace: 0x40083d91:0x3ffbee1c |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 3b0be56f04246bae
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+[    28][D][esp32-hal-cpu.c:244] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+[   481][I][esp32-hal-i2c.c:75] i2cInit(): Initialising I2C Master: sda=33 scl=32 freq=100000
+[   500][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 0 - WIFI_READY
+[   602][V][WiFiGeneric.cpp:97] set_esp_interface_ip(): Configuring Station static IP: 0.0.0.0, MASK: 0.0.0.0, GW: 0.0.0.0
+[   599][V][WiFiGeneric.cpp:340] _arduino_event_cb(): STA Started
+[   607][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 2 - STA_START
+[   718][V][WiFiGeneric.cpp:355] _arduino_event_cb(): STA Connected: SSID: Oscar, BSSID: fe:a7:3a:8c:40:08, Channel: 6, Auth: WPA2_PSK
+[   720][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 4 - STA_CONNECTED
+[   748][V][WiFiGeneric.cpp:369] _arduino_event_cb(): STA Got New IP:172.20.10.2
+[   749][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 7 - STA_GOT_IP
+[   752][D][WiFiGeneric.cpp:1098] _eventCallback(): STA IP: 172.20.10.2, MASK: 255.255.255.240, GW: 172.20.10.1
+.[  1192][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1194][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1199][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  2812][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  3429][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[  3430][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[  3433][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[  3443][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 3995'
+[  3450][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[  3457][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[  3463][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[  3469][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 3995
+[  3475][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+E (17195) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+E (17195) task_wdt:  - IDLE (CPU 0)
+E (17195) task_wdt: Tasks currently running:
+E (17195) task_wdt: CPU 0: wifi
+E (17195) task_wdt: CPU 1: IDLE
+E (17195) task_wdt: Aborting.
+
+abort() was called at PC 0x401166a0 on core 0
+
+
+Backtrace: 0x40083d91:0x3ffbee1c |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 3b0be56f04246bae
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+[    28][D][esp32-hal-cpu.c:244] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+[   481][I][esp32-hal-i2c.c:75] i2cInit(): Initialising I2C Master: sda=33 scl=32 freq=100000
+[   501][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 0 - WIFI_READY
+[   601][V][WiFiGeneric.cpp:97] set_esp_interface_ip(): Configuring Station static IP: 0.0.0.0, MASK: 0.0.0.0, GW: 0.0.0.0
+[   599][V][WiFiGeneric.cpp:340] _arduino_event_cb(): STA Started
+[   607][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 2 - STA_START
+[   765][V][WiFiGeneric.cpp:355] _arduino_event_cb(): STA Connected: SSID: Oscar, BSSID: fe:a7:3a:8c:40:08, Channel: 6, Auth: WPA2_PSK
+[   767][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 4 - STA_CONNECTED
+[   800][V][WiFiGeneric.cpp:369] _arduino_event_cb(): STA Got New IP:172.20.10.2
+[   801][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 7 - STA_GOT_IP
+[   804][D][WiFiGeneric.cpp:1098] _eventCallback(): STA IP: 172.20.10.2, MASK: 255.255.255.240, GW: 172.20.10.1
+.[  1190][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1192][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1197][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  6212][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[  6214][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[  6216][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET returned negative or zero response code, error: connection refused
+[  6244][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  7626][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  8233][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[  8234][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[  8237][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[  8248][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 3995'
+[  8254][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[  8261][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[  8267][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[  8273][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 3995
+[  8279][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+52 ms
+[  8359][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  8360][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[  8540][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 13554][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 13555][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 13556][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 13586][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 14781][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 19787][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 19788][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 19790][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 19819][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 20620][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 24302][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 24303][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 24306][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 24316][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 3987'
+[ 24323][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 24330][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 24336][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 24342][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 3987
+[ 24348][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+E (41047) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+E (41047) task_wdt:  - IDLE (CPU 0)
+E (41047) task_wdt: Tasks currently running:
+E (41047) task_wdt: CPU 0: showingImage
+E (41047) task_wdt: CPU 1: IDLE
+E (41047) task_wdt: Aborting.
+
+abort() was called at PC 0x401166a0 on core 0
+
+
+Backtrace: 0x40083d91:0x3ffbee1c |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 3b0be56f04246bae
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+[    28][D][esp32-hal-cpu.c:244] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+[   481][I][esp32-hal-i2c.c:75] i2cInit(): Initialising I2C Master: sda=33 scl=32 freq=100000
+[   500][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 0 - WIFI_READY
+[   601][V][WiFiGeneric.cpp:97] set_esp_interface_ip(): Configuring Station static IP: 0.0.0.0, MASK: 0.0.0.0, GW: 0.0.0.0
+[   599][V][WiFiGeneric.cpp:340] _arduino_event_cb(): STA Started
+[   607][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 2 - STA_START
+[   714][V][WiFiGeneric.cpp:355] _arduino_event_cb(): STA Connected: SSID: Oscar, BSSID: fe:a7:3a:8c:40:08, Channel: 6, Auth: WPA2_PSK
+[   716][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 4 - STA_CONNECTED
+[   748][V][WiFiGeneric.cpp:369] _arduino_event_cb(): STA Got New IP:172.20.10.2
+[   749][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 7 - STA_GOT_IP
+[   752][D][WiFiGeneric.cpp:1098] _eventCallback(): STA IP: 172.20.10.2, MASK: 255.255.255.240, GW: 172.20.10.1
+.[  1191][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1192][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1197][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  5263][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  6707][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[  6708][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[  6712][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[  6722][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 3999'
+[  6729][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[  6736][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[  6742][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[  6747][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 3999
+[  6753][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+54 ms
+[  6836][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  6837][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[  7323][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 11002][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 11003][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 11006][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 11016][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4017'
+[ 11024][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 11031][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 11036][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 11042][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4017
+[ 11048][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+59 ms
+[ 13525][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 13527][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 13868][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 17250][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 17251][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 17254][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 17264][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4017'
+[ 17271][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 17278][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 17284][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 17290][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4017
+[ 17296][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+52 ms
+[ 21929][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 21930][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 22572][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 24821][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 24822][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 24825][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 24835][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4017'
+[ 24842][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 24849][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 24855][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 24861][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4017
+[ 24867][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+E (42085) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+E (42085) task_wdt:  - IDLE (CPU 0)
+E (42085) task_wdt: Tasks currently running:
+E (42085) task_wdt: CPU 0: showingImage
+E (42085) task_wdt: CPU 1: IDLE
+E (42085) task_wdt: Aborting.
+
+abort() was called at PC 0x401166a0 on core 0
+
+
+Backtrace: 0x40083d91:0x3ffbee1c |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 3b0be56f04246bae
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+[    28][D][esp32-hal-cpu.c:244] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+[   481][I][esp32-hal-i2c.c:75] i2cInit(): Initialising I2C Master: sda=33 scl=32 freq=100000
+[   500][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 0 - WIFI_READY
+[   600][V][WiFiGeneric.cpp:97] set_esp_interface_ip(): Configuring Station static IP: 0.0.0.0, MASK: 0.0.0.0, GW: 0.0.0.0
+[   598][V][WiFiGeneric.cpp:340] _arduino_event_cb(): STA Started
+[   606][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 2 - STA_START
+[   733][V][WiFiGeneric.cpp:355] _arduino_event_cb(): STA Connected: SSID: Oscar, BSSID: fe:a7:3a:8c:40:08, Channel: 6, Auth: WPA2_PSK
+[   735][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 4 - STA_CONNECTED
+[   768][V][WiFiGeneric.cpp:369] _arduino_event_cb(): STA Got New IP:172.20.10.2
+[   769][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 7 - STA_GOT_IP
+[   772][D][WiFiGeneric.cpp:1098] _eventCallback(): STA IP: 172.20.10.2, MASK: 255.255.255.240, GW: 172.20.10.1
+.[  1190][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1191][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1197][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  4646][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  7418][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[  7419][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[  7423][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[  7433][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4017'
+[  7440][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[  7447][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[  7453][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[  7460][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4017
+[  7465][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+E (25175) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+E (25175) task_wdt:  - IDLE (CPU 0)
+E (25175) task_wdt: Tasks currently running:
+E (25175) task_wdt: CPU 0: showingImage
+E (25175) task_wdt: CPU 1: IDLE
+E (25175) task_wdt: Aborting.
+
+abort() was called at PC 0x401166a0 on core 0
+
+
+Backtrace: 0x40083d91:0x3ffbee1c |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 3b0be56f04246bae
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+[    28][D][esp32-hal-cpu.c:244] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+[   481][I][esp32-hal-i2c.c:75] i2cInit(): Initialising I2C Master: sda=33 scl=32 freq=100000
+[   500][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 0 - WIFI_READY
+[   601][V][WiFiGeneric.cpp:97] set_esp_interface_ip(): Configuring Station static IP: 0.0.0.0, MASK: 0.0.0.0, GW: 0.0.0.0
+[   599][V][WiFiGeneric.cpp:340] _arduino_event_cb(): STA Started
+[   606][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 2 - STA_START
+[   730][V][WiFiGeneric.cpp:355] _arduino_event_cb(): STA Connected: SSID: Oscar, BSSID: fe:a7:3a:8c:40:08, Channel: 6, Auth: WPA2_PSK
+[   731][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 4 - STA_CONNECTED
+[   768][V][WiFiGeneric.cpp:369] _arduino_event_cb(): STA Got New IP:172.20.10.2
+[   769][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 7 - STA_GOT_IP
+[   772][D][WiFiGeneric.cpp:1098] _eventCallback(): STA IP: 172.20.10.2, MASK: 255.255.255.240, GW: 172.20.10.1
+.[  1191][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1192][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1198][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  6215][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[  6216][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[  6219][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET returned negative or zero response code, error: connection refused
+[  6247][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  7816][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 12823][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 12824][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 12825][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 12856][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 13861][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 18869][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 18870][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 18871][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 18902][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 20719][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 25733][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 25733][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 25735][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 25764][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 29317][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 29627][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 29628][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 29631][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 29641][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4017'
+[ 29648][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 29655][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 29661][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 29667][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4017
+[ 29673][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+E (51686) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+E (51686) task_wdt:  - IDLE (CPU 0)
+E (51686) task_wdt: Tasks currently running:
+E (51686) task_wdt: CPU 0: showingImage
+E (51686) task_wdt: CPU 1: IDLE
+E (51686) task_wdt: Aborting.
+
+abort() was called at PC 0x401166a0 on core 0
+
+
+Backtrace: 0x40083d91:0x3ffbee1c |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 3b0be56f04246bae
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+[    28][D][esp32-hal-cpu.c:244] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+[   481][I][esp32-hal-i2c.c:75] i2cInit(): Initialising I2C Master: sda=33 scl=32 freq=100000
+[   500][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 0 - WIFI_READY
+[   601][V][WiFiGeneric.cpp:97] set_esp_interface_ip(): Configuring Station static IP: 0.0.0.0, MASK: 0.0.0.0, GW: 0.0.0.0
+[   598][V][WiFiGeneric.cpp:340] _arduino_event_cb(): STA Started
+[   606][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 2 - STA_START
+[   742][V][WiFiGeneric.cpp:355] _arduino_event_cb(): STA Connected: SSID: Oscar, BSSID: fe:a7:3a:8c:40:08, Channel: 6, Auth: WPA2_PSK
+[   744][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 4 - STA_CONNECTED
+[   768][V][WiFiGeneric.cpp:369] _arduino_event_cb(): STA Got New IP:172.20.10.2
+[   769][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 7 - STA_GOT_IP
+[   772][D][WiFiGeneric.cpp:1098] _eventCallback(): STA IP: 172.20.10.2, MASK: 255.255.255.240, GW: 172.20.10.1
+.[  1191][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1192][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1198][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  6214][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[  6215][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[  6218][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET returned negative or zero response code, error: connection refused
+[  6245][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 11251][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 11252][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[ 11255][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET returned negative or zero response code, error: connection refused
+[ 11282][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 12229][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 13457][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 13458][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 13461][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 13472][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4017'
+[ 13479][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 13486][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 13491][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 13497][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4017
+[ 13503][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+52 ms
+[ 14243][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 14245][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 14251][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 14254][W][HTTPClient.cpp:1483] returnError(): error(-2): send header failed
+HTTP GET returned negative or zero response code, error: send header failed
+[ 14281][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 14693][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 15920][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 15921][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 15925][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 15935][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4017'
+[ 15942][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 15949][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 15955][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 15960][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4017
+[ 15966][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+52 ms
+[ 20078][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 20080][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 20443][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 22069][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 22070][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 22074][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 22084][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4017'
+[ 22091][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 22098][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 22104][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 22109][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4017
+[ 22115][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+E (36582) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+E (36582) task_wdt:  - IDLE (CPU 0)
+E (36582) task_wdt: Tasks currently running:
+E (36582) task_wdt: CPU 0: wifi
+E (36582) task_wdt: CPU 1: IDLE
+E (36582) task_wdt: Aborting.
+
+abort() was called at PC 0x401166a0 on core 0
+
+
+Backtrace: 0x40083d91:0x3ffbee1c |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 3b0be56f04246bae
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+[    28][D][esp32-hal-cpu.c:244] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+[   481][I][esp32-hal-i2c.c:75] i2cInit(): Initialising I2C Master: sda=33 scl=32 freq=100000
+[   501][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 0 - WIFI_READY
+[   600][V][WiFiGeneric.cpp:97] set_esp_interface_ip(): Configuring Station static IP: 0.0.0.0, MASK: 0.0.0.0, GW: 0.0.0.0
+[   598][V][WiFiGeneric.cpp:340] _arduino_event_cb(): STA Started
+[   606][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 2 - STA_START
+[   682][V][WiFiGeneric.cpp:355] _arduino_event_cb(): STA Connected: SSID: Oscar, BSSID: fe:a7:3a:8c:40:08, Channel: 6, Auth: WPA2_PSK
+[   684][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 4 - STA_CONNECTED
+[   727][V][WiFiGeneric.cpp:369] _arduino_event_cb(): STA Got New IP:172.20.10.2
+[   728][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 7 - STA_GOT_IP
+[   731][D][WiFiGeneric.cpp:1098] _eventCallback(): STA IP: 172.20.10.2, MASK: 255.255.255.240, GW: 172.20.10.1
+.[  1190][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1191][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1197][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  5052][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  5968][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[  5969][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[  5973][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[  5982][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4017'
+[  5990][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[  5997][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[  6002][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[  6008][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4017
+[  6014][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+E (22275) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+E (22275) task_wdt:  - IDLE (CPU 0)
+E (22275) task_wdt: Tasks currently running:
+E (22275) task_wdt: CPU 0: showingImage
+E (22275) task_wdt: CPU 1: IDLE
+E (22275) task_wdt: Aborting.
+
+abort() was called at PC 0x401166a0 on core 0
+
+
+Backtrace: 0x40083d91:0x3ffbee1c |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 3b0be56f04246bae
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+[    28][D][esp32-hal-cpu.c:244] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+[   481][I][esp32-hal-i2c.c:75] i2cInit(): Initialising I2C Master: sda=33 scl=32 freq=100000
+[   500][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 0 - WIFI_READY
+[   599][V][WiFiGeneric.cpp:97] set_esp_interface_ip(): Configuring Station static IP: 0.0.0.0, MASK: 0.0.0.0, GW: 0.0.0.0
+[   597][V][WiFiGeneric.cpp:340] _arduino_event_cb(): STA Started
+[   605][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 2 - STA_START
+[   705][V][WiFiGeneric.cpp:355] _arduino_event_cb(): STA Connected: SSID: Oscar, BSSID: fe:a7:3a:8c:40:08, Channel: 6, Auth: WPA2_PSK
+[   706][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 4 - STA_CONNECTED
+[   738][V][WiFiGeneric.cpp:369] _arduino_event_cb(): STA Got New IP:172.20.10.2
+[   738][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 7 - STA_GOT_IP
+[   741][D][WiFiGeneric.cpp:1098] _eventCallback(): STA IP: 172.20.10.2, MASK: 255.255.255.240, GW: 172.20.10.1
+.[  1189][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1191][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1196][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  2706][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  4554][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[  4555][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[  4558][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[  4568][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4017'
+[  4575][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[  4582][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[  4588][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[  4594][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4017
+[  4600][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+E (19445) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+E (19445) task_wdt:  - IDLE (CPU 0)
+E (19445) task_wdt: Tasks currently running:
+E (19445) task_wdt: CPU 0: showingImage
+E (19445) task_wdt: CPU 1: IDLE
+E (19445) task_wdt: Aborting.
+
+abort() was called at PC 0x401166a0 on core 0
+
+
+Backtrace: 0x40083d91:0x3ffbee1c |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 3b0be56f04246bae
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+[    28][D][esp32-hal-cpu.c:244] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+[   481][I][esp32-hal-i2c.c:75] i2cInit(): Initialising I2C Master: sda=33 scl=32 freq=100000
+[   500][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 0 - WIFI_READY
+[   602][V][WiFiGeneric.cpp:97] set_esp_interface_ip(): Configuring Station static IP: 0.0.0.0, MASK: 0.0.0.0, GW: 0.0.0.0
+[   600][V][WiFiGeneric.cpp:340] _arduino_event_cb(): STA Started
+[   607][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 2 - STA_START
+[   760][V][WiFiGeneric.cpp:355] _arduino_event_cb(): STA Connected: SSID: Oscar, BSSID: fe:a7:3a:8c:40:08, Channel: 6, Auth: WPA2_PSK
+[   762][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 4 - STA_CONNECTED
+[   793][V][WiFiGeneric.cpp:369] _arduino_event_cb(): STA Got New IP:172.20.10.2
+[   793][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 7 - STA_GOT_IP
+[   796][D][WiFiGeneric.cpp:1098] _eventCallback(): STA IP: 172.20.10.2, MASK: 255.255.255.240, GW: 172.20.10.1
+.[  1192][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1193][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1198][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  5870][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  7207][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[  7208][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[  7214][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[  7222][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4017'
+[  7229][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[  7236][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[  7242][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[  7247][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4017
+[  7253][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+E (24749) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+E (24749) task_wdt:  - IDLE (CPU 0)
+E (24749) task_wdt: Tasks currently running:
+E (24749) task_wdt: CPU 0: showingImage
+E (24749) task_wdt: CPU 1: IDLE
+E (24749) task_wdt: Aborting.
+
+abort() was called at PC 0x401166a0 on core 0
+
+
+Backtrace: 0x40083d91:0x3ffbee1c |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 3b0be56f04246bae
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+[    28][D][esp32-hal-cpu.c:244] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+[   481][I][esp32-hal-i2c.c:75] i2cInit(): Initialising I2C Master: sda=33 scl=32 freq=100000
+[   500][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 0 - WIFI_READY
+[   601][V][WiFiGeneric.cpp:97] set_esp_interface_ip(): Configuring Station static IP: 0.0.0.0, MASK: 0.0.0.0, GW: 0.0.0.0
+[   599][V][WiFiGeneric.cpp:340] _arduino_event_cb(): STA Started
+[   606][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 2 - STA_START
+[   789][V][WiFiGeneric.cpp:355] _arduino_event_cb(): STA Connected: SSID: Oscar, BSSID: fe:a7:3a:8c:40:08, Channel: 6, Auth: WPA2_PSK
+[   790][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 4 - STA_CONNECTED
+[   819][V][WiFiGeneric.cpp:369] _arduino_event_cb(): STA Got New IP:172.20.10.2
+[   820][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 7 - STA_GOT_IP
+[   823][D][WiFiGeneric.cpp:1098] _eventCallback(): STA IP: 172.20.10.2, MASK: 255.255.255.240, GW: 172.20.10.1
+.[  1190][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1191][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1197][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  6212][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[  6213][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[  6216][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET returned negative or zero response code, error: connection refused
+[  6244][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  9868][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 14876][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 14876][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 14878][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 14907][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 15908][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 20920][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 20921][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 20922][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 20953][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 21134][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 23079][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 23080][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 23084][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 23094][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4017'
+[ 23101][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 23108][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 23114][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 23120][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4017
+[ 23126][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+[    28][D][esp32-hal-cpu.c:244] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+[   481][I][esp32-hal-i2c.c:75] i2cInit(): Initialising I2C Master: sda=33 scl=32 freq=100000
+[   500][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 0 - WIFI_READY
+[   601][V][WiFiGeneric.cpp:97] set_esp_interface_ip(): Configuring Station static IP: 0.0.0.0, MASK: 0.0.0.0, GW: 0.0.0.0
+[   599][V][WiFiGeneric.cpp:340] _arduino_event_cb(): STA Started
+[   607][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 2 - STA_START
+[   727][V][WiFiGeneric.cpp:355] _arduino_event_cb(): STA Connected: SSID: Oscar, BSSID: fe:a7:3a:8c:40:08, Channel: 6, Auth: WPA2_PSK
+[   728][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 4 - STA_CONNECTED
+[   753][V][WiFiGeneric.cpp:369] _arduino_event_cb(): STA Got New IP:172.20.10.2
+[   754][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 7 - STA_GOT_IP
+[   757][D][WiFiGeneric.cpp:1098] _eventCallback(): STA IP: 172.20.10.2, MASK: 255.255.255.240, GW: 172.20.10.1
+.[  1191][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1192][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1197][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  4789][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  9090][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[  9091][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[  9095][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[  9105][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4017'
+[  9112][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[  9119][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[  9125][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[  9131][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4017
+[  9137][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+52 ms
+[ 10389][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 10390][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 10834][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 11234][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 11235][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 11238][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 11248][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4017'
+[ 11255][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 11262][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 11268][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 11274][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4017
+[ 11280][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+52 ms
+[ 15612][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 15613][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 15848][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 19633][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 19634][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 19637][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 19647][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4017'
+[ 19655][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 19662][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 19667][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 19673][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4017
+[ 19679][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+E (31704) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+E (31704) task_wdt:  - IDLE (CPU 0)
+E (31704) task_wdt: Tasks currently running:
+E (31704) task_wdt: CPU 0: showingImage
+E (31704) task_wdt: CPU 1: IDLE
+E (31704) task_wdt: Aborting.
+
+abort() was called at PC 0x401166a0 on core 0
+
+
+Backtrace: 0x40083d91:0x3ffbee1c |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 3b0be56f04246bae
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+[    28][D][esp32-hal-cpu.c:244] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+[   481][I][esp32-hal-i2c.c:75] i2cInit(): Initialising I2C Master: sda=33 scl=32 freq=100000
+[   500][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 0 - WIFI_READY
+[   600][V][WiFiGeneric.cpp:97] set_esp_interface_ip(): Configuring Station static IP: 0.0.0.0, MASK: 0.0.0.0, GW: 0.0.0.0
+[   598][V][WiFiGeneric.cpp:340] _arduino_event_cb(): STA Started
+[   606][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 2 - STA_START
+[   774][V][WiFiGeneric.cpp:355] _arduino_event_cb(): STA Connected: SSID: Oscar, BSSID: fe:a7:3a:8c:40:08, Channel: 6, Auth: WPA2_PSK
+[   776][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 4 - STA_CONNECTED
+[   828][V][WiFiGeneric.cpp:369] _arduino_event_cb(): STA Got New IP:172.20.10.2
+[   829][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 7 - STA_GOT_IP
+[   831][D][WiFiGeneric.cpp:1098] _eventCallback(): STA IP: 172.20.10.2, MASK: 255.255.255.240, GW: 172.20.10.1
+.[  1193][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1194][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1199][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  3012][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  4542][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[  4543][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[  4546][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[  4556][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4017'
+[  4563][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[  4571][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[  4576][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[  4582][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4017
+[  4588][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+E (19419) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+E (19419) task_wdt:  - IDLE (CPU 0)
+E (19419) task_wdt: Tasks currently running:
+E (19419) task_wdt: CPU 0: showingImage
+E (19419) task_wdt: CPU 1: IDLE
+E (19419) task_wdt: Aborting.
+
+abort() was called at PC 0x401166a0 on core 0
+
+
+Backtrace: 0x40083d91:0x3ffbee1c |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 3b0be56f04246bae
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+[    28][D][esp32-hal-cpu.c:244] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+[   481][I][esp32-hal-i2c.c:75] i2cInit(): Initialising I2C Master: sda=33 scl=32 freq=100000
+[   500][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 0 - WIFI_READY
+[   601][V][WiFiGeneric.cpp:97] set_esp_interface_ip(): Configuring Station static IP: 0.0.0.0, MASK: 0.0.0.0, GW: 0.0.0.0
+[   599][V][WiFiGeneric.cpp:340] _arduino_event_cb(): STA Started
+[   607][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 2 - STA_START
+[   695][V][WiFiGeneric.cpp:355] _arduino_event_cb(): STA Connected: SSID: Oscar, BSSID: fe:a7:3a:8c:40:08, Channel: 6, Auth: WPA2_PSK
+[   696][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 4 - STA_CONNECTED
+[   758][V][WiFiGeneric.cpp:369] _arduino_event_cb(): STA Got New IP:172.20.10.2
+[   759][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 7 - STA_GOT_IP
+[   762][D][WiFiGeneric.cpp:1098] _eventCallback(): STA IP: 172.20.10.2, MASK: 255.255.255.240, GW: 172.20.10.1
+.[  1191][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1192][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1197][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  3014][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  8025][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[  8026][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[  8027][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[  8056][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  9464][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 11314][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 11315][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 11318][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 11328][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4017'
+[ 11335][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 11343][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 11348][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 11354][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4017
+[ 11360][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+55 ms
+[ 11988][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 11989][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 12848][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 13984][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 13985][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 13989][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 13998][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4017'
+[ 14006][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 14013][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 14018][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 14024][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4017
+[ 14030][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+E (20410) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+E (20410) task_wdt:  - IDLE (CPU 0)
+E (20410) task_wdt: Tasks currently running:
+E (20410) task_wdt: CPU 0: showingImage
+E (20410) task_wdt: CPU 1: IDLE
+E (20410) task_wdt: Aborting.
+
+abort() was called at PC 0x401166a0 on core 0
+
+
+Backtrace: 0x40083d91:0x3ffbee1c |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 3b0be56f04246bae
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+[    28][D][esp32-hal-cpu.c:244] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+[   481][I][esp32-hal-i2c.c:75] i2cInit(): Initialising I2C Master: sda=33 scl=32 freq=100000
+[   500][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 0 - WIFI_READY
+[   600][V][WiFiGeneric.cpp:97] set_esp_interface_ip(): Configuring Station static IP: 0.0.0.0, MASK: 0.0.0.0, GW: 0.0.0.0
+[   598][V][WiFiGeneric.cpp:340] _arduino_event_cb(): STA Started
+[   606][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 2 - STA_START
+[   686][V][WiFiGeneric.cpp:355] _arduino_event_cb(): STA Connected: SSID: Oscar, BSSID: fe:a7:3a:8c:40:08, Channel: 6, Auth: WPA2_PSK
+[   687][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 4 - STA_CONNECTED
+[   752][V][WiFiGeneric.cpp:369] _arduino_event_cb(): STA Got New IP:172.20.10.2
+[   753][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 7 - STA_GOT_IP
+[   756][D][WiFiGeneric.cpp:1098] _eventCallback(): STA IP: 172.20.10.2, MASK: 255.255.255.240, GW: 172.20.10.1
+.[  1190][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1191][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1196][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  2590][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  2998][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[  2999][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[  3003][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[  3013][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4017'
+[  3020][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[  3027][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[  3033][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[  3038][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4017
+[  3044][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+53 ms
+[  4397][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  4398][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[  4417][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[  4418][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[  4420][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+HTTP GET returned negative or zero response code, error: connection lost
+[  4447][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  6081][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  6478][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[  6478][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[  6482][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[  6492][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4017'
+[  6499][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[  6506][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[  6512][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[  6518][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4017
+[  6524][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+E (23293) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+E (23293) task_wdt:  - IDLE (CPU 0)
+E (23293) task_wdt: Tasks currently running:
+E (23293) task_wdt: CPU 0: showingImage
+E (23293) task_wdt: CPU 1: IDLE
+E (23293) task_wdt: Aborting.
+
+abort() was called at PC 0x401166a0 on core 0
+
+
+Backtrace: 0x40083d91:0x3ffbee1c |<-CORRUPTED
+
+
+
+
+ELF file SHA256: 3b0be56f04246bae
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4

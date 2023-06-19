@@ -1,0 +1,131 @@
+......ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+[    26][D][esp32-hal-cpu.c:244] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+[   481][I][esp32-hal-i2c.c:75] i2cInit(): Initialising I2C Master: sda=33 scl=32 freq=100000
+[   500][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 0 - WIFI_READY
+[   600][V][WiFiGeneric.cpp:97] set_esp_interface_ip(): Configuring Station static IP: 0.0.0.0, MASK: 0.0.0.0, GW: 0.0.0.0
+[   598][V][WiFiGeneric.cpp:340] _arduino_event_cb(): STA Started
+[   606][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 2 - STA_START
+[   835][V][WiFiGeneric.cpp:355] _arduino_event_cb(): STA Connected: SSID: Oscar, BSSID: ba:ed:5c:9a:19:81, Channel: 6, Auth: WPA2_PSK
+[   836][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 4 - STA_CONNECTED
+[   876][V][WiFiGeneric.cpp:369] _arduino_event_cb(): STA Got New IP:172.20.10.2
+[   876][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 7 - STA_GOT_IP
+[   879][D][WiFiGeneric.cpp:1098] _eventCallback(): STA IP: 172.20.10.2, MASK: 255.255.255.240, GW: 172.20.10.1
+.[  1164][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1165][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1171][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+Sending password
+[  5332][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/new-passcode
+[  5333][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /new-passcode
+[  5340][D][HTTPClient.cpp:598] sendRequest(): request type: 'POST' redirCount: 0
+
+[  5382][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[  5878][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[  5879][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 18'
+[  5882][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[  5889][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[  5896][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[  5904][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[  5909][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[  5915][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 18
+[  5921][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+Passcode added: 3333
+[  5940][D][HTTPClient.cpp:388] disconnect(): still data in buffer (18), clean up.
+
+[  5940][E][WiFiClient.cpp:517] flush(): fail on fd 49, errno: 11, "No more processes"
+[  5947][D][HTTPClient.cpp:395] disconnect(): tcp stop
+[ 11741][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 11743][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[ 11748][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 16759][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 49
+[ 16761][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[ 16763][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[ 16791][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 16791][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[ 16797][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+Sending password
+[ 23276][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/new-passcode
+[ 23277][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /new-passcode
+[ 23284][D][HTTPClient.cpp:598] sendRequest(): request type: 'POST' redirCount: 0
+
+[ 23499][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 24005][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 24006][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 18'
+[ 24009][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[ 24016][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 24023][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[ 24031][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 24036][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 24042][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 18
+[ 24048][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+Passcode added: 6666
+[ 24067][D][HTTPClient.cpp:388] disconnect(): still data in buffer (18), clean up.
+
+[ 24067][E][WiFiClient.cpp:517] flush(): fail on fd 50, errno: 11, "No more processes"
+[ 24075][D][HTTPClient.cpp:395] disconnect(): tcp stop
+[ 29815][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 29817][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[ 29822][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+Sending password
+[ 34432][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/new-passcode
+[ 34433][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /new-passcode
+[ 34440][D][HTTPClient.cpp:598] sendRequest(): request type: 'POST' redirCount: 0
+
+E (37456) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+E (37456) task_wdt:  - IDLE (CPU 0)
+E (37456) task_wdt: Tasks currently running:
+E (37456) task_wdt: CPU 0: tiT
+E (37456) task_wdt: CPU 1: IDLE
+E (37456) task_wdt: Aborting.
+
+abort() was called at PC 0x40115edc on core 0
+
+
+Backtrace: 0x40083d91:0x3ffbee0c |<-CORRUPTED
+
+
+
+
+ELF file SHA256: d3ccf5f47e85bbbf
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+[    29][D][esp32-hal-cpu.c:244] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+[   485][I][esp32-hal-i2c.c:75] i2cInit(): Initialising I2C Master: sda=33 scl=32 freq=100000
+[   504][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 0 - WIFI_READY
+[   605][V][WiFiGeneric.cpp:97] set_esp_interface_ip(): Configuring Station static IP: 0.0.0.0, MASK: 0.0.0.0, GW: 0.0.0.0
+[   603][V][WiFiGeneric.cpp:340] _arduino_event_cb(): STA Started
+[   610][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 2 - STA_START
+[  1006][V][WiFiGeneric.cpp:355] _arduino_event_cb(): STA Connected: SSID: Oscar, BSSID: ba:ed:5c:9a:19:81, Channel: 6, Auth: WPA2_PSK
+[  1007][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 4 - STA_CONNECTED
+[  1068][V][WiFiGeneric.cpp:369] _arduino_event_cb(): STA Got New IP:172.20.10.2
+[  1069][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 7 - STA_GOT_IP
+[  1072][D][WiFiGeneric.cpp:1098] _eventCallback(): STA IP: 172.20.10.2, MASK: 255.255.255.240, GW: 172.20.10.1
+.[  1169][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1170][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1175][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+

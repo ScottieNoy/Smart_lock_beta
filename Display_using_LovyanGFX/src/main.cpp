@@ -26,6 +26,7 @@ LGFX gfx;
 bool showImage = false;
 bool sendPassword = false;
 char * password;
+bool taskCreated = false;
 
 
 /* Display flushing */
@@ -64,37 +65,44 @@ const char* streamUrl = "http://172.20.10.13/snapshot";
 int xPos = 0;
 int yPos = 60;
 
-void showingImage() {
-  http.begin(streamUrl);
-  int httpCode = http.GET();
-  if(httpCode > 0) {
-    if(httpCode == HTTP_CODE_OK) {
-      // Free previous image data if it exists
-      if(jpegData != NULL) {
-          free(jpegData);
-          jpegData = NULL;
-      }
-      // Get the JPEG data
-      jpegDataLen = http.getSize();
-      jpegData = (uint8_t*) malloc(jpegDataLen);
-      if(jpegData == NULL) {
-          Serial.println("Failed to allocate memory for JPEG data");
-          return;
-      }
-      WiFiClient * stream = http.getStreamPtr();
-      stream->setTimeout(500);
-      stream->readBytes(jpegData, jpegDataLen);
-      uint32_t t = millis();
-      
-      gfx.drawJpg(jpegData, jpegDataLen, xPos, yPos,480,320);
-      
-      t = millis() - t;
-      Serial.print(t); Serial.println(" ms");
+void showingImage(void * pvParameters) {
+    for(;;) {
+        http.begin(streamUrl);
+        int httpCode = http.GET();
+        if(httpCode > 0) {
+            if(httpCode == HTTP_CODE_OK) {
+            // Free previous image data if it exists
+            if(jpegData != NULL) {
+                free(jpegData);
+                jpegData = NULL;
+            }
+            // Get the JPEG data
+            jpegDataLen = http.getSize();
+            jpegData = (uint8_t*) malloc(jpegDataLen);
+            if(jpegData == NULL) {
+                Serial.println("Failed to allocate memory for JPEG data");
+                return;
+            }
+            WiFiClient * stream = http.getStreamPtr();
+            stream->setTimeout(500);
+            stream->readBytes(jpegData, jpegDataLen);
+            uint32_t t = millis();
+            
+            gfx.drawJpg(jpegData, jpegDataLen, xPos, yPos,480,320);
+            
+            t = millis() - t;
+            Serial.print(t); Serial.println(" ms");
+            }
+        }
+        else {
+            Serial.printf("HTTP GET failed, error: %s\n", http.errorToString(httpCode).c_str());
+            
+        }
+        vTaskDelay(10 / portTICK_PERIOD_MS);
+
     }
-  }
-  else {
-    Serial.printf("HTTP GET failed, error: %s\n", http.errorToString(httpCode).c_str());
-  }
+    
+          
 }
 
 /*Read the touchpad*/
@@ -148,25 +156,43 @@ void setup()
     pinMode(LED_PIN_R, OUTPUT);
     pinMode(LED_PIN_G, OUTPUT);
     pinMode(LED_PIN_B, OUTPUT);
-    digitalWrite(LED_PIN_R, LOW); // Turn off Red LED
-    digitalWrite(LED_PIN_G, LOW); // Turn off Green LED
-    digitalWrite(LED_PIN_B, LOW); // Turn off Blue LED
-
+    digitalWrite(LED_PIN_R, HIGH); // Turn off Red LED
+    digitalWrite(LED_PIN_G, HIGH); // Turn off Green LED
+    digitalWrite(LED_PIN_B, HIGH); // Turn off Blue LED
     ui_init();
+
     //lv_demo_benchmark();
 
 }
 
+TaskHandle_t Task1;
+
+
 void loop()
 {
-    if(showImage) {
-        showingImage();
+    if(showImage && !taskCreated) {
+        taskCreated = true;
+        Task1 = new TaskHandle_t;
+        xTaskCreatePinnedToCore(showingImage, "showingImage", 10000, NULL, 1, &Task1, 0);
+    } else if(!showImage && taskCreated) {
+        taskCreated = false;
+        vTaskDelete(Task1);
     }
     if(sendPassword) {
         Serial.println("Sending password");
         // http.begin("http://")
         Serial.print("Password: ");
         Serial.println(password);
+        if((String)password == "1234") {
+            digitalWrite(LED_PIN_G, LOW); // Turn on Green LED
+            delay(1000);
+            digitalWrite(LED_PIN_G, HIGH); // Turn off Green LED
+        } else {
+            digitalWrite(LED_PIN_R, LOW); // Turn on Red LED
+            delay(1000);
+            digitalWrite(LED_PIN_R, HIGH); // Turn off Red LED
+        }
+        lv_textarea_set_text(ui_passwordArea, "");
         sendPassword = false;
     }
     lv_timer_handler(); /* let the GUI do its work */

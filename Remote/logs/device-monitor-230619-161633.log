@@ -1,0 +1,1672 @@
+[  7835][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  8350][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[  8350][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[  8352][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[  8383][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 13387][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 13388][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[ 13391][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET returned negative or zero response code, error: connection refused
+[ 13419][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+[    28][D][esp32-hal-cpu.c:244] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+[   481][I][esp32-hal-i2c.c:75] i2cInit(): Initialising I2C Master: sda=33 scl=32 freq=100000
+[   500][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 0 - WIFI_READY
+[   598][V][WiFiGeneric.cpp:97] set_esp_interface_ip(): Configuring Station static IP: 0.0.0.0, MASK: 0.0.0.0, GW: 0.0.0.0
+[   596][V][WiFiGeneric.cpp:340] _arduino_event_cb(): STA Started
+[   604][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 2 - STA_START
+[   685][V][WiFiGeneric.cpp:355] _arduino_event_cb(): STA Connected: SSID: Oscar, BSSID: fe:a7:3a:8c:40:08, Channel: 6, Auth: WPA2_PSK
+[   687][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 4 - STA_CONNECTED
+[   739][V][WiFiGeneric.cpp:369] _arduino_event_cb(): STA Got New IP:172.20.10.2
+[   740][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 7 - STA_GOT_IP
+[   743][D][WiFiGeneric.cpp:1098] _eventCallback(): STA IP: 172.20.10.2, MASK: 255.255.255.240, GW: 172.20.10.1
+.[  1186][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1187][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1192][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  3967][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  4474][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[  4474][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[  4476][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[  4506][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  7128][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  7635][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[  7635][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[  7637][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[  7667][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 10193][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 10707][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 10707][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 10709][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 10739][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 11307][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 11822][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 11822][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 11824][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 11854][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 16858][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 16859][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[ 16862][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET returned negative or zero response code, error: connection refused
+[ 16890][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 17453][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 17968][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 17968][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 17970][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 17999][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 21564][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 22080][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 22080][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 22082][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 22112][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 23515][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 23817][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 23818][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 23822][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 23832][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4086'
+[ 23839][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 23846][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 23852][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 23857][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4086
+[ 23863][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+55 ms
+[ 23947][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 23948][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 24540][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 25057][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 25057][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 25059][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 25089][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 26166][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 26673][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 26673][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 26675][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 26704][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 27192][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 27709][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 27710][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 27711][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 27741][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 28653][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 28922][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 28923][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 28927][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 28937][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4560'
+[ 28944][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 28951][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 28956][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 28962][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4560
+[ 28968][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+53 ms
+[ 29302][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 29303][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 29356][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 29583][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 29584][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 29589][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 29598][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4714'
+[ 29605][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 29612][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 29618][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 29624][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4714
+[ 29630][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+54 ms
+[ 30111][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 30112][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 30358][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 30573][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 30574][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 30578][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 30588][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4884'
+[ 30595][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 30602][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 30608][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 30614][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4884
+[ 30620][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+54 ms
+[ 31344][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 31345][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 31590][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 31888][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 31889][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 31893][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 31903][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4884'
+[ 31910][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 31917][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 31925][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 31928][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4884
+[ 31934][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+53 ms
+[ 32288][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 32289][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 32329][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 32535][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 32536][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 32540][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 32550][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4884'
+[ 32557][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 32564][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 32570][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 32576][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4884
+[ 32582][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+55 ms
+[ 33287][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 33288][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 33351][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 33529][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 33530][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 33533][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 33543][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4884'
+[ 33551][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 33558][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 33563][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 33569][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4884
+[ 33575][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+54 ms
+[ 34345][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 34346][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 34416][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 34552][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 34553][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 34556][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 34566][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4884'
+[ 34574][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 34581][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 34586][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 34592][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4884
+[ 34598][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+53 ms
+[ 35134][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 35135][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 35175][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 35591][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 35592][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 35596][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 35606][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4884'
+[ 35615][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 35620][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 35625][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 35631][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4884
+[ 35637][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+54 ms
+[ 36256][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 36257][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 36319][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 36607][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 36611][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 36612][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 36622][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 3735'
+[ 36630][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 36636][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 36642][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 36648][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 3735
+[ 36654][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+57 ms
+[ 36737][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 36738][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 36761][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 36919][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 36919][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 36923][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 36933][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4077'
+[ 36940][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 36947][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 36953][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 36959][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4077
+[ 36965][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+56 ms
+[ 37282][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 37283][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 37307][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 37528][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 37528][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 37532][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 37543][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4884'
+[ 37549][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 37556][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 37562][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 37568][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4884
+[ 37574][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+57 ms
+[ 37660][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 37661][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 37834][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 38039][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 38039][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 38043][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 38053][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4884'
+[ 38060][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 38067][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 38073][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 38079][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4884
+[ 38085][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+52 ms
+[ 38725][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 38726][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 38780][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 38961][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 38962][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 38966][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 38976][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4884'
+[ 38985][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 38990][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 38995][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 39001][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4884
+[ 39007][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+51 ms
+[ 39107][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 39108][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 39272][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 39473][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 39474][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 39477][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 39487][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4088'
+[ 39495][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 39502][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 39507][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 39513][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4088
+[ 39519][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+56 ms
+[ 39603][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 39604][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 39610][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 39613][W][HTTPClient.cpp:1483] returnError(): error(-2): send header failed
+HTTP GET returned negative or zero response code, error: send header failed
+[ 39641][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 39697][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 39894][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 39895][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 39899][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 39909][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4884'
+[ 39916][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 39923][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 39928][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 39934][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4884
+[ 39940][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+53 ms
+[ 40023][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 40024][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 40049][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 40390][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 40391][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 40395][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 40405][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 3352'
+[ 40412][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 40419][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 40424][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 40430][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 3352
+[ 40436][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+52 ms
+[ 40760][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 40761][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 40819][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 41107][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 41108][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 41111][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 41124][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 3907'
+[ 41128][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 41135][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 41141][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 41147][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 3907
+[ 41153][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+52 ms
+[ 41583][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 41584][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 41730][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 41930][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 41931][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 41935][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 41944][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 3910'
+[ 41952][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 41959][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 41964][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 41970][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 3910
+[ 41976][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+51 ms
+[ 42299][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 42300][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 42350][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 42537][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 42538][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 42542][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 42551][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 3928'
+[ 42559][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 42566][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 42571][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 42577][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 3928
+[ 42583][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+51 ms
+[ 43013][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 43014][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 43035][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 43364][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 43364][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 43368][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 43378][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 3930'
+[ 43385][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 43392][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 43398][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 43404][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 3930
+[ 43410][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+52 ms
+[ 43642][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 43643][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 43662][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 43663][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[ 43665][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+HTTP GET returned negative or zero response code, error: connection lost
+[ 43692][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 43710][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 44087][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 44087][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 44091][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 44101][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 3943'
+[ 44108][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 44115][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 44121][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 44127][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 3943
+[ 44133][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+53 ms
+[ 44548][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 44549][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 44798][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 44799][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[ 44800][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+HTTP GET returned negative or zero response code, error: connection lost
+[ 44827][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 45101][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 45312][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 45313][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 45317][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 45327][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 3954'
+[ 45334][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 45344][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 45346][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 45352][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 3954
+[ 45358][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+55 ms
+[ 45440][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 45441][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 45722][D][WiFiClient.cpp:546] connected(): Disconnected: RES: -1, ERR: 104
+[ 45723][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[ 45724][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+HTTP GET returned negative or zero response code, error: connection lost
+[ 45751][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 45920][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 46228][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 46229][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 46232][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 46243][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 3965'
+[ 46250][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 46257][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 46262][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 46268][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 3965
+[ 46274][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+55 ms
+[ 46356][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 46357][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 46638][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 47075][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 47076][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 47080][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 47090][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4020'
+[ 47097][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 47107][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 47110][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 47115][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4020
+[ 47121][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+57 ms
+[ 47205][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 47206][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 47459][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 47867][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 47868][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 47872][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 47881][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4018'
+[ 47889][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 47896][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 47901][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 47907][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4018
+[ 47913][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+51 ms
+[ 48243][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 48244][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 48288][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 48486][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 48487][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 48491][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 48501][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4036'
+[ 48509][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 48515][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 48521][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 48527][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4036
+[ 48533][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+55 ms
+[ 48614][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 48615][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 48623][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 48624][W][HTTPClient.cpp:1483] returnError(): error(-2): send header failed
+HTTP GET returned negative or zero response code, error: send header failed
+[ 48652][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 48688][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 48885][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 48886][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 48890][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 48900][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4033'
+[ 48907][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 48918][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 48920][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 48925][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4033
+[ 48931][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+53 ms
+[ 49978][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 49979][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 50047][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 50452][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 50453][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 50457][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 50467][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4019'
+[ 50474][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 50481][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 50487][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 50493][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4019
+[ 50499][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+51 ms
+[ 50902][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 50903][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 51042][D][WiFiClient.cpp:546] connected(): Disconnected: RES: -1, ERR: 104
+[ 51043][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[ 51044][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+HTTP GET returned negative or zero response code, error: connection lost
+[ 51071][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 51091][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 51351][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 51352][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 51356][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 51365][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4031'
+[ 51373][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 51381][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 51385][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 51391][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4031
+[ 51397][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+57 ms
+[ 51480][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 51481][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 51658][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 51975][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 51976][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 51982][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 51990][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4062'
+[ 51997][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 52004][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 52011][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 52015][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4062
+[ 52021][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+52 ms
+[ 52100][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 52101][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 52272][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 52273][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[ 52275][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+HTTP GET returned negative or zero response code, error: connection lost
+[ 52302][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 52475][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 52681][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 52682][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 52686][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 52696][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4062'
+[ 52703][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 52710][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 52716][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 52722][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4062
+[ 52728][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+52 ms
+[ 53151][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 53152][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 53202][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 53398][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 53399][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 53402][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 53412][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4062'
+[ 53419][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 53426][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 53432][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 53438][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4062
+[ 53444][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+52 ms
+[ 53905][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 53906][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 53935][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 53936][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[ 53937][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+HTTP GET returned negative or zero response code, error: connection lost
+[ 53965][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 54215][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 54524][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 54525][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 54529][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 54538][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4062'
+[ 54546][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 54553][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 54558][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 54564][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4062
+[ 54570][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+52 ms
+[ 54799][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 54800][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 54829][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 55136][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 55137][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 55140][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 55150][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4062'
+[ 55157][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 55164][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 55170][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 55176][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4062
+[ 55182][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+54 ms
+[ 55538][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 55539][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 55750][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 55750][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[ 55752][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+HTTP GET returned negative or zero response code, error: connection lost
+[ 55779][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 56185][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 56372][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 56373][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 56377][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 56386][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 3011'
+[ 56394][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 56401][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 56406][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 56412][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 3011
+[ 56418][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+53 ms
+[ 56496][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 56497][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 56678][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 56679][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[ 56681][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+HTTP GET returned negative or zero response code, error: connection lost
+[ 56708][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 56991][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 57286][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 57287][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 57290][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 57300][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4884'
+[ 57307][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 57314][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 57320][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 57326][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4884
+[ 57332][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+52 ms
+[ 57482][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 57484][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 57545][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 57703][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 57704][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 57707][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 57720][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4884'
+[ 57725][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 57732][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 57737][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 57743][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4884
+[ 57749][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+53 ms
+[ 58684][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 58685][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 58730][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 59026][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 59027][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 59030][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 59040][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4884'
+[ 59047][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 59054][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 59060][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 59066][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4884
+[ 59073][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+53 ms
+[ 59719][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 59720][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+Unlocking door
+[ 59745][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/unlock-notification
+[ 59746][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /unlock-notification
+[ 59754][D][HTTPClient.cpp:598] sendRequest(): request type: 'POST' redirCount: 0
+
+[ 59950][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 60058][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 60107][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 60108][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 60112][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 60122][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4884'
+[ 60129][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 60136][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 60142][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 60148][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4884
+[ 60154][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+53 ms
+[ 61139][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 61140][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 61283][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 61364][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 61365][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 13'
+[ 61367][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[ 61375][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 61382][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[ 61389][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 61395][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 61401][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 13
+[ 61407][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+[ 61413][D][HTTPClient.cpp:388] disconnect(): still data in buffer (13), clean up.
+
+[ 61420][E][WiFiClient.cpp:517] flush(): fail on fd 50, errno: 11, "No more processes"
+[ 61432][D][HTTPClient.cpp:395] disconnect(): tcp stop
+[ 61484][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 61486][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 61489][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 61499][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4884'
+[ 61510][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 61513][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 61519][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 61525][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4884
+[ 61531][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+[ 67342][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 67343][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[ 67350][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 67356][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 67442][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 67442][W][HTTPClient.cpp:1483] returnError(): error(-2): send header failed
+HTTP GET returned negative or zero response code, error: send header failed
+[ 67465][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 67631][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 67838][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 67839][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 67843][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 67853][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 3941'
+[ 67860][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 67867][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 67873][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 67879][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 3941
+[ 67885][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+52 ms
+[ 68108][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 68109][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 68242][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 68242][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[ 68244][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+HTTP GET returned negative or zero response code, error: connection lost
+[ 68271][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 68756][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 69062][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 69063][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 69067][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 69077][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 3959'
+[ 69084][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 69091][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 69097][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 69102][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 3959
+[ 69108][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+52 ms
+[ 69739][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 69740][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 69886][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 70401][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 70401][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 70403][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 70434][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 70599][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 70909][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 70910][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 70914][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 70923][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 3959'
+[ 70931][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 70938][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 70943][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 70949][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 3959
+[ 70955][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+52 ms
+[ 71171][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 71172][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 71191][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 71192][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[ 71193][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+HTTP GET returned negative or zero response code, error: connection lost
+[ 71221][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 71486][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 71725][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 71726][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 71729][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 71739][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 3959'
+[ 71746][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 71753][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 71759][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 71765][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 3959
+[ 71772][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+55 ms
+[ 72006][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 72007][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 72239][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 72548][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 72549][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 72553][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 72563][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 3959'
+[ 72570][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 72577][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 72583][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 72588][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 3959
+[ 72594][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+55 ms
+[ 72812][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 72813][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 72855][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 73053][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 73053][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 73057][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 73067][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 3959'
+[ 73074][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 73082][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 73087][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 73093][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 3959
+[ 73099][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+Unlocking door
+[ 73438][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/unlock-notification
+[ 73439][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /unlock-notification
+[ 73447][D][HTTPClient.cpp:598] sendRequest(): request type: 'POST' redirCount: 0
+
+52 ms
+[ 73551][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 73552][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 73574][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 73596][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 73975][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 73976][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 73980][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 73990][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 3959'
+[ 73997][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 74004][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 74010][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 74016][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 3959
+[ 74022][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+52 ms
+[ 74243][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 74244][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 74385][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 74386][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[ 74387][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+HTTP GET returned negative or zero response code, error: connection lost
+[ 74414][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 74693][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 75199][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 75200][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 75203][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 75210][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 75222][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 13'
+[ 75227][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[ 75232][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 75235][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 75249][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[ 75256][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 75262][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 75268][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 13
+[ 75274][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+[ 75280][D][HTTPClient.cpp:388] disconnect(): still data in buffer (13), clean up.
+
+[ 75287][E][WiFiClient.cpp:517] flush(): fail on fd 48, errno: 11, "No more processes"
+[ 75297][D][HTTPClient.cpp:395] disconnect(): tcp stop
+
+assert failed: xQueueGenericSend queue.c:821 (!( ( pvItemToQueue == ((void *)0) ) && ( pxQueue->uxItemSize != ( UBaseType_t ) 0U ) ))
+
+
+Backtrace: 0x40083d91:0x3ffb2bb0 0x4008db45:0x3ffb2bd0 0x40094021:0x3ffb2bf0 0x4008e5fa:0x3ffb2d20 0x40132c12:0x3ffb2d60 0x40121a73:0x3ffb2d80 0x4013455a:0x3ffb2db0 0x40129641:0x3ffb2dd0 0x4012e896:0x3ffb2e40 0x401328e2:0x3ffb2e70 0x40123949:0x3ffb2e90
+
+
+
+
+ELF file SHA256: a7d142e2df1a9140
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+[    26][D][esp32-hal-cpu.c:244] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+[   479][I][esp32-hal-i2c.c:75] i2cInit(): Initialising I2C Master: sda=33 scl=32 freq=100000
+[   498][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 0 - WIFI_READY
+[   598][V][WiFiGeneric.cpp:97] set_esp_interface_ip(): Configuring Station static IP: 0.0.0.0, MASK: 0.0.0.0, GW: 0.0.0.0
+[   596][V][WiFiGeneric.cpp:340] _arduino_event_cb(): STA Started
+[   604][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 2 - STA_START
+[   732][V][WiFiGeneric.cpp:355] _arduino_event_cb(): STA Connected: SSID: Oscar, BSSID: fe:a7:3a:8c:40:08, Channel: 6, Auth: WPA2_PSK
+[   733][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 4 - STA_CONNECTED
+[   765][V][WiFiGeneric.cpp:369] _arduino_event_cb(): STA Got New IP:172.20.10.2
+[   766][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 7 - STA_GOT_IP
+[   769][D][WiFiGeneric.cpp:1098] _eventCallback(): STA IP: 172.20.10.2, MASK: 255.255.255.240, GW: 172.20.10.1
+.[  1186][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1188][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1193][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  2541][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  2718][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[  2719][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[  2723][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[  2733][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4051'
+[  2740][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[  2747][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[  2753][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[  2758][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4051
+[  2764][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+57 ms
+[  3135][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  3136][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[  3429][D][WiFiClient.cpp:546] connected(): Disconnected: RES: -1, ERR: 104
+[  3430][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[  3431][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+HTTP GET returned negative or zero response code, error: connection lost
+[  3459][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  3737][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  4058][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[  4059][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[  4063][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[  4072][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4065'
+[  4080][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[  4087][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[  4093][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[  4098][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4065
+[  4104][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+51 ms
+[  4438][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  4439][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[  4663][D][WiFiClient.cpp:546] connected(): Disconnected: RES: -1, ERR: 104
+[  4664][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[  4665][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+HTTP GET returned negative or zero response code, error: connection lost
+[  4693][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+Unlocking door
+[  4863][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/unlock-notification
+[  4864][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /unlock-notification
+[  4872][D][HTTPClient.cpp:598] sendRequest(): request type: 'POST' redirCount: 0
+
+[  4931][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  5015][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[  5066][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[  5067][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[  5071][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[  5081][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4065'
+[  5088][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[  5095][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[  5101][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[  5106][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4065
+[  5112][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+56 ms
+[  5451][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  5452][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[  5478][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  5686][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[  5687][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[  5691][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[  5701][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4065'
+[  5708][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[  5715][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[  5721][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[  5726][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4065
+[  5732][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+52 ms
+[  6468][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  6469][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[  6492][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[  6492][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 13'
+[  6495][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[  6503][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[  6510][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[  6516][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  6517][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[  6529][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[  6535][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 13
+[  6541][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+[  6547][D][HTTPClient.cpp:388] disconnect(): still data in buffer (13), clean up.
+
+[  6555][E][WiFiClient.cpp:517] flush(): fail on fd 50, errno: 11, "No more processes"
+[  6565][D][HTTPClient.cpp:395] disconnect(): tcp stop
+[ 12453][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 12454][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[ 12460][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 12467][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 12564][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 12565][W][HTTPClient.cpp:1483] returnError(): error(-2): send header failed
+HTTP GET returned negative or zero response code, error: send header failed
+[ 12588][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 12673][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 12858][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 12859][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 12863][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 12873][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4065'
+[ 12880][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 12887][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 12893][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 12898][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4065
+[ 12904][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+52 ms
+[ 13629][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 13630][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 13711][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 13711][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[ 13713][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+HTTP GET returned negative or zero response code, error: connection lost
+[ 13740][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 14085][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 14292][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 14293][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 14297][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 14306][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4065'
+[ 14314][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 14321][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 14326][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 14332][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4065
+[ 14338][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+52 ms
+[ 14860][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 14861][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 14901][D][WiFiClient.cpp:546] connected(): Disconnected: RES: -1, ERR: 104
+[ 14902][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[ 14903][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+HTTP GET returned negative or zero response code, error: connection lost
+[ 14930][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 15008][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 15416][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 15417][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 15421][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 15431][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4065'
+[ 15438][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 15445][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 15450][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 15456][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4065
+[ 15462][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+53 ms
+[ 15899][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 15900][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 15943][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 16128][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 16129][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 16133][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 16143][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4065'
+[ 16150][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 16157][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 16163][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 16169][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4065
+[ 16175][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+52 ms
+[ 16804][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 16805][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 16876][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 16877][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[ 16878][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+HTTP GET returned negative or zero response code, error: connection lost
+[ 16906][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 17254][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 17481][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 17483][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 17486][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 17496][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4065'
+[ 17503][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 17510][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 17516][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 17523][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4065
+[ 17528][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+51 ms
+[ 18042][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 18042][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 18281][D][WiFiClient.cpp:546] connected(): Disconnected: RES: -1, ERR: 104
+[ 18282][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[ 18283][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+HTTP GET returned negative or zero response code, error: connection lost
+[ 18310][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 18591][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 18900][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 18901][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 18905][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 18915][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4065'
+[ 18922][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 18929][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 18935][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 18940][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4065
+[ 18947][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+54 ms
+[ 19026][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 19026][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 19197][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 19198][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[ 19200][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+HTTP GET returned negative or zero response code, error: connection lost
+[ 19227][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 19514][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 19812][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 19813][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 19817][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 19830][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4065'
+[ 19834][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 19841][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 19847][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 19852][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4065
+[ 19859][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+53 ms
+[ 19990][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 19991][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 20508][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 20508][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 20510][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 20539][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 20843][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 21054][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 21055][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 21058][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 21068][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4065'
+[ 21075][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 21082][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 21088][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 21094][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4065
+[ 21100][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+52 ms
+[ 21320][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 21321][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 21560][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 22067][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 22067][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 22069][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 22100][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 23095][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 23601][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 23602][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 23606][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 23615][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4065'
+[ 23623][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 23630][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 23635][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 23641][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4065
+[ 23647][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+52 ms
+[ 24075][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 24076][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 24216][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 24217][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[ 24219][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+HTTP GET returned negative or zero response code, error: connection lost
+[ 24246][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 24534][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 24842][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 24843][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 24847][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 24857][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4065'
+[ 24864][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 24871][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 24876][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 24882][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4065
+[ 24888][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+53 ms
+[ 25005][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 25005][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 25084][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 25085][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[ 25086][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+HTTP GET returned negative or zero response code, error: connection lost
+[ 25113][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 25449][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 25664][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 25665][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 25669][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 25679][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4065'
+[ 25686][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 25693][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 25699][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 25705][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4065
+[ 25710][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+54 ms
+[ 26179][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 26180][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 26249][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 26250][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[ 26251][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+HTTP GET returned negative or zero response code, error: connection lost
+[ 26279][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 26582][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 26989][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 26990][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 26994][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 27007][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4065'
+[ 27011][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 27018][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 27024][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 27029][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4065
+[ 27035][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+51 ms
+[ 27352][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 27353][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 27373][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 27374][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[ 27375][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+HTTP GET returned negative or zero response code, error: connection lost
+[ 27404][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 27703][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 28029][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 28030][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 28034][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 28044][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4065'
+[ 28051][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 28058][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 28064][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 28070][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4065
+[ 28076][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+52 ms
+[ 29098][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 29099][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 29104][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 29108][W][HTTPClient.cpp:1483] returnError(): error(-2): send header failed
+HTTP GET returned negative or zero response code, error: send header failed
+[ 29136][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 29315][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 29580][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 29581][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 29585][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 29595][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4065'
+[ 29602][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 29609][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 29615][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 29620][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4065
+[ 29626][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+54 ms
+[ 29922][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 29923][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 29996][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 29997][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[ 30000][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+HTTP GET returned negative or zero response code, error: connection lost
+[ 30026][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 30172][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 30678][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 30678][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 30680][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 30709][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 31489][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 31807][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 31808][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 31811][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 31821][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4065'
+[ 31828][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 31835][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 31841][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 31847][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4065
+[ 31853][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+53 ms
+[ 32088][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 32090][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 32412][D][WiFiClient.cpp:546] connected(): Disconnected: RES: -1, ERR: 104
+[ 32413][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[ 32414][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+HTTP GET returned negative or zero response code, error: connection lost
+[ 32442][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 32716][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 33135][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 33136][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 33139][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 33150][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4065'
+[ 33156][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 33163][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 33169][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 33175][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4065
+[ 33181][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+55 ms
+[ 33381][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 33382][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 33402][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 33403][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[ 33404][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+HTTP GET returned negative or zero response code, error: connection lost
+[ 33432][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 33746][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 34001][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 34002][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 34006][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 34016][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4065'
+[ 34023][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 34030][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 34036][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 34041][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4065
+[ 34047][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+56 ms
+[ 34581][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 34583][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 34616][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 34618][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[ 34619][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+HTTP GET returned negative or zero response code, error: connection lost
+[ 34646][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 34970][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 35217][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 35222][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 35225][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 35235][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4065'
+[ 35243][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 35250][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 35255][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 35261][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4065
+[ 35267][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+52 ms
+[ 35475][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 35476][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 35496][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 35497][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[ 35498][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+HTTP GET returned negative or zero response code, error: connection lost
+[ 35525][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+Guru Meditation Error: Core  0 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x4008e5ff  PS      : 0x00060e30  A0      : 0x80132c15  A1      : 0x3ffb2d20  
+A2      : 0x00000002  A3      : 0x00000000  A4      : 0x00000000  A5      : 0x00000000  
+A6      : 0x00000005  A7      : 0x00000001  A8      : 0x80132b69  A9      : 0x3ffb2d00  
+A10     : 0x00000001  A11     : 0x3ffb92d4  A12     : 0x3ffb9288  A13     : 0x00000000  
+A14     : 0x3ffb92d4  A15     : 0x00000000  SAR     : 0x00000010  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000042  LBEG    : 0x40089f14  LEND    : 0x40089f2a  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4008e5fc:0x3ffb2d20 0x40132c12:0x3ffb2d60 0x40121a73:0x3ffb2d80 0x4013455a:0x3ffb2db0 0x40129641:0x3ffb2dd0 0x4012e896:0x3ffb2e40 0x401328e2:0x3ffb2e70 0x40123949:0x3ffb2e90
+
+
+
+
+ELF file SHA256: a7d142e2df1a9140
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+[    25][D][esp32-hal-cpu.c:244] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+[   478][I][esp32-hal-i2c.c:75] i2cInit(): Initialising I2C Master: sda=33 scl=32 freq=100000
+[   498][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 0 - WIFI_READY
+[   599][V][WiFiGeneric.cpp:97] set_esp_interface_ip(): Configuring Station static IP: 0.0.0.0, MASK: 0.0.0.0, GW: 0.0.0.0
+[   597][V][WiFiGeneric.cpp:340] _arduino_event_cb(): STA Started
+[   604][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 2 - STA_START
+[   692][V][WiFiGeneric.cpp:355] _arduino_event_cb(): STA Connected: SSID: Oscar, BSSID: fe:a7:3a:8c:40:08, Channel: 6, Auth: WPA2_PSK
+[   694][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 4 - STA_CONNECTED
+[   727][V][WiFiGeneric.cpp:369] _arduino_event_cb(): STA Got New IP:172.20.10.2
+[   728][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 7 - STA_GOT_IP
+[   731][D][WiFiGeneric.cpp:1098] _eventCallback(): STA IP: 172.20.10.2, MASK: 255.255.255.240, GW: 172.20.10.1
+.[  1186][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1188][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1193][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1550][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  1898][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[  1899][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[  1902][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[  1912][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4065'
+[  1920][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[  1929][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[  1932][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[  1938][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4065
+[  1944][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+59 ms
+[  2238][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  2240][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[  2371][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+Adding code
+[  6095][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/new-passcode
+[  6096][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /new-passcode
+[  6103][D][HTTPClient.cpp:598] sendRequest(): request type: 'POST' redirCount: 0
+
+[  6172][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[  6478][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[  6479][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 18'
+[  6482][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[  6490][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[  6497][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[  6504][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[  6509][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[  6515][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 18
+[  6521][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+Passcode added: 2580
+[  6540][D][HTTPClient.cpp:388] disconnect(): still data in buffer (18), clean up.
+
+[  6541][E][WiFiClient.cpp:517] flush(): fail on fd 48, errno: 11, "No more processes"
+[  6548][D][HTTPClient.cpp:395] disconnect(): tcp stop
+[ 12412][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 12414][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[ 12420][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 12426][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 12530][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 12530][W][HTTPClient.cpp:1483] returnError(): error(-2): send header failed
+HTTP GET returned negative or zero response code, error: send header failed
+[ 12553][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 12576][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 13083][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 13084][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 13085][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 13114][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 14348][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 14653][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 14654][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 14657][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 14667][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4065'
+[ 14675][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 14682][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 14687][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 14693][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4065
+[ 14699][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+57 ms
+[ 15173][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 15175][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 15248][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 15574][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 15575][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 15578][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 15588][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4065'
+[ 15596][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 15603][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 15608][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 15614][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4065
+[ 15620][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+Adding code
+[ 19100][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/new-passcode
+[ 19101][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /new-passcode
+[ 19108][D][HTTPClient.cpp:598] sendRequest(): request type: 'POST' redirCount: 0
+
+[ 19165][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 19511][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 19512][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 18'
+[ 19515][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[ 19523][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 19530][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[ 19537][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 19542][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 19548][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 18
+[ 19554][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+Passcode added: 2580
+[ 19573][D][HTTPClient.cpp:388] disconnect(): still data in buffer (18), clean up.
+
+[ 19574][E][WiFiClient.cpp:517] flush(): fail on fd 48, errno: 11, "No more processes"
+[ 19582][D][HTTPClient.cpp:395] disconnect(): tcp stop
+[ 25417][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 25419][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot

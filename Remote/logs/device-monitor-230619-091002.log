@@ -1,0 +1,627 @@
+[  3420][E][WiFiClient.cpp:495] available(): fail on fd 53, errno: 9, "Bad file number"
+[  3423][E][WiFiClient.cpp:495] available(): fail on fd -1, errno: 9, "Bad file number"
+[  3426][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  3432][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+[  3420][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  3426][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[  3426][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[  3426][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[  3426][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[  3423][E][WiFiClient.cpp:495] available(): fail on fd -1, errno: 9, "Bad file number"
+[  3478][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[  3425][E][WiFiClient.cpp:495] available(): fail on fd -1, errno: 9, "Bad file number"
+[  3425][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  3499][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[  3445][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+[  3451][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+[  3457][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+[  3463][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+[  3469][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+[  3427][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[  3481][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  3483][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+[  3500][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[  3504][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+HTTP GET failed, error: connection lost
+HTTP GET failed, error: connection lost
+HTTP GET failed, error: connection lost
+HTTP GET failed, error: connection lost
+HTTP GET failed, error: connection lost
+[  3543][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+HTTP GET failed, error: connection lost
+HTTP GET failed, error: connection lost
+HTTP GET failed, error: connection refused
+HTTP GET failed, error: connection refused
+[  3549][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[  3619][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  3629][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  3639][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  3631][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  3654][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  3655][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  3670][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  3663][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  3671][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  3680][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  3695][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  3703][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  3712][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  3719][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  3729][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  3735][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  3742][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  3756][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  3763][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  3767][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  3783][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  4631][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  4650][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  4737][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  4764][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  6336][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 51
+[  6337][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[  6340][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+[  6347][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET failed, error: connection refused
+[  6358][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[  6365][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[  6368][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+HTTP GET failed, error: connection lost
+[  6366][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+[  6366][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[  6365][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[  6397][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+[  6391][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+HTTP GET failed, error: connection lost
+[  6398][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  6421][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  6430][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+HTTP GET failed, error: connection lost
+HTTP GET failed, error: connection lost
+[  6431][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  6452][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  6459][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  6469][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  6478][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  6461][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  6503][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  6504][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  6510][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  6518][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  6524][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  6534][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  6535][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  6548][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  6558][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  7001][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  7002][E][WiFiClient.cpp:495] available(): fail on fd 48, errno: 9, "Bad file number"
+[  7002][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  7002][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  7018][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+[  7008][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+[  7011][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+HTTP GET failed, error: connection refused
+HTTP GET failed, error: connection refused
+[  7001][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  7060][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+[  7061][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+HTTP GET failed, error: connection refused
+[  7070][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  7082][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  7091][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  7083][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  7100][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  7129][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  7130][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  7136][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  7144][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  7150][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  7160][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  7297][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  7400][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  7608][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  7811][E][WiFiClient.cpp:495] available(): fail on fd 55, errno: 9, "Bad file number"
+[  7810][E][WiFiClient.cpp:495] available(): fail on fd 55, errno: 9, "Bad file number"
+[  7816][E][WiFiClient.cpp:495] available(): fail on fd -1, errno: 9, "Bad file number"
+[  7816][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  7816][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[  7819][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[  7824][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[  7848][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+[  7836][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+[  7842][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+[  7830][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection lost
+HTTP GET failed, error: connection lost
+HTTP GET failed, error: connection lost
+HTTP GET failed, error: connection refused
+[  7896][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  7897][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  7906][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  7907][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  7921][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  7930][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  7948][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  7949][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  7954][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  7966][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  7972][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  7979][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  9009][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  9150][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  9150][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  9149][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  9858][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[  9859][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[  9862][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[  9866][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 2934'
+[  9867][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[  9867][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[  9892][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 0
+[  9898][D][HTTPClient.cpp:1343] handleHeaderResponse(): Remote host is not an HTTP Server!
+[  9910][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-7
+
+[  9913][W][HTTPClient.cpp:1483] returnError(): error(-7): no HTTP server
+[  9913][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'J'
+[  9912][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[  9914][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: '%)'
+[  9918][D][HTTPClient.cpp:1485] returnError(): tcp stop
+[  9925][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'C@5'
+[  9930][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 0
+[  9937][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'J'
+HTTP GET failed, error: no HTTP server
+[  9950][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[  9969][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+[  9958][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[  9952][D][HTTPClient.cpp:1343] handleHeaderResponse(): Remote host is not an HTTP Server!
+HTTP GET failed, error: connection lost
+[  9980][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+[  9988][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-7
+
+[ 10005][W][HTTPClient.cpp:1483] returnError(): error(-7): no HTTP server
+HTTP GET failed, error: connection lost
+HTTP GET failed, error: no HTTP server
+[ 10023][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 10026][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[ 10036][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 10057][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 10058][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[ 10064][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 10072][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 10078][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[ 10088][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 10089][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 10102][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[ 10112][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 10366][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 10406][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 10427][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 10573][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 11492][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 49
+[ 11493][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[ 11496][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+[ 11503][D][HTTPClient.cpp:1485] returnError(): tcp stop
+[ 11513][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11513][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+HTTP GET failed, error: connection refused
+[ 11514][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[ 11531][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+[ 11537][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11530][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11515][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[ 11524][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11544][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET failed, error: connection lost
+[ 11560][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11556][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+[ 11573][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[ 11584][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11597][D][HTTPClient.cpp:1485] returnError(): tcp stop
+[ 11590][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+[ 11589][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11598][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+HTTP GET failed, error: connection lost
+HTTP GET failed, error: connection lost
+[ 11622][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[ 11625][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11634][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 11639][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 11659][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11655][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11652][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[ 11666][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 11690][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11684][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 11683][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11696][W][HTTPClient.cpp:1483] returnError(): error(-2): send header failed
+[ 11716][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11703][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11719][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11723][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET failed, error: send header failed
+[ 11729][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 11745][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[ 11757][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+HTTP GET failed, error: connection lost
+[ 11759][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 11775][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[ 11786][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 11751][W][HTTPClient.cpp:1483] returnError(): error(-2): send header failed
+[ 11786][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 11806][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+HTTP GET failed, error: send header failed
+[ 11815][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 11827][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 11833][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[ 11845][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 11843][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 11850][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[ 11867][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 11884][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 11885][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[ 11891][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 12621][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 12832][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 12832][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 12982][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 14364][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 14402][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 14677][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 15048][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 15049][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[ 15052][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+[ 15059][D][HTTPClient.cpp:1485] returnError(): tcp stop
+[ 15069][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 15071][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 15072][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 15072][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 15072][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 15069][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+HTTP GET failed, error: connection refused
+[ 15071][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 15084][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 15086][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 15093][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 15100][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 15106][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 15112][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 15123][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 15171][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 15172][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[ 15177][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 15184][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 16609][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 16610][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 16613][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 16614][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 2934'
+[ 16615][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 16615][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 16643][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 0
+[ 16649][D][HTTPClient.cpp:1343] handleHeaderResponse(): Remote host is not an HTTP Server!
+[ 16661][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-7
+
+[ 16664][W][HTTPClient.cpp:1483] returnError(): error(-7): no HTTP server
+[ 16670][D][HTTPClient.cpp:1485] returnError(): tcp stop
+[ 16666][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: '�����������������������������������������������'
+[ 16667][V][HTTPClient.cGuru Meditation Error: Core  0 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x40187331  PS      : 0x00060930  A0      : 0x801a1495  A1      : 0x3fff7ce0  
+A2      : 0x3ffdb480  A3      : 0x00000000  A4      : 0x00000001  A5      : 0x00000000  
+A6      : 0x00000080  A7      : 0x00000000  A8      : 0x8018732d  A9      : 0x3fff7cc0  
+A10     : 0x00000000  A11     : 0x3fff7d2f  A12     : 0x00000000  A13     : 0x00000000  
+A14     : 0x00000000  A15     : 0x3ffdece4  SAR     : 0x0000000a  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000014  LBEG    : 0x40084bfd  LEND    : 0x40084c05  LCOUNT  : 0x00000027  
+
+
+Backtrace: 0x4018732e:0x3fff7ce0 0x401a1492:0x3fff7d20 0x40104c8d:0x3fff7d50 0x40104d21:0x3fff7d70 0x401037d6:0x3fff7d90 0x40103faf:0x3fff7e30 0x401041b3:0x3fff7eb0 0x400d81ea:0x3fff7ed0
+
+
+
+
+ELF file SHA256: 71c73b3b5b833b59
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+[    47][D][esp32-hal-cpu.c:244] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+[   507][I][esp32-hal-i2c.c:75] i2cInit(): Initialising I2C Master: sda=33 scl=32 freq=100000
+[   511][I][esp32-hal-i2c.c:75] i2cInit(): Initialising I2C Master: sda=33 scl=32 freq=100000
+[   534][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 0 - WIFI_READY
+[   633][V][WiFiGeneric.cpp:97] set_esp_interface_ip(): Configuring Station static IP: 0.0.0.0, MASK: 0.0.0.0, GW: 0.0.0.0
+[   631][V][WiFiGeneric.cpp:340] _arduino_event_cb(): STA Started
+[   639][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 2 - STA_START
+[   709][V][WiFiGeneric.cpp:355] _arduino_event_cb(): STA Connected: SSID: Oscar, BSSID: c2:a7:86:f1:69:cd, Channel: 6, Auth: WPA2_PSK
+[   710][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 4 - STA_CONNECTED
+[   743][V][WiFiGeneric.cpp:369] _arduino_event_cb(): STA Got New IP:172.20.10.14
+[   744][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 7 - STA_GOT_IP
+[   747][D][WiFiGeneric.cpp:1098] _eventCallback(): STA IP: 172.20.10.14, MASK: 255.255.255.240, GW: 172.20.10.1
+.[  1180][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1181][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1186][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1266][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1268][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1273][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1299][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1300][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1305][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1315][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1321][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1329][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1331][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1344][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1353][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1345][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1363][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1368][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1385][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1376][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1386][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1409][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1402][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1410][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1419][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1440][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1442][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1457][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1471][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  1465][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1482][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1456][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1497][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[  1476][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  1471][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1484][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1525][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1535][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1499][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  1518][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[  1490][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1474][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  1542][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[  1563][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[  2462][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[  2464][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 2934'
+[  2465][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[  2464][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[  2464][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[  2486][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 0
+[  2462][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[  2468][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: '�'
+[  2472][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 0
+[  2474][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: '�'
+[  2475][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[  2480][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[  2463][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[  2491][D][HTTPClient.cpp:1343] handleHeaderResponse(): Remote host is not an HTTP Server!
+[  2551][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-7
+
+[  2561][W][HTTPClient.cpp:1483] returnError(): error(-7): no HTTP server
+[  2568][D][HTTPClient.cpp:1485] returnError(): tcp stop
+[  2509][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+HTTP GET failed, error: no HTTP server
+Failed to allocate memory for JPEG data
+[  2516][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+Guru Meditation Error: Core  0 panic'ed (IllegalInstruction). Exception was unhandled.
+Memory dump at 0x400d8350: 25201110 f01d3d2b 20004136
+Core  0 register dump:
+PC      : 0x400d8356  PS      : 0x00060830  A0      : 0x00000000  A1      : 0x3fffa5f0  
+A2      : 0x5f72711a  A3      : 0x5f72711a  A4      : 0x3ffd27ac  A5      : 0x3ffc4990  
+A6      : 0x3f401e64  A7      : 0x00000000  A8      : 0x800d8234  A9      : 0x3fffa5d0  
+A10     : 0x00000029  A11     : 0x00000027  A12     : 0x5f72711a  A13     : 0x00000000  
+A14     : 0x3fffa6e4  A15     : 0x3ffd27ac  SAR     : 0x00000018  EXCCAUSE: 0x00000000  
+EXCVADDR: 0x00000000  LBEG    : 0x4008ab85  LEND    : 0x4008ab95  LCOUNT  : 0xfffffff5  
+
+
+Backtrace: 0x400d8353:0x3fffa5f0
+
+
+
+
+ELF file SHA256: 71c73b3b5b833b59
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+[    53][D][esp32-hal-cpu.c:244] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+[   512][I][esp32-hal-i2c.c:75] i2cInit(): Initialising I2C Master: sda=33 scl=32 freq=100000
+[   516][I][esp32-hal-i2c.c:75] i2cInit(): Initialising I2C Master: sda=33 scl=32 freq=100000
+[   539][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 0 - WIFI_READY
+[   638][V][WiFiGeneric.cpp:97] set_esp_interface_ip(): Configuring Station static IP: 0.0.0.0, MASK: 0.0.0.0, GW: 0.0.0.0
+[   636][V][WiFiGeneric.cpp:340] _arduino_event_cb(): STA Started
+[   644][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 2 - STA_START
+[   859][V][WiFiGeneric.cpp:355] _arduino_event_cb(): STA Connected: SSID: Oscar, BSSID: c2:a7:86:f1:69:cd, Channel: 6, Auth: WPA2_PSK
+[   860][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 4 - STA_CONNECTED
+[   887][V][WiFiGeneric.cpp:369] _arduino_event_cb(): STA Got New IP:172.20.10.14
+[   888][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 7 - STA_GOT_IP
+[   891][D][WiFiGeneric.cpp:1098] _eventCallback(): STA IP: 172.20.10.14, MASK: 255.255.255.240, GW: 172.20.10.1
+.[  1185][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1186][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1192][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1273][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1274][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1279][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1305][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1306][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1311][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1319][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1326][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1336][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1343][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[  1338][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  1337][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1364][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1365][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1374][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1387][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[  1380][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1389][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1412][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1404][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1413][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1421][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1443][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[  1436][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1460][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1467][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[  1428][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[  1444][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1489][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1498][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1476][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1500][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1520][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1529][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1505][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[  1513][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1530][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1537][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[  1553][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1577][E][WiFiClient.cpp:422] write(): fail on fd 50, errno: 11, "No more processes"
+[  1571][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[  1571][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1578][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[  1578][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'e, must-revalidate'
+[  1579][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 2934'
+[  1581][E][WiFiClient.cpp:67] fillBuffer(): Not enough memory to allocate buffer
+[  1626][E][WiFiClient.cpp:467] read(): fail on fd 50, errno: 11, "No more processes"
+[  1568][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1584][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  1650][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[  1582][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[  1670][W][HTTPClient.cpp:1483] returnError(): error(-2): send header failed
+HTTP GET failed, error: send header failed
+[  1630][E][WiFiClient.cpp:495] available(): fail on fd 50, errno: 11, "No more processes"
+[  1688][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[  1693][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+HTTP GET failed, error: connection lost
+[  1644][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1586][W][HTTPClient.cpp:1483] returnError(): error(-2): send header failed
+[  1597][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1727][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1628][E][WiFiClient.cpp:495] available(): fail on fd 50, errno: 11, "No more processes"
+[  1631][E][WiFiClient.cpp:495] available(): fail on fd 50, errno: 11, "No more processes"
+[  1631][E][WiFiClient.cpp:495] available(): fail on fd 50, errno: 11, "No more processes"
+[  1758][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+HTTP GET failed, error: send header failed
+[  1627][E][WiFiClient.cpp:495] available(): fail on fd 50, errno: 11, "No more processes"
+[  1778][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[  1750][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[  1633][E][WiFiClient.cpp:495] available(): fail on fd 50, errno: 11, "No more processes"
+[  1764][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+HTTP GET failed, error: connection lost
+[  1782][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+HTTP GET failed, error: connection lost
+[  1796][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[  1828][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+[  1743][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[  1835][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+HTTP GET failed, error: connection lost
+HTTP GET failed, error: connection lost
+[  1788][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+HTTP GET failed, error: connection lost

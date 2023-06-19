@@ -35,6 +35,14 @@ ESPServer server(80);                                                // Web Serv
 
 
 
+bool checkForPassword(String password) {
+  if (password == "oscar12345") {
+    return true;
+  } else {
+    return false;
+  }
+}
+
 // ===================== Setup and Loop ============================ //
 
 void setup() {                                                       // Setup

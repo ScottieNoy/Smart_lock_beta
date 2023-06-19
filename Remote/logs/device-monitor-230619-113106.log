@@ -1,0 +1,420 @@
+[615701][V][WebServer.cpp:296] handleClient(): New client: client.localIP()=172.20.10.13
+[615702][V][Parsing.cpp:122] _parseRequest(): method: GET url: /snapshot search: 
+[615705][V][Parsing.cpp:226] _parseRequest(): headerName: Host
+[615710][V][Parsing.cpp:227] _parseRequest(): headerValue: 172.20.10.13
+[615717][V][Parsing.cpp:226] _parseRequest(): headerName: User-Agent
+[615723][V][Parsing.cpp:227] _parseRequest(): headerValue: ESP32HTTPClient
+[615730][V][Parsing.cpp:226] _parseRequest(): headerName: Connection
+[615736][V][Parsing.cpp:227] _parseRequest(): headerValue: keep-alive
+[615742][V][Parsing.cpp:226] _parseRequest(): headerName: Accept-Encoding
+[615748][V][Parsing.cpp:227] _parseRequest(): headerValue: identity;q=1,chunked;q=0.1,*;q=0
+[615756][V][Parsing.cpp:254] _parseArguments(): args: 
+[615761][V][Parsing.cpp:237] _parseRequest(): Request: /snapshot
+[615767][V][Parsing.cpp:238] _parseRequest():  Arguments: 
+[615772][V][main.cpp:204] handle_snapshot(): handle_snapshot
+[615809][W][WebServer.cpp:436] send(): content length is zero
+[616526][V][WebServer.cpp:296] handleClient(): New client: client.localIP()=172.20.10.13
+[616526][V][Parsing.cpp:122] _parseRequest(): method: GET url: /snapshot search: 
+[616530][V][Parsing.cpp:226] _parseRequest(): headerName: Host
+[616535][V][Parsing.cpp:227] _parseRequest(): headerValue: 172.20.10.13
+[616542][V][Parsing.cpp:226] _parseRequest(): headerName: User-Agent
+[616548][V][Parsing.cpp:227] _parseRequest(): headerValue: ESP32HTTPClient
+[616554][V][Parsing.cpp:226] _parseRequest(): headerName: Connection
+[616560][V][Parsing.cpp:227] _parseRequest(): headerValue: keep-alive
+[616567][V][Parsing.cpp:226] _parseRequest(): headerName: Accept-Encoding
+[616573][V][Parsing.cpp:227] _parseRequest(): headerValue: identity;q=1,chunked;q=0.1,*;q=0
+[616581][V][Parsing.cpp:254] _parseArguments(): args: 
+[616586][V][Parsing.cpp:237] _parseRequest(): Request: /snapshot
+[616592][V][Parsing.cpp:238] _parseRequest():  Arguments: 
+[616598][V][main.cpp:204] handle_snapshot(): handle_snapshot
+[616628][W][WebServer.cpp:436] send(): content length is zero
+[617343][V][WebServer.cpp:296] handleClient(): New client: client.localIP()=172.20.10.13
+[617344][V][Parsing.cpp:122] _parseRequest(): method: GET url: /snapshot search: 
+[617348][V][Parsing.cpp:226] _parseRequest(): headerName: Host
+[617353][V][Parsing.cpp:227] _parseRequest(): headerValue: 172.20.10.13
+[617360][V][Parsing.cpp:226] _parseRequest(): headerName: User-Agent
+[617365][V][Parsing.cpp:227] _parseRequest(): headerValue: ESP32HTTPClient
+[617372][V][Parsing.cpp:226] _parseRequest(): headerName: Connection
+[617378][V][Parsing.cpp:227] _parseRequest(): headerValue: keep-alive
+[617385][V][Parsing.cpp:226] _parseRequest(): headerName: Accept-Encoding
+[617391][V][Parsing.cpp:227] _parseRequest(): headerValue: identity;q=1,chunked;q=0.1,*;q=0
+[617399][V][Parsing.cpp:254] _parseArguments(): args: 
+[617404][V][Parsing.cpp:237] _parseRequest(): Request: /snapshot
+[617409][V][Parsing.cpp:238] _parseRequest():  Arguments: 
+[617415][V][main.cpp:204] handle_snapshot(): handle_snapshot
+[617448][W][WebServer.cpp:436] send(): content length is zero
+[618261][V][WebServer.cpp:296] handleClient(): New client: client.localIP()=172.20.10.13
+[618262][V][Parsing.cpp:122] _parseRequest(): method: GET url: /snapshot search: 
+[618265][V][Parsing.cpp:226] _parseRequest(): headerName: Host
+[618271][V][Parsing.cpp:227] _parseRequest(): headerValue: 172.20.10.13
+[618277][V][Parsing.cpp:226] _parseRequest(): headerName: User-Agent
+[618283][V][Parsing.cpp:227] _parseRequest(): headerValue: ESP32HTTPClient
+[618290][V][Parsing.cpp:226] _parseRequest(): headerName: Connection
+[618296][V][Parsing.cpp:227] _parseRequest(): headerValue: keep-alive
+[618302][V][Parsing.cpp:226] _parseRequest(): headerName: Accept-Encoding
+[618308][V][Parsing.cpp:227] _parseRequest(): headerValue: identity;q=1,chunked;q=0.1,*;q=0
+[618316][V][Parsing.cpp:254] _parseArguments(): args: 
+[618321][V][Parsing.cpp:237] _parseRequest(): Request: /snapshot
+[618327][V][Parsing.cpp:238] _parseRequest():  Arguments: 
+[618333][V][main.cpp:204] handle_snapshot(): handle_snapshot
+[618368][W][WebServer.cpp:436] send(): content length is zero
+[618877][V][WebServer.cpp:296] handleClient(): New client: client.localIP()=172.20.10.13
+[618878][V][Parsing.cpp:122] _parseRequest(): method: GET url: /snapshot search: 
+[618881][V][Parsing.cpp:226] _parseRequest(): headerName: Host
+[618886][V][Parsing.cpp:227] _parseRequest(): headerValue: 172.20.10.13
+[618893][V][Parsing.cpp:226] _parseRequest(): headerName: User-Agent
+[618899][V][Parsing.cpp:227] _parseRequest(): headerValue: ESP32HTTPClient
+[618906][V][Parsing.cpp:226] _parseRequest(): headerName: Connection
+[618911][V][Parsing.cpp:227] _parseRequest(): headerValue: keep-alive
+[618918][V][Parsing.cpp:226] _parseRequest(): headerName: Accept-Encoding
+[618924][V][Parsing.cpp:227] _parseRequest(): headerValue: identity;q=1,chunked;q=0.1,*;q=0
+[618932][V][Parsing.cpp:254] _parseArguments(): args: 
+[618937][V][Parsing.cpp:237] _parseRequest(): Request: /snapshot
+[618943][V][Parsing.cpp:238] _parseRequest():  Arguments: 
+[618948][V][main.cpp:204] handle_snapshot(): handle_snapshot
+[618987][W][WebServer.cpp:436] send(): content length is zero
+[619500][V][WebServer.cpp:296] handleClient(): New client: client.localIP()=172.20.10.13
+[619504][V][Parsing.cpp:122] _parseRequest(): method: GET url: /snapshot search: 
+[619504][V][Parsing.cpp:226] _parseRequest(): headerName: Host
+[619510][V][Parsing.cpp:227] _parseRequest(): headerValue: 172.20.10.13
+[619516][V][Parsing.cpp:226] _parseRequest(): headerName: User-Agent
+[619522][V][Parsing.cpp:227] _parseRequest(): headerValue: ESP32HTTPClient
+[619529][V][Parsing.cpp:226] _parseRequest(): headerName: Connection
+[619535][V][Parsing.cpp:227] _parseRequest(): headerValue: keep-alive
+[619541][V][Parsing.cpp:226] _parseRequest(): headerName: Accept-Encoding
+[619547][V][Parsing.cpp:227] _parseRequest(): headerValue: identity;q=1,chunked;q=0.1,*;q=0
+[619555][V][Parsing.cpp:254] _parseArguments(): args: 
+[619560][V][Parsing.cpp:237] _parseRequest(): Request: /snapshot
+[619566][V][Parsing.cpp:238] _parseRequest():  Arguments: 
+[619572][V][main.cpp:204] handle_snapshot(): handle_snapshot
+[619607][W][WebServer.cpp:436] send(): content length is zero
+[619926][V][WebServer.cpp:296] handleClient(): New client: client.localIP()=172.20.10.13
+[619928][V][Parsing.cpp:122] _parseRequest(): method: GET url: /snapshot search: 
+[619931][V][Parsing.cpp:226] _parseRequest(): headerName: Host
+[619936][V][Parsing.cpp:227] _parseRequest(): headerValue: 172.20.10.13
+[619942][V][Parsing.cpp:226] _parseRequest(): headerName: User-Agent
+[619948][V][Parsing.cpp:227] _parseRequest(): headerValue: ESP32HTTPClient
+[619955][V][Parsing.cpp:226] _parseRequest(): headerName: Connection
+[619961][V][Parsing.cpp:227] _parseRequest(): headerValue: keep-alive
+[619968][V][Parsing.cpp:226] _parseRequest(): headerName: Accept-Encoding
+[619974][V][Parsing.cpp:227] _parseRequest(): headerValue: identity;q=1,chunked;q=0.1,*;q=0
+[619982][V][Parsing.cpp:254] _parseArguments(): args: 
+[619987][V][Parsing.cpp:237] _parseRequest(): Request: /snapshot
+[619992][V][Parsing.cpp:238] _parseRequest():  Arguments: 
+[619998][V][main.cpp:204] handle_snapshot(): handle_snapshot
+[620027][W][WebServer.cpp:436] send(): content length is zero
+[620523][V][WebServer.cpp:296] handleClient(): New client: client.localIP()=172.20.10.13
+[620524][V][Parsing.cpp:122] _parseRequest(): method: GET url: /snapshot search: 
+[620528][V][Parsing.cpp:226] _parseRequest(): headerName: Host
+[620533][V][Parsing.cpp:227] _parseRequest(): headerValue: 172.20.10.13
+[620539][V][Parsing.cpp:226] _parseRequest(): headerName: User-Agent
+[620545][V][Parsing.cpp:227] _parseRequest(): headerValue: ESP32HTTPClient
+[620552][V][Parsing.cpp:226] _parseRequest(): headerName: Connection
+[620558][V][Parsing.cpp:227] _parseRequest(): headerValue: keep-alive
+[620565][V][Parsing.cpp:226] _parseRequest(): headerName: Accept-Encoding
+[620571][V][Parsing.cpp:227] _parseRequest(): headerValue: identity;q=1,chunked;q=0.1,*;q=0
+[620579][V][Parsing.cpp:254] _parseArguments(): args: 
+[620584][V][Parsing.cpp:237] _parseRequest(): Request: /snapshot
+[620589][V][Parsing.cpp:238] _parseRequest():  Arguments: 
+[620595][V][main.cpp:204] handle_snapshot(): handle_snapshot
+[620627][W][WebServer.cpp:436] send(): content length is zero
+[620925][V][WebServer.cpp:296] handleClient(): New client: client.localIP()=172.20.10.13
+[620926][V][Parsing.cpp:122] _parseRequest(): method: GET url: /snapshot search: 
+[620929][V][Parsing.cpp:226] _parseRequest(): headerName: Host
+[620934][V][Parsing.cpp:227] _parseRequest(): headerValue: 172.20.10.13
+[620941][V][Parsing.cpp:226] _parseRequest(): headerName: User-Agent
+[620947][V][Parsing.cpp:227] _parseRequest(): headerValue: ESP32HTTPClient
+[620953][V][Parsing.cpp:226] _parseRequest(): headerName: Connection
+[620959][V][Parsing.cpp:227] _parseRequest(): headerValue: keep-alive
+[620966][V][Parsing.cpp:226] _parseRequest(): headerName: Accept-Encoding
+[620972][V][Parsing.cpp:227] _parseRequest(): headerValue: identity;q=1,chunked;q=0.1,*;q=0
+[620980][V][Parsing.cpp:254] _parseArguments(): args: 
+[620985][V][Parsing.cpp:237] _parseRequest(): Request: /snapshot
+[620991][V][Parsing.cpp:238] _parseRequest():  Arguments: 
+[620996][V][main.cpp:204] handle_snapshot(): handle_snapshot
+[621026][W][WebServer.cpp:436] send(): content length is zero
+[621334][V][WebServer.cpp:296] handleClient(): New client: client.localIP()=172.20.10.13
+[621344][V][Parsing.cpp:122] _parseRequest(): method: GET url: /snapshot search: 
+[621345][V][Parsing.cpp:226] _parseRequest(): headerName: Host
+[621346][V][Parsing.cpp:227] _parseRequest(): headerValue: 172.20.10.13
+[621352][V][Parsing.cpp:226] _parseRequest(): headerName: User-Agent
+[621358][V][Parsing.cpp:227] _parseRequest(): headerValue: ESP32HTTPClient
+[621365][V][Parsing.cpp:226] _parseRequest(): headerName: Connection
+[621371][V][Parsing.cpp:227] _parseRequest(): headerValue: keep-alive
+[621378][V][Parsing.cpp:226] _parseRequest(): headerName: Accept-Encoding
+[621384][V][Parsing.cpp:227] _parseRequest(): headerValue: identity;q=1,chunked;q=0.1,*;q=0
+[621392][V][Parsing.cpp:254] _parseArguments(): args: 
+[621397][V][Parsing.cpp:237] _parseRequest(): Request: /snapshot
+[621402][V][Parsing.cpp:238] _parseRequest():  Arguments: 
+[621408][V][main.cpp:204] handle_snapshot(): handle_snapshot
+[621446][W][WebServer.cpp:436] send(): content length is zero
+[621870][V][WebServer.cpp:296] handleClient(): New client: client.localIP()=172.20.10.13
+[621874][V][Parsing.cpp:122] _parseRequest(): method: GET url: /snapshot search: 
+[621874][V][Parsing.cpp:226] _parseRequest(): headerName: Host
+[621880][V][Parsing.cpp:227] _parseRequest(): headerValue: 172.20.10.13
+[621886][V][Parsing.cpp:226] _parseRequest(): headerName: User-Agent
+[621892][V][Parsing.cpp:227] _parseRequest(): headerValue: ESP32HTTPClient
+[621899][V][Parsing.cpp:226] _parseRequest(): headerName: Connection
+[621905][V][Parsing.cpp:227] _parseRequest(): headerValue: keep-alive
+[621911][V][Parsing.cpp:226] _parseRequest(): headerName: Accept-Encoding
+[621917][V][Parsing.cpp:227] _parseRequest(): headerValue: identity;q=1,chunked;q=0.1,*;q=0
+[621925][V][Parsing.cpp:254] _parseArguments(): args: 
+[621930][V][Parsing.cpp:237] _parseRequest(): Request: /snapshot
+[621936][V][Parsing.cpp:238] _parseRequest():  Arguments: 
+[621942][V][main.cpp:204] handle_snapshot(): handle_snapshot
+[621986][W][WebServer.cpp:436] send(): content length is zero
+[622766][V][WebServer.cpp:296] handleClient(): New client: client.localIP()=172.20.10.13
+[622769][V][Parsing.cpp:122] _parseRequest(): method: GET url: /snapshot search: 
+[622771][V][Parsing.cpp:226] _parseRequest(): headerName: Host
+[622776][V][Parsing.cpp:227] _parseRequest(): headerValue: 172.20.10.13
+[622783][V][Parsing.cpp:226] _parseRequest(): headerName: User-Agent
+[622788][V][Parsing.cpp:227] _parseRequest(): headerValue: ESP32HTTPClient
+[622795][V][Parsing.cpp:226] _parseRequest(): headerName: Connection
+[622801][V][Parsing.cpp:227] _parseRequest(): headerValue: keep-alive
+[622808][V][Parsing.cpp:226] _parseRequest(): headerName: Accept-Encoding
+[622814][V][Parsing.cpp:227] _parseRequest(): headerValue: identity;q=1,chunked;q=0.1,*;q=0
+[622822][V][Parsing.cpp:254] _parseArguments(): args: 
+[622827][V][Parsing.cpp:237] _parseRequest(): Request: /snapshot
+[622833][V][Parsing.cpp:238] _parseRequest():  Arguments: 
+[622838][V][main.cpp:204] handle_snapshot(): handle_snapshot
+[622866][W][WebServer.cpp:436] send(): content length is zero
+[623187][V][WebServer.cpp:296] handleClient(): New client: client.localIP()=172.20.10.13
+[623203][V][Parsing.cpp:122] _parseRequest(): method: GET url: /snapshot search: 
+[623204][V][Parsing.cpp:226] _parseRequest(): headerName: Host
+[623205][V][Parsing.cpp:227] _parseRequest(): headerValue: 172.20.10.13
+[623212][V][Parsing.cpp:226] _parseRequest(): headerName: User-Agent
+[623217][V][Parsing.cpp:227] _parseRequest(): headerValue: ESP32HTTPClient
+[623224][V][Parsing.cpp:226] _parseRequest(): headerName: Connection
+[623230][V][Parsing.cpp:227] _parseRequest(): headerValue: keep-alive
+[623237][V][Parsing.cpp:226] _parseRequest(): headerName: Accept-Encoding
+[623243][V][Parsing.cpp:227] _parseRequest(): headerValue: identity;q=1,chunked;q=0.1,*;q=0
+[623251][V][Parsing.cpp:254] _parseArguments(): args: 
+[623256][V][Parsing.cpp:237] _parseRequest(): Request: /snapshot
+[623261][V][Parsing.cpp:238] _parseRequest():  Arguments: 
+[623267][V][main.cpp:204] handle_snapshot(): handle_snapshot
+[623306][W][WebServer.cpp:436] send(): content length is zero
+[623607][V][WebServer.cpp:296] handleClient(): New client: client.localIP()=172.20.10.13
+[623610][V][Parsing.cpp:122] _parseRequest(): method: GET url: /snapshot search: 
+[623612][V][Parsing.cpp:226] _parseRequest(): headerName: Host
+[623617][V][Parsing.cpp:227] _parseRequest(): headerValue: 172.20.10.13
+[623624][V][Parsing.cpp:226] _parseRequest(): headerName: User-Agent
+[623630][V][Parsing.cpp:227] _parseRequest(): headerValue: ESP32HTTPClient
+[623636][V][Parsing.cpp:226] _parseRequest(): headerName: Connection
+[623642][V][Parsing.cpp:227] _parseRequest(): headerValue: keep-alive
+[623649][V][Parsing.cpp:226] _parseRequest(): headerName: Accept-Encoding
+[623655][V][Parsing.cpp:227] _parseRequest(): headerValue: identity;q=1,chunked;q=0.1,*;q=0
+[623663][V][Parsing.cpp:254] _parseArguments(): args: 
+[623668][V][Parsing.cpp:237] _parseRequest(): Request: /snapshot
+[623674][V][Parsing.cpp:238] _parseRequest():  Arguments: 
+[623679][V][main.cpp:204] handle_snapshot(): handle_snapshot
+[623705][W][WebServer.cpp:436] send(): content length is zero
+[624082][V][WebServer.cpp:296] handleClient(): New client: client.localIP()=172.20.10.13
+[624093][V][Parsing.cpp:122] _parseRequest(): method: GET url: /snapshot search: 
+[624093][V][Parsing.cpp:226] _parseRequest(): headerName: Host
+[624094][V][Parsing.cpp:227] _parseRequest(): headerValue: 172.20.10.13
+[624101][V][Parsing.cpp:226] _parseRequest(): headerName: User-Agent
+[624107][V][Parsing.cpp:227] _parseRequest(): headerValue: ESP32HTTPClient
+[624114][V][Parsing.cpp:226] _parseRequest(): headerName: Connection
+[624119][V][Parsing.cpp:227] _parseRequest(): headerValue: keep-alive
+[624126][V][Parsing.cpp:226] _parseRequest(): headerName: Accept-Encoding
+[624132][V][Parsing.cpp:227] _parseRequest(): headerValue: identity;q=1,chunked;q=0.1,*;q=0
+[624140][V][Parsing.cpp:254] _parseArguments(): args: 
+[624145][V][Parsing.cpp:237] _parseRequest(): Request: /snapshot
+[624151][V][Parsing.cpp:238] _parseRequest():  Arguments: 
+[624156][V][main.cpp:204] handle_snapshot(): handle_snapshot
+[624185][W][WebServer.cpp:436] send(): content length is zero
+[624609][V][WebServer.cpp:296] handleClient(): New client: client.localIP()=172.20.10.13
+[624615][V][Parsing.cpp:122] _parseRequest(): method: GET url: /snapshot search: 
+[624616][V][Parsing.cpp:226] _parseRequest(): headerName: Host
+[624619][V][Parsing.cpp:227] _parseRequest(): headerValue: 172.20.10.13
+[624625][V][Parsing.cpp:226] _parseRequest(): headerName: User-Agent
+[624631][V][Parsing.cpp:227] _parseRequest(): headerValue: ESP32HTTPClient
+[624638][V][Parsing.cpp:226] _parseRequest(): headerName: Connection
+[624644][V][Parsing.cpp:227] _parseRequest(): headerValue: keep-alive
+[624650][V][Parsing.cpp:226] _parseRequest(): headerName: Accept-Encoding
+[624656][V][Parsing.cpp:227] _parseRequest(): headerValue: identity;q=1,chunked;q=0.1,*;q=0
+[624664][V][Parsing.cpp:254] _parseArguments(): args: 
+[624669][V][Parsing.cpp:237] _parseRequest(): Request: /snapshot
+[624675][V][Parsing.cpp:238] _parseRequest():  Arguments: 
+[624681][V][main.cpp:204] handle_snapshot(): handle_snapshot
+[624725][W][WebServer.cpp:436] send(): content length is zero
+[625324][V][WebServer.cpp:296] handleClient(): New client: client.localIP()=172.20.10.13
+[625325][V][Parsing.cpp:122] _parseRequest(): method: GET url: /snapshot search: 
+[625328][V][Parsing.cpp:226] _parseRequest(): headerName: Host
+[625333][V][Parsing.cpp:227] _parseRequest(): headerValue: 172.20.10.13
+[625340][V][Parsing.cpp:226] _parseRequest(): headerName: User-Agent
+[625346][V][Parsing.cpp:227] _parseRequest(): headerValue: ESP32HTTPClient
+[625353][V][Parsing.cpp:226] _parseRequest(): headerName: Connection
+[625358][V][Parsing.cpp:227] _parseRequest(): headerValue: keep-alive
+[625365][V][Parsing.cpp:226] _parseRequest(): headerName: Accept-Encoding
+[625371][V][Parsing.cpp:227] _parseRequest(): headerValue: identity;q=1,chunked;q=0.1,*;q=0
+[625379][V][Parsing.cpp:254] _parseArguments(): args: 
+[625384][V][Parsing.cpp:237] _parseRequest(): Request: /snapshot
+[625390][V][Parsing.cpp:238] _parseRequest():  Arguments: 
+[625395][V][main.cpp:204] handle_snapshot(): handle_snapshot
+[625425][W][WebServer.cpp:436] send(): content length is zero
+[625662][V][WebServer.cpp:296] handleClient(): New client: client.localIP()=172.20.10.13
+[625671][V][Parsing.cpp:122] _parseRequest(): method: GET url: /snapshot search: 
+[625672][V][Parsing.cpp:226] _parseRequest(): headerName: Host
+[625673][V][Parsing.cpp:227] _parseRequest(): headerValue: 172.20.10.13
+[625679][V][Parsing.cpp:226] _parseRequest(): headerName: User-Agent
+[625685][V][Parsing.cpp:227] _parseRequest(): headerValue: ESP32HTTPClient
+[625692][V][Parsing.cpp:226] _parseRequest(): headerName: Connection
+[625698][V][Parsing.cpp:227] _parseRequest(): headerValue: keep-alive
+[625705][V][Parsing.cpp:226] _parseRequest(): headerName: Accept-Encoding
+[625711][V][Parsing.cpp:227] _parseRequest(): headerValue: identity;q=1,chunked;q=0.1,*;q=0
+[625719][V][Parsing.cpp:254] _parseArguments(): args: 
+[625724][V][Parsing.cpp:237] _parseRequest(): Request: /snapshot
+[625729][V][Parsing.cpp:238] _parseRequest():  Arguments: 
+[625735][V][main.cpp:204] handle_snapshot(): handle_snapshot
+[625765][W][WebServer.cpp:436] send(): content length is zero
+[626170][V][WebServer.cpp:296] handleClient(): New client: client.localIP()=172.20.10.13
+[626182][V][Parsing.cpp:122] _parseRequest(): method: GET url: /snapshot search: 
+[626182][V][Parsing.cpp:226] _parseRequest(): headerName: Host
+[626184][V][Parsing.cpp:227] _parseRequest(): headerValue: 172.20.10.13
+[626190][V][Parsing.cpp:226] _parseRequest(): headerName: User-Agent
+[626196][V][Parsing.cpp:227] _parseRequest(): headerValue: ESP32HTTPClient
+[626203][V][Parsing.cpp:226] _parseRequest(): headerName: Connection
+[626209][V][Parsing.cpp:227] _parseRequest(): headerValue: keep-alive
+[626215][V][Parsing.cpp:226] _parseRequest(): headerName: Accept-Encoding
+[626222][V][Parsing.cpp:227] _parseRequest(): headerValue: identity;q=1,chunked;q=0.1,*;q=0
+[626230][V][Parsing.cpp:254] _parseArguments(): args: 
+[626235][V][Parsing.cpp:237] _parseRequest(): Request: /snapshot
+[626240][V][Parsing.cpp:238] _parseRequest():  Arguments: 
+[626246][V][main.cpp:204] handle_snapshot(): handle_snapshot
+[626284][W][WebServer.cpp:436] send(): content length is zero
+[626590][V][WebServer.cpp:296] handleClient(): New client: client.localIP()=172.20.10.13
+[626596][V][Parsing.cpp:122] _parseRequest(): method: GET url: /snapshot search: 
+[626596][V][Parsing.cpp:226] _parseRequest(): headerName: Host
+[626600][V][Parsing.cpp:227] _parseRequest(): headerValue: 172.20.10.13
+[626606][V][Parsing.cpp:226] _parseRequest(): headerName: User-Agent
+[626612][V][Parsing.cpp:227] _parseRequest(): headerValue: ESP32HTTPClient
+[626619][V][Parsing.cpp:226] _parseRequest(): headerName: Connection
+[626625][V][Parsing.cpp:227] _parseRequest(): headerValue: keep-alive
+[626631][V][Parsing.cpp:226] _parseRequest(): headerName: Accept-Encoding
+[626637][V][Parsing.cpp:227] _parseRequest(): headerValue: identity;q=1,chunked;q=0.1,*;q=0
+[626645][V][Parsing.cpp:254] _parseArguments(): args: 
+[626650][V][Parsing.cpp:237] _parseRequest(): Request: /snapshot
+[626656][V][Parsing.cpp:238] _parseRequest():  Arguments: 
+[626662][V][main.cpp:204] handle_snapshot(): handle_snapshot
+[626704][W][WebServer.cpp:436] send(): content length is zero
+[627375][V][WebServer.cpp:296] handleClient(): New client: client.localIP()=172.20.10.13
+[627376][V][Parsing.cpp:122] _parseRequest(): method: GET url: /snapshot search: 
+[627380][V][Parsing.cpp:226] _parseRequest(): headerName: Host
+[627385][V][Parsing.cpp:227] _parseRequest(): headerValue: 172.20.10.13
+[627392][V][Parsing.cpp:226] _parseRequest(): headerName: User-Agent
+[627398][V][Parsing.cpp:227] _parseRequest(): headerValue: ESP32HTTPClient
+[627404][V][Parsing.cpp:226] _parseRequest(): headerName: Connection
+[627410][V][Parsing.cpp:227] _parseRequest(): headerValue: keep-alive
+[627417][V][Parsing.cpp:226] _parseRequest(): headerName: Accept-Encoding
+[627423][V][Parsing.cpp:227] _parseRequest(): headerValue: identity;q=1,chunked;q=0.1,*;q=0
+[627431][V][Parsing.cpp:254] _parseArguments(): args: 
+[627436][V][Parsing.cpp:237] _parseRequest(): Request: /snapshot
+[627442][V][Parsing.cpp:238] _parseRequest():  Arguments: 
+[627447][V][main.cpp:204] handle_snapshot(): handle_snapshot
+[627484][W][WebServer.cpp:436] send(): content length is zero
+[627794][V][WebServer.cpp:296] handleClient(): New client: client.localIP()=172.20.10.13
+[627802][V][Parsing.cpp:122] _parseRequest(): method: GET url: /snapshot search: 
+[627802][V][Parsing.cpp:226] _parseRequest(): headerName: Host
+[627804][V][Parsing.cpp:227] _parseRequest(): headerValue: 172.20.10.13
+[627810][V][Parsing.cpp:226] _parseRequest(): headerName: User-Agent
+[627816][V][Parsing.cpp:227] _parseRequest(): headerValue: ESP32HTTPClient
+[627823][V][Parsing.cpp:226] _parseRequest(): headerName: Connection
+[627829][V][Parsing.cpp:227] _parseRequest(): headerValue: keep-alive
+[627835][V][Parsing.cpp:226] _parseRequest(): headerName: Accept-Encoding
+[627842][V][Parsing.cpp:227] _parseRequest(): headerValue: identity;q=1,chunked;q=0.1,*;q=0
+[627850][V][Parsing.cpp:254] _parseArguments(): args: 
+[627855][V][Parsing.cpp:237] _parseRequest(): Request: /snapshot
+[627860][V][Parsing.cpp:238] _parseRequest():  Arguments: 
+[627866][V][main.cpp:204] handle_snapshot(): handle_snapshot
+[627904][W][WebServer.cpp:436] send(): content length is zero
+[628609][V][WebServer.cpp:296] handleClient(): New client: client.localIP()=172.20.10.13
+[628610][V][Parsing.cpp:122] _parseRequest(): method: GET url: /snapshot search: 
+[628613][V][Parsing.cpp:226] _parseRequest(): headerName: Host
+[628619][V][Parsing.cpp:227] _parseRequest(): headerValue: 172.20.10.13
+[628625][V][Parsing.cpp:226] _parseRequest(): headerName: User-Agent
+[628631][V][Parsing.cpp:227] _parseRequest(): headerValue: ESP32HTTPClient
+[628638][V][Parsing.cpp:226] _parseRequest(): headerName: Connection
+[628644][V][Parsing.cpp:227] _parseRequest(): headerValue: keep-alive
+[628650][V][Parsing.cpp:226] _parseRequest(): headerName: Accept-Encoding
+[628656][V][Parsing.cpp:227] _parseRequest(): headerValue: identity;q=1,chunked;q=0.1,*;q=0
+[628665][V][Parsing.cpp:254] _parseArguments(): args: 
+[628669][V][Parsing.cpp:237] _parseRequest(): Request: /snapshot
+[628675][V][Parsing.cpp:238] _parseRequest():  Arguments: 
+[628681][V][main.cpp:204] handle_snapshot(): handle_snapshot
+[628723][W][WebServer.cpp:436] send(): content length is zero
+[629326][V][WebServer.cpp:296] handleClient(): New client: client.localIP()=172.20.10.13
+[629340][V][Parsing.cpp:122] _parseRequest(): method: GET url: /snapshot search: 
+[629340][V][Parsing.cpp:226] _parseRequest(): headerName: Host
+[629342][V][Parsing.cpp:227] _parseRequest(): headerValue: 172.20.10.13
+[629348][V][Parsing.cpp:226] _parseRequest(): headerName: User-Agent
+[629354][V][Parsing.cpp:227] _parseRequest(): headerValue: ESP32HTTPClient
+[629361][V][Parsing.cpp:226] _parseRequest(): headerName: Connection
+[629367][V][Parsing.cpp:227] _parseRequest(): headerValue: keep-alive
+[629373][V][Parsing.cpp:226] _parseRequest(): headerName: Accept-Encoding
+[629379][V][Parsing.cpp:227] _parseRequest(): headerValue: identity;q=1,chunked;q=0.1,*;q=0
+[629388][V][Parsing.cpp:254] _parseArguments(): args: 
+[629393][V][Parsing.cpp:237] _parseRequest(): Request: /snapshot
+[629398][V][Parsing.cpp:238] _parseRequest():  Arguments: 
+[629404][V][main.cpp:204] handle_snapshot(): handle_snapshot
+[629443][W][WebServer.cpp:436] send(): content length is zero
+[630141][V][WebServer.cpp:296] handleClient(): New client: client.localIP()=172.20.10.13
+[630142][V][Parsing.cpp:122] _parseRequest(): method: GET url: /snapshot search: 
+[630145][V][Parsing.cpp:226] _parseRequest(): headerName: Host
+[630150][V][Parsing.cpp:227] _parseRequest(): headerValue: 172.20.10.13
+[630157][V][Parsing.cpp:226] _parseRequest(): headerName: User-Agent
+[630163][V][Parsing.cpp:227] _parseRequest(): headerValue: ESP32HTTPClient
+[630170][V][Parsing.cpp:226] _parseRequest(): headerName: Connection
+[630176][V][Parsing.cpp:227] _parseRequest(): headerValue: keep-alive
+[630182][V][Parsing.cpp:226] _parseRequest(): headerName: Accept-Encoding
+[630188][V][Parsing.cpp:227] _parseRequest(): headerValue: identity;q=1,chunked;q=0.1,*;q=0
+[630196][V][Parsing.cpp:254] _parseArguments(): args: 
+[630201][V][Parsing.cpp:237] _parseRequest(): Request: /snapshot
+[630207][V][Parsing.cpp:238] _parseRequest():  Arguments: 
+[630212][V][main.cpp:204] handle_snapshot(): handle_snapshot
+[630243][W][WebServer.cpp:436] send(): content length is zero
+[630530][V][WebServer.cpp:296] handleClient(): New client: client.localIP()=172.20.10.13
+[630541][V][Parsing.cpp:122] _parseRequest(): method: GET url: /snapshot search: 
+[630541][V][Parsing.cpp:226] _parseRequest(): headerName: Host
+[630542][V][Parsing.cpp:227] _parseRequest(): headerValue: 172.20.10.13
+[630549][V][Parsing.cpp:226] _parseRequest(): headerName: User-Agent
+[630555][V][Parsing.cpp:227] _parseRequest(): headerValue: ESP32HTTPClient
+[630562][V][Parsing.cpp:226] _parseRequest(): headerName: Connection
+[630567][V][Parsing.cpp:227] _parseRequest(): headerValue: keep-alive
+[630574][V][Parsing.cpp:226] _parseRequest(): headerName: Accept-Encoding
+[630580][V][Parsing.cpp:227] _parseRequest(): headerValue: identity;q=1,chunked;q=0.1,*;q=0
+[630588][V][Parsing.cpp:254] _parseArguments(): args: 
+[630593][V][Parsing.cpp:237] _parseRequest(): Request: /snapshot
+[630599][V][Parsing.cpp:238] _parseRequest():  Arguments: 
+[630604][V][main.cpp:204] handle_snapshot(): handle_snapshot
+[630643][W][WebServer.cpp:436] send(): content length is zero
+[631117][V][WebServer.cpp:296] handleClient(): New client: client.localIP()=172.20.10.13
+[631118][V][Parsing.cpp:122] _parseRequest(): method: GET url: /snapshot search: 
+[631121][V][Parsing.cpp:226] _parseRequest(): headerName: Host
+[631127][V][Parsing.cpp:227] _parseRequest(): headerValue: 172.20.10.13
+[631133][V][Parsing.cpp:226] _parseRequest(): headerName: User-Agent
+[631139][V][Parsing.cpp:227] _parseRequest(): headerValue: ESP32HTTPClient
+[631146][V][Parsing.cpp:226] _parseRequest(): headerName: Connection
+[631152][V][Parsing.cpp:227] _parseRequest(): headerValue: keep-alive
+[631158][V][Parsing.cpp:226] _parseRequest(): headerName: Accept-Encoding
+[631164][V][Parsing.cpp:227] _parseRequest(): headerValue: identity;q=1,chunked;q=0.1,*;q=0
+[631172][V][Parsing.cpp:254] _parseArguments(): args: 
+[631177][V][Parsing.cpp:237] _parseRequest(): Request: /snapshot
+[631183][V][Parsing.cpp:238] _parseRequest():  Arguments: 
+[631189][V][main.cpp:204] handle_snapshot(): handle_snapshot
+[631222][W][WebServer.cpp:436] send(): content length is zero
+[631777][V][WebServer.cpp:296] handleClient(): New client: client.localIP()=172.20.10.13
+[631778][V][Parsing.cpp:122] _parseRequest(): method: GET url: /snapshot search: 
+[631781][V][Parsing.cpp:226] _parseRequest(): headerName: Host
+[631786][V][Parsing.cpp:227] _parseRequest(): headerValue: 172.20.10.13
+[631793][V][Parsing.cpp:226] _parseRequest(): headerName: User-Agent
+[631799][V][Parsing.cpp:227] _parseRequest(): headerValue: ESP32HTTPClient
+[631805][V][Parsing.cpp:226] _parseRequest(): headerName: Connection
+[631811][V][Parsing.cpp:227] _parseRequest(): headerValue: keep-alive
+[631818][V][Parsing.cpp:226] _parseRequest(): headerName: Accept-Encoding
+[631824][V][Parsing.cpp:227] _parseRequest(): headerValue: identity;q=1,chunked;q=0.1,*;q=0
+[631832][V][Parsing.cpp:254] _parseArguments(): args: 
+[631837][V][Parsing.cpp:237] _parseRequest(): Request: /snapshot
+[631843][V][Parsing.cpp:238] _parseRequest():  Arguments: 
+[631848][V][main.cpp:204] handle_snapshot(): handle_snapshot
+[631882][W][WebServer.cpp:436] send(): content length is zero
