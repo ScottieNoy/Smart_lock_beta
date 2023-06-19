@@ -1,0 +1,10 @@
+[ 10864][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 10865][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[ 10871][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+Sending password
+Password: 
+[ 20651][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 20652][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[ 20657][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+

@@ -1,0 +1,426 @@
+.[  1193][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1194][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1200][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1281][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1282][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1288][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1311][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1311][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1317][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1326][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1331][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1341][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1343][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1356][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1357][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1366][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1373][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1381][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1390][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1397][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1406][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1414][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1421][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1430][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1438][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1445][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1454][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1461][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1471][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1471][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1493][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1486][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1494][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1503][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1517][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1526][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1526][E][WiFiClient.cpp:218] connect(): socket: 23
+[  1534][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1541][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1546][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[  1555][E][WiFiClient.cpp:218] connect(): socket: 105
+[  1563][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+
+abort() was called at PC 0x40085305 on core 0
+
+
+Backtrace: 0x40083d91:0x3ffff320 0x4008db45:0x3ffff340 0x40093f1d:0x3ffff360 0x40085305:0x3ffff3e0 0x40085332:0x3ffff400 0x400854a9:0x3ffff430 0x401197fe:0x3ffff450 0x40118a8f:0x3ffff470 0x40118045:0x3ffff490 0x4008a881:0x3ffff4b0 0x400891ee:0x3ffff4d0 0x40089278:0x3ffff4f0 0x40089765:0x3ffff520 0x4019975f:0x3ffff550 0x40192d73:0x3ffff570 0x40192ef1:0x3ffff880 0x401a83e9:0x3ffff8b0 0x401379f6:0x3ffff8e0 0x40137a93:0x3ffff910 0x40131f99:0x3ffff990 0x40131fbb:0x3ffff9b0 0x40132dd7:0x3ffff9d0 0x40132e45:0x3ffff9f0 0x40122305:0x3ffffa40 0x401875f9:0x3ffffa60 0x40186d1a:0x3ffffad0 0x4010266d:0x3ffffb00 0x40103dfd:0x3ffffb50 0x401041a3:0x3ffffbd0 0x400d81ee:0x3ffffbf0
+
+
+
+
+ELF file SHA256: 14d1d903feac9ca1
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+[    60][D][esp32-hal-cpu.c:244] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+[   521][I][esp32-hal-i2c.c:75] i2cInit(): Initialising I2C Master: sda=33 scl=32 freq=100000
+[   525][I][esp32-hal-i2c.c:75] i2cInit(): Initialising I2C Master: sda=33 scl=32 freq=100000
+[   548][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 0 - WIFI_READY
+[   647][V][WiFiGeneric.cpp:97] set_esp_interface_ip(): Configuring Station static IP: 0.0.0.0, MASK: 0.0.0.0, GW: 0.0.0.0
+[   645][V][WiFiGeneric.cpp:340] _arduino_event_cb(): STA Started
+[   653][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 2 - STA_START
+..[  1678][V][WiFiGeneric.cpp:362] _arduino_event_cb(): STA Disconnected: SSID: Oscar, BSSID: c2:a7:86:f1:69:cd, Reason: 2
+[  1678][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 5 - STA_DISCONNECTED
+[  1685][W][WiFiGeneric.cpp:1057] _eventCallback(): Reason: 2 - AUTH_EXPIRE
+[  1692][D][WiFiGeneric.cpp:1077] _eventCallback(): WiFi Reconnect Running
+[  1701][V][WiFiGeneric.cpp:97] set_esp_interface_ip(): Configuring Station static IP: 0.0.0.0, MASK: 0.0.0.0, GW: 0.0.0.0
+[  1856][V][WiFiGeneric.cpp:355] _arduino_event_cb(): STA Connected: SSID: Oscar, BSSID: c2:a7:86:f1:69:cd, Channel: 6, Auth: WPA2_PSK
+[  1858][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 4 - STA_CONNECTED
+[  1887][V][WiFiGeneric.cpp:369] _arduino_event_cb(): STA Got New IP:172.20.10.14
+[  1888][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 7 - STA_GOT_IP
+[  1891][D][WiFiGeneric.cpp:1098] _eventCallback(): STA IP: 172.20.10.14, MASK: 255.255.255.240, GW: 172.20.10.1
+.[  2195][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  2196][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  2203][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  2283][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  2284][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  2290][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  2314][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  2315][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  2321][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  2329][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  2335][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  2345][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  2346][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  2359][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  2361][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  2369][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  2377][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  2385][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  2393][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  2401][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  2410][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  2417][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  2425][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  2433][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  2441][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  2449][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  2458][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  2465][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  2473][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  2481][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  2490][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  2497][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  2513][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  2505][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  2522][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  2522][E][WiFiClient.cpp:218] connect(): socket: 105
+[  2528][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+
+abort() was called at PC 0x40085305 on core 0
+
+
+Backtrace: 0x40083d91:0x3fffc740 0x4008db45:0x3fffc760 0x40093f1d:0x3fffc780 0x40085305:0x3fffc800 0x40085332:0x3fffc820 0x400854a9:0x3fffc850 0x401197fe:0x3fffc870 0x40118a8f:0x3fffc890 0x40118045:0x3fffc8b0 0x4008a881:0x3fffc8d0 0x400891ee:0x3fffc8f0 0x40089278:0x3fffc910 0x40089765:0x3fffc940 0x4019975f:0x3fffc970 0x40192d73:0x3fffc990 0x40192ef1:0x3fffcca0 0x401a83e9:0x3fffccd0 0x401379f6:0x3fffcd00 0x40137a93:0x3fffcd30 0x40131f99:0x3fffcdb0 0x40131fbb:0x3fffcdd0 0x40132dd7:0x3fffcdf0 0x40132e45:0x3fffce10 0x40122305:0x3fffce60 0x401875f9:0x3fffce80 0x40186d1a:0x3fffcef0 0x4010266d:0x3fffcf20 0x40103dfd:0x3fffcf70 0x401041a3:0x3fffcff0 0x400d81ee:0x3fffd010
+
+
+
+
+ELF file SHA256: 14d1d903feac9ca1
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+[    60][D][esp32-hal-cpu.c:244] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+[   520][I][esp32-hal-i2c.c:75] i2cInit(): Initialising I2C Master: sda=33 scl=32 freq=100000
+[   524][I][esp32-hal-i2c.c:75] i2cInit(): Initialising I2C Master: sda=33 scl=32 freq=100000
+[   548][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 0 - WIFI_READY
+[   647][V][WiFiGeneric.cpp:97] set_esp_interface_ip(): Configuring Station static IP: 0.0.0.0, MASK: 0.0.0.0, GW: 0.0.0.0
+[   645][V][WiFiGeneric.cpp:340] _arduino_event_cb(): STA Started
+[   653][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 2 - STA_START
+[   731][V][WiFiGeneric.cpp:355] _arduino_event_cb(): STA Connected: SSID: Oscar, BSSID: c2:a7:86:f1:69:cd, Channel: 6, Auth: WPA2_PSK
+[   733][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 4 - STA_CONNECTED
+[   761][V][WiFiGeneric.cpp:369] _arduino_event_cb(): STA Got New IP:172.20.10.14
+[   762][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 7 - STA_GOT_IP
+[   765][D][WiFiGeneric.cpp:1098] _eventCallback(): STA IP: 172.20.10.14, MASK: 255.255.255.240, GW: 172.20.10.1
+.[  1194][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1195][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1201][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1282][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1283][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1288][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1313][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1314][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1319][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1327][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1334][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1343][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1344][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1358][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1359][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1367][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1375][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1383][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1391][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1400][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1409][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1415][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1423][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1432][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1439][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1447][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1456][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1463][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1471][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1479][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1487][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1496][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1504][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1512][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1520][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1527][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1530][E][WiFiClient.cpp:218] connect(): socket: 23
+[  1536][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1556][E][WiFiClient.cpp:218] connect(): socket: 105
+[  1548][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[  1543][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1560][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[  1583][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+[  1576][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1567][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[  1598][E][WiFiClient.cpp:218] connect(): socket: 105
+[  1614][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+HTTP GET failed, error: connection refused
+[  1619][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[  1623][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1641][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1640][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1649][E][WiFiClient.cpp:218] connect(): socket: 105
+[  1650][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1668][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1660][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[  1657][E][WiFiClient.cpp:218] connect(): socket: 105
+[  1677][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1696][E][WiFiClient.cpp:218] connect(): socket: 105
+[  1689][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[  1684][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+[  1701][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[  1721][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[  1708][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+HTTP GET failed, error: connection refused
+[  1748][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1754][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1763][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1759][E][WiFiClient.cpp:218] connect(): socket: 105
+[  1760][E][WiFiClient.cpp:218] connect(): socket: 105
+[  1772][E][WiFiClient.cpp:218] connect(): socket: 105
+[  1785][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[  1780][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[  1775][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[  1792][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+HTTP GET failed, error: connection refused
+[  1800][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[  1832][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1838][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1847][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1847][E][WiFiClient.cpp:218] connect(): socket: 105
+[  1833][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1856][E][WiFiClient.cpp:218] connect(): socket: 105
+[  1872][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[  1868][E][WiFiClient.cpp:218] connect(): socket: 105
+[  1860][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[  1879][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[  1890][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[  1883][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[  1918][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+[  1917][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+HTTP GET failed, error: connection refused
+[  1928][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1933][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1945][E][WiFiClient.cpp:218] connect(): socket: 105
+[  1952][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1953][E][WiFiClient.cpp:218] connect(): socket: 105
+[  1956][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[  1974][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[  1963][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+HTTP GET failed, error: connection refused
+[  1995][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  2001][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  2007][E][WiFiClient.cpp:218] connect(): socket: 105
+[  201Guru Meditation Error: Core  0 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x4008ab85  PS      : 0x00060130  A0      : 0x8018e3cc  A1      : 0x3fffa040  
+A2      : 0x00000000  A3      : 0xfffffffc  A4      : 0x000000ff  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x00000000  A9      : 0x00000000  
+A10     : 0x00000000  A11     : 0x3fffa243  A12     : 0x00000000  A13     : 0x00000000  
+A14     : 0x00000000  A15     : 0x00000000  SAR     : 0x00000004  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000000  LBEG    : 0x4008ab85  LEND    : 0x4008ab95  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x4008ab82:0x3fffa040 0x4018e3c9:0x3fffa050 0x40192f66:0x3fffa360 0x40192fa2:0x3fffa3f0 0x401074a9:0x3fffa430 0x401379ac:0x3fffa470 0x401022d1:0x3fffa4f0 0x40103e09:0x3fffa550 0x401041a3:0x3fffa5d0 0x400d81ee:0x3fffa5f0
+
+
+
+
+ELF file SHA256: 14d1d903feac9ca1
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+[    59][D][esp32-hal-cpu.c:244] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+[   520][I][esp32-hal-i2c.c:75] i2cInit(): Initialising I2C Master: sda=33 scl=32 freq=100000
+[   524][I][esp32-hal-i2c.c:75] i2cInit(): Initialising I2C Master: sda=33 scl=32 freq=100000
+[   547][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 0 - WIFI_READY
+[   646][V][WiFiGeneric.cpp:97] set_esp_interface_ip(): Configuring Station static IP: 0.0.0.0, MASK: 0.0.0.0, GW: 0.0.0.0
+[   644][V][WiFiGeneric.cpp:340] _arduino_event_cb(): STA Started
+[   652][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 2 - STA_START
+[   833][V][WiFiGeneric.cpp:355] _arduino_event_cb(): STA Connected: SSID: Oscar, BSSID: c2:a7:86:f1:69:cd, Channel: 6, Auth: WPA2_PSK
+[   835][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 4 - STA_CONNECTED
+[   862][V][WiFiGeneric.cpp:369] _arduino_event_cb(): STA Got New IP:172.20.10.14
+[   863][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 7 - STA_GOT_IP
+[   866][D][WiFiGeneric.cpp:1098] _eventCallback(): STA IP: 172.20.10.14, MASK: 255.255.255.240, GW: 172.20.10.1
+.[  1193][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1195][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1200][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1280][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1281][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1287][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1311][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1312][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1317][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1325][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1332][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1341][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1343][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1356][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1357][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1366][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1373][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1381][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1390][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1397][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1407][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1414][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1421][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1431][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1438][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1445][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1454][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1462][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1469][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1478][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1486][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1493][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1502][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1510][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1517][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1529][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1530][E][WiFiClient.cpp:218] connect(): socket: 23
+[  1534][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+
+abort() was called at PC 0x40085305 on core 0
+
+
+Backtrace: 0x40083d91:0x3fffc6d0 0x4008db45:0x3fffc6f0 0x40093f1d:0x3fffc710 0x40085305:0x3fffc790 0x40085332:0x3fffc7b0 0x400854a9:0x3fffc7e0 0x401197fe:0x3fffc800 0x40118a8f:0x3fffc820 0x40118045:0x3fffc840 0x4008a881:0x3fffc860 0x400891ee:0x3fffc880 0x40089278:0x3fffc8a0 0x40089765:0x3fffc8d0 0x4019975f:0x3fffc900 0x40192d73:0x3fffc920 0x40192ef1:0x3fffcc30 0x401a83e9:0x3fffcc60 0x401379f6:0x3fffcc90 0x40137a93:0x3fffccc0 0x40131f99:0x3fffcd40 0x40131fbb:0x3fffcd60 0x40132dd7:0x3fffcd80 0x40132e45:0x3fffcda0 0x40122305:0x3fffcdf0 0x401875f9:0x3fffce10 0x40186d1a:0x3fffce80 0x4010266d:0x3fffceb0 0x40103dfd:0x3fffcf00 0x401041a3:0x3fffcf80 0x400d81ee:0x3fffcfa0
+
+
+
+
+ELF file SHA256: 14d1d903feac9ca1
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+[    60][D][esp32-hal-cpu.c:244] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz

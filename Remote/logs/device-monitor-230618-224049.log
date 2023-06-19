@@ -1,0 +1,1270 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+[     4][V][WiFiServer.h:42] WiFiServer(): WiFiServer::WiFiServer(port=80, ...)
+[     4][V][WebServer.cpp:87] WebServer(): WebServer::Webserver(port=80)
+[    42][D][esp32-hal-cpu.c:244] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+[   490][I][esp32-hal-psram.c:96] psramInit(): PSRAM enabled
+[   519][V][[   520][I][main.cpp:403] setup(): CPU Freq: 240 Mhz, 2 core(s)
+[   521][I][main.cpp:404] setup(): Free heap: 248380 bytes
+[   521][I][main.cpp:405] setup(): SDK version: v4.4.4
+[   525][I][main.cpp:406] setup(): Starting ESP32CAM-RTSP...
+[   531][V][main.cpp:411] setup(): PSRAM found and initialized
+Config version: 1.5
+Config size: 455
+Loading configurations
+[iwcAll]
+|-- [iwcSys]
+|   |-- 'iwcThingName' with value: 'ESP32'
+|   |-- 'iwcApPassword' with value: <hidden>
+|   |-- [iwcWifi0]
+|   |   |-- 'iwcWifiSsid' with value: 'TheilvigNet-2.4G'
+|   |   \-- 'iwcWifiPassword' with value: <hidden>
+|   \-- 'iwcApTimeout' with value: '1'
+|-- [iwcCustom]
+|   |-- [board]
+|   |   \-- 'bt' with value: 'AI THINKER'
+|   |-- [camera]
+|   |   |-- 'fd' with value: '40'
+|   |   |-- 'fs' with value: 'QVGA (320x240)'
+|   |   |-- 'q' with value: '1'
+|   |   |-- 'eps' with value: '1'
+|   |   |-- 'fb' with value: '2'
+|   |   |-- 'b' with value: '0'
+|   |   |-- 'c' with value: '0'
+|   |   |-- 's' with value: '0'
+|   |   |-- 'e' with value: 'Normal'
+|   |   |-- 'wb' with value: '1'
+|   |   |-- 'awbg' with value: '1'
+|   |   |-- 'wbm' with value: 'Auto'
+|   |   |-- 'ec' with value: '1'
+|   |   |-- 'aec2' with value: '1'
+|   |   |-- 'ael' with value: '0'
+|   |   |-- 'aecv' with value: '300'
+|   |   |-- 'gc' with value: '1'
+|   |   |-- 'agcg' with value: '0'
+|   |   |-- 'gcl' with value: '2X'
+|   |   |-- 'bpc' with value: '0'
+|   |   |-- 'wpc' with value: '1'
+|   |   |-- 'rg' with value: '1'
+|   |   |-- 'lenc' with value: '1'
+|   |   |-- 'hm' with value: '0'
+|   |   |-- 'vm' with value: '0'
+|   |   |-- 'dcw' with value: '1'
+|   |   \-- 'cb' with value: '0'
+|   \-- [io]
+|       \-- 'li' with value: '0'
+\-- [hidden]
+[   669][V][main.cpp:289] initialize_camera(): initialize_camera
+[   669][I][main.cpp:290] initialize_camera(): Camera config: AI THINKER
+[   675][I][main.cpp:296] initialize_camera(): Frame size: QVGA (320x240)
+[   681][I][main.cpp:298] initialize_camera(): JPEG quality: 1
+[   687][I][main.cpp:299] initialize_camera(): Frame duration: 40 ms
+[   693][I][main.cpp:303] initialize_camera(): Enable PSRAM: 1
+[   699][I][main.cpp:304] initialize_camera(): Frame buffers: 2
+[   704][I][main.cpp:310] initialize_camera(): PSRAM enabled!
+[   937][V][esp32-hal-ledc.c:231] analogWrite(): GPIO 4 - Using Channel 15, Value = 0
+State changing from: 0 to 2
+[   959][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 0 - WIFI_READY
+Setting up AP: ESP32
+Use password: <hidden>
+[  1058][V][WiFiGeneric.cpp:392] _arduino_event_cb(): AP Started
+[  1059][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 10 - AP_START
+AP IP address: 192.168.4.1
+[  1672][V][WiFiGeneric.cpp:395] _arduino_event_cb(): AP Stopped
+[  1672][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 11 - AP_STOP
+[  1673][V][WiFiGeneric.cpp:392] _arduino_event_cb(): AP Started
+[  1679][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 10 - AP_START
+AP timeout (ms): 1000
+State changed from: 0 to 2
+State changing from: 2 to 3
+[  2703][V][WiFiGeneric.cpp:395] _arduino_event_cb(): AP Stopped
+[  2703][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 11 - AP_STOP
+[  2709][V][WiFiGeneric.cpp:392] _arduino_event_cb(): AP Started
+[  2710][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 10 - AP_START
+EC (5664) wifi_init_default: esp_wifi_get_mac failed with 12289
+onnecting to [TheilvigNet-2.4G[  2723][V][WiFiGeneric.cpp:395] _arduino_event_cb(): AP Stopped
+] (password is hidden)
+[  2734][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 11 - AP_STOP
+WiFi timeout (ms): 30000
+[  2768][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 0 - WIFI_READY
+[  2776][V][WiFiGeneric.cpp:97] set_esp_interface_ip(): Configuring Station static IP: 0.0.0.0, MASK: 0.0.0.0, GW: 0.0.0.0
+[  2774][V][WiFiGeneric.cpp:340] _arduino_event_cb(): STA Started
+[  2781][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 2 - STA_START
+State changed from: 2 to 3
+E (5802) wifi:Association refused temporarily, comeback time 1024 mSec
+[  3906][V][WiFiGeneric.cpp:355] _arduino_event_cb(): STA Connected: SSID: TheilvigNet-2.4G, BSSID: 00:1f:01:6a:36:08, Channel: 6, Auth: WPA2_PSK
+[  3908][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 4 - STA_CONNECTED
+[  4173][V][WiFiGeneric.cpp:369] _arduino_event_cb(): STA Got New IP:192.168.1.80
+[  4174][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 7 - STA_GOT_IP
+[  4177][D][WiFiGeneric.cpp:1098] _eventCallback(): STA IP: 192.168.1.80, MASK: 255.255.255.0, GW: 192.168.1.1
+WiFi connected
+IP address: 192.168.1.80
+State changing from: 3 to 4
+[  7300][W][ESPmDNS.cpp:222] queryService(): No results found!
+Active mDNS services: 0 
+Accepting connection
+[  7302][V][main.cpp:365] on_connected(): on_connected
+[  7317][I][ArduinoOTA.cpp:141] begin(): OTA server at: esp32-a842e34a12bc.local:3232
+[  7317][V][main.cpp:356] start_rtsp_server(): start_rtsp_server
+[  7319][V][WiFiServer.h:42] WiFiServer(): WiFiServer::WiFiServer(port=554, ...)
+[  7326][I][rtsp_server.cpp:9] rtsp_server(): Starting RTSP server
+State changed from: 3 to 4
+[ 17295][V][WebServer.cpp:296] handleClient(): New client: client.localIP()=192.168.1.80
+[ 17301][V][Parsing.cpp:122] _parseRequest(): method: GET url: /snapshot search: 
+[ 17302][V][Parsing.cpp:226] _parseRequest(): headerName: Host
+[ 17305][V][Parsing.cpp:227] _parseRequest(): headerValue: 192.168.1.80
+[ 17311][V][Parsing.cpp:226] _parseRequest(): headerName: User-Agent
+[ 17317][V][Parsing.cpp:227] _parseRequest(): headerValue: ESP32HTTPClient
+[ 17324][V][Parsing.cpp:226] _parseRequest(): headerName: Connection
+[ 17330][V][Parsing.cpp:227] _parseRequest(): headerValue: keep-alive
+[ 17336][V][Parsing.cpp:226] _parseRequest(): headerName: Accept-Encoding
+[ 17342][V][Parsing.cpp:227] _parseRequest(): headerValue: identity;q=1,chunked;q=0.1,*;q=0
+[ 17351][V][Parsing.cpp:254] _parseArguments(): args: 
+[ 17355][V][Parsing.cpp:237] _parseRequest(): Request: /snapshot
+[ 17361][V][Parsing.cpp:238] _parseRequest():  Arguments: 
+[ 17367][V][main.cpp:204] handle_snapshot(): handle_snapshot
+Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception). 
+Debug exception reason: Stack canary watchpoint triggered (loopTask) 
+Core  1 register dump:
+PC      : 0x40092407  PS      : 0x00060036  A0      : 0x80090a48  A1      : 0x3ffb0320  
+A2      : 0x3ffbf5c8  A3      : 0xb33fffff  A4      : 0x0000cdcd  A5      : 0x00060023  
+A6      : 0x00060023  A7      : 0x0000abab  A8      : 0xb33fffff  A9      : 0xffffffff  
+A10     : 0x3ffbf5b8  A11     : 0x00000001  A12     : 0x00060021  A13     : 0x3ffb0400  
+A14     : 0x007bf5c8  A15     : 0x003fffff  SAR     : 0x00000004  EXCCAUSE: 0x00000001  
+EXCVADDR: 0x00000000  LBEG    : 0x4008b2fc  LEND    : 0x4008b312  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x40092404:0x3ffb0320 0x40090a45:0x3ffb0360 0x4008f050:0x3ffb0390 0x4008f000:0xa5a5a5a5 |<-CORRUPTED
+
+
+
+
+ELF file SHA256: a1ad6cf96b92a159
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+[     4][V][WiFiServer.h:42] WiFiServer(): WiFiServer::WiFiServer(port=80, ...)
+[     4][V][WebServer.cpp:87] WebServer(): WebServer::Webserver(port=80)
+[    42][D][esp32-hal-cpu.c:244] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+[   490][I][esp32-hal-psram.c:96] psramInit(): PSRAM enabled
+[   519][V][[   520][I][main.cpp:403] setup(): CPU Freq: 240 Mhz, 2 core(s)
+[   521][I][main.cpp:404] setup(): Free heap: 248380 bytes
+[   521][I][main.cpp:405] setup(): SDK version: v4.4.4
+[   525][I][main.cpp:406] setup(): Starting ESP32CAM-RTSP...
+[   531][V][main.cpp:411] setup(): PSRAM found and initialized
+Config version: 1.5
+Config size: 455
+Loading configurations
+[iwcAll]
+|-- [iwcSys]
+|   |-- 'iwcThingName' with value: 'ESP32'
+|   |-- 'iwcApPassword' with value: <hidden>
+|   |-- [iwcWifi0]
+|   |   |-- 'iwcWifiSsid' with value: 'TheilvigNet-2.4G'
+|   |   \-- 'iwcWifiPassword' with value: <hidden>
+|   \-- 'iwcApTimeout' with value: '1'
+|-- [iwcCustom]
+|   |-- [board]
+|   |   \-- 'bt' with value: 'AI THINKER'
+|   |-- [camera]
+|   |   |-- 'fd' with value: '40'
+|   |   |-- 'fs' with value: 'QVGA (320x240)'
+|   |   |-- 'q' with value: '1'
+|   |   |-- 'eps' with value: '1'
+|   |   |-- 'fb' with value: '2'
+|   |   |-- 'b' with value: '0'
+|   |   |-- 'c' with value: '0'
+|   |   |-- 's' with value: '0'
+|   |   |-- 'e' with value: 'Normal'
+|   |   |-- 'wb' with value: '1'
+|   |   |-- 'awbg' with value: '1'
+|   |   |-- 'wbm' with value: 'Auto'
+|   |   |-- 'ec' with value: '1'
+|   |   |-- 'aec2' with value: '1'
+|   |   |-- 'ael' with value: '0'
+|   |   |-- 'aecv' with value: '300'
+|   |   |-- 'gc' with value: '1'
+|   |   |-- 'agcg' with value: '0'
+|   |   |-- 'gcl' with value: '2X'
+|   |   |-- 'bpc' with value: '0'
+|   |   |-- 'wpc' with value: '1'
+|   |   |-- 'rg' with value: '1'
+|   |   |-- 'lenc' with value: '1'
+|   |   |-- 'hm' with value: '0'
+|   |   |-- 'vm' with value: '0'
+|   |   |-- 'dcw' with value: '1'
+|   |   \-- 'cb' with value: '0'
+|   \-- [io]
+|       \-- 'li' with value: '0'
+\-- [hidden]
+[   669][V][main.cpp:289] initialize_camera(): initialize_camera
+[   669][I][main.cpp:290] initialize_camera(): Camera config: AI THINKER
+[   675][I][main.cpp:296] initialize_camera(): Frame size: QVGA (320x240)
+[   681][I][main.cpp:298] initialize_camera(): JPEG quality: 1
+[   687][I][main.cpp:299] initialize_camera(): Frame duration: 40 ms
+[   693][I][main.cpp:303] initialize_camera(): Enable PSRAM: 1
+[   699][I][main.cpp:304] initialize_camera(): Frame buffers: 2
+[   704][I][main.cpp:310] initialize_camera(): PSRAM enabled!
+[   938][V][esp32-hal-ledc.c:231] analogWrite(): GPIO 4 - Using Channel 15, Value = 0
+State changing from: 0 to 2
+[   958][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 0 - WIFI_READY
+Setting up AP: ESP32
+Use password: <hidden>
+[  1059][V][WiFiGeneric.cpp:392] _arduino_event_cb(): AP Started
+[  1060][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 10 - AP_START
+AP IP address: 192.168.4.1
+[  1673][V][WiFiGeneric.cpp:395] _arduino_event_cb(): AP Stopped
+[  1673][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 11 - AP_STOP
+[  1674][V][WiFiGeneric.cpp:392] _arduino_event_cb(): AP Started
+[  1680][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 10 - AP_START
+AP timeout (ms): 1000
+State changed from: 0 to 2
+State changing from: 2 to 3
+[  2703][V][WiFiGeneric.cpp:395] _arduino_event_cb(): AP Stopped
+[  2703][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 11 - AP_STOP
+ets Jul 29 2019 12:21:46
+
+rst:0x8 (TG1WDT_SYS_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+[     4][V][WiFiServer.h:42] WiFiServer(): WiFiServer::WiFiServer(port=80, ...)
+[     4][V][WebServer.cpp:87] WebServer(): WebServer::Webserver(port=80)
+[    42][D][esp32-hal-cpu.c:244] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+[   490][I][esp32-hal-psram.c:96] psramInit(): PSRAM enabled
+[   567][V][[   568][I][main.cpp:403] setup(): CPU Freq: 240 Mhz, 2 core(s)
+[   568][I][main.cpp:404] setup(): Free heap: 248380 bytes
+[   569][I][main.cpp:405] setup(): SDK version: v4.4.4
+[   573][I][main.cpp:406] setup(): Starting ESP32CAM-RTSP...
+[   578][V][main.cpp:411] setup(): PSRAM found and initialized
+Config version: 1.5
+Config size: 455
+Loading configurations
+[iwcAll]
+|-- [iwcSys]
+|   |-- 'iwcThingName' with value: 'ESP32'
+|   |-- 'iwcApPassword' with value: <hidden>
+|   |-- [iwcWifi0]
+|   |   |-- 'iwcWifiSsid' with value: 'TheilvigNet-2.4G'
+|   |   \-- 'iwcWifiPassword' with value: <hidden>
+|   \-- 'iwcApTimeout' with value: '1'
+|-- [iwcCustom]
+|   |-- [board]
+|   |   \-- 'bt' with value: 'AI THINKER'
+|   |-- [camera]
+|   |   |-- 'fd' with value: '40'
+|   |   |-- 'fs' with value: 'QVGA (320x240)'
+|   |   |-- 'q' with value: '1'
+|   |   |-- 'eps' with value: '1'
+|   |   |-- 'fb' with value: '2'
+|   |   |-- 'b' with value: '0'
+|   |   |-- 'c' with value: '0'
+|   |   |-- 's' with value: '0'
+|   |   |-- 'e' with value: 'Normal'
+|   |   |-- 'wb' with value: '1'
+|   |   |-- 'awbg' with value: '1'
+|   |   |-- 'wbm' with value: 'Auto'
+|   |   |-- 'ec' with value: '1'
+|   |   |-- 'aec2' with value: '1'
+|   |   |-- 'ael' with value: '0'
+|   |   |-- 'aecv' with value: '300'
+|   |   |-- 'gc' with value: '1'
+|   |   |-- 'agcg' with value: '0'
+|   |   |-- 'gcl' with value: '2X'
+|   |   |-- 'bpc' with value: '0'
+|   |   |-- 'wpc' with value: '1'
+|   |   |-- 'rg' with value: '1'
+|   |   |-- 'lenc' with value: '1'
+|   |   |-- 'hm' with value: '0'
+|   |   |-- 'vm' with value: '0'
+|   |   |-- 'dcw' with value: '1'
+|   |   \-- 'cb' with value: '0'
+|   \-- [io]
+|       \-- 'li' with value: '0'
+\-- [hidden]
+[   717][V][main.cpp:289] initialize_camera(): initialize_camera
+[   717][I][main.cpp:290] initialize_camera(): Camera config: AI THINKER
+[   723][I][main.cpp:296] initialize_camera(): Frame size: QVGA (320x240)
+[   729][I][main.cpp:298] initialize_camera(): JPEG quality: 1
+[   735][I][main.cpp:299] initialize_camera(): Frame duration: 40 ms
+[   741][I][main.cpp:303] initialize_camera(): Enable PSRAM: 1
+[   746][I][main.cpp:304] initialize_camera(): Frame buffers: 2
+[   752][I][main.cpp:310] initialize_camera(): PSRAM enabled!
+[   985][V][esp32-hal-ledc.c:231] analogWrite(): GPIO 4 - Using Channel 15, Value = 0
+State changing from: 0 to 2
+[  1007][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 0 - WIFI_READY
+Setting up AP: ESP32
+Use password: <hidden>
+[  1106][V][WiFiGeneric.cpp:392] _arduino_event_cb(): AP Started
+[  1107][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 10 - AP_START
+AP IP address: 192.168.4.1
+[  1714][V][WiFiGeneric.cpp:395] _arduino_event_cb(): AP Stopped
+[  1715][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 11 - AP_STOP
+[  1716][V][WiFiGeneric.cpp:392] _arduino_event_cb(): AP Started
+[  1722][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 10 - AP_START
+AP timeout (ms): 1000
+State changed from: 0 to 2
+State changing from: 2 to 3
+[  2745][V][WiFiGeneric.cpp:395] _arduino_event_cb(): AP Stopped
+[  2745][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 11 - AP_STOP
+[  2751][V][WiFiGeneric.cpp:392] _arduino_event_cb(): AP Started
+[  2753][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 10 - AP_START
+EC (5839) wifi_init_default: esp_wifi_get_mac failed with 12289
+onnecting to [TheilvigNet-2.4G[  2765][V][WiFiGeneric.cpp:395] _arduino_event_cb(): AP Stopped
+] (password is hidden)
+[  2776][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 11 - AP_STOP
+WiFi timeout (ms): 30000
+[  2810][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 0 - WIFI_READY
+[  2818][V][WiFiGeneric.cpp:97] set_esp_interface_ip(): Configuring Station static IP: 0.0.0.0, MASK: 0.0.0.0, GW: 0.0.0.0
+[  2818][V][WiFiGeneric.cpp:340] _arduino_event_cb(): STA Started
+[  2823][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 2 - STA_START
+State changed from: 2 to 3
+E (6057) wifi:Association refused temporarily, comeback time 1024 mSec
+[  4059][V][WiFiGeneric.cpp:355] _arduino_event_cb(): STA Connected: SSID: TheilvigNet-2.4G, BSSID: 00:1f:01:6a:36:08, Channel: 6, Auth: WPA2_PSK
+[  4061][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 4 - STA_CONNECTED
+[  4377][V][WiFiGeneric.cpp:369] _arduino_event_cb(): STA Got New IP:192.168.1.80
+[  4377][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 7 - STA_GOT_IP
+[  4380][D][WiFiGeneric.cpp:1098] _eventCallback(): STA IP: 192.168.1.80, MASK: 255.255.255.0, GW: 192.168.1.1
+WiFi connected
+IP address: 192.168.1.80
+State changing from: 3 to 4
+[  7503][W][ESPmDNS.cpp:222] queryService(): No results found!
+Active mDNS services: 0 
+Accepting connection
+[  7505][V][main.cpp:365] on_connected(): on_connected
+[  7519][I][ArduinoOTA.cpp:141] begin(): OTA server at: esp32-a842e34a12bc.local:3232
+[  7519][V][main.cpp:356] start_rtsp_server(): start_rtsp_server
+[  7521][V][WiFiServer.h:42] WiFiServer(): WiFiServer::WiFiServer(port=554, ...)
+[  7528][I][rtsp_server.cpp:9] rtsp_server(): Starting RTSP server
+State changed from: 3 to 4
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+[     4][V][WiFiServer.h:42] WiFiServer(): WiFiServer::WiFiServer(port=80, ...)
+[     4][V][WebServer.cpp:87] WebServer(): WebServer::Webserver(port=80)
+[    42][D][esp32-hal-cpu.c:244] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+[   490][I][esp32-hal-psram.c:96] psramInit(): PSRAM enabled
+[   519][V][[   520][I][main.cpp:403] setup(): CPU Freq: 240 Mhz, 2 core(s)
+[   521][I][main.cpp:404] setup(): Free heap: 248380 bytes
+[   521][I][main.cpp:405] setup(): SDK version: v4.4.4
+[   525][I][main.cpp:406] setup(): Starting ESP32CAM-RTSP...
+[   531][V][main.cpp:411] setup(): PSRAM found and initialized
+Config version: 1.5
+Config size: 455
+Loading configurations
+[iwcAll]
+|-- [iwcSys]
+|   |-- 'iwcThingName' with value: 'ESP32'
+|   |-- 'iwcApPassword' with value: <hidden>
+|   |-- [iwcWifi0]
+|   |   |-- 'iwcWifiSsid' with value: 'TheilvigNet-2.4G'
+|   |   \-- 'iwcWifiPassword' with value: <hidden>
+|   \-- 'iwcApTimeout' with value: '1'
+|-- [iwcCustom]
+|   |-- [board]
+|   |   \-- 'bt' with value: 'AI THINKER'
+|   |-- [camera]
+|   |   |-- 'fd' with value: '40'
+|   |   |-- 'fs' with value: 'QVGA (320x240)'
+|   |   |-- 'q' with value: '1'
+|   |   |-- 'eps' with value: '1'
+|   |   |-- 'fb' with value: '2'
+|   |   |-- 'b' with value: '0'
+|   |   |-- 'c' with value: '0'
+|   |   |-- 's' with value: '0'
+|   |   |-- 'e' with value: 'Normal'
+|   |   |-- 'wb' with value: '1'
+|   |   |-- 'awbg' with value: '1'
+|   |   |-- 'wbm' with value: 'Auto'
+|   |   |-- 'ec' with value: '1'
+|   |   |-- 'aec2' with value: '1'
+|   |   |-- 'ael' with value: '0'
+|   |   |-- 'aecv' with value: '300'
+|   |   |-- 'gc' with value: '1'
+|   |   |-- 'agcg' with value: '0'
+|   |   |-- 'gcl' with value: '2X'
+|   |   |-- 'bpc' with value: '0'
+|   |   |-- 'wpc' with value: '1'
+|   |   |-- 'rg' with value: '1'
+|   |   |-- 'lenc' with value: '1'
+|   |   |-- 'hm' with value: '0'
+|   |   |-- 'vm' with value: '0'
+|   |   |-- 'dcw' with value: '1'
+|   |   \-- 'cb' with value: '0'
+|   \-- [io]
+|       \-- 'li' with value: '0'
+\-- [hidden]
+[   669][V][main.cpp:289] initialize_camera(): initialize_camera
+[   669][I][main.cpp:290] initialize_camera(): Camera config: AI THINKER
+[   675][I][main.cpp:296] initialize_camera(): Frame size: QVGA (320x240)
+[   681][I][main.cpp:298] initialize_camera(): JPEG quality: 1
+[   687][I][main.cpp:299] initialize_camera(): Frame duration: 40 ms
+[   693][I][main.cpp:303] initialize_camera(): Enable PSRAM: 1
+[   699][I][main.cpp:304] initialize_camera(): Frame buffers: 2
+[   704][I][main.cpp:310] initialize_camera(): PSRAM enabled!
+[   938][V][esp32-hal-ledc.c:231] analogWrite(): GPIO 4 - Using Channel 15, Value = 0
+State changing from: 0 to 2
+cam_hal: EV-EOF-OVF
+[   958][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 0 - WIFI_READY
+Setting up AP: ESP32
+Use password: <hidden>
+[  1057][V][WiFiGeneric.cpp:392] _arduino_event_cb(): AP Started
+[  1058][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 10 - AP_START
+AP IP address: 192.168.4.1
+[  1671][V][WiFiGeneric.cpp:395] _arduino_event_cb(): AP Stopped
+[  1672][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 11 - AP_STOP
+[  1672][V][WiFiGeneric.cpp:392] _arduino_event_cb(): AP Started
+[  1679][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 10 - AP_START
+AP timeout (ms): 1000
+State changed from: 0 to 2
+State changing from: 2 to 3
+[  2701][V][WiFiGeneric.cpp:395] _arduino_event_cb(): AP Stopped
+[  2702][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 11 - AP_STOP
+[  2706][V][WiFiGeneric.cpp:392] _arduino_event_cb(): AP Started
+[  2709][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 10 - AP_START
+EC (5660) wifi_init_default: esp_wifi_get_mac failed with 12289
+onnecting to [TheilvigNet-2.4G[  2722][V][WiFiGeneric.cpp:395] _arduino_event_cb(): AP Stopped
+] (password is hidden)
+[  2732][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 11 - AP_STOP
+WiFi timeout (ms): 30000
+[  2767][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 0 - WIFI_READY
+[  2775][V][WiFiGeneric.cpp:97] set_esp_interface_ip(): Configuring Station static IP: 0.0.0.0, MASK: 0.0.0.0, GW: 0.0.0.0
+[  2773][V][WiFiGeneric.cpp:340] _arduino_event_cb(): STA Started
+[  2780][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 2 - STA_START
+State changed from: 2 to 3
+E (5816) wifi:Association refused temporarily, comeback time 1024 mSec
+[  3924][V][WiFiGeneric.cpp:355] _arduino_event_cb(): STA Connected: SSID: TheilvigNet-2.4G, BSSID: 00:1f:01:6a:36:08, Channel: 6, Auth: WPA2_PSK
+[  3927][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 4 - STA_CONNECTED
+[  4146][V][WiFiGeneric.cpp:369] _arduino_event_cb(): STA Got New IP:192.168.1.80
+[  4147][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 7 - STA_GOT_IP
+[  4150][D][WiFiGeneric.cpp:1098] _eventCallback(): STA IP: 192.168.1.80, MASK: 255.255.255.0, GW: 192.168.1.1
+WiFi connected
+IP address: 192.168.1.80
+State changing from: 3 to 4
+[  7273][W][ESPmDNS.cpp:222] queryService(): No results found!
+Active mDNS services: 0 
+Accepting connection
+[  7275][V][main.cpp:365] on_connected(): on_connected
+[  7290][I][ArduinoOTA.cpp:141] begin(): OTA server at: esp32-a842e34a12bc.local:3232
+[  7290][V][main.cpp:356] start_rtsp_server(): start_rtsp_server
+[  7292][V][WiFiServer.h:42] WiFiServer(): WiFiServer::WiFiServer(port=554, ...)
+[  7299][I][rtsp_server.cpp:9] rtsp_server(): Starting RTSP server
+State changed from: 3 to 4
+[ 76668][V][WebServer.cpp:296] handleClient(): New client: client.localIP()=192.168.1.80
+[ 81674][V][WebServer.cpp:296] handleClient(): New client: client.localIP()=192.168.1.80
+[ 81674][V][Parsing.cpp:122] _parseRequest(): method: GET url: / search: 
+[ 81677][V][Parsing.cpp:226] _parseRequest(): headerName: Host
+[ 81682][V][Parsing.cpp:227] _parseRequest(): headerValue: 192.168.1.80
+[ 81689][V][Parsing.cpp:226] _parseRequest(): headerName: Connection
+[ 81695][V][Parsing.cpp:227] _parseRequest(): headerValue: keep-alive
+[ 81701][V][Parsing.cpp:226] _parseRequest(): headerName: Upgrade-Insecure-Requests
+[ 81708][V][Parsing.cpp:227] _parseRequest(): headerValue: 1
+[ 81714][V][Parsing.cpp:226] _parseRequest(): headerName: Accept
+[ 81720][V][Parsing.cpp:227] _parseRequest(): headerValue: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+[ 81731][V][Parsing.cpp:226] _parseRequest(): headerName: User-Agent
+[ 81736][V][Parsing.cpp:227] _parseRequest(): headerValue: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15
+[ 81752][V][Parsing.cpp:226] _parseRequest(): headerName: Authorization
+[ 81758][V][Parsing.cpp:227] _parseRequest(): headerValue: Basic YWRtaW46cGxhbnRhZ2Vu
+[ 81766][V][Parsing.cpp:226] _parseRequest(): headerName: Accept-Language
+[ 81772][V][Parsing.cpp:227] _parseRequest(): headerValue: en-GB,en;q=0.9
+[ 81779][V][Parsing.cpp:226] _parseRequest(): headerName: Accept-Encoding
+[ 81785][V][Parsing.cpp:227] _parseRequest(): headerValue: gzip, deflate
+[ 81792][V][Parsing.cpp:254] _parseArguments(): args: 
+[ 81797][V][Parsing.cpp:237] _parseRequest(): Request: /
+[ 81802][V][Parsing.cpp:238] _parseRequest():  Arguments: 
+[ 81807][V][main.cpp:90] handle_root(): Handle root
+[ 82001][V][WebServer.cpp:296] handleClient(): New client: client.localIP()=192.168.1.80
+[ 85657][V][Parsing.cpp:122] _parseRequest(): method: GET url: /config search: 
+[ 85657][V][Parsing.cpp:226] _parseRequest(): headerName: Host
+[ 85659][V][Parsing.cpp:227] _parseRequest(): headerValue: 192.168.1.80
+[ 85665][V][Parsing.cpp:226] _parseRequest(): headerName: Accept-Encoding
+[ 85671][V][Parsing.cpp:227] _parseRequest(): headerValue: gzip, deflate
+[ 85678][V][Parsing.cpp:226] _parseRequest(): headerName: Connection
+[ 85684][V][Parsing.cpp:227] _parseRequest(): headerValue: keep-alive
+[ 85690][V][Parsing.cpp:226] _parseRequest(): headerName: Upgrade-Insecure-Requests
+[ 85697][V][Parsing.cpp:227] _parseRequest(): headerValue: 1
+[ 85703][V][Parsing.cpp:226] _parseRequest(): headerName: Accept
+[ 85709][V][Parsing.cpp:227] _parseRequest(): headerValue: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+[ 85720][V][Parsing.cpp:226] _parseRequest(): headerName: User-Agent
+[ 85725][V][Parsing.cpp:227] _parseRequest(): headerValue: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15
+[ 85741][V][Parsing.cpp:226] _parseRequest(): headerName: Referer
+[ 85747][V][Parsing.cpp:227] _parseRequest(): headerValue: http://192.168.1.80/
+[ 85754][V][Parsing.cpp:226] _parseRequest(): headerName: Authorization
+[ 85760][V][Parsing.cpp:227] _parseRequest(): headerValue: Basic YWRtaW46cGxhbnRhZ2Vu
+[ 85768][V][Parsing.cpp:226] _parseRequest(): headerName: Accept-Language
+[ 85774][V][Parsing.cpp:227] _parseRequest(): headerValue: en-GB,en;q=0.9
+[ 85781][V][Parsing.cpp:254] _parseArguments(): args: 
+[ 85786][V][Parsing.cpp:237] _parseRequest(): Request: /config
+[ 85791][V][Parsing.cpp:238] _parseRequest():  Arguments: 
+Configuration page requested.
+[ 85808][W][WebServer.cpp:436] send(): content length is zero
+Rendering parameters:
+[iwcSys]
+|-- 'iwcThingName' with value: 'ESP32'
+|-- 'iwcApPassword' with value: <hidden>
+|-- [iwcWifi0]
+|   |-- 'iwcWifiSsid' with value: 'TheilvigNet-2.4G'
+|   \-- 'iwcWifiPassword' with value: <hidden>
+\-- 'iwcApTimeout' with value: '1'
+[iwcCustom]
+|-- [board]
+|   \-- 'bt' with value: 'AI THINKER'
+|-- [camera]
+|   |-- 'fd' with value: '40'
+|   |-- 'fs' with value: 'QVGA (320x240)'
+|   |-- 'q' with value: '1'
+|   |-- 'eps' with value: '1'
+|   |-- 'fb' with value: '2'
+|   |-- 'b' with value: '0'
+|   |-- 'c' with value: '0'
+|   |-- 's' with value: '0'
+|   |-- 'e' with value: 'Normal'
+|   |-- 'wb' with value: '1'
+|   |-- 'awbg' with value: '1'
+|   |-- 'wbm' with value: 'Auto'
+|   |-- 'ec' with value: '1'
+|   |-- 'aec2' with value: '1'
+|   |-- 'ael' with value: '0'
+|   |-- 'aecv' with value: '300'
+|   |-- 'gc' with value: '1'
+|   |-- 'agcg' with value: '0'
+|   |-- 'gcl' with value: '2X'
+|   |-- 'bpc' with value: '0'
+|   |-- 'wpc' with value: '1'
+|   |-- 'rg' with value: '1'
+|   |-- 'lenc' with value: '1'
+|   |-- 'hm' with value: '0'
+|   |-- 'vm' with value: '0'
+|   |-- 'dcw' with value: '1'
+|   \-- 'cb' with value: '0'
+\-- [io]
+    \-- 'li' with value: '0'
+[104816][V][WebServer.cpp:296] handleClient(): New client: client.localIP()=192.168.1.80
+[104820][V][Parsing.cpp:122] _parseRequest(): method: POST url: /config search: 
+[104820][V][Parsing.cpp:154] _parseRequest(): headerName: Host
+[104826][V][Parsing.cpp:155] _parseRequest(): headerValue: 192.168.1.80
+[104832][V][Parsing.cpp:154] _parseRequest(): headerName: Accept
+[104838][V][Parsing.cpp:155] _parseRequest(): headerValue: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+[104849][V][Parsing.cpp:154] _parseRequest(): headerName: Authorization
+[104855][V][Parsing.cpp:155] _parseRequest(): headerValue: Basic YWRtaW46cGxhbnRhZ2Vu
+[104863][V][Parsing.cpp:154] _parseRequest(): headerName: Accept-Language
+[104869][V][Parsing.cpp:155] _parseRequest(): headerValue: en-GB,en;q=0.9
+[104876][V][Parsing.cpp:154] _parseRequest(): headerName: Accept-Encoding
+[104882][V][Parsing.cpp:155] _parseRequest(): headerValue: gzip, deflate
+[104889][V][Parsing.cpp:154] _parseRequest(): headerName: Content-Type
+[104894][V][Parsing.cpp:155] _parseRequest(): headerValue: application/x-www-form-urlencoded
+[104903][V][Parsing.cpp:154] _parseRequest(): headerName: Origin
+[104908][V][Parsing.cpp:155] _parseRequest(): headerValue: http://192.168.1.80
+[104916][V][Parsing.cpp:154] _parseRequest(): headerName: User-Agent
+[104921][V][Parsing.cpp:155] _parseRequest(): headerValue: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15
+[104937][V][Parsing.cpp:154] _parseRequest(): headerName: Connection
+[104943][V][Parsing.cpp:155] _parseRequest(): headerValue: keep-alive
+[104949][V][Parsing.cpp:154] _parseRequest(): headerName: Upgrade-Insecure-Requests
+[104956][V][Parsing.cpp:155] _parseRequest(): headerValue: 1
+[104962][V][Parsing.cpp:154] _parseRequest(): headerName: Referer
+[104968][V][Parsing.cpp:155] _parseRequest(): headerValue: http://192.168.1.80/config
+[104975][V][Parsing.cpp:154] _parseRequest(): headerName: Content-Length
+[104982][V][Parsing.cpp:155] _parseRequest(): headerValue: 352
+[104988][V][Parsing.cpp:254] _parseArguments(): args: iotSave=true&iwcThingName=ESP32&iwcApPassword=&iwcWifiSsid=TheilvigNet-2.4G&iwcWifiPassword=&iwcApTimeout=1&bt=AI+THINKER&fd=40&fs=QVGA+%28320x240%29&q=10&eps=selected&fb=2&b=0&c=0&s=0&e=Normal&wb=selected&awbg=selected&wbm=Auto&ec=selected&aec2=selected&ael=0&aecv=300&gc=selected&agcg=0&gcl=2X&wpc=selected&rg=selected&lenc=selected&dcw=selected&li=0
+[105023][V][Parsing.cpp:272] _parseArguments(): args count: 31
+[105028][V][Parsing.cpp:280] _parseArguments(): pos 0 =@7 &@12
+[105034][V][Parsing.cpp:291] _parseArguments(): arg 0 key: iotSave value: true
+[105041][V][Parsing.cpp:280] _parseArguments(): pos 13 =@25 &@31
+[105046][V][Parsing.cpp:291] _parseArguments(): arg 1 key: iwcThingName value: ESP32
+[105054][V][Parsing.cpp:280] _parseArguments(): pos 32 =@45 &@46
+[105060][V][Parsing.cpp:291] _parseArguments(): arg 2 key: iwcApPassword value: 
+[105067][V][Parsing.cpp:280] _parseArguments(): pos 47 =@58 &@75
+[105073][V][Parsing.cpp:291] _parseArguments(): arg 3 key: iwcWifiSsid value: TheilvigNet-2.4G
+[105081][V][Parsing.cpp:280] _parseArguments(): pos 76 =@91 &@92
+[105087][V][Parsing.cpp:291] _parseArguments(): arg 4 key: iwcWifiPassword value: 
+[105094][V][Parsing.cpp:280] _parseArguments(): pos 93 =@105 &@107
+[105100][V][Parsing.cpp:291] _parseArguments(): arg 5 key: iwcApTimeout value: 1
+[105107][V][Parsing.cpp:280] _parseArguments(): pos 108 =@110 &@121
+[105113][V][Parsing.cpp:291] _parseArguments(): arg 6 key: bt value: AI THINKER
+[105120][V][Parsing.cpp:280] _parseArguments(): pos 122 =@124 &@127
+[105126][V][Parsing.cpp:291] _parseArguments(): arg 7 key: fd value: 40
+[105132][V][Parsing.cpp:280] _parseArguments(): pos 128 =@130 &@149
+[105138][V][Parsing.cpp:291] _parseArguments(): arg 8 key: fs value: QVGA (320x240)
+[105146][V][Parsing.cpp:280] _parseArguments(): pos 150 =@151 &@154
+[105152][V][Parsing.cpp:291] _parseArguments(): arg 9 key: q value: 10
+[105158][V][Parsing.cpp:280] _parseArguments(): pos 155 =@158 &@167
+[105164][V][Parsing.cpp:291] _parseArguments(): arg 10 key: eps value: selected
+[105171][V][Parsing.cpp:280] _parseArguments(): pos 168 =@170 &@172
+[105177][V][Parsing.cpp:291] _parseArguments(): arg 11 key: fb value: 2
+[105183][V][Parsing.cpp:280] _parseArguments(): pos 173 =@174 &@176
+[105189][V][Parsing.cpp:291] _parseArguments(): arg 12 key: b value: 0
+[105195][V][Parsing.cpp:280] _parseArguments(): pos 177 =@178 &@180
+[105201][V][Parsing.cpp:291] _parseArguments(): arg 13 key: c value: 0
+[105208][V][Parsing.cpp:280] _parseArguments(): pos 181 =@182 &@184
+[105214][V][Parsing.cpp:291] _parseArguments(): arg 14 key: s value: 0
+[105220][V][Parsing.cpp:280] _parseArguments(): pos 185 =@186 &@193
+[105226][V][Parsing.cpp:291] _parseArguments(): arg 15 key: e value: Normal
+[105233][V][Parsing.cpp:280] _parseArguments(): pos 194 =@196 &@205
+[105239][V][Parsing.cpp:291] _parseArguments(): arg 16 key: wb value: selected
+[105245][V][Parsing.cpp:280] _parseArguments(): pos 206 =@210 &@219
+[105251][V][Parsing.cpp:291] _parseArguments(): arg 17 key: awbg value: selected
+[105259][V][Parsing.cpp:280] _parseArguments(): pos 220 =@223 &@228
+[105265][V][Parsing.cpp:291] _parseArguments(): arg 18 key: wbm value: Auto
+[105271][V][Parsing.cpp:280] _parseArguments(): pos 229 =@231 &@240
+[105277][V][Parsing.cpp:291] _parseArguments(): arg 19 key: ec value: selected
+[105284][V][Parsing.cpp:280] _parseArguments(): pos 241 =@245 &@254
+[105290][V][Parsing.cpp:291] _parseArguments(): arg 20 key: aec2 value: selected
+[105297][V][Parsing.cpp:280] _parseArguments(): pos 255 =@258 &@260
+[105303][V][Parsing.cpp:291] _parseArguments(): arg 21 key: ael value: 0
+[105310][V][Parsing.cpp:280] _parseArguments(): pos 261 =@265 &@269
+[105316][V][Parsing.cpp:291] _parseArguments(): arg 22 key: aecv value: 300
+[105322][V][Parsing.cpp:280] _parseArguments(): pos 270 =@272 &@281
+[105328][V][Parsing.cpp:291] _parseArguments(): arg 23 key: gc value: selected
+[105335][V][Parsing.cpp:280] _parseArguments(): pos 282 =@286 &@288
+[105341][V][Parsing.cpp:291] _parseArguments(): arg 24 key: agcg value: 0
+[105348][V][Parsing.cpp:280] _parseArguments(): pos 289 =@292 &@295
+[105354][V][Parsing.cpp:291] _parseArguments(): arg 25 key: gcl value: 2X
+[105360][V][Parsing.cpp:280] _parseArguments(): pos 296 =@299 &@308
+[105366][V][Parsing.cpp:291] _parseArguments(): arg 26 key: wpc value: selected
+[105373][V][Parsing.cpp:280] _parseArguments(): pos 309 =@311 &@320
+[105379][V][Parsing.cpp:291] _parseArguments(): arg 27 key: rg value: selected
+[105386][V][Parsing.cpp:280] _parseArguments(): pos 321 =@325 &@334
+[105392][V][Parsing.cpp:291] _parseArguments(): arg 28 key: lenc value: selected
+[105399][V][Parsing.cpp:280] _parseArguments(): pos 335 =@338 &@347
+[105405][V][Parsing.cpp:291] _parseArguments(): arg 29 key: dcw value: selected
+[105412][V][Parsing.cpp:280] _parseArguments(): pos 348 =@350 &@-1
+[105418][V][Parsing.cpp:291] _parseArguments(): arg 30 key: li value: 0
+[105425][V][Parsing.cpp:298] _parseArguments(): args count: 31
+[105430][V][Parsing.cpp:197] _parseRequest(): Plain: iotSave=true&iwcThingName=ESP32&iwcApPassword=&iwcWifiSsid=TheilvigNet-2.4G&iwcWifiPassword=&iwcApTimeout=1&bt=AI+THINKER&fd=40&fs=QVGA+%28320x240%29&q=10&eps=selected&fb=2&b=0&c=0&s=0&e=Normal&wb=selected&awbg=selected&wbm=Auto&ec=selected&aec2=selected&ael=0&aecv=300&gc=selected&agcg=0&gcl=2X&wpc=selected&rg=selected&lenc=selected&dcw=selected&li=0
+[105466][V][Parsing.cpp:237] _parseRequest(): Request: /config
+[105471][V][Parsing.cpp:238] _parseRequest():  Arguments: iotSave=true&iwcThingName=ESP32&iwcApPassword=&iwcWifiSsid=TheilvigNet-2.4G&iwcWifiPassword=&iwcApTimeout=1&bt=AI+THINKER&fd=40&fs=QVGA+%28320x240%29&q=10&eps=selected&fb=2&b=0&c=0&s=0&e=Normal&wb=selected&awbg=selected&wbm=Auto&ec=selected&aec2=selected&ael=0&aecv=300&gc=selected&agcg=0&gcl=2X&wpc=selected&rg=selected&lenc=selected&dcw=selected&li=0
+Form validation result is: positive
+Updating configuration
+[iwcSys]
+|-- 'iwcThingName' with value: 'ESP32'
+|-- 'iwcApPassword' with value: <hidden>
+|-- [iwcWifi0]
+|   |-- 'iwcWifiSsid' with value: 'TheilvigNet-2.4G'
+|   \-- 'iwcWifiPassword' with value: <hidden>
+\-- 'iwcApTimeout' with value: '1'
+[iwcCustom]
+|-- [board]
+|   \-- 'bt' with value: 'AI THINKER'
+|-- [camera]
+|   |-- 'fd' with value: '40'
+|   |-- 'fs' with value: 'QVGA (320x240)'
+|   |-- 'q' with value: '1'
+|   |-- 'eps' with value: '1'
+|   |-- 'fb' with value: '2'
+|   |-- 'b' with value: '0'
+|   |-- 'c' with value: '0'
+|   |-- 's' with value: '0'
+|   |-- 'e' with value: 'Normal'
+|   |-- 'wb' with value: '1'
+|   |-- 'awbg' with value: '1'
+|   |-- 'wbm' with value: 'Auto'
+|   |-- 'ec' with value: '1'
+|   |-- 'aec2' with value: '1'
+|   |-- 'ael' with value: '0'
+|   |-- 'aecv' with value: '300'
+|   |-- 'gc' with value: '1'
+|   |-- 'agcg' with value: '0'
+|   |-- 'gcl' with value: '2X'
+|   |-- 'bpc' with value: '0'
+|   |-- 'wpc' with value: '1'
+|   |-- 'rg' with value: '1'
+|   |-- 'lenc' with value: '1'
+|   |-- 'hm' with value: '0'
+|   |-- 'vm' with value: '0'
+|   |-- 'dcw' with value: '1'
+|   \-- 'cb' with value: '0'
+\-- [io]
+    \-- 'li' with value: '0'
+
+iwcThingName: ESP32
+iwcApPassword: <was not changed>
+iwcWifiSsid: TheilvigNet-2.4G
+iwcWifiPassword: <was not changed>
+iwcApTimeout: 1
+bt: AI THINKER
+fd: 40
+fs: QVGA (320x240)
+q: 10
+eps: selected
+fb: 2
+b: 0
+c: 0
+s: 0
+e: Normal
+wb: selected
+awbg: selected
+wbm: Auto
+ec: selected
+aec2: selected
+ael: 0
+aecv: 300
+gc: selected
+agcg: 0
+gcl: 2X
+bpc: not selected
+wpc: selected
+rg: selected
+lenc: selected
+hm: not selected
+vm: not selected
+dcw: selected
+cb: not selected
+li: 0
+Config version: 1.5
+Config size: 455
+Saving configuration
+[iwcAll]
+|-- [iwcSys]
+|   |-- 'iwcThingName' with value: 'ESP32'
+|   |-- 'iwcApPassword' with value: <hidden>
+|   |-- [iwcWifi0]
+|   |   |-- 'iwcWifiSsid' with value: 'TheilvigNet-2.4G'
+|   |   \-- 'iwcWifiPassword' with value: <hidden>
+|   \-- 'iwcApTimeout' with value: '1'
+|-- [iwcCustom]
+|   |-- [board]
+|   |   \-- 'bt' with value: 'AI THINKER'
+|   |-- [camera]
+|   |   |-- 'fd' with value: '40'
+|   |   |-- 'fs' with value: 'QVGA (320x240)'
+|   |   |-- 'q' with value: '10'
+|   |   |-- 'eps' with value: '1'
+|   |   |-- 'fb' with value: '2'
+|   |   |-- 'b' with value: '0'
+|   |   |-- 'c' with value: '0'
+|   |   |-- 's' with value: '0'
+|   |   |-- 'e' with value: 'Normal'
+|   |   |-- 'wb' with value: '1'
+|   |   |-- 'awbg' with value: '1'
+|   |   |-- 'wbm' with value: 'Auto'
+|   |   |-- 'ec' with value: '1'
+|   |   |-- 'aec2' with value: '1'
+|   |   |-- 'ael' with value: '0'
+|   |   |-- 'aecv' with value: '300'
+|   |   |-- 'gc' with value: '1'
+|   |   |-- 'agcg' with value: '0'
+|   |   |-- 'gcl' with value: '2X'
+|   |   |-- 'bpc' with value: '0'
+|   |   |-- 'wpc' with value: '1'
+|   |   |-- 'rg' with value: '1'
+|   |   |-- 'lenc' with value: '1'
+|   |   |-- 'hm' with value: '0'
+|   |   |-- 'vm' with value: '0'
+|   |   |-- 'dcw' with value: '1'
+|   |   \-- 'cb' with value: '0'
+|   \-- [io]
+|       \-- 'li' with value: '0'
+\-- [hidden]
+
+[105802][V][main.cpp:377] on_config_saved(): on_config_saved
+[105802][V][esp32-hal-ledc.c:231] analogWrite(): GPIO 4 - Using Channel 15, Value = 0
+[105908][V][WebServer.cpp:296] handleClient(): New client: client.localIP()=192.168.1.80
+[105910][V][Parsing.cpp:122] _parseRequest(): method: POST url: /config search: 
+[105913][V][Parsing.cpp:154] _parseRequest(): headerName: Host
+[105918][V][Parsing.cpp:155] _parseRequest(): headerValue: 192.168.1.80
+[105925][V][Parsing.cpp:154] _parseRequest(): headerName: Accept
+[105930][V][Parsing.cpp:155] _parseRequest(): headerValue: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+[105941][V][Parsing.cpp:154] _parseRequest(): headerName: Authorization
+[105947][V][Parsing.cpp:155] _parseRequest(): headerValue: Basic YWRtaW46cGxhbnRhZ2Vu
+[105955][V][Parsing.cpp:154] _parseRequest(): headerName: Accept-Language
+[105961][V][Parsing.cpp:155] _parseRequest(): headerValue: en-GB,en;q=0.9
+[105968][V][Parsing.cpp:154] _parseRequest(): headerName: Accept-Encoding
+[105974][V][Parsing.cpp:155] _parseRequest(): headerValue: gzip, deflate
+[105981][V][Parsing.cpp:154] _parseRequest(): headerName: Content-Type
+[105987][V][Parsing.cpp:155] _parseRequest(): headerValue: application/x-www-form-urlencoded
+[105995][V][Parsing.cpp:154] _parseRequest(): headerName: Origin
+[106001][V][Parsing.cpp:155] _parseRequest(): headerValue: http://192.168.1.80
+[106008][V][Parsing.cpp:154] _parseRequest(): headerName: User-Agent
+[106014][V][Parsing.cpp:155] _parseRequest(): headerValue: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15
+[106030][V][Parsing.cpp:154] _parseRequest(): headerName: Connection
+[106035][V][Parsing.cpp:155] _parseRequest(): headerValue: keep-alive
+[106042][V][Parsing.cpp:154] _parseRequest(): headerName: Upgrade-Insecure-Requests
+[106049][V][Parsing.cpp:155] _parseRequest(): headerValue: 1
+[106055][V][Parsing.cpp:154] _parseRequest(): headerName: Referer
+[106060][V][Parsing.cpp:155] _parseRequest(): headerValue: http://192.168.1.80/config
+[106068][V][Parsing.cpp:154] _parseRequest(): headerName: Content-Length
+[106074][V][Parsing.cpp:155] _parseRequest(): headerValue: 352
+[106081][V][Parsing.cpp:254] _parseArguments(): args: iotSave=true&iwcThingName=ESP32&iwcApPassword=&iwcWifiSsid=TheilvigNet-2.4G&iwcWifiPassword=&iwcApTimeout=1&bt=AI+THINKER&fd=40&fs=QVGA+%28320x240%29&q=10&eps=selected&fb=2&b=0&c=0&s=0&e=Normal&wb=selected&awbg=selected&wbm=Auto&ec=selected&aec2=selected&ael=0&aecv=300&gc=selected&agcg=0&gcl=2X&wpc=selected&rg=selected&lenc=selected&dcw=selected&li=0
+[106115][V][Parsing.cpp:272] _parseArguments(): args count: 31
+[106121][V][Parsing.cpp:280] _parseArguments(): pos 0 =@7 &@12
+[106126][V][Parsing.cpp:291] _parseArguments(): arg 0 key: iotSave value: true
+[106133][V][Parsing.cpp:280] _parseArguments(): pos 13 =@25 &@31
+[106139][V][Parsing.cpp:291] _parseArguments(): arg 1 key: iwcThingName value: ESP32
+[106146][V][Parsing.cpp:280] _parseArguments(): pos 32 =@45 &@46
+[106152][V][Parsing.cpp:291] _parseArguments(): arg 2 key: iwcApPassword value: 
+[106159][V][Parsing.cpp:280] _parseArguments(): pos 47 =@58 &@75
+[106165][V][Parsing.cpp:291] _parseArguments(): arg 3 key: iwcWifiSsid value: TheilvigNet-2.4G
+[106173][V][Parsing.cpp:280] _parseArguments(): pos 76 =@91 &@92
+[106179][V][Parsing.cpp:291] _parseArguments(): arg 4 key: iwcWifiPassword value: 
+[106186][V][Parsing.cpp:280] _parseArguments(): pos 93 =@105 &@107
+[106192][V][Parsing.cpp:291] _parseArguments(): arg 5 key: iwcApTimeout value: 1
+[106199][V][Parsing.cpp:280] _parseArguments(): pos 108 =@110 &@121
+[106205][V][Parsing.cpp:291] _parseArguments(): arg 6 key: bt value: AI THINKER
+[106212][V][Parsing.cpp:280] _parseArguments(): pos 122 =@124 &@127
+[106218][V][Parsing.cpp:291] _parseArguments(): arg 7 key: fd value: 40
+[106225][V][Parsing.cpp:280] _parseArguments(): pos 128 =@130 &@149
+[106231][V][Parsing.cpp:291] _parseArguments(): arg 8 key: fs value: QVGA (320x240)
+[106238][V][Parsing.cpp:280] _parseArguments(): pos 150 =@151 &@154
+[106244][V][Parsing.cpp:291] _parseArguments(): arg 9 key: q value: 10
+[106250][V][Parsing.cpp:280] _parseArguments(): pos 155 =@158 &@167
+[106256][V][Parsing.cpp:291] _parseArguments(): arg 10 key: eps value: selected
+[106263][V][Parsing.cpp:280] _parseArguments(): pos 168 =@170 &@172
+[106269][V][Parsing.cpp:291] _parseArguments(): arg 11 key: fb value: 2
+[106276][V][Parsing.cpp:280] _parseArguments(): pos 173 =@174 &@176
+[106282][V][Parsing.cpp:291] _parseArguments(): arg 12 key: b value: 0
+[106288][V][Parsing.cpp:280] _parseArguments(): pos 177 =@178 &@180
+[106294][V][Parsing.cpp:291] _parseArguments(): arg 13 key: c value: 0
+[106300][V][Parsing.cpp:280] _parseArguments(): pos 181 =@182 &@184
+[106306][V][Parsing.cpp:291] _parseArguments(): arg 14 key: s value: 0
+[106312][V][Parsing.cpp:280] _parseArguments(): pos 185 =@186 &@193
+[106318][V][Parsing.cpp:291] _parseArguments(): arg 15 key: e value: Normal
+[106325][V][Parsing.cpp:280] _parseArguments(): pos 194 =@196 &@205
+[106331][V][Parsing.cpp:291] _parseArguments(): arg 16 key: wb value: selected
+[106338][V][Parsing.cpp:280] _parseArguments(): pos 206 =@210 &@219
+[106344][V][Parsing.cpp:291] _parseArguments(): arg 17 key: awbg value: selected
+[106351][V][Parsing.cpp:280] _parseArguments(): pos 220 =@223 &@228
+[106357][V][Parsing.cpp:291] _parseArguments(): arg 18 key: wbm value: Auto
+[106364][V][Parsing.cpp:280] _parseArguments(): pos 229 =@231 &@240
+[106370][V][Parsing.cpp:291] _parseArguments(): arg 19 key: ec value: selected
+[106377][V][Parsing.cpp:280] _parseArguments(): pos 241 =@245 &@254
+[106383][V][Parsing.cpp:291] _parseArguments(): arg 20 key: aec2 value: selected
+[106390][V][Parsing.cpp:280] _parseArguments(): pos 255 =@258 &@260
+[106396][V][Parsing.cpp:291] _parseArguments(): arg 21 key: ael value: 0
+[106402][V][Parsing.cpp:280] _parseArguments(): pos 261 =@265 &@269
+[106408][V][Parsing.cpp:291] _parseArguments(): arg 22 key: aecv value: 300
+[106415][V][Parsing.cpp:280] _parseArguments(): pos 270 =@272 &@281
+[106421][V][Parsing.cpp:291] _parseArguments(): arg 23 key: gc value: selected
+[106428][V][Parsing.cpp:280] _parseArguments(): pos 282 =@286 &@288
+[106434][V][Parsing.cpp:291] _parseArguments(): arg 24 key: agcg value: 0
+[106440][V][Parsing.cpp:280] _parseArguments(): pos 289 =@292 &@295
+[106446][V][Parsing.cpp:291] _parseArguments(): arg 25 key: gcl value: 2X
+[106453][V][Parsing.cpp:280] _parseArguments(): pos 296 =@299 &@308
+[106459][V][Parsing.cpp:291] _parseArguments(): arg 26 key: wpc value: selected
+[106466][V][Parsing.cpp:280] _parseArguments(): pos 309 =@311 &@320
+[106472][V][Parsing.cpp:291] _parseArguments(): arg 27 key: rg value: selected
+[106479][V][Parsing.cpp:280] _parseArguments(): pos 321 =@325 &@334
+[106485][V][Parsing.cpp:291] _parseArguments(): arg 28 key: lenc value: selected
+[106492][V][Parsing.cpp:280] _parseArguments(): pos 335 =@338 &@347
+[106498][V][Parsing.cpp:291] _parseArguments(): arg 29 key: dcw value: selected
+[106505][V][Parsing.cpp:280] _parseArguments(): pos 348 =@350 &@-1
+[106511][V][Parsing.cpp:291] _parseArguments(): arg 30 key: li value: 0
+[106517][V][Parsing.cpp:298] _parseArguments(): args count: 31
+[106523][V][Parsing.cpp:197] _parseRequest(): Plain: iotSave=true&iwcThingName=ESP32&iwcApPassword=&iwcWifiSsid=TheilvigNet-2.4G&iwcWifiPassword=&iwcApTimeout=1&bt=AI+THINKER&fd=40&fs=QVGA+%28320x240%29&q=10&eps=selected&fb=2&b=0&c=0&s=0&e=Normal&wb=selected&awbg=selected&wbm=Auto&ec=selected&aec2=selected&ael=0&aecv=300&gc=selected&agcg=0&gcl=2X&wpc=selected&rg=selected&lenc=selected&dcw=selected&li=0
+[106558][V][Parsing.cpp:237] _parseRequest(): Request: /config
+[106564][V][Parsing.cpp:238] _parseRequest():  Arguments: iotSave=true&iwcThingName=ESP32&iwcApPassword=&iwcWifiSsid=TheilvigNet-2.4G&iwcWifiPassword=&iwcApTimeout=1&bt=AI+THINKER&fd=40&fs=QVGA+%28320x240%29&q=10&eps=selected&fb=2&b=0&c=0&s=0&e=Normal&wb=selected&awbg=selected&wbm=Auto&ec=selected&aec2=selected&ael=0&aecv=300&gc=selected&agcg=0&gcl=2X&wpc=selected&rg=selected&lenc=selected&dcw=selected&li=0
+Form validation result is: positive
+Updating configuration
+[iwcSys]
+|-- 'iwcThingName' with value: 'ESP32'
+|-- 'iwcApPassword' with value: <hidden>
+|-- [iwcWifi0]
+|   |-- 'iwcWifiSsid' with value: 'TheilvigNet-2.4G'
+|   \-- 'iwcWifiPassword' with value: <hidden>
+\-- 'iwcApTimeout' with value: '1'
+[iwcCustom]
+|-- [board]
+|   \-- 'bt' with value: 'AI THINKER'
+|-- [camera]
+|   |-- 'fd' with value: '40'
+|   |-- 'fs' with value: 'QVGA (320x240)'
+|   |-- 'q' with value: '10'
+|   |-- 'eps' with value: '1'
+|   |-- 'fb' with value: '2'
+|   |-- 'b' with value: '0'
+|   |-- 'c' with value: '0'
+|   |-- 's' with value: '0'
+|   |-- 'e' with value: 'Normal'
+|   |-- 'wb' with value: '1'
+|   |-- 'awbg' with value: '1'
+|   |-- 'wbm' with value: 'Auto'
+|   |-- 'ec' with value: '1'
+|   |-- 'aec2' with value: '1'
+|   |-- 'ael' with value: '0'
+|   |-- 'aecv' with value: '300'
+|   |-- 'gc' with value: '1'
+|   |-- 'agcg' with value: '0'
+|   |-- 'gcl' with value: '2X'
+|   |-- 'bpc' with value: '0'
+|   |-- 'wpc' with value: '1'
+|   |-- 'rg' with value: '1'
+|   |-- 'lenc' with value: '1'
+|   |-- 'hm' with value: '0'
+|   |-- 'vm' with value: '0'
+|   |-- 'dcw' with value: '1'
+|   \-- 'cb' with value: '0'
+\-- [io]
+    \-- 'li' with value: '0'
+
+iwcThingName: ESP32
+iwcApPassword: <was not changed>
+iwcWifiSsid: TheilvigNet-2.4G
+iwcWifiPassword: <was not changed>
+iwcApTimeout: 1
+bt: AI THINKER
+fd: 40
+fs: QVGA (320x240)
+q: 10
+eps: selected
+fb: 2
+b: 0
+c: 0
+s: 0
+e: Normal
+wb: selected
+awbg: selected
+wbm: Auto
+ec: selected
+aec2: selected
+ael: 0
+aecv: 300
+gc: selected
+agcg: 0
+gcl: 2X
+bpc: not selected
+wpc: selected
+rg: selected
+lenc: selected
+hm: not selected
+vm: not selected
+dcw: selected
+cb: not selected
+li: 0
+Config version: 1.5
+Config size: 455
+Saving configuration
+[iwcAll]
+|-- [iwcSys]
+|   |-- 'iwcThingName' with value: 'ESP32'
+|   |-- 'iwcApPassword' with value: <hidden>
+|   |-- [iwcWifi0]
+|   |   |-- 'iwcWifiSsid' with value: 'TheilvigNet-2.4G'
+|   |   \-- 'iwcWifiPassword' with value: <hidden>
+|   \-- 'iwcApTimeout' with value: '1'
+|-- [iwcCustom]
+|   |-- [board]
+|   |   \-- 'bt' with value: 'AI THINKER'
+|   |-- [camera]
+|   |   |-- 'fd' with value: '40'
+|   |   |-- 'fs' with value: 'QVGA (320x240)'
+|   |   |-- 'q' with value: '10'
+|   |   |-- 'eps' with value: '1'
+|   |   |-- 'fb' with value: '2'
+|   |   |-- 'b' with value: '0'
+|   |   |-- 'c' with value: '0'
+|   |   |-- 's' with value: '0'
+|   |   |-- 'e' with value: 'Normal'
+|   |   |-- 'wb' with value: '1'
+|   |   |-- 'awbg' with value: '1'
+|   |   |-- 'wbm' with value: 'Auto'
+|   |   |-- 'ec' with value: '1'
+|   |   |-- 'aec2' with value: '1'
+|   |   |-- 'ael' with value: '0'
+|   |   |-- 'aecv' with value: '300'
+|   |   |-- 'gc' with value: '1'
+|   |   |-- 'agcg' with value: '0'
+|   |   |-- 'gcl' with value: '2X'
+|   |   |-- 'bpc' with value: '0'
+|   |   |-- 'wpc' with value: '1'
+|   |   |-- 'rg' with value: '1'
+|   |   |-- 'lenc' with value: '1'
+|   |   |-- 'hm' with value: '0'
+|   |   |-- 'vm' with value: '0'
+|   |   |-- 'dcw' with value: '1'
+|   |   \-- 'cb' with value: '0'
+|   \-- [io]
+|       \-- 'li' with value: '0'
+\-- [hidden]
+
+[106886][V][main.cpp:377] on_config_saved(): on_config_saved
+[106887][V][esp32-hal-ledc.c:231] analogWrite(): GPIO 4 - Using Channel 15, Value = 0
+[109033][V][WebServer.cpp:296] handleClient(): New client: client.localIP()=192.168.1.80
+[114039][V][WebServer.cpp:296] handleClient(): New client: client.localIP()=192.168.1.80
+[114040][V][Parsing.cpp:122] _parseRequest(): method: GET url: / search: 
+[114043][V][Parsing.cpp:226] _parseRequest(): headerName: Host
+[114048][V][Parsing.cpp:227] _parseRequest(): headerValue: 192.168.1.80
+[114055][V][Parsing.cpp:226] _parseRequest(): headerName: Accept-Encoding
+[114061][V][Parsing.cpp:227] _parseRequest(): headerValue: gzip, deflate
+[114068][V][Parsing.cpp:226] _parseRequest(): headerName: Connection
+[114073][V][Parsing.cpp:227] _parseRequest(): headerValue: keep-alive
+[114080][V][Parsing.cpp:226] _parseRequest(): headerName: Upgrade-Insecure-Requests
+[114087][V][Parsing.cpp:227] _parseRequest(): headerValue: 1
+[114093][V][Parsing.cpp:226] _parseRequest(): headerName: Accept
+[114098][V][Parsing.cpp:227] _parseRequest(): headerValue: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+[114109][V][Parsing.cpp:226] _parseRequest(): headerName: User-Agent
+[114115][V][Parsing.cpp:227] _parseRequest(): headerValue: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15
+[114131][V][Parsing.cpp:226] _parseRequest(): headerName: Referer
+[114136][V][Parsing.cpp:227] _parseRequest(): headerValue: http://192.168.1.80/config
+[114144][V][Parsing.cpp:226] _parseRequest(): headerName: Authorization
+[114150][V][Parsing.cpp:227] _parseRequest(): headerValue: Basic YWRtaW46cGxhbnRhZ2Vu
+[114158][V][Parsing.cpp:226] _parseRequest(): headerName: Accept-Language
+[114164][V][Parsing.cpp:227] _parseRequest(): headerValue: en-GB,en;q=0.9
+[114171][V][Parsing.cpp:254] _parseArguments(): args: 
+[114176][V][Parsing.cpp:237] _parseRequest(): Request: /
+[114181][V][Parsing.cpp:238] _parseRequest():  Arguments: 
+[114186][V][main.cpp:90] handle_root(): Handle root
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+[     4][V][WiFiServer.h:42] WiFiServer(): WiFiServer::WiFiServer(port=80, ...)
+[     4][V][WebServer.cpp:87] WebServer(): WebServer::Webserver(port=80)
+[    42][D][esp32-hal-cpu.c:244] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+[   490][I][esp32-hal-psram.c:96] psramInit(): PSRAM enabled
+[   519][V][[   521][I][main.cpp:403] setup(): CPU Freq: 240 Mhz, 2 core(s)
+[   521][I][main.cpp:404] setup(): Free heap: 248380 bytes
+[   521][I][main.cpp:405] setup(): SDK version: v4.4.4
+[   525][I][main.cpp:406] setup(): Starting ESP32CAM-RTSP...
+[   531][V][main.cpp:411] setup(): PSRAM found and initialized
+Config version: 1.5
+Config size: 455
+Loading configurations
+[iwcAll]
+|-- [iwcSys]
+|   |-- 'iwcThingName' with value: 'ESP32'
+|   |-- 'iwcApPassword' with value: <hidden>
+|   |-- [iwcWifi0]
+|   |   |-- 'iwcWifiSsid' with value: 'TheilvigNet-2.4G'
+|   |   \-- 'iwcWifiPassword' with value: <hidden>
+|   \-- 'iwcApTimeout' with value: '1'
+|-- [iwcCustom]
+|   |-- [board]
+|   |   \-- 'bt' with value: 'AI THINKER'
+|   |-- [camera]
+|   |   |-- 'fd' with value: '40'
+|   |   |-- 'fs' with value: 'QVGA (320x240)'
+|   |   |-- 'q' with value: '10'
+|   |   |-- 'eps' with value: '1'
+|   |   |-- 'fb' with value: '2'
+|   |   |-- 'b' with value: '0'
+|   |   |-- 'c' with value: '0'
+|   |   |-- 's' with value: '0'
+|   |   |-- 'e' with value: 'Normal'
+|   |   |-- 'wb' with value: '1'
+|   |   |-- 'awbg' with value: '1'
+|   |   |-- 'wbm' with value: 'Auto'
+|   |   |-- 'ec' with value: '1'
+|   |   |-- 'aec2' with value: '1'
+|   |   |-- 'ael' with value: '0'
+|   |   |-- 'aecv' with value: '300'
+|   |   |-- 'gc' with value: '1'
+|   |   |-- 'agcg' with value: '0'
+|   |   |-- 'gcl' with value: '2X'
+|   |   |-- 'bpc' with value: '0'
+|   |   |-- 'wpc' with value: '1'
+|   |   |-- 'rg' with value: '1'
+|   |   |-- 'lenc' with value: '1'
+|   |   |-- 'hm' with value: '0'
+|   |   |-- 'vm' with value: '0'
+|   |   |-- 'dcw' with value: '1'
+|   |   \-- 'cb' with value: '0'
+|   \-- [io]
+|       \-- 'li' with value: '0'
+\-- [hidden]
+[   669][V][main.cpp:289] initialize_camera(): initialize_camera
+[   669][I][main.cpp:290] initialize_camera(): Camera config: AI THINKER
+[   675][I][main.cpp:296] initialize_camera(): Frame size: QVGA (320x240)
+[   682][I][main.cpp:298] initialize_camera(): JPEG quality: 10
+[   687][I][main.cpp:299] initialize_camera(): Frame duration: 40 ms
+[   693][I][main.cpp:303] initialize_camera(): Enable PSRAM: 1
+[   699][I][main.cpp:304] initialize_camera(): Frame buffers: 2
+[   705][I][main.cpp:310] initialize_camera(): PSRAM enabled!
+[   938][V][esp32-hal-ledc.c:231] analogWrite(): GPIO 4 - Using Channel 15, Value = 0
+State changing from: 0 to 2
+[   958][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 0 - WIFI_READY
+Setting up AP: ESP32
+Use password: <hidden>
+[  1054][V][WiFiGeneric.cpp:392] _arduino_event_cb(): AP Started
+[  1055][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 10 - AP_START
+AP IP address: 192.168.4.1
+[  1642][V][WiFiGeneric.cpp:395] _arduino_event_cb(): AP Stopped
+[  1643][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 11 - AP_STOP
+[  1643][V][WiFiGeneric.cpp:392] _arduino_event_cb(): AP Started
+[  1650][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 10 - AP_START
+AP timeout (ms): 1000
+State changed from: 0 to 2
+State changing from: 2 to 3
+[  2672][V][WiFiGeneric.cpp:395] _arduino_event_cb(): AP Stopped
+[  2672][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 11 - AP_STOP
+[  2704][V][WiFiGeneric.cpp:392] _arduino_event_cb(): AP Started
+[  2706][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 10 - AP_START
+EC (5654) wifi_init_default: esp_wifi_get_mac failed with 12289
+onnecting to [TheilvigNet-2.4G[  2713][V][WiFiGeneric.cpp:395] _arduino_event_cb(): AP Stopped
+] (password is hidden)[  2724][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 11 - AP_STOP
+
+WiFi timeout (ms): 30000
+[  2758][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 0 - WIFI_READY
+[  2765][V][WiFiGeneric.cpp:97] set_esp_interface_ip(): Configuring Station static IP: 0.0.0.0, MASK: 0.0.0.0, GW: 0.0.0.0
+[  2764][V][WiFiGeneric.cpp:340] _arduino_event_cb(): STA Started
+[  2771][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 2 - STA_START
+State changed from: 2 to 3
+E (5822) wifi:Association refused temporarily, comeback time 1024 mSec
+[  3977][V][WiFiGeneric.cpp:355] _arduino_event_cb(): STA Connected: SSID: TheilvigNet-2.4G, BSSID: 00:1f:01:6a:36:08, Channel: 6, Auth: WPA2_PSK
+[  3980][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 4 - STA_CONNECTED
+[  5107][V][WiFiGeneric.cpp:369] _arduino_event_cb(): STA Got New IP:192.168.1.80
+[  5108][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 7 - STA_GOT_IP
+[  5111][D][WiFiGeneric.cpp:1098] _eventCallback(): STA IP: 192.168.1.80, MASK: 255.255.255.0, GW: 192.168.1.1
+WiFi connected
+IP address: 192.168.1.80
+State changing from: 3 to 4
+[  8233][W][ESPmDNS.cpp:222] queryService(): No results found!
+Active mDNS services: 0 
+Accepting connection
+[  8235][V][main.cpp:365] on_connected(): on_connected
+[  8250][I][ArduinoOTA.cpp:141] begin(): OTA server at: esp32-a842e34a12bc.local:3232
+[  8250][V][main.cpp:356] start_rtsp_server(): start_rtsp_server
+[  8252][V][WiFiServer.h:42] WiFiServer(): WiFiServer::WiFiServer(port=554, ...)
+[  8259][I][rtsp_server.cpp:9] rtsp_server(): Starting RTSP server
+State changed from: 3 to 4
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+[     4][V][WiFiServer.h:42] WiFiServer(): WiFiServer::WiFiServer(port=80, ...)
+[     4][V][WebServer.cpp:87] WebServer(): WebServer::Webserver(port=80)
+[    42][D][esp32-hal-cpu.c:244] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+[   490][I][esp32-hal-psram.c:96] psramInit(): PSRAM enabled
+[   516][V][[   518][I][main.cpp:403] setup(): CPU Freq: 240 Mhz, 2 core(s)
+[   518][I][main.cpp:404] setup(): Free heap: 248380 bytes
+[   518][I][main.cpp:405] setup(): SDK version: v4.4.4
+[   522][I][main.cpp:406] setup(): Starting ESP32CAM-RTSP...
+[   528][V][main.cpp:411] setup(): PSRAM found and initialized
+Config version: 1.5
+Config size: 455
+Loading configurations
+[iwcAll]
+|-- [iwcSys]
+|   |-- 'iwcThingName' with value: 'ESP32'
+|   |-- 'iwcApPassword' with value: <hidden>
+|   |-- [iwcWifi0]
+|   |   |-- 'iwcWifiSsid' with value: 'TheilvigNet-2.4G'
+|   |   \-- 'iwcWifiPassword' with value: <hidden>
+|   \-- 'iwcApTimeout' with value: '1'
+|-- [iwcCustom]
+|   |-- [board]
+|   |   \-- 'bt' with value: 'AI THINKER'
+|   |-- [camera]
+|   |   |-- 'fd' with value: '40'
+|   |   |-- 'fs' with value: 'QVGA (320x240)'
+|   |   |-- 'q' with value: '10'
+|   |   |-- 'eps' with value: '1'
+|   |   |-- 'fb' with value: '2'
+|   |   |-- 'b' with value: '0'
+|   |   |-- 'c' with value: '0'
+|   |   |-- 's' with value: '0'
+|   |   |-- 'e' with value: 'Normal'
+|   |   |-- 'wb' with value: '1'
+|   |   |-- 'awbg' with value: '1'
+|   |   |-- 'wbm' with value: 'Auto'
+|   |   |-- 'ec' with value: '1'
+|   |   |-- 'aec2' with value: '1'
+|   |   |-- 'ael' with value: '0'
+|   |   |-- 'aecv' with value: '300'
+|   |   |-- 'gc' with value: '1'
+|   |   |-- 'agcg' with value: '0'
+|   |   |-- 'gcl' with value: '2X'
+|   |   |-- 'bpc' with value: '0'
+|   |   |-- 'wpc' with value: '1'
+|   |   |-- 'rg' with value: '1'
+|   |   |-- 'lenc' with value: '1'
+|   |   |-- 'hm' with value: '0'
+|   |   |-- 'vm' with value: '0'
+|   |   |-- 'dcw' with value: '1'
+|   |   \-- 'cb' with value: '0'
+|   \-- [io]
+|       \-- 'li' with value: '0'
+\-- [hidden]
+[   666][V][main.cpp:289] initialize_camera(): initialize_camera
+[   667][I][main.cpp:290] initialize_camera(): Camera config: AI THINKER
+[   672][I][main.cpp:296] initialize_camera(): Frame size: QVGA (320x240)
+[   679][I][main.cpp:298] initialize_camera(): JPEG quality: 10
+[   684][I][main.cpp:299] initialize_camera(): Frame duration: 40 ms
+[   691][I][main.cpp:303] initialize_camera(): Enable PSRAM: 1
+[   696][I][main.cpp:304] initialize_camera(): Frame buffers: 2
+[   702][I][main.cpp:310] initialize_camera(): PSRAM enabled!
+[   935][V][esp32-hal-ledc.c:231] analogWrite(): GPIO 4 - Using Channel 15, Value = 0
+State changing from: 0 to 2
+[   955][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 0 - WIFI_READY
+Setting up AP: ESP32
+Use password: <hidden>
+[  1049][V][WiFiGeneric.cpp:392] _arduino_event_cb(): AP Started
+[  1050][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 10 - AP_START
+AP IP address: 192.168.4.1
+[  1638][V][WiFiGeneric.cpp:395] _arduino_event_cb(): AP Stopped
+[  1638][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 11 - AP_STOP
+[  1639][V][WiFiGeneric.cpp:392] _arduino_event_cb(): AP Started
+[  1646][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 10 - AP_START
+AP timeout (ms): 1000
+State changed from: 0 to 2
+State changing from: 2 to 3
+[  2668][V][WiFiGeneric.cpp:395] _arduino_event_cb(): AP Stopped
+[  2669][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 11 - AP_STOP
+[  2673][V][WiFiGeneric.cpp:392] _arduino_event_cb(): AP Started
+[  2676][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 10 - AP_START
+EC (5594) wifi_init_default: esp_wifi_get_mac failed with 12289
+onnecting to [TheilvigNet-2.4G[  2689][V][WiFiGeneric.cpp:395] _arduino_event_cb(): AP Stopped
+] (password is hidden)
+[  2699][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 11 - AP_STOP
+WiFi timeout (ms): 30000
+[  2733][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 0 - WIFI_READY
+[  2740][V][WiFiGeneric.cpp:97] set_esp_interface_ip(): Configuring Station static IP: 0.0.0.0, MASK: 0.0.0.0, GW: 0.0.0.0
+[  2739][V][WiFiGeneric.cpp:340] _arduino_event_cb(): STA Started
+[  2746][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 2 - STA_START
+State changed from: 2 to 3
+E (5752) wifi:Association refused temporarily, comeback time 1024 mSec
+[  3886][V][WiFiGeneric.cpp:355] _arduino_event_cb(): STA Connected: SSID: TheilvigNet-2.4G, BSSID: 00:1f:01:6a:36:08, Channel: 6, Auth: WPA2_PSK
+[  3888][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 4 - STA_CONNECTED
+[  4160][V][WiFiGeneric.cpp:369] _arduino_event_cb(): STA Got New IP:192.168.1.80
+[  4160][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 7 - STA_GOT_IP
+[  4163][D][WiFiGeneric.cpp:1098] _eventCallback(): STA IP: 192.168.1.80, MASK: 255.255.255.0, GW: 192.168.1.1
+WiFi connected
+IP address: 192.168.1.80
+State changing from: 3 to 4
+[  7286][W][ESPmDNS.cpp:222] queryService(): No results found!
+Active mDNS services: 0 
+Accepting connection
+[  7288][V][main.cpp:365] on_connected(): on_connected
+[  7302][I][ArduinoOTA.cpp:141] begin(): OTA server at: esp32-a842e34a12bc.local:3232
+[  7302][V][main.cpp:356] start_rtsp_server(): start_rtsp_server
+[  7304][V][WiFiServer.h:42] WiFiServer(): WiFiServer::WiFiServer(port=554, ...)
+[  7311][I][rtsp_server.cpp:9] rtsp_server(): Starting RTSP server
+State changed from: 3 to 4

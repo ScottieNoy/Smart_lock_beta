@@ -18,14 +18,17 @@ void beginServer(lv_event_t * e)
 void stopServer(lv_event_t * e)
 {
 	showImage = false;
+
 }
 
 void unlock(lv_event_t * e)
 {
 	password = lv_textarea_get_text(ui_passwordArea);
 	if(password != NULL && strlen(password) > 3){
-		sendPassword = true;
 		_ui_screen_change( ui_Unlocking, LV_SCR_LOAD_ANIM_NONE, 500, 0);
+		sendPassword = true;
+
+
 
 	}
 

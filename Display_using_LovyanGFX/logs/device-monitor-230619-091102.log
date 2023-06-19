@@ -1,0 +1,37 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+[    51][D][esp32-hal-cpu.c:244] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+[   511][I][esp32-hal-i2c.c:75] i2cInit(): Initialising I2C Master: sda=33 scl=32 freq=100000
+[   534][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 0 - WIFI_READY
+[   631][V][WiFiGeneric.cpp:97] set_esp_interface_ip(): Configuring Station static IP: 0.0.0.0, MASK: 0.0.0.0, GW: 0.0.0.0
+[   629][V][WiFiGeneric.cpp:340] _arduino_event_cb(): STA Started
+[   637][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 2 - STA_START
+[  1108][V][WiFiGeneric.cpp:355] _arduino_event_cb(): STA Connected: SSID: Oscar, BSSID: c2:a7:86:f1:69:cd, Channel: 6, Auth: WPA2_PSK
+[  1110][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 4 - STA_CONNECTED
+[  1145][V][WiFiGeneric.cpp:369] _arduino_event_cb(): STA Got New IP:172.20.10.14
+[  1146][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 7 - STA_GOT_IP
+[  1149][D][WiFiGeneric.cpp:1098] _eventCallback(): STA IP: 172.20.10.14, MASK: 255.255.255.240, GW: 172.20.10.1
+.[  1190][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1191][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1196][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1508][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  1695][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[  1696][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[  1699][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[  1710][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 2934'
+[  1717][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[  1724][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[  1729][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[  1735][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 2934
+[  1741][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+49 ms

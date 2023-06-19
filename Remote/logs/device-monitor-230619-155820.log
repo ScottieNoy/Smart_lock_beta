@@ -1,0 +1,121 @@
+[   937][V][esp32-hal-ledc.c:231] analogWrite(): GPIO 4 - Using Channel 15, Value = 0
+State changing from: 0 to 2
+[   957][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 0 - WIFI_READY
+Setting up AP: ESP32
+Use password: <hidden>
+[  1050][V][WiFiGeneric.cpp:392] _arduino_event_cb(): AP Started
+[  1051][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 10 - AP_START
+AP IP address: 192.168.4.1
+[  1635][V][WiFiGeneric.cpp:395] _arduino_event_cb(): AP Stopped
+[  1635][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 11 - AP_STOP
+[  1636][V][WiFiGeneric.cpp:392] _arduino_event_cb(): AP Started
+[  1643][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 10 - AP_START
+AP timeout (ms): 1000
+State changed from: 0 to 2
+State changing from: 2 to 3
+[  2665][V][WiFiGeneric.cpp:395] _arduino_event_cb(): AP Stopped
+[  2666][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 11 - AP_STOP
+[  2671][V][WiFiGeneric.cpp:392] _arduino_event_cb(): AP Started
+[  2673][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 10 - AP_START
+CE (5588) wifi_init_default: esp_wifi_get_mac failed with 12289
+onnecting to [Oscar[  2686][V][WiFiGeneric.cpp:395] _arduino_event_cb(): AP Stopped
+] (password is hidden)[  2696][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 11 - AP_STOP
+
+WiFi timeout (ms): 30000
+[  2729][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 0 - WIFI_READY
+[  2736][V][WiFiGeneric.cpp:97] set_esp_interface_ip(): Configuring Station static IP: 0.0.0.0, MASK: 0.0.0.0, GW: 0.0.0.0
+[  2734][V][WiFiGeneric.cpp:340] _arduino_event_cb(): STA Started
+[  2742][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 2 - STA_START
+State changed from: 2 to 3
+[  3157][V][WiFiGeneric.cpp:355] _arduino_event_cb(): STA Connected: SSID: Oscar, BSSID: fe:a7:3a:8c:40:08, Channel: 6, Auth: WPA2_PSK
+[  3158][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 4 - STA_CONNECTED
+[  3415][V][WiFiGeneric.cpp:369] _arduino_event_cb(): STA Got New IP:172.20.10.13
+[  3416][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 7 - STA_GOT_IP
+[  3419][D][WiFiGeneric.cpp:1098] _eventCallback(): STA IP: 172.20.10.13, MASK: 255.255.255.240, GW: 172.20.10.1
+WiFi connected
+IP address: 172.20.10.13
+State changing from: 3 to 4
+[  6542][W][ESPmDNS.cpp:222] queryService(): No results found!
+Active mDNS services: 0 
+Accepting connection
+[  6546][V][main.cpp:365] on_connected(): on_connected
+[  6560][I][ArduinoOTA.cpp:141] begin(): OTA server at: esp32-a842e34a12bc.local:3232
+[  6560][V][main.cpp:356] start_rtsp_server(): start_rtsp_server
+[  6562][V][WiFiServer.h:42] WiFiServer(): WiFiServer::WiFiServer(port=554, ...)
+[  6569][I][rtsp_server.cpp:9] rtsp_server(): Starting RTSP server
+State changed from: 3 to 4
+[  7220][V][WebServer.cpp:296] handleClient(): New client: client.localIP()=172.20.10.13
+[  7221][V][Parsing.cpp:122] _parseRequest(): method: GET url: /snapshot search: 
+[  7224][V][Parsing.cpp:226] _parseRequest(): headerName: Host
+[  7230][V][Parsing.cpp:227] _parseRequest(): headerValue: 172.20.10.13
+[  7236][V][Parsing.cpp:226] _parseRequest(): headerName: User-Agent
+[  7242][V][Parsing.cpp:227] _parseRequest(): headerValue: ESP32HTTPClient
+[  7249][V][Parsing.cpp:226] _parseRequest(): headerName: Connection
+[  7255][V][Parsing.cpp:227] _parseRequest(): headerValue: keep-alive
+[  7261][V][Parsing.cpp:226] _parseRequest(): headerName: Accept-Encoding
+[  7267][V][Parsing.cpp:227] _parseRequest(): headerValue: identity;q=1,chunked;q=0.1,*;q=0
+[  7276][V][Parsing.cpp:254] _parseArguments(): args: 
+[  7280][V][Parsing.cpp:237] _parseRequest(): Request: /snapshot
+[  7286][V][Parsing.cpp:238] _parseRequest():  Arguments: 
+[  7292][V][main.cpp:204] handle_snapshot(): handle_snapshot
+[  7314][W][WebServer.cpp:436] send(): content length is zero
+[ 10839][V][WebServer.cpp:296] handleClient(): New client: client.localIP()=172.20.10.13
+[ 10840][V][Parsing.cpp:122] _parseRequest(): method: GET url: /snapshot search: 
+[ 10843][V][Parsing.cpp:226] _parseRequest(): headerName: Host
+[ 10849][V][Parsing.cpp:227] _parseRequest(): headerValue: 172.20.10.13
+[ 10855][V][Parsing.cpp:226] _parseRequest(): headerName: User-Agent
+[ 10861][V][Parsing.cpp:227] _parseRequest(): headerValue: ESP32HTTPClient
+[ 10868][V][Parsing.cpp:226] _parseRequest(): headerName: Connection
+[ 10874][V][Parsing.cpp:227] _parseRequest(): headerValue: keep-alive
+[ 10880][V][Parsing.cpp:226] _parseRequest(): headerName: Accept-Encoding
+[ 10886][V][Parsing.cpp:227] _parseRequest(): headerValue: identity;q=1,chunked;q=0.1,*;q=0
+[ 10895][V][Parsing.cpp:254] _parseArguments(): args: 
+[ 10900][V][Parsing.cpp:237] _parseRequest(): Request: /snapshot
+[ 10905][V][Parsing.cpp:238] _parseRequest():  Arguments: 
+[ 10911][V][main.cpp:204] handle_snapshot(): handle_snapshot
+[ 10953][W][WebServer.cpp:436] send(): content length is zero
+[ 11526][V][WebServer.cpp:296] handleClient(): New client: client.localIP()=172.20.10.13
+[ 11533][V][Parsing.cpp:122] _parseRequest(): method: GET url: /snapshot search: 
+[ 11533][V][Parsing.cpp:226] _parseRequest(): headerName: Host
+[ 11535][V][Parsing.cpp:227] _parseRequest(): headerValue: 172.20.10.13
+[ 11542][V][Parsing.cpp:226] _parseRequest(): headerName: User-Agent
+[ 11548][V][Parsing.cpp:227] _parseRequest(): headerValue: ESP32HTTPClient
+[ 11555][V][Parsing.cpp:226] _parseRequest(): headerName: Connection
+[ 11560][V][Parsing.cpp:227] _parseRequest(): headerValue: keep-alive
+[ 11567][V][Parsing.cpp:226] _parseRequest(): headerName: Accept-Encoding
+[ 11573][V][Parsing.cpp:227] _parseRequest(): headerValue: identity;q=1,chunked;q=0.1,*;q=0
+[ 11581][V][Parsing.cpp:254] _parseArguments(): args: 
+[ 11586][V][Parsing.cpp:237] _parseRequest(): Request: /snapshot
+[ 11592][V][Parsing.cpp:238] _parseRequest():  Arguments: 
+[ 11597][V][main.cpp:204] handle_snapshot(): handle_snapshot
+[ 11632][W][WebServer.cpp:436] send(): content length is zero
+[ 23909][V][WebServer.cpp:296] handleClient(): New client: client.localIP()=172.20.10.13
+[ 23914][V][Parsing.cpp:122] _parseRequest(): method: GET url: /snapshot search: 
+[ 23914][V][Parsing.cpp:226] _parseRequest(): headerName: Host
+[ 23919][V][Parsing.cpp:227] _parseRequest(): headerValue: 172.20.10.13
+[ 23925][V][Parsing.cpp:226] _parseRequest(): headerName: User-Agent
+[ 23931][V][Parsing.cpp:227] _parseRequest(): headerValue: ESP32HTTPClient
+[ 23938][V][Parsing.cpp:226] _parseRequest(): headerName: Connection
+[ 23944][V][Parsing.cpp:227] _parseRequest(): headerValue: keep-alive
+[ 23950][V][Parsing.cpp:226] _parseRequest(): headerName: Accept-Encoding
+[ 23956][V][Parsing.cpp:227] _parseRequest(): headerValue: identity;q=1,chunked;q=0.1,*;q=0
+[ 23964][V][Parsing.cpp:254] _parseArguments(): args: 
+[ 23969][V][Parsing.cpp:237] _parseRequest(): Request: /snapshot
+[ 23975][V][Parsing.cpp:238] _parseRequest():  Arguments: 
+[ 23980][V][main.cpp:204] handle_snapshot(): handle_snapshot
+[ 24007][W][WebServer.cpp:436] send(): content length is zero
+[ 27083][V][WebServer.cpp:296] handleClient(): New client: client.localIP()=172.20.10.13
+[ 27084][V][Parsing.cpp:122] _parseRequest(): method: GET url: /snapshot search: 
+[ 27088][V][Parsing.cpp:226] _parseRequest(): headerName: Host
+[ 27093][V][Parsing.cpp:227] _parseRequest(): headerValue: 172.20.10.13
+[ 27099][V][Parsing.cpp:226] _parseRequest(): headerName: User-Agent
+[ 27105][V][Parsing.cpp:227] _parseRequest(): headerValue: ESP32HTTPClient
+[ 27112][V][Parsing.cpp:226] _parseRequest(): headerName: Connection
+[ 27118][V][Parsing.cpp:227] _parseRequest(): headerValue: keep-alive
+[ 27125][V][Parsing.cpp:226] _parseRequest(): headerName: Accept-Encoding
+[ 27131][V][Parsing.cpp:227] _parseRequest(): headerValue: identity;q=1,chunked;q=0.1,*;q=0
+[ 27139][V][Parsing.cpp:254] _parseArguments(): args: 
+[ 27144][V][Parsing.cpp:237] _parseRequest(): Request: /snapshot
+[ 27149][V][Parsing.cpp:238] _parseRequest():  Arguments: 
+[ 27155][V][main.cpp:204] handle_snapshot(): handle_snapshot
+[ 27186][W][WebServer.cpp:436] send(): content length is zero

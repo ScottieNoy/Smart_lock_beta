@@ -1,0 +1,39 @@
+[   478][I][esp32-hal-i2c.c:75] i2cInit(): Initialising I2C Master: sda=33 scl=32 freq=100000
+[   501][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 0 - WIFI_READY
+[   599][V][WiFiGeneric.cpp:97] set_esp_interface_ip(): Configuring Station static IP: 0.0.0.0, MASK: 0.0.0.0, GW: 0.0.0.0
+[   597][V][WiFiGeneric.cpp:340] _arduino_event_cb(): STA Started
+[   605][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 2 - STA_START
+E (1725) wifi:Association refused temporarily, comeback time 1024 mSec
+..[  1732][V][WiFiGeneric.cpp:355] _arduino_event_cb(): STA Connected: SSID: TheilvigNet-2.4G, BSSID: 00:1f:01:6a:36:08, Channel: 6, Auth: WPA2_PSK
+[  1735][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 4 - STA_CONNECTED
+.[  2219][V][WiFiGeneric.cpp:369] _arduino_event_cb(): STA Got New IP:192.168.1.66
+[  2220][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 7 - STA_GOT_IP
+[  2223][D][WiFiGeneric.cpp:1098] _eventCallback(): STA IP: 192.168.1.66, MASK: 255.255.255.0, GW: 192.168.1.1
+.[  2646][V][HTTPClient.cpp:252] beginInternal(): url: http://192.168.1.80/snapshot
+[  2647][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 192.168.1.80 port: 80 url: /snapshot
+[  2652][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  7667][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[  7668][D][HTTPClient.cpp:1163] connect(): failed connect to 192.168.1.80:80
+[  7671][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[  7793][V][HTTPClient.cpp:252] beginInternal(): url: http://192.168.1.80/snapshot
+[  7794][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 192.168.1.80 port: 80 url: /snapshot
+[  7799][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 12813][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 12814][D][HTTPClient.cpp:1163] connect(): failed connect to 192.168.1.80:80
+[ 12817][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[ 12894][V][HTTPClient.cpp:252] beginInternal(): url: http://192.168.1.80/snapshot
+[ 12895][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 192.168.1.80 port: 80 url: /snapshot
+[ 12900][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 17914][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 17917][D][HTTPClient.cpp:1163] connect(): failed connect to 192.168.1.80:80
+[ 17918][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[ 17993][V][HTTPClient.cpp:252] beginInternal(): url: http://192.168.1.80/snapshot
+[ 17994][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 192.168.1.80 port: 80 url: /snapshot
+[ 17999][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
