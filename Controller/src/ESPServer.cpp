@@ -1,7 +1,6 @@
 // Liberies included:
 #include "ESPServer.h"
 
-
 // This is the constructor for the ESPServer class.
 // It takes a port number.
 // It creates a new AsyncWebServer object and stores it in the _server field.
@@ -11,10 +10,11 @@
 // This constructor is called in src/main.cpp
 
 ESPServer::ESPServer(int port)                                                      // Constructor
-  : _server(new AsyncWebServer(port)) {                                             // Initializer list
+  : _server(new AsyncWebServer(port)), _passcodes({}) {                              // Initializer list
 }
 
-void ESPServer::begin(char* streamServer, char* snapshotServer, char* adminServer) {                    // This is the begin function.
+void ESPServer::begin(const char* streamServer, const char* snapshotServer, const char* adminServer, int *unlockPin) {
+  pinMode(*unlockPin, OUTPUT); // Set the mode of the unlockPin
   
         String streamServerString = streamServer;
         String snapshotServerString = snapshotServer;
@@ -86,5 +86,105 @@ void ESPServer::begin(char* streamServer, char* snapshotServer, char* adminServe
           request->send(200, "text/html", snapshotPage.c_str());
         });
 
-  _server->begin();                                                         // This starts the web server.
+        // sent a notification to the remote that someone is ringing on the door
+      _server->on("/ring-notification-get", HTTP_GET, [](AsyncWebServerRequest *request) {
+        request->send(200, "text/plain", "Someone is ringing on the door");
+      });
+
+        //Add a new passcode
+      _server->on("/new-passcode", HTTP_POST, [this](AsyncWebServerRequest *request) {
+        if (request->hasParam("passcode", true)) {
+          String newPasscode = request->getParam("passcode", true)->value();
+          this->addPasscode(newPasscode);
+          request->send(200, "text/plain", "New passcode added");
+        } else {
+          request->send(400, "text/plain", "No passcode found in the request");
+        }
+      });
+
+      //Remove a passcode
+      _server->on("/remove-passcode", HTTP_POST, [this](AsyncWebServerRequest *request) {
+        if (request->hasParam("passcode", true)) {
+          String passcodeToRemove = request->getParam("passcode", true)->value();
+          this->removePasscode(passcodeToRemove);
+          request->send(200, "text/plain", "Passcode removed");
+        } else {
+          request->send(400, "text/plain", "No passcode found in the request");
+        }
+      });
+      //Try a passcode to unlock
+      _server->on("/try-passcode", HTTP_POST, [this, unlockPin](AsyncWebServerRequest *request) {
+        if (request->hasParam("passcode", true)) {
+          String incomingPasscode = request->getParam("passcode", true)->value();
+          if (this->isPasscodeCorrect(incomingPasscode)) {
+            digitalWrite(*unlockPin, HIGH);
+            delay(1000);
+            request->send(200, "text/plain", "Passcode is correct");
+          } else {
+            request->send(403, "text/plain", "Passcode is incorrect");
+          }
+        } else {
+          request->send(400, "text/plain", "No passcode found in the request");
+        }
+      });
+
+      // Post a endnote signal notification that someone rings on the door
+    _server->on("/ring-notification-post", HTTP_POST, [](AsyncWebServerRequest *request) {
+      request->send(200, "text/plain", "Someone is ringing on the door");
+    });
+
+    // Post a endnote signal notification that the remotes unlock the door
+    _server->on("/unlock-notification", HTTP_POST, [this, unlockPin](AsyncWebServerRequest *request) {
+      if (request->hasParam("unlock", true)) {
+        String unlock = request->getParam("unlock", true)->value();
+        if (unlock == "true") {
+          digitalWrite(*unlockPin, HIGH);
+          delay(1000);
+          request->send(200, "text/plain", "Door unlocked");
+        } else {
+          request->send(403, "text/plain", "Door not unlocked");
+        }
+      } else {
+        request->send(400, "text/plain", "No unlock found in the request");
+      }
+    });
+
+      //Start the server
+      _server->begin();
+      Serial.println("Web server started");
+      Serial.println("Stream server: " + String(streamServer));
+      Serial.println("Snapshot server: " + String(snapshotServer));
+      Serial.println("Admin server: " + String(adminServer));
+} 
+// This function adds a passcode to the passcodes vector.
+void ESPServer::addPasscode(String passcode) {
+  for (int i = 0; i < MAX_PASSCODES; i++) {
+    if (_passcodes[i].isEmpty()) {
+      _passcodes[i] = passcode;
+      Serial.println("New passcode added: " + passcode);
+      break;
+    }
+  }
 }
+
+// This function removes a passcode from the passcodes vector.
+void ESPServer::removePasscode(String passcode) {
+  for (int i = 0; i < MAX_PASSCODES; i++) {
+    if (_passcodes[i] == passcode) {
+      _passcodes[i] = "";
+      Serial.println("Passcode removed: " + passcode);
+      break;
+    }
+  }
+}
+// This function checks if a passcode is in the passcodes vector.
+bool ESPServer::isPasscodeCorrect(String passcode) {
+  for (int i = 0; i < MAX_PASSCODES; i++) {
+    if (_passcodes[i] == passcode) {
+      Serial.println("Passcode is correct: " + passcode + " - door unlocked");
+      return true;
+    }
+  }
+  return false;
+}
+
