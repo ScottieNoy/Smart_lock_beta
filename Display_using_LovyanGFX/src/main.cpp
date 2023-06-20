@@ -9,11 +9,42 @@
 #include "lgfx_ESP32_3248S035.h"
 #include <WiFi.h>
 #include <HTTPClient.h>
+#include <time.h>
+
+#define INDICATOR_TIME 10000
+
+const char* ntpServer = "pool.ntp.org";
+const long  gmtOffset_sec = 3600;   // Set your GMT offset in seconds
+const int   daylightOffset_sec = 3600;  // If daylight saving time is in effect
+
+char date[20];  // Buffer to hold the formatted date
+
+void getFormattedDate()
+{
+  struct tm timeinfo;
+  if(!getLocalTime(&timeinfo)){
+    Serial.println("Failed to obtain time");
+    return;
+  }
+  strftime(date, sizeof(date), "%a %d %B", &timeinfo); // Format the date
+}
 
 // Built in RGB LED
 #define LED_PIN_R 4
 #define LED_PIN_G 16
 #define LED_PIN_B 17
+#define BUTTON_PIN 22
+#define BLITZ_PIN 21
+#define DEBOUNCE_TIME 50
+
+// Variables will change:
+int lastSteadyState = LOW;       // the previous steady state from the input pin
+int lastFlickerableState = LOW;  // the previous flickerable state from the input pin
+int currentState;                // the current reading from the input pin
+
+// the following variables are unsigned longs because the time, measured in
+// milliseconds, will quickly become a bigger number than can be stored in an int.
+unsigned long lastDebounceTime = 0;  // the last time the output pin was toggled
 
 /*Change to your screen resolution*/
 static const uint16_t screenWidth  = 320;
@@ -24,9 +55,14 @@ static lv_color_t buf[2][ screenWidth * 10 ];
 
 LGFX gfx;
 bool showImage = false;
-bool sendPassword = false;
-char * password;
+bool sendPasscode = false;
+char * passcode;
 bool taskCreated = false;
+bool accessGranted = false;
+bool sendNotification = false;
+bool blitzOn = false;
+
+int timer;
 
 
 /* Display flushing */
@@ -61,6 +97,11 @@ size_t jpegDataLen = 0;
 
 HTTPClient http;
 const char* streamUrl = "http://172.20.10.13/snapshot";
+
+HTTPClient http2;
+
+const char* unlockUrl = "http://172.20.10.6/try-passcode";
+const char* notificationUrl = "http://172.20.10.6/ring-notification-post";
 
 int xPos = 0;
 int yPos = 60;
@@ -98,6 +139,7 @@ void showingImage(void * pvParameters) {
             Serial.printf("HTTP GET failed, error: %s\n", http.errorToString(httpCode).c_str());
             
         }
+        http.end();
         vTaskDelay(10 / portTICK_PERIOD_MS);
 
     }
@@ -156,9 +198,16 @@ void setup()
     pinMode(LED_PIN_R, OUTPUT);
     pinMode(LED_PIN_G, OUTPUT);
     pinMode(LED_PIN_B, OUTPUT);
+    pinMode(BLITZ_PIN, OUTPUT);
+    pinMode(BUTTON_PIN, INPUT_PULLUP);
+
     digitalWrite(LED_PIN_R, HIGH); // Turn off Red LED
     digitalWrite(LED_PIN_G, HIGH); // Turn off Green LED
     digitalWrite(LED_PIN_B, HIGH); // Turn off Blue LED
+    digitalWrite(BLITZ_PIN, LOW); // Turn off Blitz
+    configTime(gmtOffset_sec, daylightOffset_sec, ntpServer);
+    getFormattedDate();
+
     ui_init();
 
     //lv_demo_benchmark();
@@ -170,6 +219,55 @@ TaskHandle_t Task1;
 
 void loop()
 {
+    if(showImage && !blitzOn) {
+        Serial.println("Turning on Blitz");
+        digitalWrite(BLITZ_PIN, HIGH);
+        blitzOn = true;
+    }
+    if(!showImage && blitzOn) {
+        Serial.println("Turning off Blitz");
+        digitalWrite(BLITZ_PIN, LOW);
+        blitzOn = false;
+    }
+
+    currentState = digitalRead(BUTTON_PIN);
+    // If the switch/button changed, due to noise or pressing:
+    if (currentState != lastFlickerableState) {
+        // reset the debouncing timer
+        lastDebounceTime = millis();
+        // save the the last flickerable state
+        lastFlickerableState = currentState;
+    }
+    if ((millis() - lastDebounceTime) > DEBOUNCE_TIME) {
+        // whatever the reading is at, it's been there for longer than the debounce
+        // delay, so take it as the actual current state:
+
+        // if the button state has changed:
+        if(lastSteadyState == HIGH && currentState == LOW){
+            http2.begin(notificationUrl);
+            http2.addHeader("Content-Type", "application/x-www-form-urlencoded");  //Specify content-type header
+            int httpCode2 = http2.POST("ring=true");
+            if(httpCode2 > 0) {
+                if(httpCode2 == HTTP_CODE_OK) {
+                    timer = millis();
+                    digitalWrite(LED_PIN_B, LOW); // Turn on Blue LED
+                }
+            }
+            else {
+                Serial.printf("HTTP POST failed, error: %s\n", http2.errorToString(httpCode2).c_str());
+            }
+            lastSteadyState = currentState;
+            http2.end();
+        }
+
+        // save the the last steady state
+        lastSteadyState = currentState;
+    }
+    if(millis() - timer > INDICATOR_TIME) {
+        digitalWrite(LED_PIN_R, HIGH); // Turn off Red LED
+        digitalWrite(LED_PIN_G, HIGH); // Turn off Green LED
+        digitalWrite(LED_PIN_B, HIGH); // Turn off Blue LED
+    }
     if(showImage && !taskCreated) {
         taskCreated = true;
         Task1 = new TaskHandle_t;
@@ -178,22 +276,23 @@ void loop()
         taskCreated = false;
         vTaskDelete(Task1);
     }
-    if(sendPassword) {
-        Serial.println("Sending password");
-        // http.begin("http://")
-        Serial.print("Password: ");
-        Serial.println(password);
-        if((String)password == "1234") {
-            digitalWrite(LED_PIN_G, LOW); // Turn on Green LED
-            delay(1000);
-            digitalWrite(LED_PIN_G, HIGH); // Turn off Green LED
+    if(sendPasscode) {
+        http2.begin(unlockUrl);
+        http2.addHeader("Content-Type", "application/x-www-form-urlencoded");  //Specify content-type header
+        int httpCode2 = http2.POST("passcode="+(String)passcode);
+        if(httpCode2 == HTTP_CODE_OK) {
+                accessGranted = true;
+                timer = millis();
+                digitalWrite(LED_PIN_G, LOW); // Turn on Green LED
         } else {
+            accessGranted = false;
+            timer = millis();
             digitalWrite(LED_PIN_R, LOW); // Turn on Red LED
-            delay(1000);
-            digitalWrite(LED_PIN_R, HIGH); // Turn off Red LED
         }
         lv_textarea_set_text(ui_passwordArea, "");
-        sendPassword = false;
+        http2.end();
+
+        
     }
     lv_timer_handler(); /* let the GUI do its work */
     delay(10);

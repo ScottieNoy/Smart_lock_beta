@@ -1,0 +1,385 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+[    28][D][esp32-hal-cpu.c:244] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+[   482][I][esp32-hal-i2c.c:75] i2cInit(): Initialising I2C Master: sda=33 scl=32 freq=100000
+[   502][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 0 - WIFI_READY
+[   601][V][WiFiGeneric.cpp:97] set_esp_interface_ip(): Configuring Station static IP: 0.0.0.0, MASK: 0.0.0.0, GW: 0.0.0.0
+[   599][V][WiFiGeneric.cpp:340] _arduino_event_cb(): STA Started
+[   607][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 2 - STA_START
+[   698][V][WiFiGeneric.cpp:355] _arduino_event_cb(): STA Connected: SSID: Oscar, BSSID: 0a:d0:47:b2:33:cf, Channel: 6, Auth: WPA2_PSK
+[   700][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 4 - STA_CONNECTED
+[   728][V][WiFiGeneric.cpp:369] _arduino_event_cb(): STA Got New IP:172.20.10.2
+[   729][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 7 - STA_GOT_IP
+[   731][D][WiFiGeneric.cpp:1098] _eventCallback(): STA IP: 172.20.10.2, MASK: 255.255.255.240, GW: 172.20.10.1
+.[  4608][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[  4610][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[  4617][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  5362][E][WiFiClient.cpp:268] connect(): socket error on fd 48, errno: 104, "Connection reset by peer"
+[  5363][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.6:80
+[  5367][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+[  5374][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[  5379][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  5387][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  5396][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  5516][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  5880][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[  5881][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[  5885][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[  5894][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 3588'
+[  5902][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[  5909][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[  5914][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[  5920][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 3588
+[  5926][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+49 ms
+[  5992][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[  5992][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[  6003][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[  6004][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[  6012][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  6286][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[  6495][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[  6496][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 30'
+[  6499][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[  6506][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[  6514][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[  6521][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[  6526][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[  6532][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 30
+[  6538][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+Notification
+[  6555][D][HTTPClient.cpp:388] disconnect(): still data in buffer (30), clean up.
+
+[  6556][E][WiFiClient.cpp:517] flush(): fail on fd 49, errno: 11, "No more processes"
+[  6566][D][HTTPClient.cpp:395] disconnect(): tcp stop
+[  6567][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  6573][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  6582][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  6614][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  6814][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[  6815][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[  6819][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[  6829][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 3588'
+[  6836][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[  6843][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[  6849][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[  6854][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 3588
+[  6861][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+48 ms
+[  6962][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[  6963][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[  6973][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[  6974][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[  6983][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  7309][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+Unlocking door
+[  7750][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/unlock-notification
+[  7751][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /unlock-notification
+[  7758][D][HTTPClient.cpp:598] sendRequest(): request type: 'POST' redirCount: 0
+
+[  7776][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[  7777][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[  7781][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[  7789][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[  7796][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[  7803][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[  7809][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[  7815][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[  7821][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[  7827][D][HTTPClient.cpp:388] disconnect(): still data in buffer (15), clean up.
+
+[  7834][E][WiFiClient.cpp:517] flush(): fail on fd 49, errno: 11, "No more processes"
+[  7845][D][HTTPClient.cpp:395] disconnect(): tcp stop
+[  7848][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  7854][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  7863][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  8642][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  9156][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[  9157][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[  9161][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[  9170][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 3588'
+[  9178][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[  9185][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[  9190][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[  9196][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 3588
+[  9202][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+51 ms
+[  9270][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[  9271][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[  9282][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[  9283][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[  9291][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 10585][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 10591][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 10897][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 10898][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 30'
+[ 10901][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[ 10911][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 10912][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 10916][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[ 10923][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 13'
+[ 10930][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 10937][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[ 10943][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 10951][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 10956][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 30
+[ 10964][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[ 10969][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+[ 10977][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+Notification
+[ 10988][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 10999][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 13
+[ 10999][D][HTTPClient.cpp:388] disconnect(): still data in buffer (30), clean up.
+
+[ 11001][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+[ 11009][E][WiFiClient.cpp:517] flush(): fail on fd 50, errno: 11, "No more processes"
+[ 11015][D][HTTPClient.cpp:388] disconnect(): still data in buffer (13), clean up.
+
+[ 11026][D][HTTPClient.cpp:395] disconnect(): tcp stop
+[ 11030][E][WiFiClient.cpp:517] flush(): fail on fd 48, errno: 11, "No more processes"
+[ 11035][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 11045][D][HTTPClient.cpp:395] disconnect(): tcp stop
+[ 11050][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[ 11064][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+
+assert failed: xQueueGenericSend queue.c:821 (!( ( pvItemToQueue == ((void *)0) ) && ( pxQueue->uxItemSize != ( UBaseType_t ) 0U ) ))
+
+
+Backtrace: 0x40083df5:0x3ffb2bb0 0x4008e7b1:0x3ffb2bd0 0x40094c8d:0x3ffb2bf0 0x4008f266:0x3ffb2d20 0x4013349a:0x3ffb2d60 0x40121e2b:0x3ffb2d80 0x40134ed2:0x3ffb2db0 0x40129eb9:0x3ffb2dd0 0x4012f10e:0x3ffb2e40 0x4013316a:0x3ffb2e70 0x40123d01:0x3ffb2e90
+
+
+
+
+ELF file SHA256: 37284047bce35a7c
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+[    26][D][esp32-hal-cpu.c:244] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+[   480][I][esp32-hal-i2c.c:75] i2cInit(): Initialising I2C Master: sda=33 scl=32 freq=100000
+[   499][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 0 - WIFI_READY
+[   600][V][WiFiGeneric.cpp:97] set_esp_interface_ip(): Configuring Station static IP: 0.0.0.0, MASK: 0.0.0.0, GW: 0.0.0.0
+[   598][V][WiFiGeneric.cpp:340] _arduino_event_cb(): STA Started
+[   606][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 2 - STA_START
+[   694][V][WiFiGeneric.cpp:355] _arduino_event_cb(): STA Connected: SSID: Oscar, BSSID: 0a:d0:47:b2:33:cf, Channel: 6, Auth: WPA2_PSK
+[   696][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 4 - STA_CONNECTED
+[   727][V][WiFiGeneric.cpp:369] _arduino_event_cb(): STA Got New IP:172.20.10.2
+[   728][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 7 - STA_GOT_IP
+[   731][D][WiFiGeneric.cpp:1098] _eventCallback(): STA IP: 172.20.10.2, MASK: 255.255.255.240, GW: 172.20.10.1
+.[  1187][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[  1188][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[  1195][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1789][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[  2198][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[  2199][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[  2203][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[  2211][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[  2218][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[  2225][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[  2230][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[  2236][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[  2242][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[  2248][D][HTTPClient.cpp:388] disconnect(): still data in buffer (15), clean up.
+
+[  2256][E][WiFiClient.cpp:517] flush(): fail on fd 48, errno: 11, "No more processes"
+[  2267][D][HTTPClient.cpp:395] disconnect(): tcp stop
+[  2269][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  2276][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  2285][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  2318][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  2612][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[  2613][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[  2617][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[  2627][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 3672'
+[  2634][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[  2641][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[  2647][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[  2652][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 3672
+[  2658][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+53 ms
+[  2731][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[  2731][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[  2743][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[  2743][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[  2751][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  2817][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[  2844][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[  2845][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[  2850][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[  2857][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[  2864][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[  2872][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[  2877][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[  2883][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[  2889][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[  2895][D][HTTPClient.cpp:388] disconnect(): still data in buffer (15), clean up.
+
+[  2904][E][WiFiClient.cpp:517] flush(): fail on fd 49, errno: 11, "No more processes"
+[  2915][D][HTTPClient.cpp:395] disconnect(): tcp stop
+[  2916][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  2923][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  2932][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+Unlocking door
+[  3230][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/unlock-notification
+[  3231][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /unlock-notification
+[  3239][D][HTTPClient.cpp:598] sendRequest(): request type: 'POST' redirCount: 0
+
+[  3280][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[  3325][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[  3326][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 13'
+[  3328][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[  3336][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[  3343][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[  3350][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[  3356][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[  3362][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 13
+[  3368][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+[  3374][D][HTTPClient.cpp:388] disconnect(): still data in buffer (13), clean up.
+
+[  3381][E][WiFiClient.cpp:517] flush(): fail on fd 49, errno: 11, "No more processes"
+[  3392][D][HTTPClient.cpp:395] disconnect(): tcp stop
+
+assert failed: xQueueGenericSend queue.c:821 (!( ( pvItemToQueue == ((void *)0) ) && ( pxQueue->uxItemSize != ( UBaseType_t ) 0U ) ))
+
+
+Backtrace: 0x40083df5:0x3ffb2bb0 0x4008e7b1:0x3ffb2bd0 0x40094c8d:0x3ffb2bf0 0x4008f266:0x3ffb2d20 0x4013349a:0x3ffb2d60 0x40121e2b:0x3ffb2d80 0x40134ed2:0x3ffb2db0 0x40129eb9:0x3ffb2dd0 0x4012f10e:0x3ffb2e40 0x4013316a:0x3ffb2e70 0x40123d01:0x3ffb2e90
+
+
+
+
+ELF file SHA256: 37284047bce35a7c
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+[    28][D][esp32-hal-cpu.c:244] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+[   482][I][esp32-hal-i2c.c:75] i2cInit(): Initialising I2C Master: sda=33 scl=32 freq=100000
+[   502][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 0 - WIFI_READY
+[   600][V][WiFiGeneric.cpp:97] set_esp_interface_ip(): Configuring Station static IP: 0.0.0.0, MASK: 0.0.0.0, GW: 0.0.0.0
+[   598][V][WiFiGeneric.cpp:340] _arduino_event_cb(): STA Started
+[   606][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 2 - STA_START
+[   694][V][WiFiGeneric.cpp:355] _arduino_event_cb(): STA Connected: SSID: Oscar, BSSID: 0a:d0:47:b2:33:cf, Channel: 6, Auth: WPA2_PSK
+[   695][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 4 - STA_CONNECTED
+[   740][V][WiFiGeneric.cpp:369] _arduino_event_cb(): STA Got New IP:172.20.10.2
+[   740][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 7 - STA_GOT_IP
+[   743][D][WiFiGeneric.cpp:1098] _eventCallback(): STA IP: 172.20.10.2, MASK: 255.255.255.240, GW: 172.20.10.1
+.[  1186][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[  1187][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[  1195][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1329][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[  1347][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[  1348][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[  1353][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[  1360][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[  1367][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[  1375][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[  1380][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[  1386][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[  1392][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[  1399][D][HTTPClient.cpp:388] disconnect(): still data in buffer (15), clean up.
+
+[  1406][E][WiFiClient.cpp:517] flush(): fail on fd 48, errno: 11, "No more processes"
+[  1418][D][HTTPClient.cpp:395] disconnect(): tcp stop
+[  1419][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1425][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1435][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  1529][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  1826][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[  1827][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[  1830][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[  1840][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 3672'
+[  1847][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[  1855][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[  1860][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[  1866][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 3672
+[  1872][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+Unlocking door
+[  2871][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/unlock-notification
+[  2872][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /unlock-notification
+[  2880][D][HTTPClient.cpp:598] sendRequest(): request type: 'POST' redirCount: 0
+
+[  3153][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[  3670][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[  3671][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 13'
+[  3674][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[  3681][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[  3688][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[  3695][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[  3701][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[  3707][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 13
+[  3713][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+[  3719][D][HTTPClient.cpp:388] disconnect(): still data in buffer (13), clean up.
+
+[  3726][E][WiFiClient.cpp:517] flush(): fail on fd 49, errno: 11, "No more processes"
+[  3736][D][HTTPClient.cpp:395] disconnect(): tcp stop
+65 ms
+[  3791][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[  3792][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[  3803][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[  3804][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[  3812][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  3850][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[  3890][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[  3891][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[  3897][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[  3903][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[  3910

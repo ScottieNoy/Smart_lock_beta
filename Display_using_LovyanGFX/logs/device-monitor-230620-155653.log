@@ -1,0 +1,8 @@
+Turning on Blitz
+[335504][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[335506][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[335511][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[335519][D][WiFiClient.cpp:546] connected(): Disconnected: RES: -1, ERR: 104
+[336401][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+Turning off Blitz

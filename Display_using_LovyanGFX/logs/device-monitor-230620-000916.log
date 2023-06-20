@@ -1,0 +1,169 @@
+Failed to obtain time
+[  6186][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  6187][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  6193][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 11210][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 11211][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[ 11214][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[ 11232][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 11242][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 11242][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[ 11247][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+Failed to obtain time
+[ 16258][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 16259][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[ 16262][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[ 16281][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 16291][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 16291][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[ 16296][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+Failed to obtain time
+[ 21306][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 21307][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[ 21310][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[ 21328][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 21338][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 21338][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[ 21343][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+Failed to obtain time
+[ 26353][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 26354][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[ 26357][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[ 26375][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 26385][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 26385][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[ 26390][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+Failed to obtain time
+[ 31400][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 31401][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[ 31404][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[ 31422][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 31432][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 31432][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[ 31438][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+Failed to obtain time
+[ 36448][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 36449][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[ 36453][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[ 36470][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 36480][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 36480][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[ 36485][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+Failed to obtain time
+Failed to obtain time
+Failed to obtain time
+Failed to obtain time
+Failed to obtain time
+Failed to obtain time
+
+assert failed: xQueueGenericSend queue.c:821 (!( ( pvItemToQueue == ((void *)0) ) && ( pxQueue->uxItemSize != ( UBaseType_t ) 0U ) ))
+
+
+Backtrace: 0x40083df5:0x3ffb2bd0 0x4008e7b1:0x3ffb2bf0 0x40094c8d:0x3ffb2c10 0x4008f266:0x3ffb2d40 0x401321aa:0x3ffb2d80 0x40120f5b:0x3ffb2da0 0x40133dd5:0x3ffb2dd0 0x40127105:0x3ffb2df0 0x40127213:0x3ffb2e30 0x4012a69f:0x3ffb2e50 0x4012a75d:0x3ffb2e70 0x40122dcd:0x3ffb2e90
+
+
+
+
+ELF file SHA256: cbdf81901d8059d1
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+[    26][D][esp32-hal-cpu.c:244] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+[   487][I][esp32-hal-i2c.c:75] i2cInit(): Initialising I2C Master: sda=33 scl=32 freq=100000
+[   510][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 0 - WIFI_READY
+[   607][V][WiFiGeneric.cpp:97] set_esp_interface_ip(): Configuring Station static IP: 0.0.0.0, MASK: 0.0.0.0, GW: 0.0.0.0
+[   605][V][WiFiGeneric.cpp:340] _arduino_event_cb(): STA Started
+[   613][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 2 - STA_START
+[   709][V][WiFiGeneric.cpp:355] _arduino_event_cb(): STA Connected: SSID: Oscar, BSSID: 6a:d6:a3:39:76:c3, Channel: 6, Auth: WPA2_PSK
+[   711][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 4 - STA_CONNECTED
+[   754][V][WiFiGeneric.cpp:369] _arduino_event_cb(): STA Got New IP:172.20.10.14
+[   755][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 7 - STA_GOT_IP
+[   758][D][WiFiGeneric.cpp:1098] _eventCallback(): STA IP: 172.20.10.14, MASK: 255.255.255.240, GW: 172.20.10.1
+.Failed to obtain time
+[  6165][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  6166][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  6172][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 11187][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 11188][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[ 11191][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[ 11209][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 11219][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 11219][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[ 11224][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+Failed to obtain time
+[ 16234][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 16235][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[ 16238][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[ 16256][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 16266][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 16267][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[ 16272][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+Failed to obtain time
+[ 21283][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 21285][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[ 21288][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[ 21305][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 21315][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 21315][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[ 21321][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+Failed to obtain time
+[ 26330][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 26331][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[ 26334][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[ 26352][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 26362][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 26362][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[ 26367][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+Failed to obtain time
+[ 31377][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 31378][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[ 31381][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[ 31399][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 31409][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 31409][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[ 31415][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+Failed to obtain time

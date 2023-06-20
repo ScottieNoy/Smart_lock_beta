@@ -64,7 +64,7 @@ ui_date_placeholder1 = lv_label_create(ui_DateBatteryPanelPassword);
 lv_obj_set_width( ui_date_placeholder1, LV_SIZE_CONTENT);  /// 1
 lv_obj_set_height( ui_date_placeholder1, LV_SIZE_CONTENT);   /// 1
 lv_obj_set_align( ui_date_placeholder1, LV_ALIGN_LEFT_MID );
-lv_label_set_text(ui_date_placeholder1,"Mon 19 Jun");
+lv_label_set_text(ui_date_placeholder1,date);
 lv_obj_set_style_text_color(ui_date_placeholder1, lv_color_hex(0xFFFFFF), LV_PART_MAIN | LV_STATE_DEFAULT );
 lv_obj_set_style_text_opa(ui_date_placeholder1, 255, LV_PART_MAIN| LV_STATE_DEFAULT);
 

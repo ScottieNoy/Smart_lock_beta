@@ -1,0 +1,10 @@
+[  9010][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[  9012][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[  9015][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[  9032][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[  9042][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  9042][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  9048][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+

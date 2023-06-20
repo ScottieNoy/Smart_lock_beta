@@ -1,0 +1,756 @@
+[  8710][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[  8726][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[  8726][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[  8728][D][HTTPClient.cpp:1485] returnError(): tcp stop
+[  8736][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[  8738][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  8746][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  8755][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  8782][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  8797][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[  8797][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[  8799][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[  8818][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[  8828][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[  8828][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[  8836][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  9211][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[  9227][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[  9227][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[  9229][D][HTTPClient.cpp:1485] returnError(): tcp stop
+[  9237][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[  9240][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  9247][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  9256][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  9316][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  9333][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[  9333][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[  9335][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[  9354][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[  9364][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[  9364][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[  9372][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  9620][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[  9636][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[  9636][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[  9638][D][HTTPClient.cpp:1485] returnError(): tcp stop
+[  9645][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[  9648][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  9656][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  9665][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  9735][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  9750][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[  9750][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[  9752][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[  9771][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[  9781][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[  9781][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[  9789][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  9827][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[  9842][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[  9845][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[  9846][D][HTTPClient.cpp:1485] returnError(): tcp stop
+[  9854][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[  9857][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  9864][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  9874][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  9908][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  9925][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[  9926][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[  9927][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[  9946][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[  9956][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[  9956][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[  9964][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 10135][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 10151][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 10151][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 10153][D][HTTPClient.cpp:1485] returnError(): tcp stop
+[ 10162][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 10163][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 10171][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[ 10180][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 10206][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 10223][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 10224][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 10225][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 10246][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 10256][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[ 10256][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[ 10264][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 10441][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 10457][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 10458][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 10459][D][HTTPClient.cpp:1485] returnError(): tcp stop
+[ 10467][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 10470][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 10477][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[ 10486][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 10509][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 10524][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 10524][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 10528][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 10537][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 10552][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[ 10553][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[ 10561][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 10603][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 10619][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 10619][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 10621][D][HTTPClient.cpp:1485] returnError(): tcp stop
+[ 10631][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 10632][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 10642][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[ 10649][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 10696][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 10711][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 10712][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 10713][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 10732][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 10742][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[ 10742][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[ 10750][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 11054][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 11070][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 11070][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 11072][D][HTTPClient.cpp:1485] returnError(): tcp stop
+[ 11080][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 11082][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 11090][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[ 11099][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 11174][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 11189][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 11189][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 11191][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 11209][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 11219][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[ 11219][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[ 11227][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 11469][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 11484][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 11484][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 11486][D][HTTPClient.cpp:1485] returnError(): tcp stop
+[ 11494][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 11496][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 11504][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[ 11513][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 11557][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 11573][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 11573][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 11575][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 11594][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 11605][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[ 11605][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[ 11613][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 11678][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 11695][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 11696][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 11698][D][HTTPClient.cpp:1485] returnError(): tcp stop
+[ 11706][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 11708][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 11718][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[ 11725][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 11777][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 11793][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 11793][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 11795][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 11813][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 11824][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[ 11825][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[ 11832][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 11880][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 11896][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 11896][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 11899][D][HTTPClient.cpp:1485] returnError(): tcp stop
+[ 11906][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 11908][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 11916][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[ 11925][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 11973][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 11989][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 11989][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 11991][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 12011][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 12022][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[ 12022][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[ 12030][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 12078][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 12094][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 12094][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 12096][D][HTTPClient.cpp:1485] returnError(): tcp stop
+[ 12104][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 12106][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 12114][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[ 12123][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 12180][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 12196][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 12196][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 12198][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 12217][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 12228][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[ 12229][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[ 12237][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 12282][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 12297][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 12297][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 12299][D][HTTPClient.cpp:1485] returnError(): tcp stop
+[ 12307][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 12309][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 12317][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[ 12326][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 12583][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 12599][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 12599][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 12601][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 12620][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 12630][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[ 12630][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[ 12638][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 12789][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 12805][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 12805][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 12807][D][HTTPClient.cpp:1485] returnError(): tcp stop
+[ 12815][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 12817][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 12825][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[ 12835][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 12865][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 12881][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 12883][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 12885][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 12906][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 12916][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[ 12916][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[ 12924][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 12952][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 12967][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 12967][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 12969][D][HTTPClient.cpp:1485] returnError(): tcp stop
+[ 12977][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 12980][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 12987][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[ 12996][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 13102][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 13117][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 13117][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 13119][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 13138][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 13148][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[ 13148][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[ 13156][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 13209][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 13227][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 13227][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 13229][D][HTTPClient.cpp:1485] returnError(): tcp stop
+[ 13238][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 13240][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 13247][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[ 13259][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 13295][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 13311][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 13311][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 13313][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 13331][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 13342][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[ 13342][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[ 13350][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 13419][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 13436][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[ 13437][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[ 13442][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[ 13449][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 13456][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[ 13464][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 13469][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[ 13475][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[ 13481][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[ 13487][D][HTTPClient.cpp:388] disconnect(): still data in buffer (15), clean up.
+
+[ 13495][E][WiFiClient.cpp:517] flush(): fail on fd 48, errno: 11, "No more processes"
+[ 13507][D][HTTPClient.cpp:395] disconnect(): tcp stop
+[ 13508][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 13515][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[ 13524][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 13554][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 13570][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 13570][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 13572][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 13591][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 13601][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[ 13602][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[ 13610][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 13633][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 13648][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 13648][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 13650][D][HTTPClient.cpp:1485] returnError(): tcp stop
+[ 13658][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 13660][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 13671][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[ 13677][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 13712][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 13729][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 13729][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 13731][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 13750][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 13760][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[ 13760][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[ 13768][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 13820][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 13838][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[ 13839][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[ 13844][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[ 13852][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 13861][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[ 13866][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 13871][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[ 13877][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[ 13883][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[ 13889][D][HTTPClient.cpp:388] disconnect(): still data in buffer (15), clean up.
+
+[ 13897][E][WiFiClient.cpp:517] flush(): fail on fd 48, errno: 11, "No more processes"
+[ 13911][D][HTTPClient.cpp:395] disconnect(): tcp stop
+[ 13912][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 13917][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[ 13926][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 13958][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 13975][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 13975][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 13977][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 13995][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 14006][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[ 14006][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[ 14014][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 14039][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 14054][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 14054][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 14056][D][HTTPClient.cpp:1485] returnError(): tcp stop
+[ 14064][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 14066][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 14074][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[ 14083][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 14117][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 14134][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 14134][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 14136][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 14154][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 14165][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[ 14165][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[ 14173][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 14230][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 14246][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 14247][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 14248][D][HTTPClient.cpp:1485] returnError(): tcp stop
+[ 14258][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 14259][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 14266][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[ 14277][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 14333][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 14349][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 14349][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 14351][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 14369][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 14380][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[ 14381][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[ 14388][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 14433][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 14450][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[ 14451][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[ 14455][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[ 14463][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 14470][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[ 14477][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 14483][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[ 14488][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[ 14497][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[ 14501][D][HTTPClient.cpp:388] disconnect(): still data in buffer (15), clean up.
+
+[ 14508][E][WiFiClient.cpp:517] flush(): fail on fd 48, errno: 11, "No more processes"
+[ 14521][D][HTTPClient.cpp:395] disconnect(): tcp stop
+[ 14522][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 14528][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[ 14537][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 14568][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 14584][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 14585][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 14586][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 14605][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 14615][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[ 14615][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[ 14624][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 14649][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 14665][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 14665][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 14669][D][HTTPClient.cpp:1485] returnError(): tcp stop
+[ 14675][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 14677][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 14685][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[ 14694][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 14777][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 14793][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 14793][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 14795][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 14814][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 14824][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[ 14824][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[ 14833][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 15150][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 15166][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 15166][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 15168][D][HTTPClient.cpp:1485] returnError(): tcp stop
+[ 15176][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 15178][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 15186][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[ 15195][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 15291][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 15307][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 15307][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 15309][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 15328][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 15338][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[ 15341][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[ 15346][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 15563][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 15579][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 15579][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 15581][D][HTTPClient.cpp:1485] returnError(): tcp stop
+[ 15589][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 15592][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 15599][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[ 15608][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 15759][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 15774][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 15774][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 15776][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 15795][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 15805][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[ 15805][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[ 15813][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 15869][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 15887][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[ 15888][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[ 15893][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[ 15900][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 15914][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[ 15915][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 15920][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[ 15926][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[ 15932][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[ 15938][D][HTTPClient.cpp:388] disconnect(): still data in buffer (15), clean up.
+
+[ 15946][E][WiFiClient.cpp:517] flush(): fail on fd 48, errno: 11, "No more processes"
+[ 15958][D][HTTPClient.cpp:395] disconnect(): tcp stop
+[ 15959][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 15965][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[ 15975][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 16012][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 16027][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 16027][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 16029][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 16047][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 16057][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[ 16057][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[ 16065][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 21076][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 21078][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.6:80
+[ 21080][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+[ 21087][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 21093][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 21100][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[ 21110][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 21167][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 21183][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 21183][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 21185][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 21204][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 21216][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[ 21216][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[ 21224][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 26236][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 26238][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.6:80
+[ 26240][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+[ 26247][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 26253][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 26260][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[ 26270][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 26322][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 26339][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 26339][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 26341][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 26360][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 26370][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[ 26370][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[ 26378][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 31389][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 31390][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.6:80
+[ 31393][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+[ 31400][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 31406][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 31413][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[ 31422][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 31630][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 31645][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 31645][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 31647][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 31666][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 31676][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[ 31676][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[ 31684][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 36695][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 36696][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.6:80
+[ 36699][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+[ 36706][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 36712][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 36719][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[ 36729][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 36762][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 36777][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 36778][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 36779][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 36799][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 36810][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[ 36810][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[ 36818][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 41829][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 41830][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.6:80
+[ 41833][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+[ 41840][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 41846][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 41853][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[ 41863][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 41896][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 41912][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 41912][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 41914][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 41932][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 41943][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[ 41943][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[ 41951][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 46964][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 46966][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.6:80
+[ 46969][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+[ 46976][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 46983][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 46989][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[ 46998][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 47061][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 47078][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 47078][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 47080][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 47099][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 47110][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[ 47110][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[ 47118][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+

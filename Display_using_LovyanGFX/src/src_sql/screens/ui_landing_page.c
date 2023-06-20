@@ -44,17 +44,10 @@ ui_date_placeholder = lv_label_create(ui_DateBatteryPanelMain);
 lv_obj_set_width( ui_date_placeholder, LV_SIZE_CONTENT);  /// 1
 lv_obj_set_height( ui_date_placeholder, LV_SIZE_CONTENT);   /// 1
 lv_obj_set_align( ui_date_placeholder, LV_ALIGN_LEFT_MID );
-lv_label_set_text(ui_date_placeholder,"Mon 19 Jun");
+lv_label_set_text(ui_date_placeholder,date);
 lv_obj_set_style_text_color(ui_date_placeholder, lv_color_hex(0xFFFFFF), LV_PART_MAIN | LV_STATE_DEFAULT );
 lv_obj_set_style_text_opa(ui_date_placeholder, 255, LV_PART_MAIN| LV_STATE_DEFAULT);
 
-ui_battery_placeholder = lv_label_create(ui_DateBatteryPanelMain);
-lv_obj_set_width( ui_battery_placeholder, LV_SIZE_CONTENT);  /// 1
-lv_obj_set_height( ui_battery_placeholder, LV_SIZE_CONTENT);   /// 1
-lv_obj_set_align( ui_battery_placeholder, LV_ALIGN_RIGHT_MID );
-lv_label_set_text(ui_battery_placeholder,"95%");
-lv_obj_set_style_text_color(ui_battery_placeholder, lv_color_hex(0xFFFFFF), LV_PART_MAIN | LV_STATE_DEFAULT );
-lv_obj_set_style_text_opa(ui_battery_placeholder, 255, LV_PART_MAIN| LV_STATE_DEFAULT);
 
 ui_button1 = lv_btn_create(ui_landing_page);
 lv_obj_set_width( ui_button1, 120);
@@ -74,7 +67,7 @@ ui_passcode_button_label1 = lv_label_create(ui_button1);
 lv_obj_set_width( ui_passcode_button_label1, LV_SIZE_CONTENT);  /// 1
 lv_obj_set_height( ui_passcode_button_label1, LV_SIZE_CONTENT);   /// 1
 lv_obj_set_align( ui_passcode_button_label1, LV_ALIGN_CENTER );
-lv_label_set_text(ui_passcode_button_label1,"Enter passcode");
+lv_label_set_text(ui_passcode_button_label1,"Passcode");
 
 ui_delivery_button = lv_btn_create(ui_landing_page);
 lv_obj_set_width( ui_delivery_button, 120);
@@ -116,6 +109,7 @@ lv_obj_add_flag( ui_Image1, LV_OBJ_FLAG_ADV_HITTEST );   /// Flags
 lv_obj_clear_flag( ui_Image1, LV_OBJ_FLAG_SCROLLABLE );    /// Flags
 
 lv_obj_add_event_cb(ui_button1, ui_event_button1, LV_EVENT_ALL, NULL);
+lv_obj_add_event_cb(ui_delivery_button, ui_event_delivery_button, LV_EVENT_ALL, NULL);
 lv_obj_add_event_cb(ui_landing_page, ui_event_landing_page, LV_EVENT_ALL, NULL);
 
 }

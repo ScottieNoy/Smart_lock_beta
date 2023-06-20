@@ -8,6 +8,7 @@
 
 ///////////////////// VARIABLES ////////////////////
 
+
 // SCREEN: ui_landing_page
 void ui_landing_page_screen_init(void);
 void ui_event_landing_page( lv_event_t * e);

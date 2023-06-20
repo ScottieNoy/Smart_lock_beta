@@ -9,8 +9,10 @@
 #include "lgfx_ESP32_3248S035.h"
 #include <WiFi.h>
 #include <HTTPClient.h>
+#include <time.h>
 
 #define NOTIFICATION_TIME 10000
+#define UNLOCK_TIME 10000
 
 // Built in RGB LED
 #define LED_PIN_R 4
@@ -33,6 +35,23 @@ char * passcode;
 bool taskCreated = false;
 bool unlockBool = false;
 int notificationTimer;
+int unlockTimer;
+
+const char* ntpServer = "pool.ntp.org";
+const long  gmtOffset_sec = 3600;   // Set your GMT offset in seconds
+const int   daylightOffset_sec = 3600;  // If daylight saving time is in effect
+
+char date[20];  // Buffer to hold the formatted date
+
+void getFormattedDate()
+{
+  struct tm timeinfo;
+  if(!getLocalTime(&timeinfo)){
+    Serial.println("Failed to obtain time");
+    return;
+  }
+  strftime(date, sizeof(date), "%a %d %B", &timeinfo); // Format the date
+}
 
 
 /* Display flushing */
@@ -78,9 +97,18 @@ int xPos = 0;
 int yPos = 60;
 
 void showingImage(void * pvParameters) {
-    http.begin(streamUrl);
-    http.setTimeout(500);
     for(;;) {
+        http.begin(notificationUrl);
+        int httpNotificationCode = http.GET();
+        if(httpNotificationCode > 0) {
+            if(httpNotificationCode == HTTP_CODE_OK) {
+                Serial.println("Notification");
+                notificationTimer = millis();
+                digitalWrite(BUZZER_PIN, HIGH); 
+            }      
+        }
+        http.end();
+        http.begin(streamUrl);
         int httpCode = http.GET();
         if(httpCode > 0) {
             if(httpCode == HTTP_CODE_OK) {
@@ -115,7 +143,7 @@ void showingImage(void * pvParameters) {
         } else {
             Serial.printf("HTTP GET returned negative or zero response code, error: %s\n", http.errorToString(httpCode).c_str());
         }
-        
+        http.end();
         vTaskDelay(10 / portTICK_PERIOD_MS);
     }
 }
@@ -177,9 +205,10 @@ void setup()
     digitalWrite(LED_PIN_G, HIGH); // Turn off Green LED
     digitalWrite(LED_PIN_B, HIGH); // Turn off Blue LED
     digitalWrite(BUZZER_PIN, LOW); // Turn off Buzzer
+    configTime(gmtOffset_sec, daylightOffset_sec, ntpServer);
+    getFormattedDate();
     ui_init();
 
-    //lv_demo_benchmark();
 
 }
 
@@ -188,29 +217,29 @@ TaskHandle_t Task1;
 
 void loop()
 {
-    // if(millis()-notificationTimer > NOTIFICATION_TIME) {
-    //     digitalWrite(BUZZER_PIN, LOW);
-    // }
-    // http2.begin(notificationUrl);
-    // int httpCode = http2.GET();
-    // if(httpCode > 0) {
-    //     if(httpCode == HTTP_CODE_OK) {
-    //         String payload = http2.getString();
-    //         Serial.println(payload);
-    //         if(payload == "true") {
-    //             Serial.println("Notification");
-    //             notificationTimer = millis();
-    //             digitalWrite(BUZZER_PIN, HIGH); 
-    //         }   
-    //     } else {
-    //         Serial.printf("HTTP GET failed, error: %s\n", http2.errorToString(httpCode).c_str());
-    //     }       
-    // }
+    if(millis()-unlockTimer > UNLOCK_TIME) {
+        digitalWrite(LED_PIN_G, HIGH); // Turn off Green LED
+        digitalWrite(LED_PIN_R, HIGH); // Turn off Red LED
+    }
+    if(millis()-notificationTimer > NOTIFICATION_TIME) {
+        digitalWrite(BUZZER_PIN, LOW);
+    }
+    getFormattedDate();
+    if(millis()-notificationTimer > NOTIFICATION_TIME) {
+        digitalWrite(BUZZER_PIN, LOW);
+    }
+    
     if( unlockBool ) {
         Serial.println("Unlocking door");
         http2.begin(unlockUrl);
         http2.addHeader("Content-Type", "application/x-www-form-urlencoded");  //Specify content-type header
         int httpReturnCode = http2.POST("unlock=true");   //Send the request
+        if(httpReturnCode == HTTP_CODE_OK) {
+            unlockTimer = millis();
+            digitalWrite(LED_PIN_G, LOW); // Turn on Green LED
+        } else {
+            digitalWrite(LED_PIN_R, LOW); // Turn on Red LED
+        }
         unlockBool = false;
         http2.end();
     }

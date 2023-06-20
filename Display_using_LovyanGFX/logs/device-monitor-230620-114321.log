@@ -1,0 +1,2955 @@
+ http, host: 172.20.10.13 port: 80 url: /snapshot
+[161681][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[161689][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[161697][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[161703][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[161720][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[161731][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[161731][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[161736][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[161744][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[161752][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[161759][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[161776][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[161786][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[161786][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[161792][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[161799][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[161808][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[161814][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[161832][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[161842][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[161842][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[161847][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[161855][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[161863][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[161870][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[161887][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[161897][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[161897][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[161903][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[161910][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[161919][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[161925][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[161942][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[161953][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[161953][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[161958][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[161966][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[161974][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[161981][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[161998][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[162008][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[162008][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[162014][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[162021][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[162030][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[162036][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[162053][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[162064][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[162064][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[162070][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[162078][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[162086][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[162092][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[162110][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[162120][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[162120][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[162125][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[162133][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[162141][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[162148][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[162166][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[162176][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[162176][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[162181][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[162189][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[162197][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[162204][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[162221][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[162231][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[162231][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[162237][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[162244][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[162253][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[162259][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[162276][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[162287][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[162287][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[162292][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[162300][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[162308][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[162315][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[162332][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[162342][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[162342][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[162348][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[162355][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[162364][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[162370][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[162387][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[162398][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[162398][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[162403][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[162411][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[162419][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[162426][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[162443][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[162453][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[162453][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[162459][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[162466][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[162475][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[162481][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[162498][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[162509][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[162509][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[162514][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[162522][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[162530][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[162537][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[162554][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[162564][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[162564][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[162570][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[162578][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[162586][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[162592][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[162609][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[162620][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[162620][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[162625][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[162633][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[162641][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[162648][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[162665][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[162675][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[162675][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[162681][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[162688][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[162697][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[162703][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[162720][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[162731][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[162731][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[162736][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[162744][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[162752][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[162759][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[162776][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[162786][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[162786][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[162792][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[162799][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[162808][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[162814][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[162831][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[162842][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[162842][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[162847][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[162855][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[162863][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[162870][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[162888][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[162898][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[162898][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[162903][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[162911][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[162919][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[162926][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[162943][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[162953][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[162953][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[162959][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[162966][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[162975][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[162981][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[162998][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[163009][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[163009][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[163014][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[163022][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[163030][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[163037][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[163054][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[163064][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[163064][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[163070][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[163077][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[163086][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[163092][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[163109][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[163120][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[163120][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[163125][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[163133][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[163141][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[163148][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[163165][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[163175][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[163175][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[163181][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[163188][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[163197][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[163203][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[163220][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[163231][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[163231][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[163236][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[163244][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[163249][V][WiFiGeneric.cpp:362] _arduino_event_cb(): STA Disconnected: SSID: Oscar, BSSID: 00:00:00:00:00:00, Reason: 201
+[163263][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 5 - STA_DISCONNECTED
+[163264][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[163270][W][WiFiGeneric.cpp:1057] _eventCallback(): Reason: 201 - NO_AP_FOUND
+[163277][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+[163284][D][WiFiGeneric.cpp:1081] _eventCallback(): WiFi AutoReconnect Running
+HTTP GET failed, error: connection refused
+[163302][V][WiFiGeneric.cpp:97] set_esp_interface_ip(): Configuring Station static IP: 0.0.0.0, MASK: 0.0.0.0, GW: 0.0.0.0
+[163308][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[163328][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[163329][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[163335][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[163344][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[163351][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[163357][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[163375][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[163385][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[163385][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[163391][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[163399][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[163406][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[163413][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[163430][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[163442][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[163443][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[163448][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[163458][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[163464][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[163471][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[163488][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[163499][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[163499][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[163504][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[163512][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[163521][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[163527][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[163544][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[163555][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[163555][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[163561][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[163569][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[163577][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[163583][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[163600][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[163611][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[163611][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[163616][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[163624][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[163632][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[163639][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[163656][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[163666][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[163666][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[163672][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[163680][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[163688][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[163694][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[163712][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[163722][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[163722][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[163727][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[163735][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[163743][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[163750][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[163767][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[163777][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[163777][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[163783][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[163790][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[163799][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[163806][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[163823][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[163833][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[163833][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[163838][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[163847][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[163854][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[163861][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[163878][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[163888][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[163888][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[163894][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[163901][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[163910][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[163916][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[163934][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[163944][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[163944][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[163949][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[163958][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[163965][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[163972][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[163989][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[163999][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[163999][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[164005][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[164012][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[164021][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[164027][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[164044][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[164055][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[164055][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[164061][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[164069][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[164077][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[164083][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[164101][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[164111][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[164111][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[164116][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[164124][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[164132][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[164139][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[164156][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[164166][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[164166][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[164172][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[164180][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[164188][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[164194][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[164211][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[164222][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[164222][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[164227][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[164235][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[164243][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[164250][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[164267][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[164277][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[164277][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[164283][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[164290][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[164299][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[164305][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[164322][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[164333][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[164333][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[164338][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[164346][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[164354][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[164361][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[164378][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[164388][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[164388][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[164394][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[164401][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[164410][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[164416][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[164433][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[164444][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[164444][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[164449][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[164457][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[164465][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[164472][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[164489][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[164499][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[164499][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[164505][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[164512][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[164521][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[164527][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[164547][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[164557][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[164557][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[164563][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[164571][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[164578][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[164585][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[164602][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[164613][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[164613][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[164618][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[164626][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[164634][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[164641][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[164659][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[164669][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[164669][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[164675][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[164682][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[164690][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[164697][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[164714][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[164724][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[164724][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[164730][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[164737][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[164746][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[164752][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[164769][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[164780][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[164780][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[164785][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[164793][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[164801][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[164808][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[164825][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[164835][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[164835][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[164841][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[164848][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[164856][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[164863][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[164880][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[164891][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[164891][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[164896][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[164904][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[164912][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[164919][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[164936][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[164946][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[164946][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[164952][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[164959][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[164968][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[164974][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[164991][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[165002][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[165002][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[165007][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[165015][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[165023][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[165030][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[165047][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[165058][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[165058][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[165063][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[165071][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[165079][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[165086][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[165103][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[165113][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[165113][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[165119][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[165126][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[165135][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[165141][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[165158][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[165169][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[165169][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[165174][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[165182][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[165190][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[165197][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[165214][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[165224][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[165224][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[165230][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[165237][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[165246][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[165252][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[165269][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[165280][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[165280][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[165285][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[165293][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[165301][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[165308][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[165325][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[165335][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[165335][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[165341][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[165348][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[165357][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[165363][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[165380][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[165391][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[165391][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[165396][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[165404][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[165412][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[165419][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[165436][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[165446][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[165446][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[165452][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[165459][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[165468][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[165474][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[165491][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[165502][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[165502][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[165507][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[165515][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[165523][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[165530][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[165547][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[165557][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[165557][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[165563][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[165570][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[165579][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[165585][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[165602][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[165613][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[165613][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[165618][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[165626][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[165634][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[165641][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[165658][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[165668][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[165668][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[165674][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[165681][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[165690][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[165696][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[165713][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[165724][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[165724][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[165729][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[165737][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[165740][V][WiFiGeneric.cpp:362] _arduino_event_cb(): STA Disconnected: SSID: Oscar, BSSID: 00:00:00:00:00:00, Reason: 201
+[165756][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 5 - STA_DISCONNECTED
+[165757][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[165763][W][WiFiGeneric.cpp:1057] _eventCallback(): Reason: 201 - NO_AP_FOUND
+[165770][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+[165777][D][WiFiGeneric.cpp:1081] _eventCallback(): WiFi AutoReconnect Running
+HTTP GET failed, error: connection refused
+[165793][V][WiFiGeneric.cpp:97] set_esp_interface_ip(): Configuring Station static IP: 0.0.0.0, MASK: 0.0.0.0, GW: 0.0.0.0
+[165801][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[165821][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[165821][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[165828][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[165837][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[165844][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[165850][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[165868][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[165878][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[165878][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[165884][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[165891][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[165899][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[165906][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[165923][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[165933][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[165933][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[165939][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[165947][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[165955][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[165961][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[165979][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[165989][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[165989][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[165995][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[166003][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[166010][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[166017][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[166034][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[166045][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[166045][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[166050][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[166059][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[166066][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[166073][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[166090][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[166100][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[166100][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[166106][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[166114][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[166121][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[166128][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[166145][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[166156][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[166156][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[166161][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[166169][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[166179][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[166184][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[166201][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[166211][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[166211][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[166217][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[166225][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[166233][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[166239][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[166256][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[166267][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[166267][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[166272][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[166280][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[166288][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[166295][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[166312][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[166323][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[166323][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[166328][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[166336][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[166344][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[166351][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[166368][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[166378][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[166378][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[166384][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[166391][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[166399][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[166406][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[166424][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[166434][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[166434][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[166440][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[166448][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[166456][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[166462][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[166479][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[166490][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[166490][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[166495][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[166504][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[166511][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[166518][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[166535][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[166545][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[166545][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[166551][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[166559][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[166567][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[166573][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[166591][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[166601][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[166601][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[166606][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[166614][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[166622][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[166629][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[166646][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[166656][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[166656][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[166662][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[166670][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[166678][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[166684][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[166702][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[166712][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[166712][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[166717][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[166725][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[166733][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[166740][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[166757][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[166767][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[166767][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[166773][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[166780][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[166789][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[166795][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[166812][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[166823][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[166823][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[166828][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[166836][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[166844][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[166851][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[166868][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[166878][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[166878][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[166884][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[166891][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[166900][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[166906][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[166923][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[166934][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[166934][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[166939][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[166947][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[166955][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[166962][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[166979][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[166989][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[166989][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[166995][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[167003][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[167010][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[167017][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[167035][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[167045][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[167045][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[167050][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[167059][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[167067][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[167073][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[167091][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[167101][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[167101][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[167106][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[167114][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[167122][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[167129][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[167146][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[167157][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[167157][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[167163][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[167171][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[167178][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[167185][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[167202][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[167213][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[167213][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[167218][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[167226][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[167234][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[167241][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[167258][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[167268][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[167268][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[167274][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[167281][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[167290][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[167296][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[167313][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[167324][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[167324][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[167329][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[167337][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[167345][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[167352][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[167369][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[167379][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[167379][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[167385][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[167392][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[167401][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[167407][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[167424][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[167435][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[167435][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[167440][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[167448][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[167456][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[167463][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[167480][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[167490][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[167490][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[167496][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[167504][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[167512][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[167518][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[167535][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[167546][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[167546][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[167551][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[167559][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[167567][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[167574][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[167591][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[167601][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[167601][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[167607][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[167614][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[167622][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[167629][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[167646][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[167657][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[167657][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[167662][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[167670][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[167678][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[167685][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[167702][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[167712][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[167712][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[167718][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[167725][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[167734][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[167740][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[167757][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[167768][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[167768][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[167773][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[167781][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[167789][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[167796][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[167813][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[167823][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[167823][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[167829][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[167836][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[167845][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[167851][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[167868][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[167879][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[167879][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[167885][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[167892][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[167901][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[167907][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[167924][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[167935][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[167935][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[167940][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[167948][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[167956][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[167963][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[167980][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[167990][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[167990][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[167996][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[168003][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[168012][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[168018][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[168035][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[168046][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[168046][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[168051][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[168059][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[168067][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[168074][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[168091][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[168101][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[168101][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[168107][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[168114][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[168123][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[168129][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[168146][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[168157][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[168157][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[168162][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[168170][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[168178][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[168185][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[168202][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[168212][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[168212][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[168218][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[168225][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[168234][V][WiFiGeneric.cpp:362] _arduino_event_cb(): STA Disconnected: SSID: Oscar, BSSID: 00:00:00:00:00:00, Reason: 201
+[168246][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[168245][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 5 - STA_DISCONNECTED
+[168251][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+[168259][W][WiFiGeneric.cpp:1057] _eventCallback(): Reason: 201 - NO_AP_FOUND
+[168272][D][WiFiGeneric.cpp:1081] _eventCallback(): WiFi AutoReconnect Running
+HTTP GET failed, error: connection refused
+[168282][V][WiFiGeneric.cpp:97] set_esp_interface_ip(): Configuring Station static IP: 0.0.0.0, MASK: 0.0.0.0, GW: 0.0.0.0
+[168290][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[168309][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[168309][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[168316][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[168324][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[168332][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[168338][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[168356][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[168366][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[168366][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[168372][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[168380][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[168388][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[168394][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[168411][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[168423][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[168424][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[168429][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[168438][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[168445][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[168452][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[168469][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[168480][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[168480][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[168486][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[168494][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[168501][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[168508][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[168525][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[168536][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[168536][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[168541][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[168550][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[168557][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[168564][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[168581][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[168592][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[168592][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[168597][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[168605][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[168613][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[168620][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[168637][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[168647][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[168647][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[168653][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[168660][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[168669][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[168675][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[168692][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[168703][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[168703][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[168708][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[168716][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[168724][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[168731][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[168748][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[168758][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[168758][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[168764][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[168771][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[168780][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[168786][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[168804][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[168814][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[168814][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[168819][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[168827][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[168836][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[168842][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[168859][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[168870][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[168870][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[168875][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[168883][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[168891][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[168898][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[168915][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[168926][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[168926][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[168931][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[168940][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[168947][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[168954][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[168971][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[168981][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[168981][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[168987][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[168994][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[169003][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[169009][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[169026][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[169037][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[169037][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[169043][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[169051][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[169059][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[169065][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[169083][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[169093][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[169093][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[169098][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[169106][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[169114][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[169121][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[169138][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[169148][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[169148][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[169154][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[169162][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[169170][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[169176][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[169194][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[169204][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[169204][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[169209][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[169217][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[169225][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[169232][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[169249][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[169259][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[169259][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[169265][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[169273][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[169281][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[169287][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[169304][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[169315][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[169315][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[169320][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[169328][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[169336][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[169343][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[169360][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[169370][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[169370][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[169376][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[169383][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[169392][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[169398][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[169415][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[169426][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[169426][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[169431][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[169440][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[169448][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[169454][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[169471][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[169482][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[169482][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[169487][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[169496][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[169503][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[169510][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[169529][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[169540][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[169540][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[169546][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[169554][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[169562][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[169568][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[169585][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[169596][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[169596][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[169601][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[169609][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[169617][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[169624][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[169641][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[169652][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[169652][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[169657][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[169665][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[169673][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[169680][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[169697][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[169707][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[169707][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[169713][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[169720][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[169729][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[169735][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[169752][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[169763][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[169763][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[169768][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[169776][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[169784][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[169791][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[169808][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[169818][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[169818][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[169824][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[169831][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[169840][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[169846][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[169863][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[169874][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[169874][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[169879][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[169887][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[169895][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[169902][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[169919][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[169929][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[169929][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[169935][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[169942][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[169951][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[169957][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[169974][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[169985][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[169985][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[169990][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[169998][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[170006][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[170013][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[170030][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[170040][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[170040][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[170046][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[170054][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[170062][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[170068][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[170085][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[170096][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[170096][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[170101][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[170109][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[170117][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[170124][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[170141][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[170151][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[170151][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[170157][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[170164][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[170173][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[170179][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[170196][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[170207][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[170207][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[170212][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[170220][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[170228][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[170235][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[170252][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[170262][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[170262][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[170268][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[170275][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[170284][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[170290][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[170307][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[170318][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[170318][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[170323][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[170331][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[170339][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[170346][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[170363][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[170373][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[170373][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[170379][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[170387][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[170395][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[170401][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[170418][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[170429][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[170429][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[170434][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[170442][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[170450][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[170457][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[170474][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[170484][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[170484][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[170490][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[170497][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[170506][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[170512][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[170529][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[170540][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[170540][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[170545][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[170553][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[170561][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[170568][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[170585][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[170595][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[170595][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[170601][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[170608][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[170617][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[170623][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[170640][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[170651][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[170651][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[170656][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[170664][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[170672][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[170679][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[170696][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[170706][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[170706][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[170712][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[170720][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[170722][V][WiFiGeneric.cpp:362] _arduino_event_cb(): STA Disconnected: SSID: Oscar, BSSID: 00:00:00:00:00:00, Reason: 201
+[170738][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 5 - STA_DISCONNECTED
+[170739][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[170746][W][WiFiGeneric.cpp:1057] _eventCallback(): Reason: 201 - NO_AP_FOUND
+[170759][D][WiFiGeneric.cpp:1081] _eventCallback(): WiFi AutoReconnect Running
+[170753][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+[170770][V][WiFiGeneric.cpp:97] set_esp_interface_ip(): Configuring Station static IP: 0.0.0.0, MASK: 0.0.0.0, GW: 0.0.0.0
+HTTP GET failed, error: connection refused
+[170795][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[170805][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[170805][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[170811][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[170819][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[170827][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[170833][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[170850][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[170861][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[170861][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[170867][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[170875][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[170882][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[170889][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[170906][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[170917][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[170917][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[170923][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[170932][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[170939][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[170945][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[170963][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[170973][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[170973][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[170979][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[170986][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[170996][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[171001][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[171018][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[171029][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[171029][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[171035][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[171043][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[171050][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[171057][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[171074][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[171085][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[171085][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[171090][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[171098][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[171106][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[171113][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[171130][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[171140][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[171140][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[171146][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[171153][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[171162][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[171168][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[171185][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[171196][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[171196][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[171201][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[171209][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[171217][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[171224][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[171241][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[171251][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[171251][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[171257][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[171264][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[171273][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[171279][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[171296][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[171307][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[171307][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[171312][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[171320][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[171329][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[171335][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[171352][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[171362][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[171362][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[171368][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[171376][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[171384][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[171390][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[171408][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[171418][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[171418][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[171424][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[171432][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[171440][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[171446][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[171463][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[171473][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[171473][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[171479][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[171487][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[171495][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[171501][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[171518][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[171529][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[171529][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[171535][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[171543][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[171551][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[171557][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[171575][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[171585][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[171585][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[171590][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[171598][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[171606][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[171613][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[171630][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[171641][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[171641][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[171646][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[171655][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[171662][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[171669][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[171686][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[171697][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[171697][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[171703][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[171710][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[171718][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[171725][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[171742][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[171752][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[171752][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[171758][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[171766][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[171774][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[171780][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[171798][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[171808][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[171808][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[171813][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[171821][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[171829][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[171836][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[171853][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[171863][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[171863][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[171869][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[171876][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[171887][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[171891][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[171908][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[171919][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[171919][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[171924][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[171933][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[171940][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[171947][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[171964][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[171974][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[171974][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[171980][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[171987][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[171996][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[172002][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[172020][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[172030][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[172030][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[172036][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[172044][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[172052][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[172058][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[172075][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[172086][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[172086][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[172091][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[172099][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[172107][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[172114][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[172131][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[172142][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[172142][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[172147][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[172155][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[172163][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[172170][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[172187][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[172197][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[172197][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[172203][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[172210][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[172219][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[172225][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[172242][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[172253][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[172253][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[172258][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[172266][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[172274][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[172281][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[172298][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[172308][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[172308][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[172314][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[172321][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[172330][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[172336][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[172353][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[172364][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[172364][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[172369][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[172377][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[172385][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[172392][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[172409][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[172419][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[172419][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[172425][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[172432][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[172441][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[172447][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[172464][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[172475][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[172475][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[172480][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[172488][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[172497][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[172503][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[172520][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[172530][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[172530][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[172536][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[172544][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[172552][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[172558][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[172575][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[172586][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[172586][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[172591][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[172599][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[172607][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[172614][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[172631][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[172641][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[172641][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[172647][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[172654][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[172663][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[172669][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[172686][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[172697][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[172697][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[172702][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[172710][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[172718][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[172725][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[172742][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[172752][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[172752][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[172758][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[172765][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[172774][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[172780][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[172797][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[172808][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[172808][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[172813][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[172821][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[172829][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[172836][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[172853][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[172863][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[172863][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[172869][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[172877][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[172885][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[172891][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[172908][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[172919][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[172919][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[172924][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[172932][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[172940][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[172947][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[172964][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[172974][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[172974][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[172980][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[172987][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[172996][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[173002][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[173019][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[173030][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[173030][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[173035][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[173043][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[173051][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[173058][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[173075][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[173085][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[173085][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[173091][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[173098][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[173107][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[173113][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[173130][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[173141][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[173141][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[173146][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[173154][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[173162][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[173169][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[173186][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[173196][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[173196][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[173202][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[173209][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[173212][V][WiFiGeneric.cpp:362] _arduino_event_cb(): STA Disconnected: SSID: Oscar, BSSID: 00:00:00:00:00:00, Reason: 201
+[173228][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 5 - STA_DISCONNECTED
+[173229][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[173236][W][WiFiGeneric.cpp:1057] _eventCallback(): Reason: 201 - NO_AP_FOUND
+[173249][D][WiFiGeneric.cpp:1081] _eventCallback(): WiFi AutoReconnect Running
+[173243][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+[173260][V][WiFiGeneric.cpp:97] set_esp_interface_ip(): Configuring Station static IP: 0.0.0.0, MASK: 0.0.0.0, GW: 0.0.0.0
+HTTP GET failed, error: connection refused
+[173285][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[173295][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[173295][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[173301][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[173309][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[173317][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[173323][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[173340][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[173351][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[173351][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[173356][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[173364][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[173372][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[173379][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[173396][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[173406][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[173406][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[173412][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[173420][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[173428][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[173434][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[173452][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[173462][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[173462][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[173468][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[173476][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[173483][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[173490][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[173508][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[173518][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[173518][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[173525][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[173532][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[173539][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[173546][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[173563][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[173574][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[173574][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[173579][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[173587][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[173595][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[173602][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[173619][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[173629][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[173629][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[173635][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[173643][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[173651][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[173657][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[173674][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[173685][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[173685][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[173690][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[173698][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[173706][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[173713][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[173730][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[173740][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[173740][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[173746][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[173753][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[173762][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[173768][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[173785][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[173796][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[173796][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[173801][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[173810][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[173817][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[173824][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[173841][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[173851][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[173851][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[173857][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[173864][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[173873][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[173879][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[173897][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[173907][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[173907][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[173912][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[173921][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[173929][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[173935][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[173952][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[173962][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[173962][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[173968][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[173976][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[173984][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[173990][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[174007][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[174018][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[174018][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[174024][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[174032][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[174040][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[174046][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[174064][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[174074][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[174074][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[174079][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[174087][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[174095][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[174102][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[174119][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[174129][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[174129][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[174135][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[174143][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[174151][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[174157][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[174174][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[174185][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[174185][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[174190][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[174198][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[174206][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[174213][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[174230][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[174241][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[174241][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[174246][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[174256][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[174262][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[174269][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[174286][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[174296][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[174296][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[174302][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[174310][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[174318][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[174324][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[174341][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[174352][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[174352][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[174357][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[174365][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[174373][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[174380][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[174397][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[174407][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[174407][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[174413][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[174421][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[174429][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[174435][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[174452][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[174463][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[174463][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[174468][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[174476][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[174484][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[174491][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[174510][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[174521][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[174521][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[174526][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[174535][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[174542][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[174549][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[174566][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[174577][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[174577][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[174583][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[174591][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[174599][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[174605][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[174622][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[174633][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[174633][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[174639][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[174646][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[174654][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[174661][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[174678][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[174688][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[174688][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[174694][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[174701][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[174710][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[174716][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[174733][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[174744][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[174744][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[174749][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[174757][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[174765][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[174772][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[174789][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[174799][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[174799][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[174805][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[174812][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[174821][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[174827][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[174844][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[174855][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[174855][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[174860][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[174868][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[174876][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[174883][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[174900][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[174910][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[174910][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[174916][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[174923][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[174932][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[174938][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[174955][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[174966][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[174966][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[174971][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[174980][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[174987][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[174994][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[175011][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[175022][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[175022][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[175027][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[175036][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[175043][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[175050][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[175067][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[175077][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[175077][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[175083][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[175090][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[175099][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[175105][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[175122][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[175133][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[175133][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[175138][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[175146][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[175154][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[175161][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[175178][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[175188][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[175188][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[175194][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[175201][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[175210][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[175216][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[175233][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[175244][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[175244][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[175249][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[175257][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[175265][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[175272][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[175289][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[175299][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[175299][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[175305][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[175312][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[175320][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[175327][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[175344][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[175355][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[175355][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[175360][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[175368][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[175376][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[175383][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[175400][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[175410][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[175410][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[175416][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[175423][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[175432][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[175438][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[175455][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[175466][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[175466][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[175471][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[175479][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[175487][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[175494][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[175511][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[175521][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[175521][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[175527][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[175534][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[175543][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[175549][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[175566][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[175577][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[175577][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[175582][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[175590][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[175598][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[175605][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[175622][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[175632][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[175632][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[175638][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[175646][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[175653][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[175660][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[175677][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[175688][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[175688][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[175693][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[175702][V][WiFiGeneric.cpp:362] _arduino_event_cb(): STA Disconnected: SSID: Oscar, BSSID: 00:00:00:00:00:00, Reason: 201
+[175712][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 5 - STA_DISCONNECTED
+[175713][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[175719][W][WiFiGeneric.cpp:1057] _eventCallback(): Reason: 201 - NO_AP_FOUND
+[175728][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[175735][D][WiFiGeneric.cpp:1081] _eventCallback(): WiFi AutoReconnect Running
+[175741][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+[175751][V][WiFiGeneric.cpp:97] set_esp_interface_ip(): Configuring Station static IP: 0.0.0.0, MASK: 0.0.0.0, GW: 0.0.0.0
+HTTP GET failed, error: connection refused
+[175776][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[175787][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[175787][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[175793][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[175801][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[175808][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[175815][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[175832][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[175843][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[175843][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[175849][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[175857][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[175864][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[175871][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[175888][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[175899][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[175899][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[175905][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[175914][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[175921][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[175927][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[175945][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[175955][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[175955][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[175961][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[175969][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[175976][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[175983][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[176000][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[176011][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[176011][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[176017][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[176025][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[176032][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[176039][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[176056][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[176067][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[176067][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[176072][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[176080][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[176088][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[176095][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[176112][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[176122][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[176122][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[176128][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[176135][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[176144][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[176150][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[176167][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[176178][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[176178][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[176183][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[176191][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[176199][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[176206][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[176223][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[176233][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[176233][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[176239][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[176246][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[176254][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[176261][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[176279][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[176289][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[176289][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[176294][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[176302][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[176310][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[176317][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[176334][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[176344][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[176344][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[176350][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[176357][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[176366][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[176372][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[176390][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[176400][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[176400][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[176406][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[176414][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[176422][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[176428][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[176445][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[176455][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[176455][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[176461][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[176468][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[176477][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[176483][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[176501][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[176511][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[176511][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[176517][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[176525][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[176533][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[176539][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[176557][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[176567][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[176567][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[176572][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[176581][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[176588][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[176595][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[176612][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[176622][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[176622][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[176628][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[176636][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[176644][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[176650][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[176667][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[176678][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[176678][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[176683][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[176691][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[176699][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[176706][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[176723][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[176733][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[176733][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[176739][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[176748][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[176755][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[176761][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[176778][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[176789][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[176789][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[176794][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[176802][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[176810][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[176817][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[176834][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[176844][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[176844][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[176850][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[176857][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[176865][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[176872][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[176890][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[176900][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[176900][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[176906][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[176914][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[176922][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[176928][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[176945][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[176956][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[176956][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[176961][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[176969][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[176977][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[176984][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[177002][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[177012][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[177012][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[177017][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[177026][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[177034][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[177040][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[177057][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[177068][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[177068][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[177074][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[177081][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[177089][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[177096][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[177113][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[177124][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[177124][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[177129][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[177137][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[177145][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[177152][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[177169][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[177180][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[177180][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[177185][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[177193][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[177201][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[177208][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[177225][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[177235][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[177235][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[177241][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[177248][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[177257][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[177263][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[177280][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[177291][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[177291][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[177296][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[177304][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[177312][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[177319][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[177336][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[177346][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[177346][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[177352][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[177359][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[177368][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[177374][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[177391][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[177402][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[177402][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[177407][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[177415][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[177423][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[177430][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[177447][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[177457][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[177457][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[177463][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[177470][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[177479][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[177485][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[177502][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[177513][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[177513][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[177518][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[177526][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[177534][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[177541][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[177558][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[177568][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[177568][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[177574][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[177581][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[177590][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[177596][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[177613][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[177624][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[177624][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[177629][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[177637][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[177645][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[177652][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[177669][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[177679][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[177679][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[177685][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[177692][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[177701][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[177707][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[177724][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[177735][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[177735][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[177740][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[177748][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[177756][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[177763][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[177780][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[177790][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[177790][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[177796][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[177804][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[177811][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[177818][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[177835][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[177846][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[177846][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[177851][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[177859][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[177867][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[177874][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[177891][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[177901][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[177901][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[177907][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[177914][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[177923][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[177929][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[177946][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[177957][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[177957][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[177962][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[177970][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[177978][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[177985][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[178002][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[178012][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[178012][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[178018][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[178025][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[178034][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[178040][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[178057][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[178068][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[178068][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[178073][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[178081][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[178089][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[178096][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[178113][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[178123][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[178123][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[178129][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[178136][E][WiFiClient.cpp:242] connect(): connect on fd 48, errno: 118, "Host is unreachable"
+[178145][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[178151][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[178168][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[178179][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[178179][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[178184][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[178194][V][WiFiGeneric.cpp:362] _arduino_event_cb(): STA Disconnected: SSID: Oscar, BSSID: 00:00:00:00:00:00, Reason: 201
+[178192][E][WiFiClient.cpp:242] co

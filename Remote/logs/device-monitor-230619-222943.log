@@ -1,0 +1,916 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+[    29][D][esp32-hal-cpu.c:244] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+[   482][I][esp32-hal-i2c.c:75] i2cInit(): Initialising I2C Master: sda=33 scl=32 freq=100000
+[   502][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 0 - WIFI_READY
+[   602][V][WiFiGeneric.cpp:97] set_esp_interface_ip(): Configuring Station static IP: 0.0.0.0, MASK: 0.0.0.0, GW: 0.0.0.0
+[   599][V][WiFiGeneric.cpp:340] _arduino_event_cb(): STA Started
+[   607][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 2 - STA_START
+[   748][V][WiFiGeneric.cpp:355] _arduino_event_cb(): STA Connected: SSID: Oscar, BSSID: 0a:d0:47:b2:33:cf, Channel: 6, Auth: WPA2_PSK
+[   750][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 4 - STA_CONNECTED
+[   781][V][WiFiGeneric.cpp:369] _arduino_event_cb(): STA Got New IP:172.20.10.2
+[   782][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 7 - STA_GOT_IP
+[   785][D][WiFiGeneric.cpp:1098] _eventCallback(): STA IP: 172.20.10.2, MASK: 255.255.255.240, GW: 172.20.10.1
+.[  2128][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[  2129][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[  2136][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  2185][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[  5941][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[  5942][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[  5943][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+[  5950][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  5957][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  5967][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  6061][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[  6061][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[  6069][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  6575][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 10269][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 10270][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[ 10271][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+[ 10339][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[ 10339][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[ 10347][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 10379][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 10980][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 49
+[ 10982][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[ 10985][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET returned negative or zero response code, error: connection refused
+[ 11012][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 13744][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 13745][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[ 13746][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+[ 13810][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[ 13810][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[ 13818][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 13849][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 16014][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 49
+[ 16016][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[ 16019][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET returned negative or zero response code, error: connection refused
+[ 16046][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 17224][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 17225][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[ 17226][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+[ 17288][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[ 17288][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[ 17296][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 17328][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 20702][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 20703][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[ 20704][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+[ 20766][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[ 20766][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[ 20774][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 20914][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 21048][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 21050][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[ 21053][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET returned negative or zero response code, error: connection refused
+[ 21080][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 24178][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 24179][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[ 24180][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+[ 24242][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[ 24242][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[ 24250][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 24490][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 26082][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 26084][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[ 26087][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET returned negative or zero response code, error: connection refused
+[ 26114][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 29494][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 29494][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 29496][D][HTTPClient.cpp:1485] returnError(): tcp stop
+[ 29559][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[ 29559][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[ 29567][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 30014][E][WiFiClient.cpp:268] connect(): socket error on fd 49, errno: 104, "Connection reset by peer"
+[ 30015][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.6:80
+[ 30019][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+[ 30083][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[ 30083][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[ 30091][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 30137][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 30163][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 30163][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4'
+[ 30166][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[ 30174][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 30181][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[ 30188][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 30194][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 30199][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4
+[ 30205][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+Notification
+[ 30279][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[ 30279][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[ 30287][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 30294][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 31116][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 31118][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[ 31121][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET returned negative or zero response code, error: connection refused
+[ 31148][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 32587][D][WiFiClient.cpp:546] connected(): Disconnected: RES: -1, ERR: 104
+[ 32587][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[ 32589][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+[ 32647][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[ 32647][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[ 32655][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 35853][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 35968][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 35969][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 4'
+[ 35972][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[ 35980][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 35987][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[ 35994][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 35999][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 36005][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 4
+[ 36011][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+Notification
+[ 36084][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[ 36084][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[ 36092][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 36099][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 36151][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 36155][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[ 36158][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET returned negative or zero response code, error: connection refused
+[ 36185][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 41122][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 41122][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 41124][D][HTTPClient.cpp:1485] returnError(): tcp stop
+[ 41188][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 41190][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[ 41190][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[ 41193][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+[ 41201][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+HTTP GET returned negative or zero response code, error: connection refused
+[ 41219][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 41238][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 41303][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 44766][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 44767][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[ 44768][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+[ 44832][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[ 44832][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[ 44840][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 44875][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 46246][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 49
+[ 46248][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[ 46251][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET returned negative or zero response code, error: connection refused
+[ 46278][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 48348][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 48349][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[ 48350][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+[ 48415][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[ 48415][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[ 48423][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 48462][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 51280][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 51282][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[ 51285][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET returned negative or zero response code, error: connection refused
+[ 51312][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 51827][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 51828][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[ 51829][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+[ 51893][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[ 51893][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[ 51901][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 51939][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 56315][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 56317][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[ 56320][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET returned negative or zero response code, error: connection refused
+[ 56347][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 56953][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 56953][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 56955][D][HTTPClient.cpp:1485] returnError(): tcp stop
+[ 57019][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[ 57019][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[ 57027][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 61350][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 61352][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[ 61355][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET returned negative or zero response code, error: connection refused
+[ 61382][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 62040][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 49
+[ 62041][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.6:80
+[ 62044][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+[ 62106][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[ 62106][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[ 62114][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 66384][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 66386][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[ 66389][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET returned negative or zero response code, error: connection refused
+[ 66416][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 67127][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 49
+[ 67128][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.6:80
+[ 67131][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+[ 67196][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[ 67196][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[ 67204][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 71418][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 71420][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[ 71423][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET returned negative or zero response code, error: connection refused
+[ 71450][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 72217][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 49
+[ 72218][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.6:80
+[ 72221][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+[ 72284][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[ 72284][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[ 72292][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 72516][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 72540][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 72541][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 30'
+[ 72544][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[ 72552][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 72559][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[ 72566][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 72572][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 72577][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 30
+[ 72583][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+Notification
+[ 72656][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[ 72656][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[ 72664][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 72671][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 76452][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 76454][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[ 76457][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET returned negative or zero response code, error: connection refused
+[ 76484][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 77685][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 77685][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 77687][D][HTTPClient.cpp:1485] returnError(): tcp stop
+[ 77723][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[ 77723][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[ 77731][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 78264][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 78478][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 78479][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 30'
+[ 78482][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[ 78490][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 78497][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[ 78504][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 78510][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 78515][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 30
+[ 78521][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+Notification
+[ 78569][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[ 78569][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[ 78577][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 78584][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 81491][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 81493][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[ 81496][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET returned negative or zero response code, error: connection refused
+[ 81523][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 83606][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 83606][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 83608][D][HTTPClient.cpp:1485] returnError(): tcp stop
+[ 83641][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[ 83641][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[ 83649][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 83880][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 84086][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[ 84086][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[ 84090][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[ 84098][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 84105][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[ 84112][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 84118][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[ 84124][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[ 84130][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[ 84160][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[ 84160][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[ 84168][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 84175][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 86526][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 86528][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[ 86531][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET returned negative or zero response code, error: connection refused
+[ 86558][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 89197][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 89197][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 89199][D][HTTPClient.cpp:1485] returnError(): tcp stop
+[ 89232][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[ 89232][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[ 89240][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 89320][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 89345][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[ 89345][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[ 89349][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[ 89357][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 89364][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[ 89371][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 89377][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[ 89383][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[ 89389][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[ 89422][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[ 89422][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[ 89430][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 89437][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 91561][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 91563][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[ 91566][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET returned negative or zero response code, error: connection refused
+[ 91593][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 94451][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 94451][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 94453][D][HTTPClient.cpp:1485] returnError(): tcp stop
+[ 94487][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[ 94488][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[ 94495][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 94541][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 94564][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[ 94565][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[ 94569][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[ 94577][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 94584][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[ 94591][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 94597][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[ 94603][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[ 94609][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[ 94657][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[ 94657][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[ 94665][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 94672][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 96595][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 96597][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[ 96600][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET returned negative or zero response code, error: connection refused
+[ 96627][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 99686][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 99686][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 99688][D][HTTPClient.cpp:1485] returnError(): tcp stop
+[ 99747][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[ 99747][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[ 99755][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 99783][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 99809][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[ 99809][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[ 99813][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[ 99821][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 99828][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[ 99835][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 99841][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[ 99847][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[ 99853][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[ 99915][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[ 99915][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[ 99923][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 99930][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[101629][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[101631][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[101634][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET returned negative or zero response code, error: connection refused
+[101661][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[104942][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[104942][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[104944][D][HTTPClient.cpp:1485] returnError(): tcp stop
+[105003][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[105003][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[105011][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[105036][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[105050][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[105051][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[105055][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[105063][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[105070][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[105077][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[105083][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[105089][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[105095][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[105158][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[105158][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[105166][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[105173][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[106663][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[106665][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[106668][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET returned negative or zero response code, error: connection refused
+[106695][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[110196][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[110196][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[110198][D][HTTPClient.cpp:1485] returnError(): tcp stop
+[110256][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[110256][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[110264][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[110307][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[110333][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[110333][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[110337][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[110345][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[110352][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[110359][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[110365][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[110371][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[110377][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[110438][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[110438][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[110446][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[110453][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[111697][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[111699][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[111702][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET returned negative or zero response code, error: connection refused
+[111729][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[115476][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[115476][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[115478][D][HTTPClient.cpp:1485] returnError(): tcp stop
+[115539][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[115539][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[115547][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[115569][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[115583][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[115584][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[115588][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[115596][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[115603][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[115610][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[115616][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[115622][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[115628][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[115689][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[115689][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[115697][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[115704][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[116732][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[116734][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[116737][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET returned negative or zero response code, error: connection refused
+[116764][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[120717][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[120717][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[120719][D][HTTPClient.cpp:1485] returnError(): tcp stop
+[120778][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[120778][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[120786][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[121053][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[121259][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[121259][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[121263][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[121271][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[121278][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[121285][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[121291][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[121297][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[121303][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[121365][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[121365][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[121373][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[121380][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[121767][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[121769][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[121772][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET returned negative or zero response code, error: connection refused
+[121799][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[126394][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[126394][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[126396][D][HTTPClient.cpp:1485] returnError(): tcp stop
+[126460][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[126460][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[126468][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[126493][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[126518][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[126518][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[126522][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[126530][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[126537][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[126544][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[126550][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[126556][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[126562][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[126625][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[126625][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[126633][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[126640][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[126801][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[126803][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[126806][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET returned negative or zero response code, error: connection refused
+[126833][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[131662][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[131662][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[131664][D][HTTPClient.cpp:1485] returnError(): tcp stop
+[131722][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[131722][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[131730][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[131835][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[131837][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[131840][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET returned negative or zero response code, error: connection refused
+[131867][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[134670][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[134696][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[134696][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[134700][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[134708][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[134715][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[134722][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[134728][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[134734][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[134740][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[134803][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[134804][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[134811][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[134818][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[136869][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[136871][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[136874][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET returned negative or zero response code, error: connection refused
+[136901][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[139841][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[139841][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[139843][D][HTTPClient.cpp:1485] returnError(): tcp stop
+[139909][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[139909][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[139917][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[139942][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[139967][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[139967][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[139971][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[139979][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[139986][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[139993][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[139999][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[140005][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[140011][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[140072][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[140072][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[140080][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[140087][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[141903][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[141905][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[141908][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET returned negative or zero response code, error: connection refused
+[141936][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[145101][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[145101][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[145103][D][HTTPClient.cpp:1485] returnError(): tcp stop
+[145162][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[145162][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[145170][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[145422][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[145537][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[145537][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[145541][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[145549][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[145556][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[145563][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[145569][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[145575][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[145581][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[145645][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[145645][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[145653][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[145660][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[146939][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[146941][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[146944][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET returned negative or zero response code, error: connection refused
+[146971][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[150682][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[150682][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[150684][D][HTTPClient.cpp:1485] returnError(): tcp stop
+[150751][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[150751][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[150759][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[150783][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[150808][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[150808][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[150812][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[150820][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[150827][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[150834][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[150840][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[150846][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[150852][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[150913][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[150913][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[150921][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[150928][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[151974][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[151976][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[151979][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET returned negative or zero response code, error: connection refused
+[152006][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[155951][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[155951][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[155953][D][HTTPClient.cpp:1485] returnError(): tcp stop
+[155980][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[155980][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[155988][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[156175][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[156480][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[156480][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[156484][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[156492][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[156499][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[156506][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[156512][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[156518][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[156524][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[156555][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[156555][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[156563][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[156570][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[157008][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[157010][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[157013][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET returned negative or zero response code, error: connection refused
+[157040][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[161593][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[161593][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[161595][D][HTTPClient.cpp:1485] returnError(): tcp stop
+[161640][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[161640][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[161648][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[161719][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[161745][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[161745][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[161749][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[161757][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[161764][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[161771][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[161777][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[161783][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[161789][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[161827][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[161828][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[161835][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[161843][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[162042][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[162044][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[162047][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET returned negative or zero response code, error: connection refused
+[162074][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[166864][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[166864][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[166866][D][HTTPClient.cpp:1485] returnError(): tcp stop
+[166893][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[166893][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[166901][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[167076][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[167078][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[167081][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET returned negative or zero response code, error: connection refused
+[167108][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[167137][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[167342][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[167342][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[167346][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[167354][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[167361][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[167368][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[167374][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[167380][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[167386][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[167425][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[167425][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[167433][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[167440][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[167549][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[168056][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[168057][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[168058][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[168088][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[168137][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[168653][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[168654][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[168655][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[168685][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[168871][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[169388][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[169389][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[169390][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[169420][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[172048][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[172256][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 404 Not Found'
+[172257][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[172261][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 25'
+[172268][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[172275][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[172280][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 404
+[172286][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 25
+[172292][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=404
+
+HTTP GET failed, error: 
+[172318][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[172319][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[172324][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[172329][W][HTTPClient.cpp:1483] returnError(): error(-2): send header failed
+HTTP GET returned negative or zero response code, error: send header failed
+[172356][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[172377][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[172454][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[172454][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[172456][D][HTTPClient.cpp:1485] returnError(): tcp stop
+Unlocking door
+[172465][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/unlock-notification
+[172470][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /unlock-notification
+[172481][D][HTTPClient.cpp:598] sendRequest(): request type: 'POST' redirCount: 0
+
+[172487][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 404 Not Found'
+[172496][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[172504][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 25'
+[172511][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[172518][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[172523][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 404
+[172529][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 25
+[172535][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=404
+
+HTTP GET failed, error: 
+[172561][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[172562][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[172566][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[172572][W][HTTPClient.cpp:1483] returnError(): error(-2): send header failed
+HTTP GET returned negative or zero response code, error: send header failed
+[172598][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[172613][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[172664][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[172728][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[172729][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 13'
+[172732][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[172740][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[172747][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[172754][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[172760][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[172765][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 13
+[172764][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 404 Not Found'
+[172771][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+[172779][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[172785][D][HTTPClient.cpp:388] disconnect(): still data in buffer (13), clean up.
+
+[172793][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 25'
+[172800][E][WiFiClient.cpp:517] flush(): fail on fd 48, errno: 11, "No more processes"
+[172808][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[172818][D][HTTPClient.cpp:395] disconnect(): tcp stop
+[

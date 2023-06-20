@@ -6,9 +6,9 @@
 #include "ui.h"
 
 extern bool showImage;
-extern bool sendPassword;
-extern char * password;
-
+extern bool sendPasscode;
+extern char * passcode;
+extern bool accessGranted;
 
 void beginServer(lv_event_t * e)
 {
@@ -23,13 +23,23 @@ void stopServer(lv_event_t * e)
 
 void unlock(lv_event_t * e)
 {
-	password = lv_textarea_get_text(ui_passwordArea);
-	if(password != NULL && strlen(password) > 3){
+	passcode = lv_textarea_get_text(ui_passwordArea);
+	if(passcode != NULL && strlen(passcode) > 3){
 		_ui_screen_change( ui_Unlocking, LV_SCR_LOAD_ANIM_NONE, 500, 0);
-		sendPassword = true;
-
-
-
+		sendPasscode = true;
 	}
 
+}
+
+
+void unlocking(lv_event_t * e)
+{
+	if(accessGranted){
+		_ui_screen_change( ui_unlocked_screen, LV_SCR_LOAD_ANIM_NONE, 500, 0);
+		sendPasscode = false;
+		accessGranted = false;
+	} else {
+		_ui_screen_change( ui_not_unlocked_screen, LV_SCR_LOAD_ANIM_NONE, 500, 0);
+		sendPasscode = false;
+	}
 }

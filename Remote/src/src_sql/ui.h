@@ -105,6 +105,7 @@ extern lv_obj_t *ui_remove_passcode_keyboard;
 void ui_event_remove_passcode_text_area( lv_event_t * e);
 extern lv_obj_t *ui_remove_passcode_text_area;
 extern lv_obj_t *ui____initial_actions0;
+extern char date[20];
 
 void ui_init(void);
 

@@ -1,0 +1,502 @@
+[  3467][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  3471][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  3476][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[  3484][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[  3495][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  3594][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[  3631][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[  3632][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[  3636][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[  3644][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[  3651][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[  3658][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[  3664][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[  3669][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[  3676][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[  3681][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  4739][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  4918][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[  4919][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[  4923][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[  4933][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 3310'
+[  4940][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[  4947][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[  4952][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[  4958][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 3310
+[  4964][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+52 ms
+[  5044][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  5045][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+Unlocking door
+[  7314][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/unlock-notification
+[  7314][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /unlock-notification
+[  7322][D][HTTPClient.cpp:598] sendRequest(): request type: 'POST' redirCount: 0
+
+[  7330][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 10063][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 10064][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 10065][D][HTTPClient.cpp:1485] returnError(): tcp stop
+[ 10074][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10075][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 10084][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 10087][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10108][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10112][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 10119][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10129][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10139][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10150][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10160][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10170][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10180][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10190][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10200][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10210][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10220][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10230][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10240][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10250][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10260][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10270][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10280][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10290][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10300][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10310][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10320][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10330][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10340][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10350][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10360][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10370][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10380][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10390][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10400][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10410][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10420][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10430][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10440][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10449][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 10450][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10450][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 10460][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 10462][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10470][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 3405'
+[ 10483][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 10486][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10490][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 10502][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 10507][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10508][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 3405
+[ 10521][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+[ 10525][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10544][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10554][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10564][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10574][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10584][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+49 ms
+[ 10594][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10600][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 10601][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10603][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 10604][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10610][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10624][W][HTTPClient.cpp:1483] returnError(): error(-2): send header failed
+[ 10627][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10630][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10643][D][HTTPClient.cpp:1485] returnError(): tcp stop
+[ 10647][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10648][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 10662][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 10665][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10685][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10695][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10705][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10715][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10725][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10735][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10745][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10755][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10765][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10775][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10785][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10795][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10805][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10815][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10825][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10835][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10845][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10855][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10856][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 10866][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10876][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10886][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10896][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10906][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10916][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10926][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10936][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10946][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10956][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10966][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10976][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10986][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 10996][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11006][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11016][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11026][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11036][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11046][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11057][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11067][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11077][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11087][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11097][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11107][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11117][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11127][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11137][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11147][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11157][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11163][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 11164][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 11168][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11168][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 11184][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11184][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 3476'
+[ 11198][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 11201][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11205][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 11217][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 11222][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11223][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 3476
+[ 11235][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+[ 11240][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11258][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11268][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11278][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11288][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11298][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+49 ms
+[ 11308][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11313][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 11314][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11317][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 11318][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11324][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11337][W][HTTPClient.cpp:1483] returnError(): error(-2): send header failed
+[ 11341][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11344][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11356][D][HTTPClient.cpp:1485] returnError(): tcp stop
+[ 11361][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11362][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 11376][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 11379][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11399][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11409][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11419][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11429][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11439][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11449][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11459][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11469][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11479][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11489][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11499][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11509][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11519][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11529][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11539][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11549][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11559][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11569][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11579][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11589][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11599][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11609][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11619][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11629][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11639][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11649][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11659][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11669][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11671][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 11680][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11690][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11700][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11710][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11720][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11730][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11741][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11751][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11761][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11771][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11781][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11791][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11801][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11811][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11821][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11831][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11841][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11851][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11861][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11871][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11881][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11891][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11901][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11911][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11921][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11931][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11941][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11951][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11961][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11971][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11981][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 11991][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 12001][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 12011][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 12021][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 12031][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 12041][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 12051][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 12061][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 12071][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 12082][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 12092][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 12102][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 12112][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 12122][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 12121][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 12124][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 12133][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 12133][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 12149][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 12149][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 3476'
+[ 12162][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 12165][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 12169][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 12181][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 12186][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 12187][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 3476
+[ 12199][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+[ 12204][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 12223][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 12233][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 12243][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 12253][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 12263][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+50 ms
+[ 12273][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 12277][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 12278][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 12282][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 12283][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 12289][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 12302][W][HTTPClient.cpp:1483] returnError(): error(-2): send header failed
+[ 12306][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 12309][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 12321][D][HTTPClient.cpp:1485] returnError(): tcp stop
+[ 12326][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 12327][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 12341][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 12344][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 12353][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 12359][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 12366][I][WiFiClient.cpp:549] connected(): Unexpected: RES: -1, ERR: 9
+[ 12372][D][HTTPClient.cpp:1485] returnError(): tcp stop
+[ 12378][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 12411][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+Unlocking door
+[ 12540][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/unlock-notification
+[ 12540][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /unlock-notification
+[ 12548][D][HTTPClient.cpp:598] sendRequest(): request type: 'POST' redirCount: 0
+
+[ 12578][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 12579][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 12584][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 12593][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 3476'
+[ 12599][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 12601][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 12614][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 12619][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 12625][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 3476
+[ 12631][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+52 ms
+[ 12708][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 12709][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 16173][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 16174][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[ 16175][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+[ 16177][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[ 16182][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+[    28][D][esp32-hal-cpu.c:244] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+[   482][I][esp32-hal-i2c.c:75] i2cInit(): Initialising I2C Master: sda=33 scl=32 freq=100000
+[   502][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 0 - WIFI_READY
+[   601][V][WiFiGeneric.cpp:97] set_esp_interface_ip(): Configuring Station static IP: 0.0.0.0, MASK: 0.0.0.0, GW: 0.0.0.0
+[   599][V][WiFiGeneric.cpp:340] _arduino_event_cb(): STA Started
+[   607][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 2 - STA_START
+[   714][V][WiFiGeneric.cpp:355] _arduino_event_cb(): STA Connected: SSID: Oscar, BSSID: 0a:d0:47:b2:33:cf, Channel: 6, Auth: WPA2_PSK
+[   715][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 4 - STA_CONNECTED
+[   752][V][WiFiGeneric.cpp:369] _arduino_event_cb(): STA Got New IP:172.20.10.2
+[   754][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 7 - STA_GOT_IP
+[   756][D][WiFiGeneric.cpp:1098] _eventCallback(): STA IP: 172.20.10.2, MASK: 255.255.255.240, GW: 172.20.10.1
+.[  6107][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  6108][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  6114][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[  6122][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[  6133][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  6579][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[  6758][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[  6759][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[  6763][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[  6771][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[  6778][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[  6785][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[  6791][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[  6796][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[  6802][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[  6809][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  6894][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[  7083][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[  7085][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[  7093][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[  7098][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 3433'
+[  7105][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[  7113][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[  7118][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[  7124][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 3433
+[  7130][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+52 ms
+[  7209][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  7210][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 12226][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 12227][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 12228][D][HTTPClient.cpp:1485] returnError(): tcp stop
+[ 12238][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 12241][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 12340][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 12751][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 12752][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 12756][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 12765][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 3465'
+[ 12773][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 12780][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 12785][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 12793][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 3465
+[ 12797][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+49 ms
+[ 12871][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 12948][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 12995][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 12996][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 30'
+[ 12999][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[ 13007][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 13014][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[ 13021][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 13027][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 13032][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 30
+[ 13038][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+Notification
+[ 13055][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 13056][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 13198][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+[ 13550][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[ 13551][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: image/jpeg'
+[ 13554][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Cache-Control: no-cache, no-store, must-revalidate'
+[ 13564][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 3465'
+[ 13571][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 13579][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 13584][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[ 13590][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 3465
+[ 13596][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+48 ms
+[ 13671][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 13672][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+Unlocking door
+[ 14679][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/unlock-notification
+[ 14679][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /unlock-notification
+[ 14687][D][HTTPClient.cpp:598] sendRequest(): request type: 'POST' redirCount: 0
+
+[ 14695][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 18682][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 18683][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 18684][D][HTTPClient.cpp:1485] returnError(): tcp stop
+[ 18694][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 18697][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 18699][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[ 18709][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+[ 18716][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 18783][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+Unlocking door
+[ 18880][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/unlock-notification
+[ 18880][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /unlock-notification
+[ 18888][D][HTTPClient.cpp:598] sendRequest(): request type: 'POST' redirCount: 0
+
+[ 19062][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 19292][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 19293][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 19294][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 19324][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 19325][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 22727][D][WiFiClient.cpp:546] connected(): Disconnected: RES: 0, ERR: 128
+[ 22728][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[ 22728][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-5
+
+[ 22729][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+[ 22735][W][HTTPClient.cpp:1483] returnError(): error(-5): connection lost
+[ 22742][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+

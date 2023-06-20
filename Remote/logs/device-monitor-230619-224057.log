@@ -1,0 +1,1001 @@
+....ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+[    28][D][esp32-hal-cpu.c:244] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+[   482][I][esp32-hal-i2c.c:75] i2cInit(): Initialising I2C Master: sda=33 scl=32 freq=100000
+[   502][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 0 - WIFI_READY
+[   602][V][WiFiGeneric.cpp:97] set_esp_interface_ip(): Configuring Station static IP: 0.0.0.0, MASK: 0.0.0.0, GW: 0.0.0.0
+[   599][V][WiFiGeneric.cpp:340] _arduino_event_cb(): STA Started
+[   607][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 2 - STA_START
+[   701][V][WiFiGeneric.cpp:355] _arduino_event_cb(): STA Connected: SSID: Oscar, BSSID: 0a:d0:47:b2:33:cf, Channel: 6, Auth: WPA2_PSK
+[   702][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 4 - STA_CONNECTED
+[   764][V][WiFiGeneric.cpp:369] _arduino_event_cb(): STA Got New IP:172.20.10.2
+[   765][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 7 - STA_GOT_IP
+[   768][D][WiFiGeneric.cpp:1098] _eventCallback(): STA IP: 172.20.10.2, MASK: 255.255.255.240, GW: 172.20.10.1
+.[  2969][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  2970][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  2975][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-get
+[  2984][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-get
+[  2994][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  3531][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[  3838][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[  3839][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[  3843][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[  3851][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[  3858][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[  3865][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[  3871][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[  3876][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[  3883][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[  3888][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  3896][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[  4412][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[  4413][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[  4415][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[  4445][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  4658][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[  5165][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[  5166][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[  5167][D][HTTPClient.cpp:1485] returnError(): tcp stop
+[  5176][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  6106][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[  6621][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[  6622][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[  6623][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[  6652][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  7524][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[  7733][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[  7734][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[  7738][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[  7746][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[  7756][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[  7760][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[  7766][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[  7771][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[  7777][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[  7783][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  7791][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[  8305][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[  8306][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[  8307][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[  8338][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  8376][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[  8402][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[  8403][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[  8407][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[  8415][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[  8422][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[  8429][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[  8434][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[  8440][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[  8446][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[  8452][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  8460][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[  8984][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[  8985][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[  8986][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[  9016][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  9071][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[  9098][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[  9099][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[  9103][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[  9111][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[  9118][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[  9125][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[  9130][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[  9136][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[  9142][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[  9148][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  9156][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[  9679][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[  9680][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[  9681][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[  9710][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  9789][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[  9817][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[  9818][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[  9822][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[  9830][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[  9837][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[  9844][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[  9850][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[  9856][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[  9862][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[  9868][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  9875][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 10390][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 10391][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 10392][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 10422][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 10803][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 11010][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[ 11011][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[ 11016][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[ 11023][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 11030][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[ 11037][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 11043][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[ 11049][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[ 11055][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[ 11061][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 11068][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 11583][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 11584][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 11585][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 11616][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 11633][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 11659][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[ 11660][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[ 11664][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[ 11672][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 11679][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[ 11686][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 11691][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[ 11697][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[ 11703][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[ 11709][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 11717][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 12241][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 12242][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 12243][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 12272][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 12441][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 12648][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[ 12649][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[ 12653][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[ 12661][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 12668][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[ 12675][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 12681][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[ 12687][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[ 12693][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[ 12699][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 12706][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 13222][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 13223][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 13224][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 13255][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 13278][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 13305][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[ 13306][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[ 13310][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[ 13317][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 13325][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[ 13332][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 13337][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[ 13343][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[ 13349][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[ 13355][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 13363][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 13887][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 13888][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 13889][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 13919][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 13985][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 14011][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[ 14012][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[ 14016][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[ 14024][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 14031][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[ 14038][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 14043][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[ 14049][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[ 14055][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[ 14061][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 14069][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 14583][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 14584][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 14585][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 14616][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 14899][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 15106][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[ 15107][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[ 15111][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[ 15119][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 15126][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[ 15133][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 15139][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[ 15144][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[ 15150][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[ 15156][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 15164][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 15679][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 15680][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 15681][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 15711][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 15742][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 15789][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[ 15790][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[ 15794][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[ 15802][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 15810][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[ 15816][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 15821][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[ 15827][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[ 15833][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[ 15839][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 15847][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 16365][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 16366][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 16367][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 16396][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 16446][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 16472][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[ 16473][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[ 16477][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[ 16485][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 16492][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[ 16499][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 16504][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[ 16510][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[ 16516][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[ 16522][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 16530][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 17044][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 17045][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 17046][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 17076][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 17258][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 17555][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[ 17557][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[ 17561][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[ 17569][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 17576][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[ 17583][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 17589][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[ 17594][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[ 17600][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[ 17607][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 17614][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 18138][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 18139][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 18140][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 18175][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 18196][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 18223][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[ 18224][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[ 18228][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[ 18236][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 18243][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[ 18250][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 18255][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[ 18261][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[ 18269][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[ 18274][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 18281][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 18794][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 18795][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 18796][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 18826][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 18995][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 19202][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[ 19203][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[ 19207][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[ 19215][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 19222][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[ 19229][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 19235][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[ 19240][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[ 19246][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[ 19252][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 19260][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 19785][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 19786][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 19787][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 19818][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 20121][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 20429][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[ 20430][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[ 20434][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[ 20442][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 20449][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[ 20456][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 20462][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[ 20467][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[ 20473][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[ 20479][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 20487][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 21010][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 21011][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 21012][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 21042][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 21062][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 21089][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[ 21090][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[ 21094][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[ 21102][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 21109][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[ 21116][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 21121][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[ 21127][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[ 21135][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[ 21139][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 21147][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 21672][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 21673][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 21674][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 21705][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 21773][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 21799][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[ 21800][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[ 21804][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[ 21812][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 21819][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[ 21826][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 21831][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[ 21837][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[ 21843][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[ 21849][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 21857][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 22381][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 22382][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 22383][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 22406][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 22680][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 22888][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[ 22889][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[ 22893][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[ 22901][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 22908][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[ 22915][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 22921][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[ 22926][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[ 22933][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[ 22938][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 22946][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 23463][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 23464][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 23465][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 23495][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 23520][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 23547][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[ 23548][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[ 23552][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[ 23560][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 23567][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[ 23574][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 23579][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[ 23585][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[ 23592][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[ 23597][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 23605][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 24122][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 24123][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 24124][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 24154][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 24422][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 24939][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[ 24940][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[ 24944][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[ 24952][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 24959][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[ 24966][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 24972][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[ 24977][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[ 24983][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[ 24989][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 24997][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 25512][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 25513][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 25514][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 25544][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 25569][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 25596][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[ 25597][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[ 25601][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[ 25609][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 25616][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[ 25623][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 25628][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[ 25634][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[ 25641][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[ 25646][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 25654][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 26177][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 26178][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 26179][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 26208][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 26369][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 26567][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[ 26568][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[ 26573][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[ 26580][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 26588][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[ 26595][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 26600][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[ 26606][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[ 26612][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[ 26618][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 26625][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 27149][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 27150][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 27151][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 27182][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 27495][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 27694][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[ 27695][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[ 27699][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[ 27707][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 27714][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[ 27721][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 27727][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[ 27733][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[ 27739][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[ 27745][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 27752][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 28268][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 28269][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 28270][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 28300][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 28324][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 28342][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[ 28342][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[ 28347][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[ 28354][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 28362][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[ 28369][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 28374][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[ 28380][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[ 28386][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[ 28392][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 28400][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 28916][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 28917][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 28918][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 28948][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 29235][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 29442][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[ 29443][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[ 29447][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[ 29455][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 29462][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[ 29469][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 29475][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[ 29480][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[ 29486][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[ 29492][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 29500][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 30015][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 30016][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 30017][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 30038][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 30067][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 30113][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[ 30114][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[ 30118][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[ 30126][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 30133][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[ 30140][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 30145][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[ 30151][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[ 30157][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[ 30163][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 30171][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 30693][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 30694][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 30695][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 30725][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 30779][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 30797][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[ 30798][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[ 30802][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[ 30810][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 30817][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[ 30824][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 30830][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[ 30836][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[ 30842][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[ 30848][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 30856][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 31369][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 31370][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 31371][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 31401][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 31606][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 31793][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[ 31794][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[ 31798][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[ 31806][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 31813][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[ 31820][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 31826][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[ 31832][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[ 31838][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[ 31844][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 31851][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 32366][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 32367][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 32368][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 32399][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 32616][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 32923][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[ 32924][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[ 32928][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[ 32936][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 32943][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[ 32950][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 32956][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[ 32961][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[ 32967][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[ 32973][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 32981][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 33495][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 33496][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 33497][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 33528][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 33551][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 33571][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[ 33571][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[ 33576][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[ 33583][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 33591][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[ 33598][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 33603][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[ 33609][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[ 33615][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[ 33621][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 33629][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 34142][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 34143][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 34144][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 34174][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 34356][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 34554][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[ 34555][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[ 34559][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[ 34567][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 34574][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[ 34581][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 34587][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[ 34593][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[ 34599][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[ 34605][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 34612][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 35136][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 35137][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 35138][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 35168][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 35202][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 35240][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[ 35241][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[ 35245][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[ 35253][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 35260][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[ 35267][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 35272][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[ 35281][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[ 35284][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[ 35290][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 35298][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 35811][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 35812][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 35813][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 35843][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 35900][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 35930][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[ 35931][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[ 35935][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[ 35942][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 35950][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[ 35957][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 35962][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[ 35968][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[ 35974][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[ 35980][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 35988][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 36511][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 36512][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 36513][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 36543][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 36919][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 37124][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[ 37125][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[ 37129][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[ 37137][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 37144][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[ 37151][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 37157][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[ 37162][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[ 37168][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[ 37175][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 37182][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 37706][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 37707][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 37708][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 37729][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 38040][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 38248][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[ 38249][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[ 38253][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[ 38261][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 38268][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[ 38275][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 38281][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[ 38286][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[ 38292][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[ 38298][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 38306][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 38828][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 38829][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 38830][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 38861][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 39085][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 39271][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[ 39272][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[ 39277][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[ 39286][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 39291][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[ 39299][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 39304][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[ 39310][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[ 39316][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[ 39322][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 39329][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 39844][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 39845][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 39846][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 39877][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 39902][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 39929][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[ 39930][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[ 39934][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[ 39941][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 39949][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[ 39956][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 39961][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[ 39967][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[ 39973][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[ 39979][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 39987][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 40511][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 40512][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 40513][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 40543][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 40609][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 40635][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[ 40636][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[ 40640][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[ 40648][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 40655][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[ 40662][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 40667][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[ 40673][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[ 40679][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[ 40685][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 40693][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 41217][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 41218][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 41219][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 41250][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 41541][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 41730][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[ 41731][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[ 41735][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[ 41743][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 41750][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[ 41757][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 41763][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[ 41768][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[ 41775][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[ 41780][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 41788][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 42302][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 42303][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 42304][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 42325][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 42751][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 42957][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[ 42958][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[ 42962][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[ 42970][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 42977][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[ 42984][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 42990][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[ 42995][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[ 43002][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[ 43007][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 43015][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 43530][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 43531][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 43532][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 43553][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 43579][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 43606][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[ 43607][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[ 43611][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[ 43619][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 43626][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[ 43633][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 43638][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[ 43644][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[ 43650][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[ 43657][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 43664][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 44180][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 44181][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 44182][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 44213][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 44495][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 44692][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[ 44693][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[ 44697][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[ 44705][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 44712][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[ 44719][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 44725][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[ 44730][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[ 44736][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[ 44742][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 44750][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 45274][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 45275][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 45276][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 45306][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 45324][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 45351][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[ 45352][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[ 45356][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[ 45363][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 45371][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[ 45378][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 45383][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[ 45389][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[ 45395][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[ 45401][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 45409][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection
+[ 45933][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=-11
+
+[ 45934][W][HTTPClient.cpp:1483] returnError(): error(-11): read Timeout
+[ 45935][D][HTTPClient.cpp:1485] returnError(): tcp stop
+HTTP GET returned negative or zero response code, error: read Timeout
+[ 45966][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 46233][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[ 46541][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 405 Method Not Allowed'
+[ 46542][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 15'
+[ 46547][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[ 46554][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[ 46561][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[ 46568][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[ 46574][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 405
+[ 46579][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 15
+[ 46585][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=405
+
+[ 46591][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 46599][D][HTTPClient.cpp:1130] connect(): already connected, reusing connection

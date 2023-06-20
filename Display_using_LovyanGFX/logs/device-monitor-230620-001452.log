@@ -1,0 +1,218 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+[    34][D][esp32-hal-cpu.c:244] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+[   496][I][esp32-hal-i2c.c:75] i2cInit(): Initialising I2C Master: sda=33 scl=32 freq=100000
+[   500][I][esp32-hal-i2c.c:75] i2cInit(): Initialising I2C Master: sda=33 scl=32 freq=100000
+[   523][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 0 - WIFI_READY
+[   623][V][WiFiGeneric.cpp:97] set_esp_interface_ip(): Configuring Station static IP: 0.0.0.0, MASK: 0.0.0.0, GW: 0.0.0.0
+[   621][V][WiFiGeneric.cpp:340] _arduino_event_cb(): STA Started
+[   629][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 2 - STA_START
+.[  1502][V][WiFiGeneric.cpp:355] _arduino_event_cb(): STA Connected: SSID: Oscar, BSSID: 6a:d6:a3:39:76:c3, Channel: 6, Auth: WPA2_PSK
+[  1504][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 4 - STA_CONNECTED
+[  1534][V][WiFiGeneric.cpp:369] _arduino_event_cb(): STA Got New IP:172.20.10.14
+[  1535][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 7 - STA_GOT_IP
+[  1538][D][WiFiGeneric.cpp:1098] _eventCallback(): STA IP: 172.20.10.14, MASK: 255.255.255.240, GW: 172.20.10.1
+.[  5671][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  5672][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  5677][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception). 
+Debug exception reason: Stack canary watchpoint triggered (loopTask) 
+Core  1 register dump:
+PC      : 0x400e004d  PS      : 0x00060f36  A0      : 0x800f2d80  A1      : 0x3ffb0330  
+A2      : 0x3ffca704  A3      : 0x00000000  A4      : 0x00000057  A5      : 0x00000013  
+A6      : 0xffffffff  A7      : 0x3ffca704  A8      : 0x800e0048  A9      : 0x3ffb0310  
+A10     : 0x00000001  A11     : 0x0000000e  A12     : 0x000027d1  A13     : 0x3ffca650  
+A14     : 0x00000000  A15     : 0x000007d1  SAR     : 0x0000001f  EXCCAUSE: 0x00000001  
+EXCVADDR: 0x00000000  LBEG    : 0x400edac9  LEND    : 0x400edaec  LCOUNT  : 0x0000000a  
+
+
+Backtrace: 0x400e004a:0x3ffb0330 0x400f2d7d:0x3ffb0370 0x400f34d7:0x3ffb0390 0x4019e116:0x3ffb0400 0x400da073:0x3ffb0420 0x400da21e:0x3ffb0440 0x400dd6f9:0x3ffb0480 0x400de175:0x3ffb04b0 0x400de58e:0x3ffb0510 0x400de5d5:0x3ffb0530 0x400de5d5:0x3ffb0550 0x400de612:0x3ffb0570 0x400f652b:0x3ffb0590 0x400f6ae9:0x3ffb05c0 0x400d936e:0x3ffb05f0 0x400d9269:0x3ffb0610 0x400da1c2:0x3ffb0630 0x400da21e:0x3ffb0650 0x400f6b89:0x3ffb0690 0x400d936e:0x3ffb06c0 0x400d9269:0x3ffb06e0 0x400da1c2:0x3ffb0700 0x400da21e:0x3ffb0720 0x400f6b89:0x3ffb0760 0x400d936e:0x3ffb0790 0x400d9269:0x3ffb07b0 0x400da1c2:0x3ffb07d0 0x400da21e:0x3ffb07f0 0x400f6b89:0x3ffb0830 0x400d936e:0x3ffb0860 0x400d9269:0x3ffb0880 0x400da1c2:0x3ffb08a0 0x400da21e:0x3ffb08c0 0x400f6b89:0x3ffb0900 0x400d936e:0x3ffb0930 0x400d9269:0x3ffb0950 0x400da1c2:0x3ffb0970 0x400da21e:0x3ffb0990 0x400f6b89:0x3ffb09d0 0x400d936e:0x3ffb0a00 0x400d9269:0x3ffb0a20 0x400da1c2:0x3ffb0a40 0x400da21e:0x3ffb0a60 0x400f6b89:0x3ffb0aa0 0x400d936e:0x3ffb0ad0 0x400d9269:0x3ffb0af0 0x400da1c2:0x3ffb0b10 0x400da21e:0x3ffb0b30 0x400f6b89:0x3ffb0b70 0x400d936e:0x3ffb0ba0 0x400d9269:0x3ffb0bc0 0x400da1c2:0x3ffb0be0 0x400da21e:0x3ffb0c00 0x400f6b89:0x3ffb0c40 0x400d936e:0x3ffb0c70 0x400d9269:0x3ffb0c90 0x400da1c2:0x3ffb0cb0 0x400da21e:0x3ffb0cd0 0x400f6b89:0x3ffb0d10 0x400d936e:0x3ffb0d40 0x400d9269:0x3ffb0d60 0x400da1c2:0x3ffb0d80 0x400da21e:0x3ffb0da0 0x400f6b89:0x3ffb0de0 0x400d936e:0x3ffb0e10 0x400d9269:0x3ffb0e30 0x400da1c2:0x3ffb0e50 0x400da21e:0x3ffb0e70 0x400f6b89:0x3ffb0eb0 0x400d936e:0x3ffb0ee0 0x400d9269:0x3ffb0f00 0x400da1c2:0x3ffb0f20 0x400da21e:0x3ffb0f40 0x400f6b89:0x3ffb0f80 0x400d936e:0x3ffb0fb0 0x400d9269:0x3ffb0fd0 0x400da1c2:0x3ffb0ff0 0x400da21e:0x3ffb1010 0x400f6b89:0x3ffb1050 0x400d936e:0x3ffb1080 0x400d9269:0x3ffb10a0 0x400da1c2:0x3ffb10c0 0x400da21e:0x3ffb10e0 0x400f6b89:0x3ffb1120 0x400d936e:0x3ffb1150 0x400d9269:0x3ffb1170 0x400da1c2:0x3ffb1190 0x400da21e:0x3ffb11b0 0x400f6b89:0x3ffb11f0 0x400d936e:0x3ffb1220 0x400d9269:0x3ffb1240 0x400da1c2:0x3ffb1260 0x400da21e:0x3ffb1280 0x400f6b89:0x3ffb12c0 0x400d936e:0x3ffb12f0 0x400d9269:0x3ffb1310 0x400da1c2:0x3ffb1330 0x400da21e:0x3ffb1350 0x400f6b89:0x3ffb1390 0x400d936e:0x3ffb13c0 0x400d9269:0x3ffb13e0 |<-CONTINUES
+
+
+
+
+ELF file SHA256: dbc9c51bef3b2fb5
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+[    34][D][esp32-hal-cpu.c:244] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+[   496][I][esp32-hal-i2c.c:75] i2cInit(): Initialising I2C Master: sda=33 scl=32 freq=100000
+[   519][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 0 - WIFI_READY
+[   617][V][WiFiGeneric.cpp:97] set_esp_interface_ip(): Configuring Station static IP: 0.0.0.0, MASK: 0.0.0.0, GW: 0.0.0.0
+[   615][V][WiFiGeneric.cpp:340] _arduino_event_cb(): STA Started
+[   623][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 2 - STA_START
+[  1112][V][WiFiGeneric.cpp:355] _arduino_event_cb(): STA Connected: SSID: Oscar, BSSID: 6a:d6:a3:39:76:c3, Channel: 6, Auth: WPA2_PSK
+[  1114][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 4 - STA_CONNECTED
+.[  1142][V][WiFiGeneric.cpp:369] _arduino_event_cb(): STA Got New IP:172.20.10.14
+[  1143][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 7 - STA_GOT_IP
+[  1146][D][WiFiGeneric.cpp:1098] _eventCallback(): STA IP: 172.20.10.14, MASK: 255.255.255.240, GW: 172.20.10.1
+.[  1675][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1676][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1682][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception). 
+Debug exception reason: Stack canary watchpoint triggered (loopTask) 
+Core  1 register dump:
+PC      : 0x400e004d  PS      : 0x00060f36  A0      : 0x800f2d80  A1      : 0x3ffb0330  
+A2      : 0x3ffca704  A3      : 0x00000000  A4      : 0x00000057  A5      : 0x00000013  
+A6      : 0xffffffff  A7      : 0x3ffca704  A8      : 0x800e0048  A9      : 0x3ffb0310  
+A10     : 0x00000001  A11     : 0x0000000e  A12     : 0x000027d1  A13     : 0x3ffca650  
+A14     : 0x00000000  A15     : 0x000007d1  SAR     : 0x0000001f  EXCCAUSE: 0x00000001  
+EXCVADDR: 0x00000000  LBEG    : 0x400edac9  LEND    : 0x400edaec  LCOUNT  : 0x0000000a  
+
+
+Backtrace: 0x400e004a:0x3ffb0330 0x400f2d7d:0x3ffb0370 0x400f34d7:0x3ffb0390 0x4019e116:0x3ffb0400 0x400da073:0x3ffb0420 0x400da21e:0x3ffb0440 0x400dd6f9:0x3ffb0480 0x400de175:0x3ffb04b0 0x400de58e:0x3ffb0510 0x400de5d5:0x3ffb0530 0x400de5d5:0x3ffb0550 0x400de612:0x3ffb0570 0x400f652b:0x3ffb0590 0x400f6ae9:0x3ffb05c0 0x400d936e:0x3ffb05f0 0x400d9269:0x3ffb0610 0x400da1c2:0x3ffb0630 0x400da21e:0x3ffb0650 0x400f6b89:0x3ffb0690 0x400d936e:0x3ffb06c0 0x400d9269:0x3ffb06e0 0x400da1c2:0x3ffb0700 0x400da21e:0x3ffb0720 0x400f6b89:0x3ffb0760 0x400d936e:0x3ffb0790 0x400d9269:0x3ffb07b0 0x400da1c2:0x3ffb07d0 0x400da21e:0x3ffb07f0 0x400f6b89:0x3ffb0830 0x400d936e:0x3ffb0860 0x400d9269:0x3ffb0880 0x400da1c2:0x3ffb08a0 0x400da21e:0x3ffb08c0 0x400f6b89:0x3ffb0900 0x400d936e:0x3ffb0930 0x400d9269:0x3ffb0950 0x400da1c2:0x3ffb0970 0x400da21e:0x3ffb0990 0x400f6b89:0x3ffb09d0 0x400d936e:0x3ffb0a00 0x400d9269:0x3ffb0a20 0x400da1c2:0x3ffb0a40 0x400da21e:0x3ffb0a60 0x400f6b89:0x3ffb0aa0 0x400d936e:0x3ffb0ad0 0x400d9269:0x3ffb0af0 0x400da1c2:0x3ffb0b10 0x400da21e:0x3ffb0b30 0x400f6b89:0x3ffb0b70 0x400d936e:0x3ffb0ba0 0x400d9269:0x3ffb0bc0 0x400da1c2:0x3ffb0be0 0x400da21e:0x3ffb0c00 0x400f6b89:0x3ffb0c40 0x400d936e:0x3ffb0c70 0x400d9269:0x3ffb0c90 0x400da1c2:0x3ffb0cb0 0x400da21e:0x3ffb0cd0 0x400f6b89:0x3ffb0d10 0x400d936e:0x3ffb0d40 0x400d9269:0x3ffb0d60 0x400da1c2:0x3ffb0d80 0x400da21e:0x3ffb0da0 0x400f6b89:0x3ffb0de0 0x400d936e:0x3ffb0e10 0x400d9269:0x3ffb0e30 0x400da1c2:0x3ffb0e50 0x400da21e:0x3ffb0e70 0x400f6b89:0x3ffb0eb0 0x400d936e:0x3ffb0ee0 0x400d9269:0x3ffb0f00 0x400da1c2:0x3ffb0f20 0x400da21e:0x3ffb0f40 0x400f6b89:0x3ffb0f80 0x400d936e:0x3ffb0fb0 0x400d9269:0x3ffb0fd0 0x400da1c2:0x3ffb0ff0 0x400da21e:0x3ffb1010 0x400f6b89:0x3ffb1050 0x400d936e:0x3ffb1080 0x400d9269:0x3ffb10a0 0x400da1c2:0x3ffb10c0 0x400da21e:0x3ffb10e0 0x400f6b89:0x3ffb1120 0x400d936e:0x3ffb1150 0x400d9269:0x3ffb1170 0x400da1c2:0x3ffb1190 0x400da21e:0x3ffb11b0 0x400f6b89:0x3ffb11f0 0x400d936e:0x3ffb1220 0x400d9269:0x3ffb1240 0x400da1c2:0x3ffb1260 0x400da21e:0x3ffb1280 0x400f6b89:0x3ffb12c0 0x400d936e:0x3ffb12f0 0x400d9269:0x3ffb1310 0x400da1c2:0x3ffb1330 0x400da21e:0x3ffb1350 0x400f6b89:0x3ffb1390 0x400d936e:0x3ffb13c0 0x400d9269:0x3ffb13e0 |<-CONTINUES
+
+
+
+
+ELF file SHA256: dbc9c51bef3b2fb5
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+[    34][D][esp32-hal-cpu.c:244] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+[   496][I][esp32-hal-i2c.c:75] i2cInit(): Initialising I2C Master: sda=33 scl=32 freq=100000
+[   519][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 0 - WIFI_READY
+[   617][V][WiFiGeneric.cpp:97] set_esp_interface_ip(): Configuring Station static IP: 0.0.0.0, MASK: 0.0.0.0, GW: 0.0.0.0
+[   615][V][WiFiGeneric.cpp:340] _arduino_event_cb(): STA Started
+[   623][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 2 - STA_START
+[   749][V][WiFiGeneric.cpp:355] _arduino_event_cb(): STA Connected: SSID: Oscar, BSSID: 6a:d6:a3:39:76:c3, Channel: 6, Auth: WPA2_PSK
+[   751][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 4 - STA_CONNECTED
+[   780][V][WiFiGeneric.cpp:369] _arduino_event_cb(): STA Got New IP:172.20.10.14
+[   781][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 7 - STA_GOT_IP
+[   784][D][WiFiGeneric.cpp:1098] _eventCallback(): STA IP: 172.20.10.14, MASK: 255.255.255.240, GW: 172.20.10.1
+.[  1175][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1177][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1182][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  6198][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[  6200][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[  6203][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[  6221][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[  6231][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  6231][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  6237][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 11246][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 11248][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[ 11251][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[ 11268][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 11278][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 11279][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[ 11284][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception). 
+Debug exception reason: Stack canary watchpoint triggered (loopTask) 
+Core  1 register dump:
+PC      : 0x400e004d  PS      : 0x00060f36  A0      : 0x800f2d80  A1      : 0x3ffb0330  
+A2      : 0x3ffca704  A3      : 0x00000000  A4      : 0x00000057  A5      : 0x00000013  
+A6      : 0xffffffff  A7      : 0x3ffca704  A8      : 0x800e0048  A9      : 0x3ffb0310  
+A10     : 0x00000001  A11     : 0x0000000e  A12     : 0x000027d1  A13     : 0x3ffca650  
+A14     : 0x00000000  A15     : 0x000007d1  SAR     : 0x0000001f  EXCCAUSE: 0x00000001  
+EXCVADDR: 0x00000000  LBEG    : 0x400edac9  LEND    : 0x400edaec  LCOUNT  : 0x0000000a  
+
+
+Backtrace: 0x400e004a:0x3ffb0330 0x400f2d7d:0x3ffb0370 0x400f34d7:0x3ffb0390 0x4019e116:0x3ffb0400 0x400da073:0x3ffb0420 0x400da21e:0x3ffb0440 0x400dd6f9:0x3ffb0480 0x400de175:0x3ffb04b0 0x400de58e:0x3ffb0510 0x400de5d5:0x3ffb0530 0x400de5d5:0x3ffb0550 0x400de612:0x3ffb0570 0x400f652b:0x3ffb0590 0x400f6ae9:0x3ffb05c0 0x400d936e:0x3ffb05f0 0x400d9269:0x3ffb0610 0x400da1c2:0x3ffb0630 0x400da21e:0x3ffb0650 0x400f6b89:0x3ffb0690 0x400d936e:0x3ffb06c0 0x400d9269:0x3ffb06e0 0x400da1c2:0x3ffb0700 0x400da21e:0x3ffb0720 0x400f6b89:0x3ffb0760 0x400d936e:0x3ffb0790 0x400d9269:0x3ffb07b0 0x400da1c2:0x3ffb07d0 0x400da21e:0x3ffb07f0 0x400f6b89:0x3ffb0830 0x400d936e:0x3ffb0860 0x400d9269:0x3ffb0880 0x400da1c2:0x3ffb08a0 0x400da21e:0x3ffb08c0 0x400f6b89:0x3ffb0900 0x400d936e:0x3ffb0930 0x400d9269:0x3ffb0950 0x400da1c2:0x3ffb0970 0x400da21e:0x3ffb0990 0x400f6b89:0x3ffb09d0 0x400d936e:0x3ffb0a00 0x400d9269:0x3ffb0a20 0x400da1c2:0x3ffb0a40 0x400da21e:0x3ffb0a60 0x400f6b89:0x3ffb0aa0 0x400d936e:0x3ffb0ad0 0x400d9269:0x3ffb0af0 0x400da1c2:0x3ffb0b10 0x400da21e:0x3ffb0b30 0x400f6b89:0x3ffb0b70 0x400d936e:0x3ffb0ba0 0x400d9269:0x3ffb0bc0 0x400da1c2:0x3ffb0be0 0x400da21e:0x3ffb0c00 0x400f6b89:0x3ffb0c40 0x400d936e:0x3ffb0c70 0x400d9269:0x3ffb0c90 0x400da1c2:0x3ffb0cb0 0x400da21e:0x3ffb0cd0 0x400f6b89:0x3ffb0d10 0x400d936e:0x3ffb0d40 0x400d9269:0x3ffb0d60 0x400da1c2:0x3ffb0d80 0x400da21e:0x3ffb0da0 0x400f6b89:0x3ffb0de0 0x400d936e:0x3ffb0e10 0x400d9269:0x3ffb0e30 0x400da1c2:0x3ffb0e50 0x400da21e:0x3ffb0e70 0x400f6b89:0x3ffb0eb0 0x400d936e:0x3ffb0ee0 0x400d9269:0x3ffb0f00 0x400da1c2:0x3ffb0f20 0x400da21e:0x3ffb0f40 0x400f6b89:0x3ffb0f80 0x400d936e:0x3ffb0fb0 0x400d9269:0x3ffb0fd0 0x400da1c2:0x3ffb0ff0 0x400da21e:0x3ffb1010 0x400f6b89:0x3ffb1050 0x400d936e:0x3ffb1080 0x400d9269:0x3ffb10a0 0x400da1c2:0x3ffb10c0 0x400da21e:0x3ffb10e0 0x400f6b89:0x3ffb1120 0x400d936e:0x3ffb1150 0x400d9269:0x3ffb1170 0x400da1c2:0x3ffb1190 0x400da21e:0x3ffb11b0 0x400f6b89:0x3ffb11f0 0x400d936e:0x3ffb1220 0x400d9269:0x3ffb1240 0x400da1c2:0x3ffb1260 0x400da21e:0x3ffb1280 0x400f6b89:0x3ffb12c0 0x400d936e:0x3ffb12f0 0x400d9269:0x3ffb1310 0x400da1c2:0x3ffb1330 0x400da21e:0x3ffb1350 0x400f6b89:0x3ffb1390 0x400d936e:0x3ffb13c0 0x400d9269:0x3ffb13e0 |<-CONTINUES
+
+
+
+
+ELF file SHA256: dbc9c51bef3b2fb5
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13192
+load:0x40080400,len:3028
+entry 0x400805e4
+[    34][D][esp32-hal-cpu.c:244] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+[   496][I][esp32-hal-i2c.c:75] i2cInit(): Initialising I2C Master: sda=33 scl=32 freq=100000
+[   519][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 0 - WIFI_READY
+[   618][V][WiFiGeneric.cpp:97] set_esp_interface_ip(): Configuring Station static IP: 0.0.0.0, MASK: 0.0.0.0, GW: 0.0.0.0
+[   615][V][WiFiGeneric.cpp:340] _arduino_event_cb(): STA Started
+[   624][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 2 - STA_START
+[   755][V][WiFiGeneric.cpp:355] _arduino_event_cb(): STA Connected: SSID: Oscar, BSSID: 6a:d6:a3:39:76:c3, Channel: 6, Auth: WPA2_PSK
+[   756][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 4 - STA_CONNECTED
+[   799][V][WiFiGeneric.cpp:369] _arduino_event_cb(): STA Got New IP:172.20.10.14
+[   800][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 7 - STA_GOT_IP
+[   803][D][WiFiGeneric.cpp:1098] _eventCallback(): STA IP: 172.20.10.14, MASK: 255.255.255.240, GW: 172.20.10.1
+.[  1175][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  1177][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  1182][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  6199][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[  6201][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[  6204][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[  6221][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[  6231][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  6231][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  6237][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 11246][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 11248][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[ 11251][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[ 11268][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 11278][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 11278][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[ 11284][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 16293][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 16295][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[ 16298][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[ 16315][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 16325][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 16325][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[ 16331][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[ 21340][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[ 21342][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[ 21345][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[ 21362][D][HTTPClient.cpp:408] disconnect(): tcp is closed
+
+[ 21372][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[ 21373][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[ 21378][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+

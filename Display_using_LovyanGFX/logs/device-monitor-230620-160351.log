@@ -1,0 +1,57 @@
+[   482][I][esp32-hal-i2c.c:75] i2cInit(): Initialising I2C Master: sda=33 scl=32 freq=100000
+[   502][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 0 - WIFI_READY
+[   605][V][WiFiGeneric.cpp:97] set_esp_interface_ip(): Configuring Station static IP: 0.0.0.0, MASK: 0.0.0.0, GW: 0.0.0.0
+[   603][V][WiFiGeneric.cpp:340] _arduino_event_cb(): STA Started
+[   611][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 2 - STA_START
+[   733][V][WiFiGeneric.cpp:355] _arduino_event_cb(): STA Connected: SSID: Oscar, BSSID: 1a:c7:57:52:1e:1b, Channel: 6, Auth: WPA2_PSK
+[   735][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 4 - STA_CONNECTED
+[   773][V][WiFiGeneric.cpp:369] _arduino_event_cb(): STA Got New IP:172.20.10.2
+[   774][D][WiFiGeneric.cpp:1035] _eventCallback(): Arduino Event: 7 - STA_GOT_IP
+[   777][D][WiFiGeneric.cpp:1098] _eventCallback(): STA IP: 172.20.10.2, MASK: 255.255.255.240, GW: 172.20.10.1
+.Turning on Blitz
+[  4335][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.13/snapshot
+[  4336][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.13 port: 80 url: /snapshot
+[  4343][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[  5878][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.13:80
+Turning off Blitz
+[  8592][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-post
+[  8593][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-post
+[  8601][D][HTTPClient.cpp:598] sendRequest(): request type: 'POST' redirCount: 0
+
+[  8658][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[  8984][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[  8985][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 30'
+[  8988][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[  8995][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[  9002][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[  9010][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[  9015][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[  9021][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 30
+[  9027][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+[  9033][D][HTTPClient.cpp:388] disconnect(): still data in buffer (30), clean up.
+
+[  9041][E][WiFiClient.cpp:517] flush(): fail on fd 49, errno: 11, "No more processes"
+[  9052][D][HTTPClient.cpp:395] disconnect(): tcp stop
+[390070][V][HTTPClient.cpp:252] beginInternal(): url: http://172.20.10.6/ring-notification-post
+[390071][D][HTTPClient.cpp:303] beginInternal(): protocol: http, host: 172.20.10.6 port: 80 url: /ring-notification-post
+[390079][D][HTTPClient.cpp:598] sendRequest(): request type: 'POST' redirCount: 0
+
+[390283][D][HTTPClient.cpp:1170] connect():  connected to 172.20.10.6:80
+[390709][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'HTTP/1.1 200 OK'
+[390710][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Length: 30'
+[390713][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Content-Type: text/plain'
+[390720][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Connection: close'
+[390727][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: 'Accept-Ranges: none'
+[390735][V][HTTPClient.cpp:1264] handleHeaderResponse(): RX: ''
+[390740][D][HTTPClient.cpp:1321] handleHeaderResponse(): code: 200
+[390746][D][HTTPClient.cpp:1324] handleHeaderResponse(): size: 30
+[390752][D][HTTPClient.cpp:642] sendRequest(): sendRequest code=200
+
+[390758][D][HTTPClient.cpp:388] disconnect(): still data in buffer (30), clean up.
+
+[390766][E][WiFiClient.cpp:517] flush(): fail on fd 49, errno: 11, "No more processes"
+[390777][D][HTTPClient.cpp:395] disconnect(): tcp stop
+[460004][W][common.cpp:1210] readBytes(): [LGFX] i2c read error : read timeout
+[493591][W][common.cpp:1210] readBytes(): [LGFX] i2c read error : read timeout
