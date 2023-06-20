@@ -5,6 +5,8 @@
 // It takes a port number.
 // It creates a new AsyncWebServer object and stores it in the _server field.
 
+extern int unlockTimer; // Unlock Timer
+
 // This constructor is defined in src/ESPServer.cpp
 // This constructor is declared in src/ESPServer.h
 // This constructor is called in src/main.cpp
@@ -37,13 +39,18 @@ void ESPServer::begin(const char* streamServer, const char* snapshotServer, cons
         html += "<h1>ESP32 Stream</h1>";
         html += "<div id='loader' class='loader'></div>"; // Add loader div
         html += "<img id='stream' src='" + streamServerString + "' onload='document.getElementById(\"loader\").style.display=\"none\"; this.style.display=\"block\";' alt='Stream not available' style='width:80%; max-width:600px; margin: 20px auto; display: none;'>";
-        html += "<button class='blue-button' id='snapshot'>Download Snapshot</button>";
-        html += "<p>Click the above button to download a snapshot.</p>";
+        html += "<button class='blue-button' id='snapshot'>Download Snapshot</button>"; // Update button id to 'snapshot' and class to 'blue-button'
+        html += "<p>Click the above button to download a snapshot.</p>"; // New 'Download Snapshot' button
+        html += "<button class='blue-button' id='unlock'>Unlock Door</button>";   // Update button id to 'unlock' and class to 'blue-button'
+        html += "<p>Click the above button to unlock the door.</p>"; // New 'Unlock Door' button
         html += "<button class='red-button' id='admin'>Admin Page</button>"; // New 'Admin Page' button
-        html += "<p>Click the above button to navigate to the admin page.</p>";
+        html += "<p>Click the above button to navigate to the admin page.</p>"; // New 'Admin Page' button
         html += "<script>";
         html += "document.getElementById('snapshot').onclick = function () {";
         html += "window.location.assign('" + snapshotPath + "');";
+        html += "};";
+        html += "document.getElementById('unlock').onclick = function () {";
+        html += "fetch('/unlock-notification', { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, body: 'unlock=true' });";
         html += "};";
         html += "document.getElementById('admin').onclick = function () {"; // New event for 'Admin Page' button
         html += "window.location.assign('" + adminServerString + "');";
@@ -87,8 +94,13 @@ void ESPServer::begin(const char* streamServer, const char* snapshotServer, cons
         });
 
         // sent a notification to the remote that someone is ringing on the door
-      _server->on("/ring-notification-get", HTTP_GET, [](AsyncWebServerRequest *request) {
-        request->send(200, "text/plain", "Someone is ringing on the door");
+      _server->on("/ring-notification-get", HTTP_GET, [this](AsyncWebServerRequest *request) {
+        if(this->_sendNotification) {
+          request->send(200, "text/plain", "Someone is ringing on the door");
+          this->_sendNotification = false;
+        } else {
+          request->send(400, "text/plain", "No one is ringing on the door");
+        }
       });
 
         //Add a new passcode
@@ -117,8 +129,8 @@ void ESPServer::begin(const char* streamServer, const char* snapshotServer, cons
         if (request->hasParam("passcode", true)) {
           String incomingPasscode = request->getParam("passcode", true)->value();
           if (this->isPasscodeCorrect(incomingPasscode)) {
+            unlockTimer = millis();
             digitalWrite(*unlockPin, HIGH);
-            delay(1000);
             request->send(200, "text/plain", "Passcode is correct");
           } else {
             request->send(403, "text/plain", "Passcode is incorrect");
@@ -129,8 +141,18 @@ void ESPServer::begin(const char* streamServer, const char* snapshotServer, cons
       });
 
       // Post a endnote signal notification that someone rings on the door
-    _server->on("/ring-notification-post", HTTP_POST, [](AsyncWebServerRequest *request) {
-      request->send(200, "text/plain", "Someone is ringing on the door");
+    _server->on("/ring-notification-post", HTTP_POST, [this](AsyncWebServerRequest *request) {
+      if(request->hasParam("ring", true)) {
+        String ring = request->getParam("ring", true)->value();
+        if(ring == "true") {
+          this->_sendNotification = true;
+          request->send(200, "text/plain", "Someone is ringing on the door");
+        } else {
+          request->send(403, "text/plain", "No one is ringing on the door");
+        }
+      } else {
+        request->send(400, "text/plain", "No ring found in the request");
+      }
     });
 
     // Post a endnote signal notification that the remotes unlock the door
@@ -138,8 +160,8 @@ void ESPServer::begin(const char* streamServer, const char* snapshotServer, cons
       if (request->hasParam("unlock", true)) {
         String unlock = request->getParam("unlock", true)->value();
         if (unlock == "true") {
+          unlockTimer = millis();
           digitalWrite(*unlockPin, HIGH);
-          delay(1000);
           request->send(200, "text/plain", "Door unlocked");
         } else {
           request->send(403, "text/plain", "Door not unlocked");
