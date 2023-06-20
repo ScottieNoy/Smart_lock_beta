@@ -141,8 +141,18 @@ void ESPServer::begin(const char* streamServer, const char* snapshotServer, cons
       });
 
       // Post a endnote signal notification that someone rings on the door
-    _server->on("/ring-notification-post", HTTP_POST, [](AsyncWebServerRequest *request) {
-      request->send(200, "text/plain", "Someone is ringing on the door");
+    _server->on("/ring-notification-post", HTTP_POST, [this](AsyncWebServerRequest *request) {
+      if(request->hasParam("ring", true)) {
+        String ring = request->getParam("ring", true)->value();
+        if(ring == "true") {
+          this->_sendNotification = true;
+          request->send(200, "text/plain", "Someone is ringing on the door");
+        } else {
+          request->send(403, "text/plain", "No one is ringing on the door");
+        }
+      } else {
+        request->send(400, "text/plain", "No ring found in the request");
+      }
     });
 
     // Post a endnote signal notification that the remotes unlock the door

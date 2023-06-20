@@ -10,12 +10,12 @@ int unlockPin = 3;                                                   // Unlock P
 
 // ===================== Variable Definitions ====================== //
 
-int unlockTimer;                                                 // Unlock Timer
+int unlockTimer;                                                     // Unlock Timer
 
 // ===================== WiFi Definitions ========================== //
 
-const char* ssid = "Oscar";                                                // WiFi Name
-const char* password = "oscar12345";                                       // WiFi Password
+const char* ssid = "Oscar";                                          // WiFi Name
+const char* password = "oscar12345";                                 // WiFi Password
 
 // =================== JPEG-Steam Definitions ====================== //
 
@@ -56,7 +56,7 @@ void loop() {                                                        // Loop
   if(!wifi.isConnected()) {                                          // If not connected to WiFi
     wifi.connect(ssid, password);                                    // Connect to WiFi
   } 
-  if(millis() - unlockTimer > BUTTONTIMEOUT) {                               // If the unlock timer has expired
+  if(millis() - unlockTimer > BUTTONTIMEOUT) {                       // If the unlock timer has expired
     digitalWrite(unlockPin, LOW);                                    // Lock the door
   }
 

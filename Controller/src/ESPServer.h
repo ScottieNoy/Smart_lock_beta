@@ -28,7 +28,7 @@ private:                                // It has three private fields:
   // adding passcodes char array
   String _passcodes[MAX_PASSCODES];   // A pointer to a char array
   int* unlockPin;                      // A pointer to an int
-  bool _sendNotification = true;              // A boolean
+  bool _sendNotification = false;              // A boolean
 };
 
 #endif // ESPSERVER_H                   // This is to make sure we don't declare the function more than once by including the header multiple times
