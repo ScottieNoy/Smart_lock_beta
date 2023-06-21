@@ -6,7 +6,7 @@
 
 // ===================== Pin Definitions =========================== //
 
-int unlockPin = 3;                                                   // Unlock Pin
+int unlockPin = 23;                                                   // Unlock Pin
 
 // ===================== Variable Definitions ====================== //
 
