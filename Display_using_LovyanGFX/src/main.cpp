@@ -107,8 +107,8 @@ int xPos = 0;
 int yPos = 60;
 
 void showingImage(void * pvParameters) {
+    http.begin(streamUrl);
     for(;;) {
-        http.begin(streamUrl);
         int httpCode = http.GET();
         if(httpCode > 0) {
             if(httpCode == HTTP_CODE_OK) {
@@ -125,7 +125,6 @@ void showingImage(void * pvParameters) {
                 return;
             }
             WiFiClient * stream = http.getStreamPtr();
-            stream->setTimeout(500);
             stream->readBytes(jpegData, jpegDataLen);
             uint32_t t = millis();
             
@@ -139,7 +138,6 @@ void showingImage(void * pvParameters) {
             Serial.printf("HTTP GET failed, error: %s\n", http.errorToString(httpCode).c_str());
             
         }
-        http.end();
         vTaskDelay(10 / portTICK_PERIOD_MS);
 
     }

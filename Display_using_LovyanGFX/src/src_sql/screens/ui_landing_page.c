@@ -48,11 +48,10 @@ lv_label_set_text(ui_date_placeholder,date);
 lv_obj_set_style_text_color(ui_date_placeholder, lv_color_hex(0xFFFFFF), LV_PART_MAIN | LV_STATE_DEFAULT );
 lv_obj_set_style_text_opa(ui_date_placeholder, 255, LV_PART_MAIN| LV_STATE_DEFAULT);
 
-
 ui_button1 = lv_btn_create(ui_landing_page);
-lv_obj_set_width( ui_button1, 120);
+lv_obj_set_width( ui_button1, 200);
 lv_obj_set_height( ui_button1, 40);
-lv_obj_set_x( ui_button1, -75 );
+lv_obj_set_x( ui_button1, 0 );
 lv_obj_set_y( ui_button1, 165 );
 lv_obj_set_align( ui_button1, LV_ALIGN_CENTER );
 lv_obj_add_flag( ui_button1, LV_OBJ_FLAG_SCROLL_ON_FOCUS );   /// Flags
@@ -67,27 +66,7 @@ ui_passcode_button_label1 = lv_label_create(ui_button1);
 lv_obj_set_width( ui_passcode_button_label1, LV_SIZE_CONTENT);  /// 1
 lv_obj_set_height( ui_passcode_button_label1, LV_SIZE_CONTENT);   /// 1
 lv_obj_set_align( ui_passcode_button_label1, LV_ALIGN_CENTER );
-lv_label_set_text(ui_passcode_button_label1,"Passcode");
-
-ui_delivery_button = lv_btn_create(ui_landing_page);
-lv_obj_set_width( ui_delivery_button, 120);
-lv_obj_set_height( ui_delivery_button, 40);
-lv_obj_set_x( ui_delivery_button, 75 );
-lv_obj_set_y( ui_delivery_button, 165 );
-lv_obj_set_align( ui_delivery_button, LV_ALIGN_CENTER );
-lv_obj_add_flag( ui_delivery_button, LV_OBJ_FLAG_SCROLL_ON_FOCUS );   /// Flags
-lv_obj_clear_flag( ui_delivery_button, LV_OBJ_FLAG_SCROLLABLE );    /// Flags
-lv_obj_set_style_radius(ui_delivery_button, 0, LV_PART_MAIN| LV_STATE_DEFAULT);
-lv_obj_set_style_bg_color(ui_delivery_button, lv_color_hex(0x007BFF), LV_PART_MAIN | LV_STATE_DEFAULT );
-lv_obj_set_style_bg_opa(ui_delivery_button, 255, LV_PART_MAIN| LV_STATE_DEFAULT);
-lv_obj_set_style_shadow_width(ui_delivery_button, 0, LV_PART_MAIN| LV_STATE_DEFAULT);
-lv_obj_set_style_shadow_spread(ui_delivery_button, 0, LV_PART_MAIN| LV_STATE_DEFAULT);
-
-ui_delivery_button_label = lv_label_create(ui_delivery_button);
-lv_obj_set_width( ui_delivery_button_label, LV_SIZE_CONTENT);  /// 1
-lv_obj_set_height( ui_delivery_button_label, LV_SIZE_CONTENT);   /// 1
-lv_obj_set_align( ui_delivery_button_label, LV_ALIGN_CENTER );
-lv_label_set_text(ui_delivery_button_label,"Delivery");
+lv_label_set_text(ui_passcode_button_label1,"Unlock with passcode");
 
 ui_cam_panel = lv_obj_create(ui_landing_page);
 lv_obj_set_width( ui_cam_panel, 320);
@@ -109,7 +88,6 @@ lv_obj_add_flag( ui_Image1, LV_OBJ_FLAG_ADV_HITTEST );   /// Flags
 lv_obj_clear_flag( ui_Image1, LV_OBJ_FLAG_SCROLLABLE );    /// Flags
 
 lv_obj_add_event_cb(ui_button1, ui_event_button1, LV_EVENT_ALL, NULL);
-lv_obj_add_event_cb(ui_delivery_button, ui_event_delivery_button, LV_EVENT_ALL, NULL);
 lv_obj_add_event_cb(ui_landing_page, ui_event_landing_page, LV_EVENT_ALL, NULL);
 
 }

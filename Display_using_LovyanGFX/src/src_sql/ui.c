@@ -18,9 +18,6 @@ lv_obj_t *ui_date_placeholder;
 void ui_event_button1( lv_event_t * e);
 lv_obj_t *ui_button1;
 lv_obj_t *ui_passcode_button_label1;
-void ui_event_delivery_button( lv_event_t * e);
-lv_obj_t *ui_delivery_button;
-lv_obj_t *ui_delivery_button_label;
 lv_obj_t *ui_cam_panel;
 lv_obj_t *ui_Image1;
 
@@ -82,12 +79,6 @@ if ( event_code == LV_EVENT_SCREEN_UNLOADED) {
 }
 }
 void ui_event_button1( lv_event_t * e) {
-    lv_event_code_t event_code = lv_event_get_code(e);lv_obj_t * target = lv_event_get_target(e);
-if ( event_code == LV_EVENT_RELEASED) {
-      _ui_screen_change( ui_PasswordScreen, LV_SCR_LOAD_ANIM_NONE, 500, 0);
-}
-}
-void ui_event_delivery_button( lv_event_t * e) {
     lv_event_code_t event_code = lv_event_get_code(e);lv_obj_t * target = lv_event_get_target(e);
 if ( event_code == LV_EVENT_RELEASED) {
       _ui_screen_change( ui_PasswordScreen, LV_SCR_LOAD_ANIM_NONE, 500, 0);

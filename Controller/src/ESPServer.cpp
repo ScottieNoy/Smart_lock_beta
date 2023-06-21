@@ -26,25 +26,46 @@ void ESPServer::begin(const char* streamServer, const char* snapshotServer, cons
         String html = "<!DOCTYPE html>";
         html += "<html>";
         html += "<head>";
+        html += "<meta name='viewport' content='width=device-width, initial-scale=1.0'>"; 
         html += "<title>My Lock Web Server</title>";
+        html += "<link href='https://fonts.googleapis.com/icon?family=Material+Icons' rel='stylesheet'>"; // Link to Google Material Icons
         html += "<style>";
+        html += "@media (max-width: 600px) { body { font-size: 18px; } }"; 
         html += "body { font-family: Arial, sans-serif; text-align: center; padding: 20px; background-color: #333; color: #fff; }";
-        html += ".blue-button { padding: 10px 20px; font-size: 16px; border-radius: 5px; background-color: #007BFF; color: #fff; border: none; margin-top: 30px; }";
-        html += ".red-button { padding: 10px 20px; font-size: 16px; border-radius: 5px; background-color: #FF4136; color: #fff; border: none; margin-top: 30px; }"; // Red button
-        html += ".loader { border: 16px solid #f3f3f3; border-top: 16px solid #3498db; border-radius: 50%; width: 70px; height: 70px; animation: spin 2s linear infinite; margin: 30px auto; }"; // Smaller loader with more margin
+        html += ".blue-button, .red-button { padding: 12px 24px; font-size: 24px; border-radius: 5px; color: #fff; border: none; margin-top: 30px; display: block; width: 100%; }"; 
+        html += ".blue-button { background-color: #007BFF; }";
+        html += ".red-button { background-color: #FF4136; }";
+        html += ".loader { border: 16px solid #f3f3f3; border-top: 16px solid #3498db; border-radius: 50%; width: 70px; height: 70px; animation: spin 2s linear infinite; margin: 30px auto; }";
+        html += ".modal { display: none; position: fixed; z-index: 1; left: 0; top: 0; width: 100%; height: 100%; padding: 0px; background-color: rgba(255, 255, 255, 0.9); overflow-y: auto; }"; // Adjusted width and height, added overflow-y for scrolling if necessary
+        html += ".modal-content { background-color: transparent; text-align: center; margin: 0 auto; max-width: 400px; width:95%; padding: 20px; display: flex; flex-direction: column; justify-content: center; align-items: center; color: #000; }"; // Adjusted max-width and padding
+        html += ".close { color: #aaaaaa; font-size: 28px; font-weight: bold; position: absolute; top: 20px; right: 30px; }"; // Position the close button at top right
+        html += "h2 { font-size: 1.5em; }";  // Maintain h2 font-size
         html += "@keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }";
         html += "</style>";
         html += "</head>";
         html += "<body>";
-        html += "<h1>ESP32 Stream</h1>";
-        html += "<div id='loader' class='loader'></div>"; // Add loader div
-        html += "<img id='stream' src='" + streamServerString + "' onload='document.getElementById(\"loader\").style.display=\"none\"; this.style.display=\"block\";' alt='Stream not available' style='width:80%; max-width:600px; margin: 20px auto; display: none;'>";
-        html += "<button class='blue-button' id='snapshot'>Download Snapshot</button>"; // Update button id to 'snapshot' and class to 'blue-button'
-        html += "<p>Click the above button to download a snapshot.</p>"; // New 'Download Snapshot' button
-        html += "<button class='blue-button' id='unlock'>Unlock Door</button>";   // Update button id to 'unlock' and class to 'blue-button'
-        html += "<p>Click the above button to unlock the door.</p>"; // New 'Unlock Door' button
-        html += "<button class='red-button' id='admin'>Admin Page</button>"; // New 'Admin Page' button
-        html += "<p>Click the above button to navigate to the admin page.</p>"; // New 'Admin Page' button
+        html += "<div id='myModal' class='modal'>";
+        html += "<div class='modal-content'>";
+        html += "<h2 id='modalText'>Someone is ringing on the door</h2>"; // Added an h2 tag for larger text
+        html += "<button class='blue-button' id='unlockModal'>Unlock Door</button>"; // Added an Unlock button
+        html += "<span class='close'>&times;</span>";
+        html += "</div>";
+        html += "</div>";
+        html += "<h1>DoorCam Live</h1>";
+        html += "<div id='loader' class='loader'></div>";
+        html += "<img id='stream' src='" + streamServerString + "' onload='document.getElementById(\"loader\").style.display=\"none\"; this.style.display=\"block\";' alt='Stream not available' style='width:100%; margin: 20px auto; display: none;'>"; 
+        html += "<button class='blue-button' id='unlock'><i class='material-icons'>lock_open</i>Unlock Door</button>";
+        html += "<div id='unlockStatus' style='margin-top: 10px;'></div>";
+        html += "<h2>Manage Passcode</h2>";
+        html += "<label for='passcodeInput'>Enter a 4-digit passcode:</label>";
+        html += "<input type='text' inputmode='numeric' id='passcodeInput' min='0' max='9999' maxlength='4' placeholder='1234' style='width: 90%; padding: 10px; font-size: 20px; border: 2px solid #007BFF; border-radius: 5px; background-color: #f3f3f3;'>"; 
+        html += "<div id='addPasscodeStatus' style='margin-top: 10px;'></div>";
+        html += "<div id='removePasscodeStatus' style='margin-top: 10px;'></div>";
+        html += "<button class='blue-button' id='addPasscode'><i class='material-icons'>add_circle</i>Add Passcode</button>";
+        html += "<button class='red-button' id='removePasscode'><i class='material-icons'>remove_circle</i>Remove Passcode</button>";
+        html += "<h2>Other Actions</h2>";
+        html += "<button class='blue-button' id='snapshot'><i class='material-icons'>download</i>Download Current Image</button>";
+        html += "<button class='red-button' id='admin'><i class='material-icons'>settings</i>Camera Page</button>";
         html += "<script>";
         html += "document.getElementById('snapshot').onclick = function () {";
         html += "window.location.assign('" + snapshotPath + "');";
@@ -52,17 +73,123 @@ void ESPServer::begin(const char* streamServer, const char* snapshotServer, cons
         html += "document.getElementById('unlock').onclick = function () {";
         html += "fetch('/unlock-notification', { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, body: 'unlock=true' });";
         html += "};";
-        html += "document.getElementById('admin').onclick = function () {"; // New event for 'Admin Page' button
+        html += "document.getElementById('admin').onclick = function () {";
         html += "window.location.assign('" + adminServerString + "');";
         html += "};";
+        html += "document.getElementById('addPasscode').onclick = function () {";
+        html += "let passcode = document.getElementById('passcodeInput').value;";
+        html += "if(passcode.length === 4) { fetch('/new-passcode', { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, body: 'passcode=' + passcode }); } else { alert('Please enter a 4-digit passcode.'); }"; // Check if the input is 4 digits
+        html += "};";
+        html += "document.getElementById('removePasscode').onclick = function () {";
+        html += "let passcode = document.getElementById('passcodeInput').value;";
+        html += "if(passcode.length === 4) { fetch('/remove-passcode', { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, body: 'passcode=' + passcode }); } else { alert('Please enter a 4-digit passcode.'); }"; // Check if the input is 4 digits
+        html += "};";
+        html += "var modal = document.getElementById('myModal');";
+        html += "var span = document.getElementsByClassName('close')[0];";
+        html += "span.onclick = function() {";
+        html += "modal.style.display = 'none';";
+        html += "};";
+        html += "window.onclick = function(event) {";
+        html += "if (event.target == modal) {";
+        html += "modal.style.display = 'none';";
+        html += "}";
+        html += "};";
+        html += "function checkForRinging() {";
+        html += "fetch('/ring-notification-get').then(function(response) {";
+        html += "if (response.status === 200) {";
+        html += "modal.style.display = 'block';";
+        html += "}";
+        html += "});";
+        html += "}";
+        html += "setInterval(checkForRinging, 5000);"; // checks every 5 seconds
+        html += "var unlockModal = document.getElementById('unlockModal');"; // Get the Unlock button
+        html += "unlockModal.onclick = function() {";
+        html += "fetch('/unlock-notification', { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, body: 'unlock=true' }).then(function(response) {";
+        html += "if (response.status === 200) {";
+        html += "modal.style.display = 'none';";
+        html += "}";
+        html += "});";
+        html += "};";
+        html += "unlockModal.onclick = function() {";
+        html += "fetch('/unlock-notification', { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, body: 'unlock=true' }).then(function(response) {";
+        html += "if (response.status === 200) {";
+        html += "modal.style.display = 'none';";
+        html += "document.getElementById('unlockStatus').textContent = 'Unlock successful';"; // Display success message
+        html += "} else {";
+        html += "document.getElementById('unlockStatus').textContent = 'Unlock failed';"; // Display failure message
+        html += "}";
+        html += "setTimeout(function() {";
+        html += "document.getElementById('unlockStatus').textContent = '';"; // Remove the status message after 5 seconds
+        html += "}, 5000);"; // 5 seconds delay
+        html += "});";
+        html += "};";
+        html += "document.getElementById('unlock').onclick = function() {";
+        html += "fetch('/unlock-notification', { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, body: 'unlock=true' }).then(function(response) {";
+        html += "if (response.status === 200) {";
+        html += "document.getElementById('unlockStatus').textContent = 'Unlock successful';"; // Display success message
+        html += "} else {";
+        html += "document.getElementById('unlockStatus').textContent = 'Unlock failed';"; // Display failure message
+        html += "}";
+        html += "setTimeout(function() {";
+        html += "document.getElementById('unlockStatus').textContent = '';"; // Remove the status message after 5 seconds
+        html += "}, 5000);"; // 5 seconds delay
+        html += "});";
+        html += "};";
+        html += "document.getElementById('addPasscode').onclick = function() {";
+html += "  let passcode = document.getElementById('passcodeInput').value;";
+html += "  if (passcode.length === 4) {";
+html += "    fetch('/new-passcode', {";
+html += "      method: 'POST',";
+html += "      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },";
+html += "      body: 'passcode=' + passcode";
+html += "    }).then(function(response) {";
+html += "      if (response.status === 200) {";
+html += "        document.getElementById('addPasscodeStatus').textContent = 'Passcode added successfully';";
+html += "      } else {";
+html += "        document.getElementById('addPasscodeStatus').textContent = 'Failed to add passcode';";
+html += "      }";
+html += "      setTimeout(function() {";
+html += "        document.getElementById('addPasscodeStatus').textContent = '';";
+html += "      }, 5000);";
+html += "    });";
+html += "  } else {";
+html += "    alert('Please enter a 4-digit passcode.');";
+html += "  }";
+html += "};";
+
+html += "document.getElementById('removePasscode').onclick = function() {";
+html += "  let passcode = document.getElementById('passcodeInput').value;";
+html += "  if (passcode.length === 4) {";
+html += "    fetch('/remove-passcode', {";
+html += "      method: 'POST',";
+html += "      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },";
+html += "      body: 'passcode=' + passcode";
+html += "    }).then(function(response) {";
+html += "      if (response.status === 200) {";
+html += "        document.getElementById('removePasscodeStatus').textContent = 'Passcode removed successfully';";
+html += "      } else {";
+html += "        document.getElementById('removePasscodeStatus').textContent = 'Failed to remove passcode';";
+html += "      }";
+html += "      setTimeout(function() {";
+html += "        document.getElementById('removePasscodeStatus').textContent = '';";
+html += "      }, 5000);";
+html += "    });";
+html += "  } else {";
+html += "    alert('Please enter a 4-digit passcode.');";
+html += "  }";
+html += "};";
         html += "</script>";
         html += "</body>";
         html += "</html>";
+
+
+
 
         // The snapshot page with a 'Go Back' button
         String snapshotPage = "<!DOCTYPE html>";
         snapshotPage += "<html>";
         snapshotPage += "<head>";
+        snapshotPage += "<meta name='viewport' content='width=device-width, initial-scale=1.0'>"; // Viewport meta tag for responsive design
         snapshotPage += "<title>Snapshot</title>";
         snapshotPage += "<style>";
         snapshotPage += "body { font-family: Arial, sans-serif; text-align: center; padding: 20px; background-color: #333; color: #fff; }";

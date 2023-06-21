@@ -34,9 +34,6 @@ extern lv_obj_t *ui_date_placeholder;
 void ui_event_button1( lv_event_t * e);
 extern lv_obj_t *ui_button1;
 extern lv_obj_t *ui_passcode_button_label1;
-void ui_event_delivery_button( lv_event_t * e);
-extern lv_obj_t *ui_delivery_button;
-extern lv_obj_t *ui_delivery_button_label;
 extern lv_obj_t *ui_cam_panel;
 extern lv_obj_t *ui_Image1;
 // SCREEN: ui_PasswordScreen
