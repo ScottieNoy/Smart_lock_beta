@@ -1,0 +1,12 @@
+[113135][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[113137][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[113139][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[113167][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+
+[118174][I][WiFiClient.cpp:253] connect(): select returned due to timeout 5000 ms for fd 48
+[118175][D][HTTPClient.cpp:1163] connect(): failed connect to 172.20.10.13:80
+[118178][W][HTTPClient.cpp:1483] returnError(): error(-1): connection refused
+HTTP GET failed, error: connection refused
+[118206][D][HTTPClient.cpp:598] sendRequest(): request type: 'GET' redirCount: 0
+

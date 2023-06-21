@@ -61,7 +61,7 @@ bool taskCreated = false;
 bool accessGranted = false;
 bool sendNotification = false;
 bool blitzOn = false;
-
+bool displayOn = true;
 int timer;
 
 
@@ -217,6 +217,18 @@ TaskHandle_t Task1;
 
 void loop()
 {
+    if(lv_disp_get_inactive_time(NULL) > 10000 && displayOn) {
+        gfx.sleep();
+        displayOn = false;
+        showImage = false;
+    }
+    if(lv_disp_get_inactive_time(NULL) < 10000 && !displayOn) {
+        gfx.wakeup();
+        displayOn = true;
+        if(lv_obj_get_screen(lv_scr_act()) == ui_landing_page) {
+            showImage = true;
+        }
+    }
     if(showImage && !blitzOn) {
         Serial.println("Turning on Blitz");
         digitalWrite(BLITZ_PIN, HIGH);
@@ -249,11 +261,16 @@ void loop()
                 if(httpCode2 == HTTP_CODE_OK) {
                     timer = millis();
                     digitalWrite(LED_PIN_B, LOW); // Turn on Blue LED
+                    lv_disp_trig_activity(NULL);
+                    _ui_screen_change( ui_ringing_screen, LV_SCR_LOAD_ANIM_NONE, 500, 0);
                 }
+                
             }
             else {
                 Serial.printf("HTTP POST failed, error: %s\n", http2.errorToString(httpCode2).c_str());
+                _ui_screen_change( ui_not_ringing_screen, LV_SCR_LOAD_ANIM_NONE, 500, 0);
             }
+            
             lastSteadyState = currentState;
             http2.end();
         }

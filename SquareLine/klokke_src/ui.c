@@ -55,8 +55,23 @@ void ui_event_not_unlocked_screen( lv_event_t * e);
 lv_obj_t *ui_not_unlocked_screen;
 lv_obj_t *ui_not_unlocked_label;
 lv_obj_t *ui_not_unlocked_image;
+
+// SCREEN: ui_ringing_screen
+void ui_ringing_screen_screen_init(void);
+void ui_event_ringing_screen( lv_event_t * e);
+lv_obj_t *ui_ringing_screen;
+lv_obj_t *ui_ringing_label;
+lv_obj_t *ui_ringing_image;
+
+// SCREEN: ui_not_ringing_screen
+void ui_not_ringing_screen_screen_init(void);
+void ui_event_not_ringing_screen( lv_event_t * e);
+lv_obj_t *ui_not_ringing_screen;
+lv_obj_t *ui_not_ringing_label;
+lv_obj_t *ui_not_ringing_image;
 lv_obj_t *ui____initial_actions0;
-const lv_img_dsc_t *ui_imgset_861137800[2] = {&ui_img_1114486417, &ui_img_32757238};
+const lv_img_dsc_t *ui_imgset_861137800[4] = {&ui_img_1114486417, &ui_img_32757238, &ui_img_1048971941, &ui_img_386404288};
+const lv_img_dsc_t *ui_imgset_1515648418[1] = {&ui_img_15611405};
 
 ///////////////////// TEST LVGL SETTINGS ////////////////////
 #if LV_COLOR_DEPTH != 16
@@ -121,6 +136,18 @@ if ( event_code == LV_EVENT_SCREEN_LOADED) {
       _ui_screen_change( ui_landing_page, LV_SCR_LOAD_ANIM_NONE, 500, 5000);
 }
 }
+void ui_event_ringing_screen( lv_event_t * e) {
+    lv_event_code_t event_code = lv_event_get_code(e);lv_obj_t * target = lv_event_get_target(e);
+if ( event_code == LV_EVENT_SCREEN_LOADED) {
+      _ui_screen_change( ui_landing_page, LV_SCR_LOAD_ANIM_NONE, 500, 5000);
+}
+}
+void ui_event_not_ringing_screen( lv_event_t * e) {
+    lv_event_code_t event_code = lv_event_get_code(e);lv_obj_t * target = lv_event_get_target(e);
+if ( event_code == LV_EVENT_SCREEN_LOADED) {
+      _ui_screen_change( ui_landing_page, LV_SCR_LOAD_ANIM_NONE, 500, 5000);
+}
+}
 
 ///////////////////// SCREENS ////////////////////
 
@@ -134,6 +161,8 @@ ui_PasswordScreen_screen_init();
 ui_Unlocking_screen_init();
 ui_unlocked_screen_screen_init();
 ui_not_unlocked_screen_screen_init();
+ui_ringing_screen_screen_init();
+ui_not_ringing_screen_screen_init();
 ui____initial_actions0 = lv_obj_create(NULL);
 lv_disp_load_scr( ui_landing_page);
 }

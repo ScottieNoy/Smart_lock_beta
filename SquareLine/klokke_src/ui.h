@@ -67,10 +67,26 @@ void ui_event_not_unlocked_screen( lv_event_t * e);
 extern lv_obj_t *ui_not_unlocked_screen;
 extern lv_obj_t *ui_not_unlocked_label;
 extern lv_obj_t *ui_not_unlocked_image;
+// SCREEN: ui_ringing_screen
+void ui_ringing_screen_screen_init(void);
+void ui_event_ringing_screen( lv_event_t * e);
+extern lv_obj_t *ui_ringing_screen;
+extern lv_obj_t *ui_ringing_label;
+extern lv_obj_t *ui_ringing_image;
+// SCREEN: ui_not_ringing_screen
+void ui_not_ringing_screen_screen_init(void);
+void ui_event_not_ringing_screen( lv_event_t * e);
+extern lv_obj_t *ui_not_ringing_screen;
+extern lv_obj_t *ui_not_ringing_label;
+extern lv_obj_t *ui_not_ringing_image;
 extern lv_obj_t *ui____initial_actions0;
 
 LV_IMG_DECLARE( ui_img_32757238);   // assets/pngwing.com-3.png
 LV_IMG_DECLARE( ui_img_1114486417);   // assets/pngwing.com-2.png
+LV_IMG_DECLARE( ui_img_1999303404);   // assets/output-onlinepngtools.png
+LV_IMG_DECLARE( ui_img_15611405);   // assets/output-onlinepngtools-2.png
+LV_IMG_DECLARE( ui_img_1048971941);   // assets/pngwing.com-4.png
+LV_IMG_DECLARE( ui_img_386404288);   // assets/pngwing.com-5.png
 
 void ui_init(void);
 
