@@ -29,3 +29,8 @@ void removePasscode(lv_event_t * e)
 {
 	// Your code here
 }
+
+void stopNotification(lv_event_t * e)
+{
+	// Your code here
+}

@@ -9,6 +9,7 @@ extern bool addPasscodeBool;
 extern bool removePasscodeBool;
 extern bool unlockBool;
 extern char * passcode;
+extern bool stopBuzzer;
 
 void beginStream(lv_event_t * e)
 {
@@ -45,4 +46,9 @@ void removePasscode(lv_event_t * e)
 		removePasscodeBool = true;
 	}
 	
+}
+
+void stopNotification(lv_event_t * e)
+{
+	stopBuzzer = true;
 }

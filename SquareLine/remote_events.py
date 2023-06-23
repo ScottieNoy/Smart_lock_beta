@@ -26,3 +26,7 @@ def stopStream(event_struct):
 def removePasscode(event_struct):
     return
 
+
+def stopNotification(event_struct):
+    return
+

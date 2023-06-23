@@ -94,7 +94,19 @@ void ui_event_remove_passcode_keyboard( lv_event_t * e);
 lv_obj_t *ui_remove_passcode_keyboard;
 void ui_event_remove_passcode_text_area( lv_event_t * e);
 lv_obj_t *ui_remove_passcode_text_area;
+
+// SCREEN: ui_notification_screen
+void ui_notification_screen_screen_init(void);
+void ui_event_notification_screen( lv_event_t * e);
+lv_obj_t *ui_notification_screen;
+lv_obj_t *ui_notification_labl;
+lv_obj_t *ui_Image3;
+void ui_event_remove_passcode_go_back_button1( lv_event_t * e);
+lv_obj_t *ui_remove_passcode_go_back_button1;
+lv_obj_t *ui_remove_passcode_go_back_button_l;
 lv_obj_t *ui____initial_actions0;
+const lv_img_dsc_t *ui_imgset_1515648418[1] = {&ui_img_15611405};
+const lv_img_dsc_t *ui_imgset_861137800[4] = {&ui_img_1114486417, &ui_img_32757238, &ui_img_1048971941, &ui_img_386404288};
 
 ///////////////////// TEST LVGL SETTINGS ////////////////////
 #if LV_COLOR_DEPTH != 16
@@ -169,7 +181,7 @@ if ( event_code == LV_EVENT_RELEASED) {
 void ui_event_remove_passcode_button( lv_event_t * e) {
     lv_event_code_t event_code = lv_event_get_code(e);lv_obj_t * target = lv_event_get_target(e);
 if ( event_code == LV_EVENT_RELEASED) {
-      _ui_screen_change( ui_add_passcode_screen, LV_SCR_LOAD_ANIM_NONE, 500, 0);
+      _ui_screen_change( ui_remove_passcode_screen, LV_SCR_LOAD_ANIM_NONE, 500, 0);
 }
 }
 void ui_event_adding_passcode_screen( lv_event_t * e) {
@@ -203,6 +215,19 @@ if ( event_code == LV_EVENT_VALUE_CHANGED) {
       removePasscode( e );
 }
 }
+void ui_event_notification_screen( lv_event_t * e) {
+    lv_event_code_t event_code = lv_event_get_code(e);lv_obj_t * target = lv_event_get_target(e);
+if ( event_code == LV_EVENT_SCREEN_LOADED) {
+      _ui_screen_change( ui_landing_page, LV_SCR_LOAD_ANIM_NONE, 500, 5000);
+}
+}
+void ui_event_remove_passcode_go_back_button1( lv_event_t * e) {
+    lv_event_code_t event_code = lv_event_get_code(e);lv_obj_t * target = lv_event_get_target(e);
+if ( event_code == LV_EVENT_RELEASED) {
+      _ui_screen_change( ui_passcode_control_screen, LV_SCR_LOAD_ANIM_MOVE_TOP, 500, 0);
+      stopNotification( e );
+}
+}
 
 ///////////////////// SCREENS ////////////////////
 
@@ -218,6 +243,7 @@ ui_passcode_control_screen_screen_init();
 ui_adding_passcode_screen_screen_init();
 ui_removing_passcode_screen_screen_init();
 ui_remove_passcode_screen_screen_init();
+ui_notification_screen_screen_init();
 ui____initial_actions0 = lv_obj_create(NULL);
 lv_disp_load_scr( ui_landing_page);
 }

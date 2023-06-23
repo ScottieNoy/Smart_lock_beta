@@ -11,7 +11,7 @@
 #include <HTTPClient.h>
 #include <time.h>
 
-#define NOTIFICATION_TIME 10000
+#define NOTIFICATION_TIME 5000
 #define UNLOCK_TIME 10000
 
 // Built in RGB LED
@@ -36,6 +36,7 @@ bool taskCreated = false;
 bool unlockBool = false;
 int notificationTimer;
 int unlockTimer;
+bool stopBuzzer = false;
 
 const char* ntpServer = "pool.ntp.org";
 const long  gmtOffset_sec = 3600;   // Set your GMT offset in seconds
@@ -103,6 +104,7 @@ void showingImage(void * pvParameters) {
         if(httpNotificationCode > 0) {
             if(httpNotificationCode == HTTP_CODE_OK) {
                 Serial.println("Notification");
+                _ui_screen_change( ui_notification_screen, LV_SCR_LOAD_ANIM_NONE, 500, 0);
                 notificationTimer = millis();
                 digitalWrite(BUZZER_PIN, HIGH); 
             }      
@@ -217,6 +219,10 @@ TaskHandle_t Task1;
 
 void loop()
 {
+    if(stopBuzzer) {
+        digitalWrite(BUZZER_PIN, LOW);
+        stopBuzzer = false;
+    }
     if(millis()-unlockTimer > UNLOCK_TIME) {
         digitalWrite(LED_PIN_G, HIGH); // Turn off Green LED
         digitalWrite(LED_PIN_R, HIGH); // Turn off Red LED

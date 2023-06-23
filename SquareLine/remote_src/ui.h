@@ -104,7 +104,23 @@ void ui_event_remove_passcode_keyboard( lv_event_t * e);
 extern lv_obj_t *ui_remove_passcode_keyboard;
 void ui_event_remove_passcode_text_area( lv_event_t * e);
 extern lv_obj_t *ui_remove_passcode_text_area;
+// SCREEN: ui_notification_screen
+void ui_notification_screen_screen_init(void);
+void ui_event_notification_screen( lv_event_t * e);
+extern lv_obj_t *ui_notification_screen;
+extern lv_obj_t *ui_notification_labl;
+extern lv_obj_t *ui_Image3;
+void ui_event_remove_passcode_go_back_button1( lv_event_t * e);
+extern lv_obj_t *ui_remove_passcode_go_back_button1;
+extern lv_obj_t *ui_remove_passcode_go_back_button_l;
 extern lv_obj_t *ui____initial_actions0;
+
+LV_IMG_DECLARE( ui_img_1999303404);   // assets/output-onlinepngtools.png
+LV_IMG_DECLARE( ui_img_15611405);   // assets/output-onlinepngtools-2.png
+LV_IMG_DECLARE( ui_img_1114486417);   // assets/pngwing.com-2.png
+LV_IMG_DECLARE( ui_img_32757238);   // assets/pngwing.com-3.png
+LV_IMG_DECLARE( ui_img_1048971941);   // assets/pngwing.com-4.png
+LV_IMG_DECLARE( ui_img_386404288);   // assets/pngwing.com-5.png
 
 void ui_init(void);
 

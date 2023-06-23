@@ -91,7 +91,7 @@ lv_obj_set_x( ui_add_passcode_text_area, 0 );
 lv_obj_set_y( ui_add_passcode_text_area, -126 );
 lv_obj_set_align( ui_add_passcode_text_area, LV_ALIGN_CENTER );
 lv_textarea_set_max_length(ui_add_passcode_text_area,4);
-lv_textarea_set_placeholder_text(ui_add_passcode_text_area,"Passcode to add");
+lv_textarea_set_placeholder_text(ui_add_passcode_text_area,"Enter Password...");
 lv_textarea_set_one_line(ui_add_passcode_text_area,true);
 lv_textarea_set_password_mode(ui_add_passcode_text_area, true);
 lv_obj_set_style_text_font(ui_add_passcode_text_area, &lv_font_montserrat_48, LV_PART_MAIN| LV_STATE_DEFAULT);

@@ -15,6 +15,7 @@ void stopStream(lv_event_t * e);
 void unlock(lv_event_t * e);
 void addPasscode(lv_event_t * e);
 void removePasscode(lv_event_t * e);
+void stopNotification(lv_event_t * e);
 
 #ifdef __cplusplus
 } /*extern "C"*/
